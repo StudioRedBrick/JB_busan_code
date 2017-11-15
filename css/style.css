@@ -233,25 +233,184 @@ body{
 
 
 
+/*---------------------------------------------------------------*/
+
+/*consult start*/
+.box6{
+    width: 100%;
+    height: 525px;
+    
+    /* 자간벙벙해서 끕니다 */
+    letter-spacing: 0.03em;
+}
+
+.box6 .consult_container{
+    width: 100%;
+    height: 425px;
+    
+    position: relative;
+    top: 9%;
+    
+    /*background-color: black;
+    opacity: 0.3;*/
+}
+
+.box6 .consult_contents{
+    width: 80%;
+    margin: auto;
+}
 
 
+.box6 .consult_txt_container{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    float: left;
+    width: 45.7%;
+    /*background: blue;*/
+}
 
 
+.box6 .consult_txt_container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .consult_txt_title{
+    margin-top: 28px;
+}
+
+.box6 .consult_txt_title p{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.box6 .consult_txt_subtitle p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.81;
+    text-align: left;
+}
+
+.box6 .consult_txt_main{
+    width: 312px;
+    height: 159px;
+    
+    margin-top: 67px;
+}
+
+.box6 .consult_txt_main span{
+    font-size: 14px;
+    line-height: 2.07;
+    text-align: left;
+}
 
 
+.box6 .consult_slider_container{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    float: left;
+    width: 40%;
+    /*background: red;*/
+}
+
+.box6 .consult_slider_container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .slider_indent{
+    margin: 36px 0px;
+    padding: 18px 0px;
+    
+    /*background-color: darkslateblue;*/
+}
+
+.box6 .slick-list{
+    width: 597px;
+    padding: 50px 0px;
+    /*background-color: darkblue;*/
+}
 
 
+.box6 .consult_slider_item{
+    /*background-color: darkgreen;*/
+}
 
+.box6 .consult_slider_title p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
 
+.box6 .consult_slider_main1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.81;
+    text-align: left;
+    
+    border-bottom: 2px solid #fff;
+    padding-bottom: 26px;
+}
 
+.box6 .consult_slider_main2{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.81;
+    text-align: left;
+    
+    padding-top: 27px;
 
+}
 
+.box6 .consult_slider_title{
+    margin-left: 11px;
+    float: left;
+    width: 30%;
+    /*background-color: deepskyblue;*/  
+        
+}
 
+.box6 .consult_slider_title:after{
+    content:"";
+    display:block;
+    clear:both;
+}
 
+.box6 .consult_slider_main{
+    margin-right: 49px;
+    float: left;
+    width: 52%;
+    /*background-color: deepskyblue;*/
+}
 
+.box6 .consult_slider_main:after{
+    content:"";
+    display:block;
+    clear:both;
+}
 
+.slick-prev{
+    left: 48%;
+    top: 2.4%;
+    
+    width: 34px;
+    height: 21px;
+    background: black;
+}
 
-
+.slick-next{
+    left: 48%;
+    top: 97.4%;
+    
+    width: 34px;
+    height: 21px;
+    background: black;
+}
 
 
 

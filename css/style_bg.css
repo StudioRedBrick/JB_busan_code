@@ -23,3 +23,12 @@
     background-size:cover;
 }
 
+.box6{
+    background: url(../img/busan_bg_consult.png) no-repeat center;
+    background-size: cover;
+}
+
+.box6 .slick-list{
+    background: url('../img/busan_consult_frame.png') no-repeat center;
+    background-size: cover;
+}
