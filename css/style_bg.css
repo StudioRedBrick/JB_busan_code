@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*---------------------------------------------------------------*/
+
+
+.box1 .header_busan{
+    background:url(../img/all_header_busan.png) no-repeat center;
+    background-size:cover;
+}
+
+.box1 .header_marin{
+    background:url(../img/all_header_marin.png) no-repeat center;
+    background-size:cover;
+}
+
+.box1 .header_jeju{
+    background:url(../img/all_header_jeju.png) no-repeat center;
+    background-size:cover;
+}
+
+.box2{
+    background:url(../img/busan_bg_logo.png) no-repeat center;
+    background-size:cover;
+}
+

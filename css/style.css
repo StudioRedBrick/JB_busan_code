@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/*reset*/
+*{margin:0; padding:0;}
+body{font-size:14px;}
+a{text-decoration:none; color:#ffffff;}
+ul, li{list-style:none;}
+/*reset end*/
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#ffffff;
+    letter-spacing:0.1em;
+    background:#e5e4e2;
+    width:100%;
+    height:auto;
+}
+
+/*---------------------------------------------------------------*/
+
+/*header start*/
+.box1 .header_busan{
+    height:59px;
+    width:33.3333%;
+    float:left;
+}
+
+.box1 .header_busan a{
+    display:block;
+    background:#3288af;
+    font-size:20px;
+    height:39px;
+    width:100%;
+    text-align:center;
+    padding-top:20px;
+    font-weight:300;
+    
+    opacity:1;
+}
+
+.box1 .header_marin{
+    height:59px;
+    width:33.3333%;
+    float:left;
+}
+
+.box1 .header_marin a{
+    display:block;
+    background:#000000;
+    color:#969696;
+    font-size:20px;
+    height:39px;
+    width:100%;
+    text-align:center;
+    padding-top:20px;
+    font-weight:300;
+    
+    opacity:0.6;
+}
+
+.box1 .header_marin a:hover{
+    opacity:0.7; 
+}
+
+.box1 .header_jeju{
+    height:59px;
+    width:33.3333%;
+    float:left;
+}
+
+.box1 .header_jeju a{
+    display:block;
+    background:#000000;
+    color:#969696;
+    font-size:20px;
+    height:39px;
+    width:100%;
+    text-align:center;
+    padding-top:20px;
+    font-weight:300;
+    
+    opacity:0.6;
+}
+
+.box1 .header_jeju a:hover{
+    opacity:0.7; 
+}
+
+.box1:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/*header end*/
+
+/*---------------------------------------------------------------*/
+
+/*logo start*/
+.box2{
+    width:100%;
+    height:123px;
+    position:relative;
+}
+
+.box2 .busan_bg_logo{
+    background:red;
+    width:248px;
+    height:63px;
+    margin-top:29px;
+    
+    
+    /*고정형 레이아웃*/
+    position:absolute;
+    left:50%;
+    margin-left:-124px;
+    
+    /*logo img*/
+    background:url(../img/busan_logo.png) no-repeat center;
+    background-size:cover;
+}
+/*logo end*/
+
+/*---------------------------------------------------------------*/
+
+/*menu start*/
+.box3{
+    width:100%;
+    height:58px;
+    background:#969696;
+}
+
+.box3 .menu_wrap{
+    width:80%;
+    height:58px;
+    /*background:red;*/
+    margin:auto;
+}
+
+.box3 .menu_wrap .menus{
+    width:11.1111%;
+    height:58px;
+    /*background:orange;*/
+    float:left; 
+}
+
+.box3 .menu_wrap .menus a{
+    display:block;
+    height:37px;
+    font-size:18px;
+    /*background:green;*/
+    text-align:center;
+    padding-top:21px;
+}
+
+.box3 .menu_wrap .menus a:hover{
+    background:#ff9e12;
+}
+
+.box3 .menu_wrap .menu7 a{
+    height:41px;
+    font-size:13px;
+    font-weight:500;
+    line-height:1.1em;
+    padding-top:17px;
+}
+
+.box3 .menu_wrap .menu7 a span{
+    font-size:11px;
+}
+
+.box3 .menu_wrap .menu8 a{
+    width:96%;
+    height:41px;
+    font-size:13px;
+    font-weight:500;
+    line-height:1.1em;
+    padding-top:17px;
+    float:left;
+    
+    /*background:red;*/
+}
+
+.box3 .menu_wrap .menu8 .border_left{
+    width:1.63%;
+    height:20px;
+    margin-top:19px;
+    float:left;
+    border-right:0.5px solid #ffffff;
+    
+    /*background:yellow;*/
+}
+
+.box3 .menu_wrap .menu8 .border_right{
+    width:1.63%;
+    height:20px;
+    margin-top:19px;
+    float:left;
+    border-left:0.5px solid #ffffff;
+    
+    /*background:yellow;*/
+}
+
+
+.box3 .menu_wrap .menu8 a span{
+    font-size:11px;
+}
+
+.box3 .menu_wrap .menu8:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box3 .menu_wrap .menu9 a{
+    height:41px;
+    font-size:13px;
+    font-weight:500;
+    line-height:1.1em;
+    padding-top:17px;
+}
+
+.box3 .menu_wrap .menu9 a span{
+    font-size:11px;
+}
+
+.box3 .menu_wrap:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*menu end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
