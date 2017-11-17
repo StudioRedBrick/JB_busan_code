@@ -34,7 +34,7 @@
                 slidesToScroll: 2,
                 centerMode: true,
                 /* 컨텐츠의 위아래 여백조절*/
-                centerPadding: '24px',
+                centerPadding: '0px',
                 autoplay: false,
                 autoplaySpeed: 1500,
                 

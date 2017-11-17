@@ -692,19 +692,12 @@ body{
     padding-right: 15px;
     
     float: left;
-    width: 45.7%;
+    width: 44%;
     /*background: blue;*/
 }
 
-
-.box6 .consult_txt_container:after{
-    content:"";
-    display:block;
-    clear:both;
-}
-
 .box6 .consult_txt_title{
-    margin-top: 28px;
+    margin-top: 58px;
 }
 
 .box6 .consult_txt_title p{
@@ -724,7 +717,7 @@ body{
     width: 312px;
     height: 159px;
     
-    margin-top: 67px;
+    margin-top: 63px;
 }
 
 .box6 .consult_txt_main span{
@@ -735,36 +728,33 @@ body{
 
 
 .box6 .consult_slider_container{
-    padding-left: 15px;
-    padding-right: 15px;
-    
     float: left;
     width: 40%;
-    /*background: red;*/
-}
-
-.box6 .consult_slider_container:after{
-    content:"";
-    display:block;
-    clear:both;
+/*    background: red;*/
 }
 
 .box6 .slider_indent{
-    margin: 36px 0px;
     padding: 18px 0px;
-    
-    /*background-color: darkslateblue;*/
+    width: 597px;
+    height: 425px;
+/*    background-color: darkslateblue;*/
+}
+
+.box6 .consult_slider_frame{
+    height: 345px;
+    margin-top: 15px;
 }
 
 .box6 .slick-list{
     width: 597px;
     padding: 50px 0px;
-    /*background-color: darkblue;*/
 }
 
 
 .box6 .consult_slider_item{
-    /*background-color: darkgreen;*/
+    width: 597px;
+    margin-top: 18px;
+/*    background-color: darkgreen;*/
 }
 
 .box6 .consult_slider_title p{
@@ -780,7 +770,7 @@ body{
     text-align: left;
     
     border-bottom: 2px solid #fff;
-    padding-bottom: 26px;
+    padding-bottom: 21px;
 }
 
 .box6 .consult_slider_main2{
@@ -794,38 +784,29 @@ body{
 }
 
 .box6 .consult_slider_title{
-    margin-left: 11px;
+    margin-left: 26px;
     float: left;
     width: 30%;
-    /*background-color: deepskyblue;*/  
+    /*background-color: blue;*/
         
 }
 
-.box6 .consult_slider_title:after{
-    content:"";
-    display:block;
-    clear:both;
-}
-
 .box6 .consult_slider_main{
-    margin-right: 49px;
     float: left;
     width: 52%;
     /*background-color: deepskyblue;*/
 }
 
-.box6 .consult_slider_main:after{
-    content:"";
-    display:block;
-    clear:both;
-}
-
 .slick-prev{
     left: 48%;
-    top: 2.4%;
+    top: 2.3%;
     
     width: 34px;
     height: 21px;
+<<<<<<< HEAD
+=======
+/*    background: black;*/
+>>>>>>> 56e501003fad9c6c3496c366e0768910cba34f5e
 }
 
 .slick-next{
@@ -834,6 +815,7 @@ body{
     
     width: 34px;
     height: 21px;
+<<<<<<< HEAD
 }
 
 /*consult end*/
@@ -960,7 +942,41 @@ body{
 
 
 
+=======
+/*    background: black;*/
+}
 
+/*-----------------*/
+>>>>>>> 56e501003fad9c6c3496c366e0768910cba34f5e
 
+.box6 .consult_txt_container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+<<<<<<< HEAD
 /*ad_1 end*/
+=======
+.box6 .consult_slider_container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .consult_slider_title:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .consult_slider_main:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*consult end*/
+/*---------------------------------------------------------------*/
+>>>>>>> 56e501003fad9c6c3496c366e0768910cba34f5e
 

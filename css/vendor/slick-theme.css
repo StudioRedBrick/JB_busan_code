@@ -90,12 +90,12 @@
 /*----- 여기서 화살표 모양 변경하시오 -----*/
 .slick-prev:before
 {
-    content: url('/JB_busan_code/img/all_consult_button_up.png');
+    content: url('../../img/all_consult_button_up.png');
         /* url('../img/icon_arrow.png');*/
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: url('/JB_busan_code/img/all_consult_button_up.png');
+    content: url('../../img/all_consult_button_up.png');
         
         /*'→';*/
 }
@@ -111,12 +111,12 @@
 }
 .slick-next:before
 {
-    content: url('/JB_busan_code/img/all_consult_button_down.png');
+    content: url('../../img/all_consult_button_down.png');
         /*'→';*/
 }
 [dir='rtl'] .slick-next:before
 {
-    content: url('/JB_busan_code/img/all_consult_button_down.png');
+    content: url('../../img/all_consult_button_down.png');
         /*'←';*/
 }
 /*----- 여기서 화살표 모양 변경하시오 -----*/
