@@ -232,6 +232,7 @@ body{
     min-width:100% !important;
     min-height:100% !important;
     margin:auto;
+    pointer-events:none;
 }
 
 .box4 .video_container{
@@ -472,7 +473,7 @@ body{
 }
 
 .blog_contents .blog_contents_top .blog_contents_1:hover{
-    background-color:#9cd83d;
+    background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
 
@@ -520,7 +521,7 @@ body{
 }
 
 .blog_contents .blog_contents_top .blog_contents_2:hover{
-    background-color:#9cd83d;
+    background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
 
@@ -546,7 +547,7 @@ body{
 }
 
 .blog_contents .blog_contents_top .blog_contents_3:hover{
-    background-color:#9cd83d;
+    background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
 
@@ -572,7 +573,7 @@ body{
 }
 
 .blog_contents .blog_contents_bottom .blog_contents_4:hover{
-    background-color:#9cd83d;
+    background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
 
@@ -598,7 +599,7 @@ body{
 }
 
 .blog_contents .blog_contents_bottom .blog_contents_5:hover{
-    background-color:#9cd83d;
+    background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
 
@@ -623,7 +624,7 @@ body{
 }
 
 .blog_contents .blog_contents_bottom .blog_contents_6:hover{
-    background-color:#9cd83d;
+    background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
 
@@ -803,10 +804,7 @@ body{
     
     width: 34px;
     height: 21px;
-<<<<<<< HEAD
-=======
 /*    background: black;*/
->>>>>>> 56e501003fad9c6c3496c366e0768910cba34f5e
 }
 
 .slick-next{
@@ -815,10 +813,34 @@ body{
     
     width: 34px;
     height: 21px;
-<<<<<<< HEAD
+}
+
+.box6 .consult_txt_container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .consult_slider_container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .consult_slider_title:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box6 .consult_slider_main:after{
+    content:"";
+    display:block;
+    clear:both;
 }
 
 /*consult end*/
+
 /*---------------------------------------------------------------*/
 
 /*ad_1 start*/
@@ -874,8 +896,8 @@ body{
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_box:hover{
-    background-color:#9cd83d;
-    border:1px solid #9cd83d;
+    background-color:rgba(156,216,61,0.8);
+    border:1px solid rgba(156,216,61,0.8);
 }
 
 /*컨텐츠 박스 패딩값 통일화*/
@@ -914,6 +936,10 @@ body{
 
 
 /*컨텐츠 세부 디테일 값 조정*/
+.box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner p{
+    /*background-color:red;*/
+}
+
 .box7 .ad1_contents_wrap .ad1_contents_2{
     float:right;
 }
@@ -929,8 +955,6 @@ body{
     margin-top:19px;
 }
 
-
-
 /*-----------------*/
 
 .box7 .ad1_contents_wrap:after{ /*clearfix*/
@@ -939,44 +963,264 @@ body{
     clear:both;
 }
 
+/*ad_1 end*/
 
+/*---------------------------------------------------------------*/
 
+/*ask_mid & prof start*/
 
-=======
-/*    background: black;*/
+.box9{
+    width:100%;
+    height:883px;
+}
+
+.box9 .box9_wrap{
+    width:72.4%;
+    margin:auto;
+    
+    /*background-color:red;*/
+}
+
+/*ask_mid start*/
+
+.box9 .box9_wrap .ask_mid_wrap{
+    width:100%;
+    
+    /*background-color:blue;*/
+}
+
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
+    width:49.82%;
+    height:192px;
+    float:left;
+    
+    /*background-color:blueviolet;*/
+}
+
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_button{
+    width:20%;
+    height:192px;
+    float:left;
+    
+    /*background-color:skyblue;*/
+}
+
+/*제목: 모의테스트 문의*/
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_txt h3{
+    font-size:40px;
+    font-weight:bold;
+    padding-top:49px;
+    padding-bottom:6px;
+    
+    /*background-color:limegreen;*/
+}
+
+/*소제목: SAT,ACT.....제시합니다.*/
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_txt p{
+    width:85%;
+    font-size:15px;
+    font-weight:200;
+    line-height:21px;
+    
+    /*background-color:forestgreen;*/
+}
+
+/*문의하기 버튼*/
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_button a{
+    display:block;
+    width:175px;
+    height:65px;
+    border-radius:40px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    margin-top:67px;
+    
+    background-color:rgba(50,136,175,0.9);
+}
+
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_button a:hover{
+    background-color:rgba(50,136,175,1);
+}
+
+.box9 .box9_wrap .ask_mid_wrap .ask_mid_button a p{
+    text-align:center;
+    font-size:27px;
+    font-weight:500;
+    padding-top:19px;
+    
+    /*background-color:mediumvioletred;*/
 }
 
 /*-----------------*/
->>>>>>> 56e501003fad9c6c3496c366e0768910cba34f5e
 
-.box6 .consult_txt_container:after{
+.box9 .box9_wrap .ask_mid_wrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
 
-<<<<<<< HEAD
-/*ad_1 end*/
-=======
-.box6 .consult_slider_container:after{
+/*ask_mid end*/
+
+/*prof start*/
+
+.box9 .box9_wrap .prof_wrap{
+    /*background-color:darkblue;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_title{
+    /*background-color:coral;*/
+}
+
+/*제목: Professor Profile*/
+.box9 .box9_wrap .prof_wrap .prof_title h3{
+    font-size:40px;
+    font-weight:bold;
+    padding-top:57px;
+    line-height:40px;
+    
+    /*background-color:red;*/
+}
+
+/*소제목: 세계 최고 수준의....*/
+.box9 .box9_wrap .prof_wrap .prof_title p{
+    font-size:15px;
+    font-weight:200;
+    padding-bottom:38px;
+    
+    /*background-color:limegreen;*/
+}
+
+/*교수 담긴 박스*/
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap{
+    /*background-color:pink;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap1{
+    padding-bottom:56px;
+    /*background-color:deeppink;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap2{
+    padding-bottom:56px;
+    /*background-color:limegreen;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap3{
+    /*background-color:orangered;*/
+}
+
+/*교수 프로필*/
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs{
+    width:33.3333%;
+    float:left;
+    /*background-color:green;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_left{
+    width:36.2%;
+    height:112px;
+    float:left;
+    position:relative;
+    
+    /*background-color:mediumvioletred;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_right{
+    float:left;
+    /*background-color:red;*/
+}
+
+/*교사 이력*/
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_right ul{
+    padding-left:7px;
+    padding-top:13px;
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_right ul li{
+    letter-spacing:0;
+    font-size:12px;
+    line-height:20px;
+    font-weight:200;
+}
+
+/*교사 이름 담긴 박스*/
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_left .prof_box{
+    width:100%;
+    height:77px;
+    position:absolute;
+    bottom:0;
+    border-radius:8px;
+    
+    background-color:rgba(255,255,255,0.3);
+}
+
+/*교사 이름*/
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_left .prof_box p{
+    width:70%;
+    margin:48px auto;
+    text-align:center;
+    font-size:19px;
+    line-height:12px;
+    border-bottom:0.5px solid rgba(255,255,255,0.9);
+    
+    /*background-color:mediumpurple;*/
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_left .prof_box .position_relative{
+    width:100%;
+    position:relative;
+}
+
+/*교사 사진*/
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs .prof_left .prof_box .position_relative img{
+    
+    /*고정형 레이아웃*/
+    position:absolute;
+    top:-36px;
+    left:50%;
+    margin-left:-38.5px;
+}
+
+/*-----------------*/
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
 
-.box6 .consult_slider_title:after{
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_contents_innerwrap .profs:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
 
-.box6 .consult_slider_main:after{
-    content:"";
-    display:block;
-    clear:both;
-}
 
-/*consult end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*prof end*/
+/*ask_mid & prof end*/
+
 /*---------------------------------------------------------------*/
->>>>>>> 56e501003fad9c6c3496c366e0768910cba34f5e
+
+
 
