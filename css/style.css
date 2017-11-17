@@ -389,7 +389,7 @@ body{
     
     width: 34px;
     height: 21px;
-    background: black;
+/*    background: black;*/
 }
 
 .slick-next{
@@ -398,8 +398,9 @@ body{
     
     width: 34px;
     height: 21px;
-    background: black;
+/*    background: black;*/
 }
+
 
 
 
