@@ -23,10 +23,6 @@
     background-size:cover;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6cf7ddd44a2c7084f784c84254906d86d405d3ef
 .box5{
     background:url(../img/busan_bg_blog.png) no-repeat center;
     background-size:cover;
@@ -47,13 +43,13 @@
     background-size:cover;
 }
 
-<<<<<<< HEAD
-.box9{
-    background:url('../img/busan_bg_mid_ask_&_prof.png') no-repeat center;
-    background-size:cover;
-=======
+
 .box8{
     background: url('../img/busan_bg_prep_&_ad_2.png'); 
     background-size: cover;
->>>>>>> 6cf7ddd44a2c7084f784c84254906d86d405d3ef
+}
+
+.box9{
+    background:url('../img/busan_bg_mid_ask_&_prof.png') no-repeat center;
+    background-size:cover;
 }

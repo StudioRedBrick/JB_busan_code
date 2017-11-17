@@ -804,10 +804,6 @@ body{
     
     width: 34px;
     height: 21px;
-<<<<<<< HEAD
-/*    background: black;*/
-=======
->>>>>>> 6cf7ddd44a2c7084f784c84254906d86d405d3ef
 }
 
 .box6 .slick-next{
@@ -818,11 +814,8 @@ body{
     height: 21px;
 }
 
-<<<<<<< HEAD
-=======
 /*-----------------*/
 
->>>>>>> 6cf7ddd44a2c7084f784c84254906d86d405d3ef
 .box6 .consult_txt_container:after{
     content:"";
     display:block;
@@ -971,7 +964,6 @@ body{
     clear:both;
 }
 
-<<<<<<< HEAD
 /*ad_1 end*/
 
 /*---------------------------------------------------------------*/
@@ -1203,36 +1195,11 @@ body{
     clear:both;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*prof end*/
 /*ask_mid & prof end*/
 
 /*---------------------------------------------------------------*/
 
-
-=======
 /*---------------------------------------------------------------*/
 
 /*Prep start*/
@@ -1285,7 +1252,7 @@ body{
 .box8 .uk-slider .prep2_box{
     width: 23.79%;
     height: 204px;
-    padding-right: 1.85%;
+    padding-right: 1.8%;
     
     background: url('../img/busan_prep1_box_line.png') no-repeat;
     background-size: contain;
@@ -1305,8 +1272,6 @@ body{
     height: 138px;
 /*    background-color: aquamarine;*/
 }
-
->>>>>>> 6cf7ddd44a2c7084f784c84254906d86d405d3ef
 
 /*컨텐츠 서체크기 통일화 1*/
 .box8 .Prep1_container .prep1_box .prep1_contents_inner p{
