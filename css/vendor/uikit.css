@@ -331,6 +331,8 @@
   }
   .uk-grid-width-medium-1-4 > * {
     width: 25%;
+    
+   
   }
   .uk-grid-width-medium-1-5 > * {
     width: 20%;
