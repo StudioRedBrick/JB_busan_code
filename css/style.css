@@ -1014,7 +1014,7 @@ body{
 .box8 .Prep2_title ul li p,
 .box8 .Prep3_title ul li p{
     font-size:16px;
-    padding-bottom:21px;
+    padding-bottom:15px;
     font-weight:500;
     line-height: 1.5;
     
@@ -1029,53 +1029,52 @@ body{
 .box8 .Prep1_container,
 .box8 .Prep2_container,
 .box8 .Prep3_container{
-    width: 72.4%;
-    height: 204px;
+    width: 74%;
     margin: auto;
 /*    background-color: red;*/
 }
 
+.prep3_list_container{
+    width: 72.4%;
+    margin: auto;
+/*    background-color: red;   */
+}
 
 .box8 .uk-slider .prep1_box{
-    width: 23.5%;
     height: 204px;
-    padding-right: 1.9%;
     
-    background: url('../img/busan_prep1_box_line.png') no-repeat;
+    background: url('../img/busan_prep1_box_line.png') no-repeat center;
     background-size: contain;
 }
 
 .box8 .uk-slider .prep1_box:hover{    
-    background: url('../img/busan_prep1_box_hover.png') no-repeat;
+    background: url('../img/busan_prep1_box_hover_2.png') no-repeat center;
     background-size: contain;
 }
 
 .box8 .uk-slider .prep2_box{
-    width: 23.5%;
     height: 212px;
-    padding-right: 1.9%;
     
-    background: url('../img/busan_prep2_box_line.png') no-repeat;
+    background: url('../img/busan_prep2_box_line.png') no-repeat center;
     background-size: contain;
 }
 
 .box8 .uk-slider .prep2_box:hover{    
-    background: url('../img/busan_prep2_box_hover.png') no-repeat;
+    background: url('../img/busan_prep2_box_hover_2.png') no-repeat center;
     background-size: contain;
 }
 
 .box8 .uk-slider .prep3_box{
-    width: 23.5%;
     height: 184px;
-    padding-right: 1.9%;
     
-    background: url('../img/busan_prep3_box_line.png') no-repeat;
+    background: url('../img/busan_prep3_box_line.png') no-repeat center;
     background-size: contain;
 }
 
 .box8 .uk-slider .prep3_box:hover{    
-    background: url('../img/busan_prep3_box_hover.png') no-repeat;
+    background: url('../img/busan_prep3_box_hover_2.png') no-repeat center;
     background-size: contain;
+    
 }
 
 
@@ -1214,20 +1213,20 @@ body{
 
 
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_title{
+.box8 .prep3_list_container .prep3_list_title{
     margin-top: 37px;
     margin-bottom: 9px;
     margin-left: 6px;
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_title p .prep3_list_title{
+.box8 .prep3_list_container .prep3_list_title p .prep3_list_title{
     font-size:24px;
     font-weight:bold;
     margin-right: 9px;
     /*background-color:aqua;*/
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
+.box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
     font-size:14px;
     font-weight:500;
     line-height: 1.5;
@@ -1238,33 +1237,33 @@ body{
 
 
 /* prep3_list_setting */
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_contents{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
     float: left;
     width: 16.6666%;
     height: 90px;
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_odd{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_odd{
     
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_even{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_even{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_1st,
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_2nd{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st,
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_2nd{
     height: 90px;
     margin-bottom: 9px;
 /*    background-color: firebrick;*/
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_contents{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
     display: table;
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_contents .prep3_list_txt{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_contents .prep3_list_txt{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -1272,7 +1271,7 @@ body{
 /*    background-color: forestgreen;*/
 }
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_contents span{    
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{    
     font-size: 18px;
     font-weight: bold;
     line-height: 1.22;
