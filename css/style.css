@@ -1536,7 +1536,6 @@ body{
 
 /*---------------------------------------------------------------*/
 
-<<<<<<< HEAD
 /*map start*/
 
 
@@ -1716,7 +1715,7 @@ body{
     width:72.4%;
     margin:auto;
     
-    background-color:red;
+    /*background-color:red;*/
 }
 
 /*제목:문의하기*/
@@ -1725,55 +1724,49 @@ body{
     font-weight:bold;
     padding-top:62px;
     
-    background-color:blue;
+    /*background-color:blue;*/
 }
 
 /*소제목:자세한...*/
 .box11 .box11_wrap .ask_form_subtitle{
     font-size:16px;
-    padding-bottom:24px;
+    padding-top:1px;
+    padding-bottom:15px;
 
-    background-color:purple;
+    /*background-color:purple;*/
+}
+
+/*focus---outline:none*/
+.box11 .box11_wrap .ask_form_boxes input:focus{
+    outline:none;
+}
+
+.box11 .box11_wrap .ask_form_boxes textarea:focus{
+    outline:none;
 }
 
 /*form boxes*/
 .box11 .box11_wrap .ask_form_boxes{
     font-weight:200;
     
-    background-color:deepskyblue;
+    /*background-color:deepskyblue;*/
 }
 
-.box11 .box11_wrap .ask_form_boxes .form_box input{
-    width:83.5%;
-    height:17px;
-    float:left;
-    border:none;
-    background-color:#e5e5e5;
-}
-
-.box11 .box11_wrap .ask_form_boxes .form_box p label{
-    display:block;
-    float:left;
-    width:13%;
-    color:#969696;
-    
-    background-color:cadetblue;
-}
-
-.box11 .box11_wrap .ask_form_boxes form .form_box1, .form_box2, .form_box3, .form_box5{
+/*전체 박스*/
+.box11 .box11_wrap .ask_form_boxes form .form_box{
     height:35px;
     padding-top:20px;
+    margin-top:6px;
+    padding-left:2%;
 }
 
+/*세부 박스*/
 .box11 .box11_wrap .ask_form_boxes form .form_box4{
-    font-size:11px;
-    height:116px;
+    height:96px;
 }
 
 .box11 .box11_wrap .ask_form_boxes form .form_box1, .form_box3, .form_box5{
     width:31.1%;
-    margin-top:6px;
-    padding-left:2%;
     float:left;
     
     background-color:#e5e5e5;
@@ -1781,11 +1774,36 @@ body{
 
 .box11 .box11_wrap .ask_form_boxes form .form_box2, .form_box4{
     width:64.46%;
-    padding-left:2%;
-    margin-top:6px;
     float:right;
     
     background-color:#e5e5e5;
+}
+
+.box11 .box11_wrap .ask_form_boxes form .form_box4 .form_box4_inner textarea{
+    height:75px;
+    width:97%;
+    font-size:14px;
+    color:#969696;
+    resize:none;
+    border:1px solid #e5e5e5;
+    background-color:#e5e5e5;
+}
+
+/*전체 input*/
+.box11 .box11_wrap .ask_form_boxes .form_box input{
+    width:94%;
+    height:17px;
+    font-size:16px;
+    color:#969696;
+    float:left;
+    border:none;
+    
+    background-color:#e5e5e5;
+}
+
+/*세부 input*/
+.box11 .box11_wrap .ask_form_boxes .form_box2 input{
+    width:97%;
 }
 
 /*보내기 button*/
@@ -1793,9 +1811,10 @@ body{
     width:12.24%;
     height:45px;
     font-size:16px;
-    color:#969696;
+    color:rgba(120,120,120,1);
     cursor:pointer;
-    margin-top:23px;
+    margin-top:18px;
+    border-radius:0px;
     float:right;
     
     background-color:#e5e5e5;
@@ -1816,7 +1835,66 @@ body{
     clear:both;
 }
 
-.box11 .box11_wrap .ask_form_boxes form:after{ /*clearfix*/
+/*ask end*/
+/*---------------------------------------------------------------*/
+
+/*footer start*/
+
+.footer{
+    font-size:11px;
+    line-height:18px;
+    font-weight:100;
+    
+    width:72.4%;
+    height:162px;
+    margin:auto;
+    
+    opacity:0.8;
+    position:relative;
+    
+    /*background-color:red;*/
+}
+
+.footer .footer_wrap{
+    width:100%;
+    position:absolute;
+    bottom:22px;
+    
+    /*background-color:orange;*/
+}
+
+.footer .footer_wrap .footer_copyright{
+    float:left;
+    width:25%;
+    
+    /*background-color:blue;*/
+}
+
+.footer .footer_wrap .footer_contact_wrap{
+    float:left;
+    width:70%;
+    
+    /*background-color:cornflowerblue;*/
+}
+
+.footer .footer_wrap .footer_contact_wrap .footer_contact{
+    float:left;
+    padding-left:1.12%;
+    padding-right:1.89%;
+    border-left:1px solid #ffffff;
+    
+    /*background-color:skyblue;*/
+}
+
+/*-----------------*/
+
+.footer_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.footer .footer_contact_wrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
@@ -1843,9 +1921,6 @@ body{
 
 
 
-
-
+/*footer end*/
 /*ask & footer end*/
-=======
-
->>>>>>> 473e0e5a9babb0bbf6a54ac092e435c6ff87e11e
+/*---------------------------------------------------------------*/

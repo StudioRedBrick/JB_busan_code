@@ -1,4 +1,4 @@
-//START
+//BLOG START
 $(function(){
         
     //alert("hello");
@@ -108,8 +108,47 @@ $(function(){
     
     //---------------------------------------------------------------
     
+});//BLOG END
 
-
+//MENU START
+$(function(){
+        
+    //alert("hello");
     
+    $(".menu1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box5").offset().top},
+        'slow');
+    }); // menu1 JB소식
     
-});//END
+    $(".menu2").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box6").offset().top},
+        'slow');
+    }); // menu2 컨설팅
+    
+    $(".menu3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box8").offset().top},
+        'slow');
+    }); // menu3 수업안내
+    
+    $(".menu4").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".prof_wrap").offset().top},
+        'slow');
+    }); // menu4 교사안내
+    
+    $(".menu5").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box10").offset().top},
+        'slow');
+    }); // menu5 위치보기
+    
+    $(".menu6").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").offset().top},
+        'slow');
+    }); // menu6 몬의하기
+    
+});//MENU END
