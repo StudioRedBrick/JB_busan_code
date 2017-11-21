@@ -31,7 +31,7 @@
                 accessibility:false,
                 slidesToShow:1,
                 infinite: true,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 centerMode: true,
                 /* 컨텐츠의 위아래 여백조절*/
                 centerPadding: '0px',
@@ -42,19 +42,16 @@
                 /* 반응형 */
                 responsive: [
                     {
-                        breakpoint: 768,
+                        breakpoint: 1024,
                         settings: {
                             slidesToShow: 1,
                             vertical: false,
                             centerMode: false
                         }
                     }
-              // You can unslick at a given breakpoint now by adding:
-              // settings: "unslick"
-              // instead of a settings object
+              
+                
                 ]
-                
-                
                 
             });
  
@@ -113,23 +110,35 @@
                 
             });
             
-            $('.slick-prev').click(function(){
-               $('.multi_slider').slick('slickPrev'); 
+            // prep1 nav
+            
+            $('.Prep1_container .slick-prev').click(function(){
+               $('.multi_1').slick('slickPrev'); 
             });
             
-            $('.slick-next').click(function(){
-               $('.multi_slider').slick('slickNext'); 
+            $('.Prep1_container .slick-next').click(function(){
+               $('.multi_1').slick('slickNext'); 
             });
-                
-//            
-//                 // custom vertical slider highlight center slide
-//
-//        $(".slick-slide.slick-center").prev().addClass("slide-highlight");
-//        $('.vertical_slider').on('afterChange', function(){
-//            $(".slick-slide").removeClass("slide-highlight");
-//            $(".slick-center").prev().addClass("slide-highlight");
-//
-//        });
+            
+            
+            // prep2 nav    
+            $('.Prep2_container .slick-prev').click(function(){
+               $('.multi_2').slick('slickPrev'); 
+            });
+            
+            $('.Prep2_container .slick-next').click(function(){
+               $('.multi_2').slick('slickNext'); 
+            });
+            
+             // prep3 nav    
+            $('.Prep3_container .slick-prev').click(function(){
+               $('.multi_3').slick('slickPrev'); 
+            });
+            
+            $('.Prep3_container .slick-next').click(function(){
+               $('.multi_3').slick('slickNext'); 
+            });
+            
 
  
 

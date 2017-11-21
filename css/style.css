@@ -1016,16 +1016,11 @@ body{
 /* prep frame setting */
 .box8 .Prep1_container,
 .box8 .Prep2_container,
-.box8 .Prep3_container{
+.box8 .Prep3_container,
+.box8 .prep3_list_container{
     width: 72.4%;
     margin: auto;
 /*    background-color: red;*/
-}
-
-.prep3_list_container{
-    width: 72.4%;
-    margin: auto;
-/*    background-color: red;   */
 }
 
 .box8 .multi_slider .prep1_contents_inner{
@@ -1058,7 +1053,6 @@ body{
     background-size: contain;
     
 }
-
 
 
 /* 공통 */
@@ -1111,7 +1105,9 @@ body{
 
 /* prep2 */
 .box8 .Prep2_container .prep2_box .prep2_contents_inner{
-    padding: 9.7% 13.6%;
+    padding: 9.2% 0px;
+    padding-left: 12.6%;
+    padding-right: 17.6%;
     margin: 8.9px 6.5px;
     
 /*    background-color: forestgreen;*/
@@ -1126,7 +1122,7 @@ body{
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt{
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     border-bottom:1px solid #ffffff;
     
 /*    background-color: aquamarine;*/
@@ -1149,7 +1145,9 @@ body{
 
 /* prep3 */
 .box8 .Prep3_container .prep3_box .prep3_contents_inner{
-    padding: 9.2% 12.6%;
+    padding: 9.2% 0px;
+    padding-left: 12.6%;
+    padding-right: 17.6%;
     margin: 8.9px 6.5px;
 /*    background-color: aquamarine;*/
 }
