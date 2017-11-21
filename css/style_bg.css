@@ -44,7 +44,7 @@
 }
 
 .box8{
-    background: url('../img/busan_bg_prep_&_ad_2.png'); 
+    background: url('../img/busan_bg_prep_&_ad_2.png') no-repeat center; 
     background-size: cover;
 }
 
