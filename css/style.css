@@ -755,7 +755,7 @@ body{
 
 .box6 .consult_slider_item{
     width: 597px;
-    margin-top: 25px;
+    margin-top: 10px;
 /*    background-color: darkgreen;*/
 }
 
@@ -789,14 +789,14 @@ body{
     margin-left: 57px;
     float: left;
     width: 30%;
-    /*background-color: blue;*/
+/*    background-color: blue;*/
         
 }
 
 .box6 .consult_slider_main{
     float: left;
     width: 52%;
-    /*background-color: deepskyblue;*/
+/*    background-color: deepskyblue;*/
 }
 
 .box6 .slick-prev{
