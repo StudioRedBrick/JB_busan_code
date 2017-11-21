@@ -1050,24 +1050,22 @@ body{
     background-size: contain;
 }
 
-.box8 .multi-slider .prep2_box{
+.box8 .multi_slider .prep2_contents_inner{
     background: url('../img/busan_prep2_box_line.png') no-repeat center;
     background-size: contain;
 }
 
-.box8 .uk-slider .prep2_box:hover{    
+.box8 .multi_slider .prep2_contents_inner:hover{    
     background: url('../img/busan_prep2_box_hover_2.png') no-repeat center;
     background-size: contain;
 }
 
-.box8 .uk-slider .prep3_box{
-    height: 184px;
-    
+.box8 .multi_slider .prep3_contents_inner{    
     background: url('../img/busan_prep3_box_line.png') no-repeat center;
     background-size: contain;
 }
 
-.box8 .uk-slider .prep3_box:hover{    
+.box8 .multi_slider .prep3_contents_inner:hover{    
     background: url('../img/busan_prep3_box_hover_2.png') no-repeat center;
     background-size: contain;
     
@@ -1086,18 +1084,9 @@ body{
 
 /* prep1 */
 .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-    padding: 10.67% 12.6%;
+    padding: 9.2% 12.6%;
     margin: 8.9px 6.5px;
 /*    background-color: aquamarine;*/
-}
-
-.box8 .Prep1_container .prep1_box .prep1_item1{
-    
-    background-color: forestgreen;
-}
-
-.box8 .Prep1_container .prep1_box .prep1_item2{
-/*    background-color: blueviolet;*/
 }
 
 .box8 .Prep1_container .prep1_box .prep1_contents_inner p{
@@ -1134,10 +1123,8 @@ body{
 
 /* prep2 */
 .box8 .Prep2_container .prep2_box .prep2_contents_inner{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 184px;
-    height: 146px;
+    padding: 9.7% 13.6%;
+    margin: 8.9px 6.5px;
     
 /*    background-color: forestgreen;*/
 }
@@ -1160,14 +1147,13 @@ body{
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
     font-size:26px;
     font-weight: bold;
-    line-height: 1.38;
+    
 /*    background-color: red;*/
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
     font-size: 16px;
     font-weight: 200;
-    line-height: 1.56; 
     
 /*    background-color: blue;*/
 }
@@ -1175,12 +1161,11 @@ body{
 
 /* prep3 */
 .box8 .Prep3_container .prep3_box .prep3_contents_inner{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 179px;
-    height: 138px;
+    padding: 9.2% 12.6%;
+    margin: 8.9px 6.5px;
 /*    background-color: aquamarine;*/
 }
+
 
 .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
     font-size:40px;
