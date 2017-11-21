@@ -46,10 +46,23 @@
 .box8{
     background: url('../img/busan_bg_prep_&_ad_2.png'); 
     background-size: cover;
+<<<<<<< HEAD
 }
 
 .box9{
     background:url('../img/busan_bg_mid_ask_&_prof.png') no-repeat center;
+    background-size:cover;
+=======
+>>>>>>> 473e0e5a9babb0bbf6a54ac092e435c6ff87e11e
+}
+
+.box10{
+    background:url('../img/busan_bg_map_2.jpg') no-repeat center;
+    background-size:cover;
+}
+
+.box11{
+    background:url('../img/busan_bg_ask_&_footer.png') no-repeat center;
     background-size:cover;
 }
 

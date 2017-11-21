@@ -1533,4 +1533,316 @@ body{
 
 /*---------------------------------------------------------------*/
 
+<<<<<<< HEAD
+/*map start*/
 
+
+.box10{
+    width:100%;
+    height:514px;
+}
+
+.box10_wrap{
+    width:72.4%;
+    margin:auto;
+    padding-top:76px;
+    
+    /*background-color:brown;*/
+}
+
+.box10_wrap .addrs_box{
+    width:303px;
+    height:376px;
+    border-radius:8px;
+    
+    background-color:rgba(255,158,18,1);
+}
+
+/*제목:해운대 본원*/
+.box10_wrap .addrs_box .addrs_box_title{
+    margin:auto;
+    width:64%;
+    padding-top:40px;
+    font-size:35px;
+    font-weight:bold;
+    text-align:center;
+    border-bottom:1.5px solid #ffffff;
+    
+    /*background-color:blueviolet;*/
+}
+
+.box10_wrap .addrs_box .addrs_box_contact{
+    margin:auto;
+    width:64%;
+    
+    /*background-color:red;*/
+}
+
+/*제목:연락처*/
+.box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
+    font-size:20px;
+    padding-bottom:8px;
+    padding-top:25px;
+    position:relative;
+    
+    /*background-color:blue;*/
+}
+
+/*arrow img*/
+.box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
+    float:left;
+    position:absolute;
+    top:31px;
+    left:-10px;
+    
+    /*background-color:green;*/
+}
+
+.box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title p{
+    float:left;
+    
+    /*background-color:orange;*/
+}
+
+/*detailed txt*/
+.box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_left{
+    font-size:15px;
+    font-weight:300;
+    float:left;
+    width:25%;
+    
+    /*background-color:skyblue;*/
+}
+
+.box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
+    font-size:15px;
+    font-weight:300;
+    padding-left:7%;
+    width:50%;
+    float:left;
+    
+    /*background-color:darkblue;*/
+}
+
+.box10_wrap .addrs_box .addrs_box_time{
+    margin:auto;
+    width:64%;
+    
+    /*background-color:red;*/
+}
+
+/*제목:운영시간*/
+.box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
+    font-size:20px;
+    padding-bottom:8px;
+    padding-top:25px;
+    position:relative;
+    
+    /*background-color:blue;*/
+}
+
+/*arrow img*/
+.box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title img{
+    float:left;
+    position:absolute;
+    top:31px;
+    left:-10px;
+    
+    /*background-color:green;*/
+}
+
+/*detailed txt*/
+.box10_wrap .addrs_box .addrs_box_time .addrs_box_time_left{
+    font-size:15px;
+    font-weight:300;
+    float:left;
+    width:25%;
+    
+    /*background-color:skyblue;*/
+}
+
+.box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
+    font-size:15px;
+    font-weight:300;
+    padding-left:7%;
+    width:50%;
+    float:left;
+    
+    /*background-color:darkblue;*/
+}
+
+/*-----------------*/
+
+.box10_wrap .addrs_box .addrs_box_contact:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+.box10_wrap .addrs_box .addrs_box_time:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*map end*/
+/*---------------------------------------------------------------*/
+
+/*ask & footer start*/
+
+/*ask start*/
+.box11{
+    width:100%;
+    height:553px;
+}
+
+.box11 .box11_wrap{
+    width:72.4%;
+    margin:auto;
+    
+    background-color:red;
+}
+
+/*제목:문의하기*/
+.box11 .box11_wrap .ask_form_title{
+    font-size:40px;
+    font-weight:bold;
+    padding-top:62px;
+    
+    background-color:blue;
+}
+
+/*소제목:자세한...*/
+.box11 .box11_wrap .ask_form_subtitle{
+    font-size:16px;
+    padding-bottom:24px;
+
+    background-color:purple;
+}
+
+/*form boxes*/
+.box11 .box11_wrap .ask_form_boxes{
+    font-weight:200;
+    
+    background-color:deepskyblue;
+}
+
+.box11 .box11_wrap .ask_form_boxes .form_box input{
+    width:83.5%;
+    height:17px;
+    float:left;
+    border:none;
+    background-color:#e5e5e5;
+}
+
+.box11 .box11_wrap .ask_form_boxes .form_box p label{
+    display:block;
+    float:left;
+    width:13%;
+    color:#969696;
+    
+    background-color:cadetblue;
+}
+
+.box11 .box11_wrap .ask_form_boxes form .form_box1, .form_box2, .form_box3, .form_box5{
+    height:35px;
+    padding-top:20px;
+}
+
+.box11 .box11_wrap .ask_form_boxes form .form_box4{
+    font-size:11px;
+    height:116px;
+}
+
+.box11 .box11_wrap .ask_form_boxes form .form_box1, .form_box3, .form_box5{
+    width:31.1%;
+    margin-top:6px;
+    padding-left:2%;
+    float:left;
+    
+    background-color:#e5e5e5;
+}
+
+.box11 .box11_wrap .ask_form_boxes form .form_box2, .form_box4{
+    width:64.46%;
+    padding-left:2%;
+    margin-top:6px;
+    float:right;
+    
+    background-color:#e5e5e5;
+}
+
+/*보내기 button*/
+.box11 .box11_wrap .ask_form_boxes form .form_button{
+    width:12.24%;
+    height:45px;
+    font-size:16px;
+    color:#969696;
+    cursor:pointer;
+    margin-top:23px;
+    float:right;
+    
+    background-color:#e5e5e5;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+
+/*-----------------*/
+
+.box11 .box11_wrap .ask_form_boxes form:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box11 .box11_wrap .ask_form_boxes .form_box:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box11 .box11_wrap .ask_form_boxes form:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ask & footer end*/
+=======
+
+>>>>>>> 473e0e5a9babb0bbf6a54ac092e435c6ff87e11e
