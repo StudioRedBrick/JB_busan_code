@@ -1284,7 +1284,7 @@ body{
 /*Ad2 start*/
 
 .box8 .ad_2_wrap{
-    margin-top:240px;
+    margin-top:200px;
 }
 
 /*컨텐츠 제목 & 소제목*/
@@ -1325,6 +1325,7 @@ body{
     width:49.05%;
     border-radius:8px;
     border:1px solid #ffffff;
+    padding:3% 0%;
     float:left;
     
     background-color:orange;
