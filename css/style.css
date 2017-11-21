@@ -959,8 +959,8 @@ body{
 
 /*Prep start*/
 .box8{
-    width: 100%;
-    height: 2530px;
+    width:100%;
+    height:2530px;
     
     /* 자간벙벙해서 끕니다 */
     letter-spacing: 0.03em;
