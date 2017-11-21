@@ -816,25 +816,13 @@ body{
 
 /*-----------------*/
 
-.box6 .consult_txt_container:after{
+.box6 .consult_contents:after{
     content:"";
     display:block;
     clear:both;
 }
 
-.box6 .consult_slider_container:after{
-    content:"";
-    display:block;
-    clear:both;
-}
-
-.box6 .consult_slider_title:after{
-    content:"";
-    display:block;
-    clear:both;
-}
-
-.box6 .consult_slider_main:after{
+.box6 .consult_slider_item:after{
     content:"";
     display:block;
     clear:both;
@@ -1264,6 +1252,7 @@ body{
     line-height: 1.22;
 }
 
+
 /* slidenav position */
 .box8 .slick-prev{
     position: absolute;
@@ -1276,23 +1265,20 @@ body{
 }
 
 
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_1st:after{
-    content:"";
-    display:block;
-    clear:both;   
-}
-
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_2nd:after{
-    content:"";
-    display:block;
-    clear:both;   
-}
-
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_1st:after,
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_2nd:after,
 .box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_3rd:after{
     content:"";
     display:block;
     clear:both;   
 }
+
+.box8 .prep3_list_container:after{
+    content:"";
+    display:block;
+    clear:both;   
+}
+
 
 /*Prep END*/
 /*---------------------------------------------------------------*/
