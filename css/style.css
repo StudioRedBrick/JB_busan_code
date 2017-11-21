@@ -1291,13 +1291,164 @@ body{
 }
 
 
-.box8 .Prep3_container .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_contents:after{
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_1st:after{
     content:"";
     display:block;
     clear:both;   
 }
 
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_2nd:after{
+    content:"";
+    display:block;
+    clear:both;   
+}
 
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_3rd:after{
+    content:"";
+    display:block;
+    clear:both;   
+}
+
+/*Prep END*/
+/*---------------------------------------------------------------*/
+/*Ad2 start*/
+
+/*컨텐츠 제목 & 소제목*/
+.box8 .ad_2_wrap .ad2_title{
+    width:72.4%;
+    padding-top:0px;
+    margin:auto;
+    
+    background-color:red;
+}
+
+.box8 .ad2_title ul li h3{
+    font-size:40px;
+    font-weight:bold;
+    
+    /*background-color:aqua;*/
+}
+
+.box8 .ad2_title ul li p{
+    font-size:20px;
+    padding-top:2px;
+    padding-bottom:27px;
+    font-weight:500;
+    
+    /*background-color:blue;*/
+}
+
+/*-----------------*/
+
+.box8 .ad2_contents_wrap{
+    width:72.4%;
+    margin:auto;
+    
+    /*background-color:forestgreen;*/
+}
+
+/*컨텐츠 박스넓이 통일화*/
+.box8 .ad2_contents_wrap .ad2_contents_box{
+    width:49.05%;
+    border-radius:8px;
+    border:1px solid #ffffff;
+    float:left;
+    
+    /*background-color:orange;*/
+}
+
+.box8 .ad2_contents_wrap .ad2_contents_box:hover{
+    background-color:rgba(156,216,61,0.8);
+    border:1px solid rgba(156,216,61,0.8);
+}
+
+/*컨텐츠 박스 패딩값 통일화*/
+.box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner{
+    padding-left:58px;
+    padding-top:52px;
+}
+
+/*컨텐츠 서체크기 통일화 1*/
+.box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p{
+    width:87%;
+    font-size:41px;
+    letter-spacing:-0.3px;
+    font-weight:bold;
+    padding-bottom:28px;
+    border-bottom:1px solid #ffffff;
+    
+    /*background-color:blue;*/
+}
+
+.box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner .ad2_span{
+    width:87%;
+    padding-top:30px;
+    
+    /*background-color:green;*/
+}
+
+/*컨텐츠 서체크기 통일화 2*/
+.box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
+    font-size:14px;
+    font-weight:200;
+    line-height:29px;
+    
+    /*background-color:red;*/
+}
+
+
+/*컨텐츠 세부 디테일 값 조정*/
+.box8 .ad2_contents_wrap .ad2_contents_1 .ad2_contents_inner p{
+    /*background-color:red;*/
+}
+
+.box8 .ad2_contents_wrap .ad2_contents_2{
+    float:right;
+}
+
+.box8 .ad2_contents_wrap .ad2_contents_3{
+    height:369px;
+    margin-top:19px;
+}
+
+.box8 .ad2_contents_wrap .ad2_contents_4{
+    height:369px;
+    float:right;
+    margin-top:19px;
+}
+
+/*-----------------*/
+
+.box8 .ad2_contents_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ad2 end*/
 /* Prep & Ad2 END*/
 /*---------------------------------------------------------------*/
 
@@ -1534,7 +1685,6 @@ body{
 /*---------------------------------------------------------------*/
 
 /*map start*/
-
 
 .box10{
     width:100%;
@@ -1896,27 +2046,6 @@ body{
     display:block;
     clear:both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*footer end*/
 /*ask & footer end*/
