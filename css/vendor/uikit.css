@@ -154,6 +154,7 @@
   /* Horizontal */
   .uk-grid-large {
     margin-left: -35px;
+      background-color:red;
   }
   .uk-grid-large > * {
     padding-left: 35px;
@@ -170,6 +171,7 @@
   /* Horizontal */
   .uk-grid-large {
     margin-left: -50px;
+      background-color:blue;
   }
   .uk-grid-large > * {
     padding-left: 50px;

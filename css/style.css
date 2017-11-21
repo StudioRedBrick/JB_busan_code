@@ -678,8 +678,8 @@ body{
     position: relative;
     top: 9%;
     
-    /*background-color: black;
-    opacity: 0.3;*/
+/*    background-color: black;*/
+/*    opacity: 0.3;*/
 }
 
 .box6 .consult_contents{
@@ -1029,7 +1029,7 @@ body{
 .box8 .Prep1_container,
 .box8 .Prep2_container,
 .box8 .Prep3_container{
-    width: 74%;
+    width: 72.4%;
     margin: auto;
 /*    background-color: red;*/
 }
@@ -1040,21 +1040,17 @@ body{
 /*    background-color: red;   */
 }
 
-.box8 .uk-slider .prep1_box{
-    height: 204px;
-    
-    background: url('../img/busan_prep1_box_line.png') no-repeat center;
+.box8 .multi_slider .prep1_contents_inner{
+    background: url(../img/busan_prep1_box_line.png) no-repeat center;
     background-size: contain;
 }
 
-.box8 .uk-slider .prep1_box:hover{    
+.box8 .multi_slider .prep1_contents_inner:hover{    
     background: url('../img/busan_prep1_box_hover_2.png') no-repeat center;
     background-size: contain;
 }
 
-.box8 .uk-slider .prep2_box{
-    height: 212px;
-    
+.box8 .multi-slider .prep2_box{
     background: url('../img/busan_prep2_box_line.png') no-repeat center;
     background-size: contain;
 }
@@ -1084,24 +1080,30 @@ body{
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
     margin-top: 29px;
-    height: 60px;
 /*    background-color:green;*/
 }
 
 
 /* prep1 */
 .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 200px;
-    height: 138px;
+    padding: 10.67% 12.6%;
+    margin: 8.9px 6.5px;
 /*    background-color: aquamarine;*/
+}
+
+.box8 .Prep1_container .prep1_box .prep1_item1{
+    
+    background-color: forestgreen;
+}
+
+.box8 .Prep1_container .prep1_box .prep1_item2{
+/*    background-color: blueviolet;*/
 }
 
 .box8 .Prep1_container .prep1_box .prep1_contents_inner p{
     font-size:39px;
     font-weight: bold;
-
+    
     
     margin-bottom: 10px;
     border-bottom:1px solid #ffffff;
@@ -1278,19 +1280,14 @@ body{
 }
 
 /* slidenav position */
-.box8 .uk-slidenav-container .uk-slidenav-previous{
+.box8 .slick-prev{
     position: absolute;
     left: -4.5%;
 }
 
-.box8 .uk-slidenav-container .uk-slidenav-next{
+.box8 .slick-next{
     position: absolute;
     right: -4.5%;
-}
-
-
-.box8 .uk-slidenav-container a:hover{
-    opacity: 1;
 }
 
 

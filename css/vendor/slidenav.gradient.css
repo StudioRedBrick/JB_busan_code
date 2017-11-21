@@ -63,6 +63,12 @@
 .uk-slidenav-previous:hover{
     opacity: 1;
 }
+
+.box8 .uk-slidenav-previous {
+  content: url('../../img/all_slider_button_left.png');
+    opacity: 0.75;
+}
+
 /* Sub-object: `uk-slidenav-position`
  ========================================================================== */
 /*
