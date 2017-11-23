@@ -816,7 +816,7 @@ body{
 }
 
 .box6 .consult_contents{
-    width: 72.4%;
+    width: 1160px;
     margin: auto;
 }
 
@@ -1101,15 +1101,15 @@ body{
 
 /* title setting */
 .box8 .Prep1_title{
-    width:72.4%;
+    width: 1160px;
     padding-top: 83px;
     margin:auto;
     
-/*    background-color:red;*/
+    background-color:red;
 }
 
 .box8 .Prep2_title{
-    width:72.4%;
+    width:1160px;
     padding-top: 62px;
     margin:auto;
     
@@ -1117,7 +1117,7 @@ body{
 }
 
 .box8 .Prep3_title{
-    width:72.4%;
+    width:1160px;
     padding-top: 186px;
     margin:auto;
     
@@ -1151,7 +1151,7 @@ body{
 .box8 .Prep2_container,
 .box8 .Prep3_container,
 .box8 .prep3_list_container{
-    width: 72.4%;
+    width: 1160px;
     margin: auto;
 /*    background-color: red;*/
 }
@@ -1387,12 +1387,12 @@ body{
 /* slidenav position */
 .box8 .slick-prev{
     position: absolute;
-    left: -4.5%;
+    left: -2.7%;
 }
 
 .box8 .slick-next{
     position: absolute;
-    right: -4.5%;
+    right: -2.7%;
 }
 
 
