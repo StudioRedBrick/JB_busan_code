@@ -33,6 +33,31 @@
     /*---------------------------------------------------------------*/
     
     /*box6_consult start*/
+    .box6 .consult_contents{
+        width: 940px;
+    }
+    
+    .box6 .slider_indent,
+    .box6 .slick-list,
+    .box6 .consult_slider_item{
+        width: 483px;
+    }
+    
+    .box6 .consult_slider_title{
+        padding-right: 10%;
+    }
+    .box6 .consult_slider_title p{
+        font-size: 28px;
+    }
+    .box6 .consult_slider_main1{
+        font-size: 15px;
+    }
+    
+    .box6 .consult_slider_main2{
+        font-size: 12px;
+    }
+    
+    
     /*box6_consult end*/
     
     /*---------------------------------------------------------------*/
@@ -45,7 +70,66 @@
     /*box8_prep & ad2 start*/
     
     /* Prep start*/
+    .box8 .Prep1_title,
+    .box8 .Prep2_title,
+    .box8 .Prep3_title{
+        width: 940px;
+    }
     
+    /* prep frame setting */
+    .box8 .Prep1_container,
+    .box8 .Prep2_container,
+    .box8 .Prep3_container,
+    .box8 .prep3_list_container{
+        width: 940px;
+    }
+    
+    /* 공통 */
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        margin-top: 27px;
+        /*background-color:green;*/
+    }
+    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
+        font-size: 12px;
+
+        /*background-color:red;*/
+    }
+    
+    /* prep1 */
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
+        font-size: 37px;
+    }
+    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
+        font-size: 16px;
+        font-weight: 200;
+    }
+   
+    /* prep2 */
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
+        font-size:24px;
+    }
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
+        font-size: 13px;
+    }
+    
+    /* prep3 */
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
+        font-size: 38px;
+    }
+    
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        font-size: 14px;
+    }
+    
+    .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
+        font-weight: 500;
+    }
     
     /*box8_prep & ad2 end*/
     

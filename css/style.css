@@ -834,7 +834,7 @@ body{
     
     float: left;
     width: 44%;
-    /*background: blue;*/
+/*    background: blue;*/
 }
 
 .box6 .consult_txt_title{
@@ -870,7 +870,7 @@ body{
 
 .box6 .consult_slider_container{
     float: left;
-    width: 40%;
+    width: 52%;
 /*    background: red;*/
 }
 
@@ -894,7 +894,7 @@ body{
 
 .box6 .consult_slider_item{
     width: 597px;
-    margin-top: 10px;
+    margin-top: 15px;
 /*    background-color: darkgreen;*/
 }
 
@@ -902,6 +902,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     text-align: left;
+    
 }
 
 .box6 .consult_slider_main1{
@@ -924,17 +925,19 @@ body{
 
 }
 
+
 .box6 .consult_slider_title{
-    margin-left: 57px;
     float: left;
-    width: 30%;
+    width: 23.7%;
+    margin-left: 4.3%;
+    padding-right: 6.3%;
 /*    background-color: blue;*/
         
 }
 
 .box6 .consult_slider_main{
     float: left;
-    width: 52%;
+    width: 54.7%;
 /*    background-color: deepskyblue;*/
 }
 
