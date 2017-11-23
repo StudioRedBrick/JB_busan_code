@@ -147,7 +147,7 @@ body{
     width:11.1111%;
     height:58px;
     /*background:orange;*/
-    float:left; 
+    float:right; 
 }
 
 .box3 .menu_wrap .menus a{
@@ -219,6 +219,138 @@ body{
     clear:both;
 }
 /*menu end*/
+
+/*-----------------*/
+
+/*fixed menu start*/
+.box3-clone{
+    width:100%;
+    height:40px;
+    position:fixed;
+    top:-50px;
+    
+    -webkit-transition: top 0.35s;
+            transition:top 0.35s;
+    
+    opacity:0.6;
+    background:rgba(170,170,170,1);
+}
+
+.box3-clone:hover{
+    opacity:1;
+}
+
+.box3-clone .menu_wrap{
+    width:72.4%;
+    height:40px;
+    margin:auto;
+    
+    /*background:red;*/
+}
+
+.box3-clone.visible{
+    top:0;
+}
+
+.box3-clone .menu_wrap .menus{
+    width:10%;
+    height:40px;
+    /*background:orange;*/
+    float:right; 
+}
+
+.box3-clone .menu_wrap .menus a{
+    display:block;
+    height:27px;
+    font-size:13px;
+    letter-spacing:0.1em;
+    text-align:center;
+    padding-top:13px;
+    
+    background-color:rgba(170,170,170,1);
+}
+
+.box3-clone .menu_wrap .menus a:hover{
+    background:#ff9e12;
+}
+
+.box3-clone .menu_wrap .menu7 a{
+    height:30px;
+    font-size:10px;
+    font-weight:500;
+    line-height:1.1em;
+    padding-top:10px;
+}
+
+.box3-clone .menu_wrap .menu7 a span{
+    font-size:10px;
+}
+
+.box3-clone .menu_wrap .menu8 a{
+    width:100%;
+    height:30px;
+    font-size:10px;
+    font-weight:500;
+    line-height:1.1em;
+    padding-top:10px;
+    float:left;
+    
+    background:url(../img/busan_menu_border.png) no-repeat center;
+    background-size:cover;
+    
+    background-color:rgba(170,170,170,1);
+}
+
+.box3-clone .menu_wrap .menu8 a span{
+    font-size:10px;
+}
+
+.box3-clone .menu_wrap .menu9 a{
+    height:30px;
+    font-size:10px;
+    font-weight:500;
+    line-height:1.1em;
+    padding-top:10px;
+}
+
+.box3-clone .menu_wrap .menu9 a span{
+    font-size:10px;
+}
+
+/*JB logo for fixed header*/
+.box3-clone .menu_wrap .jb_logo_white{
+    width:10%;
+    height:40px;
+    float:right;
+    cursor:pointer;
+    
+    background-color:rgba(170,170,170,1);
+}
+
+.box3-clone .menu_wrap .jb_logo_white a img{
+    display:block;
+    width:60px;
+    margin:auto;
+    padding-top:13px;
+    
+    /*background-color:blue;*/
+}
+
+/*-----------------*/
+
+.box3-clone .menu_wrap .menu8:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box3-clone .menu_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*fixed menu end*/
 
 /*---------------------------------------------------------------*/
 
@@ -868,7 +1000,7 @@ body{
 /*-----------------*/
 
 .box7 .ad1_contents_wrap{
-    width:72.4%;
+    width:1160px;
     margin:auto;
     
     /*background-color:forestgreen;*/
@@ -892,7 +1024,7 @@ body{
 
 /*컨텐츠 박스 패딩값 통일화*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
-    padding-left:58px;
+    padding-left:12%;
     padding-top:52px;
 }
 

@@ -149,6 +149,56 @@ $(function(){
     $('html,body').animate({
         scrollTop: $(".box11").offset().top},
         'slow');
-    }); // menu6 몬의하기
+    }); // menu6 문의하기
     
 });//MENU END
+
+$(function(){
+        
+    //alert("hello");
+    
+    $(".jb_logo_white").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box5")},
+        'slow');
+    }); // menu1 JB소식
+    
+    
+});//MENU END
+
+//FIXED MENU START
+$(function(){
+        
+    //alert("hello");
+
+    var $window = $(window),
+        $header = $('.box3'),
+        
+        //duplicate header, $header.ctrl+A.ctrl+C
+        $headerClone = $header.contents().clone(),
+        
+        //복제할 header를 담을 html 박스 만들기
+        $headerCloneContainer = $('<div class="box3-clone"></div>');
+        
+        $headerCloneContainer.append($headerClone);
+        //div안에 headerClone의 내용을 담았으니, html의 body안에 넣어야한다
+    
+        $headerCloneContainer.appendTo('body');
+    
+    //clone한 header가 나와야하는 지점(위치) 지정
+    //header가 브라우저 상단에서 떨어진거리 + header의 높이
+    var $headerSum = $header.offset().top + $header.outerHeight();
+    
+        $window.on('scroll',function(){
+            //(브라우저가 스크롤된 거리가 > $headerSum){clone-header appear};
+            if($window.scrollTop()>$headerSum){
+                $headerCloneContainer.addClass('visible');
+            }
+            
+            //(브라우저가 스크롤된 거리가 < $headerSum){clone-header disappear};
+            else{
+                $headerCloneContainer.removeClass('visible');
+            };
+        });
+    
+});//FIXED MENU END
