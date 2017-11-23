@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/*media query start*/
+/*--------------------------------------------------------------*/
+
+
+/*max-width:667px(667px 이하 _ 핸드폰 기준)*/
+@media screen and (max-width:667px) {
+    
+    /*box1_header start*/
+    /*box1_header end*/
+    
+    /*box2_logo start*/
+    /*box2_logo end*/
+
+    /*box3_menu start*/
+    /*box3_menu end*/
+    
+    /*box4_video start*/
+    /*box4_video end*/
+    
+    /*box5_blog start*/
+    /*box5_blog end*/
+    
+    /*box6_consult start*/
+    /*box6_consult end*/
+    
+    /*box7_ad1 start*/
+    /*box7_ad1 end*/
+    
+    /*box8_prep & ad2 start*/
+    /*box8_prep & ad2 end*/
+    
+    /*box9_mid-ask & prof start*/
+    /*box9_mid-ask & prof end*/
+    
+    /*box10_map start*/
+    /*box10_map end*/
+    
+    /*box11_ask & footer start*/
+    /*box11_ask & footer end*/
+
+    
+}/*max-width:667px end*/
+/*--------------------------------------------------------------*/
+
+
+/*min-width:668px ~ max-width:1025px(테블릿 기준)*/
+@media screen and (min-width:668px) and (max-width:1025px) {
+    
+    /*box1_header start*/
+    /*box1_header end*/
+    
+    /*box2_logo start*/
+    /*box2_logo end*/
+
+    /*box3_menu start*/
+    /*box3_menu end*/
+    
+    /*box4_video start*/
+    /*box4_video end*/
+    
+    /*box5_blog start*/
+    /*box5_blog end*/
+    
+    /*box6_consult start*/
+    /*box6_consult end*/
+    
+    /*box7_ad1 start*/
+    /*box7_ad1 end*/
+    
+    /*box8_prep & ad2 start*/
+    /*box8_prep & ad2 end*/
+    
+    /*box9_mid-ask & prof start*/
+    /*box9_mid-ask & prof end*/
+    
+    /*box10_map start*/
+    /*box10_map end*/
+    
+    /*box11_ask & footer start*/
+    /*box11_ask & footer end*/
+    
+    
+}/*min-width:668px ~ max-width:1025px end*/
+/*--------------------------------------------------------------*/
+
+
+/*min-width:1026px ~ max-width:1600px(24인치 기준)*/
+@media screen and (min-width:1026px) and (max-width:1600px) {
+    
+    /*box1_header start*/
+    
+    /*box1_header end*/
+    
+    /*box2_logo start*/
+    /*box2_logo end*/
+
+    /*box3_menu start*/
+    /*box3_menu end*/
+    
+    /*box4_video start*/
+    /*box4_video end*/
+    
+    /*box5_blog start*/
+    /*box5_blog end*/
+    
+    /*box6_consult start*/
+    /*box6_consult end*/
+    
+    /*box7_ad1 start*/
+    /*box7_ad1 end*/
+    
+    /*box8_prep & ad2 start*/
+    /*box8_prep & ad2 end*/
+    
+    /*box9_mid-ask & prof start*/
+    /*box9_mid-ask & prof end*/
+    
+    /*box10_map start*/
+    /*box10_map end*/
+    
+    /*box11_ask & footer start*/
+    /*box11_ask & footer end*/
+    
+    
+}/*min-width:1026px ~ max-width:1600px end*/
+/*--------------------------------------------------------------*/
+
+
+/*min-width:1601px(1601px 이상 _ 24인치 이상 기준)*/
+@media screen and (min-width:1601px) {
+    
+    /*box1_header start*/
+    /*box1_header end*/
+    
+    /*box2_logo start*/
+    /*box2_logo end*/
+
+    /*box3_menu start*/
+    /*box3_menu end*/
+    
+    /*box4_video start*/
+    /*box4_video end*/
+    
+    /*box5_blog start*/
+    /*box5_blog end*/
+    
+    /*box6_consult start*/
+    /*box6_consult end*/
+    
+    /*box7_ad1 start*/
+    /*box7_ad1 end*/
+    
+    /*box8_prep & ad2 start*/
+    /*box8_prep & ad2 end*/
+    
+    /*box9_mid-ask & prof start*/
+    /*box9_mid-ask & prof end*/
+    
+    /*box10_map start*/
+    /*box10_map end*/
+    
+    /*box11_ask & footer start*/
+    /*box11_ask & footer end*/
+    
+    
+}/*min-width:1601px end*/
+/*--------------------------------------------------------------*/
+
+
+/*media query end*/
