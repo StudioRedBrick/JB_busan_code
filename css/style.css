@@ -137,7 +137,7 @@ body{
 }
 
 .box3 .menu_wrap{
-    width:72.4%;
+    width:1160px;
     height:58px;
     /*background:red;*/
     margin:auto;
@@ -241,7 +241,7 @@ body{
 }
 
 .box3-clone .menu_wrap{
-    width:72.4%;
+    width:1160px;
     height:40px;
     margin:auto;
     
@@ -525,7 +525,7 @@ body{
 }
 
 .box5 .blog_wrap{
-    width:72.4%;
+    width:1160px;
     height:auto;
     margin:auto;
     
@@ -974,7 +974,7 @@ body{
 
 /*컨텐츠 제목 & 소제목*/
 .box7 .ad1_title{
-    width:72.4%;
+    width:1160px;
     padding-top:66px;
     margin:auto;
     
@@ -1421,7 +1421,7 @@ body{
 
 /*컨텐츠 제목 & 소제목*/
 .box8 .ad_2_wrap .ad2_title{
-    width:72.4%;
+    width:1160px;
     margin:auto;
     
     /*background-color:red;*/
@@ -1446,7 +1446,7 @@ body{
 /*-----------------*/
 
 .box8 .ad2_contents_wrap{
-    width:72.4%;
+    width:1160px;
     margin:auto;
     
     /*background-color:forestgreen;*/
@@ -1545,7 +1545,7 @@ body{
 }
 
 .box9 .box9_wrap{
-    width:72.4%;
+    width:1160px;
     margin:auto;
     
     /*background-color:red;*/
@@ -1775,7 +1775,7 @@ body{
 }
 
 .box10_wrap{
-    width:72.4%;
+    width:1160px;
     margin:auto;
     padding-top:76px;
     
@@ -1942,7 +1942,7 @@ body{
 }
 
 .box11 .box11_wrap{
-    width:72.4%;
+    width:1160px;
     margin:auto;
     
     /*background-color:red;*/
@@ -2075,7 +2075,7 @@ body{
     line-height:18px;
     font-weight:100;
     
-    width:72.4%;
+    width:1160px;
     height:162px;
     margin:auto;
     
