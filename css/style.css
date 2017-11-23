@@ -359,6 +359,8 @@ body{
     width:100%;
     height:501px;
     overflow:hidden;
+    
+    position:relative;
 }
 
 .box4 .marin_video{
@@ -369,11 +371,16 @@ body{
 }
 
 .box4 .video_container{
-    width:86.2%;
+    width:1160px;
+
     height:auto;
     padding-top:120px;
     position:absolute;
-    top:240px;
+    top:0px;
+    left:50%;
+    margin-left:-580px;
+    
+    /*background-color:blue;*/
     
     /*background-color:rgba(0,0,0,0.8);*/
 }
