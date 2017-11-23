@@ -8,6 +8,20 @@
 @media screen and (max-width:1300px) {
     
     /*box1_header start*/
+    .box1 .header_busan a{
+    font-size:18px;
+    padding-top:22px;
+}
+    
+    .box1 .header_marin a{
+    font-size:18px;
+    padding-top:22px;
+}
+    
+    .box1 .header_jeju a{
+    font-size:18px;
+    padding-top:22px;
+}
     /*box1_header end*/
     
     /*---------------------------------------------------------------*/
@@ -18,16 +32,73 @@
     /*---------------------------------------------------------------*/
     
     /*box3_menu start*/
+    
+    .box3 .menu_wrap{
+        width:940px;
+}
+    
+    .box3 .menu_wrap .menus a{
+    font-size:16px;
+    padding-top:22px;
+}
+    
+    .box3 .menu_wrap .menu7 a{
+    font-size:12.5px;
+    padding-top:17px;
+}
+    
+    .box3 .menu_wrap .menu8 a{
+    font-size:12.5px;
+    padding-top:17px;
+}
+    
+    .box3 .menu_wrap .menu9 a{
+    font-size:12.5px;
+    padding-top:17px;
+}
+    
+    .box3 .menu_wrap .menu8 a{
+    background-size:contain;
+}
+
     /*box3_menu end*/
     
     /*---------------------------------------------------------------*/
     
     /*box4_video start*/
+    
+    .box4 .video_container{
+        width:940px;
+        position:absolute;
+        top:0px;
+        left:50%;
+        margin-left:-470px;
+}
     /*box4_video end*/
     
     /*---------------------------------------------------------------*/
     
     /*box5_blog start*/
+    
+    .box5 .blog_wrap{
+        width:940px;
+}
+    
+    .blog_contents .blog_contents_bottom .blog_contents_4 p{
+    font-size:18px;
+    padding-top:6px;
+}
+    
+    .blog_contents .blog_contents_bottom .blog_contents_5 p{
+    font-size:18px;
+    padding-top:6px;
+}
+    
+    .blog_contents .blog_contents_bottom .blog_contents_6 p{
+    font-size:18px;
+    padding-top:6px;
+}
+    
     /*box5_blog end*/
     
     /*---------------------------------------------------------------*/
@@ -38,6 +109,34 @@
     /*---------------------------------------------------------------*/
     
     /*box7_ad1 start*/
+    
+    .box7 .ad1_title{
+    width:940px;
+}
+    
+    .box7 .ad1_contents_wrap{
+    width:940px;
+}
+    
+    /*컨텐츠 박스 패딩값 통일화*/
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
+    padding-top:48px;
+}
+    
+    /*컨텐츠 서체크기 통일화 1*/
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
+    font-size:35px;
+    padding-bottom:25px;
+    
+    /*background-color:blue;*/
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
+    padding-top:27px;
+    
+    /*background-color:green;*/
+}
+    
     /*box7_ad1 end*/
     
     /*---------------------------------------------------------------*/
@@ -46,26 +145,101 @@
     
     /* Prep start*/
     
+    /*ad2 start*/
+    
+    .box8 .ad_2_wrap .ad2_title{
+        width:940px;
+}
+    
+    .box8 .ad2_contents_wrap{
+        width:940px;
+}
+
+.box8 .ad2_contents_wrap .ad2_contents_box{
+    padding-top:50px;
+    height:205px;
+    
+    /*background-color:orange;*/
+}
+    
+    /*컨텐츠 서체크기 통일화 1*/
+    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p{
+    font-size:35px;
+    padding-bottom:10px;
+    
+    /*background-color:blue;*/
+}
+    
+    .box8 .ad2_contents_wrap .ad2_contents_3{
+    margin-top:15px;
+    height:290px;
+}
+
+    .box8 .ad2_contents_wrap .ad2_contents_4{
+    margin-top:15px;
+    height:290px;
+}
+    
+    
+    /*ad2 end*/
     
     /*box8_prep & ad2 end*/
     
     /*---------------------------------------------------------------*/
     
     /*box9_mid-ask & prof start*/
+    
+    /*mid-ask start*/
+    .box9 .box9_wrap{
+        width:940px;
+}
+    /*mid-ask end*/
+    
+    /*prof start*/
+    
+    .box9 .box9_wrap .prof_wrap .prof_title p{
+    padding-bottom:30px;
+}
+    /*교수 프로필*/
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
+    width:50%;
+    padding-bottom:15px;
+}
+    
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
+    font-size:11.5px;
+    line-height:18px;
+}
+    /*prof end*/
+    
     /*box9_mid-ask & prof end*/
     
     /*---------------------------------------------------------------*/
     
     /*box10_map start*/
+    .box10_wrap{
+        width:940px;
+}
     /*box10_map end*/
     
     /*---------------------------------------------------------------*/
     
     /*box11_ask & footer start*/
+    .box11 .box11_wrap{
+        width:940px;
+}
+    
+    /*footer start*/
+    
+    .footer{
+        width:940px;
+}
+    
+    /*footer end*/
     /*box11_ask & footer end*/
 
     
-}/*max-width:1300px end*/
+/*max-width:1300px end*/
 /*-----------------------------------------------------------------------------------------------*/
 
 

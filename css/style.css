@@ -1696,12 +1696,13 @@ body{
     float:left;
     position:relative;
     
-    /*background-color:mediumvioletred;*/
+    background-color:mediumvioletred;
 }
 
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right{
     float:left;
-    /*background-color:red;*/
+    
+    background-color:red;
 }
 
 /*교사 이력*/
