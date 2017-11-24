@@ -42,11 +42,12 @@
                 /* 반응형 */
                 responsive: [
                     {
-                        breakpoint: 1024,
+                        breakpoint: 1025,
                         settings: {
                             slidesToShow: 1,
                             vertical: false,
-                            centerMode: false
+                            centerMode: true,
+                            
                         }
                     }
               
@@ -81,18 +82,18 @@
                 /* 반응형 */
                 responsive: [
                     {
-                        breakpoint: 1024,
+                        breakpoint: 1025,
                         settings: {
                             slidesToShow: 3,
-                            slidesToScroll: 3,
+                            slidesToScroll: 1,
                             infinite: true,
                             dots: false,
                         }
                     },
                     {
-                        breakpoint: 600,
+                        breakpoint: 668,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 2,
                             slidesToScroll: 1
                         }
                     },
