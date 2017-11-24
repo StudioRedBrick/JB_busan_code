@@ -814,8 +814,7 @@ body{
 
 
 .box6 .consult_txt_container{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     
     float: left;
     width: 44%;
