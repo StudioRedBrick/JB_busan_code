@@ -91,16 +91,16 @@
                         }
                     },
                     {
-                        breakpoint: 668,
+                        breakpoint: 851,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1
                         }
                     },
                     {
-                        breakpoint: 480,
+                        breakpoint: 668,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 2,
                             slidesToScroll: 1
                         }
                     }

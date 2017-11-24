@@ -856,8 +856,7 @@ body{
 
 .box6 .consult_txt_main{
     width: 312px;
-    
-    
+
     margin-top: 58px;
 }
 
@@ -1368,6 +1367,8 @@ body{
     float: left;
     width: 16.6666%;
     height: 90px;
+    
+    margin-bottom: 10px;
 }
 
 .box8 .prep3_list_container .prep3_list_inner .prep3_list_odd{
@@ -1377,13 +1378,6 @@ body{
 
 .box8 .prep3_list_container .prep3_list_inner .prep3_list_even{
     background-color: rgba(255, 255, 255, 0.1);
-}
-
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st,
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_2nd{
-    height: 90px;
-    margin-bottom: 9px;
-/*    background-color: firebrick;*/
 }
 
 .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
