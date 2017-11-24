@@ -299,10 +299,7 @@
         right: -3.7%;
         top: 45%;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 90964eb5eecbc8773dc590b66f9dfe6f51d698b7
     /*box8_prep & ad2 end*/
     
     /*---------------------------------------------------------------*/
@@ -684,13 +681,10 @@
         padding-top: 25px;
     }
     
-    
-    
     /* slider nav*/
     .box6 .slick-prev{
         left: -5%;
         top: 50%;
-        
 
         transform: rotate(-90deg);
     }
@@ -701,7 +695,6 @@
 
         transform: rotate(-90deg);
     }
-    
     
     /*box6_consult end*/
     
@@ -762,7 +755,6 @@
     }
     
     
-    
     /* prep1 */
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
@@ -815,7 +807,6 @@
     }
     
     
-    
     /* slidenav position */
     .box8 .slick-prev{
         left: -4.7%;
@@ -826,7 +817,6 @@
         right: -4.7%;
         top: 46%;
     }
-
     /* Prep end */
     
     
@@ -927,8 +917,7 @@
     .box6 .consult_slider_item{
         width: 100%;
     }
-    
-        
+      
     .box6 .consult_slider_frame{
         height: 260px;
         width: 594px;
@@ -936,8 +925,7 @@
         
         margin-left: 14px;
         background: url('../img/busan_consult_frame_850.png') no-repeat center;
-        background-size: cover;
-        
+        background-size: cover; 
     }
     
     
@@ -991,14 +979,11 @@
         padding-top: 25px;
     }
     
-    
-    
     /* slider nav*/
     .box6 .slick-prev{
         left: -5.8%;
         top: 48.5%;
         
-
         transform: rotate(-90deg);
     }
 
@@ -1052,7 +1037,6 @@
         padding-top: 184px;
     }
     
-    
     /* prep1 */
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
@@ -1087,7 +1071,6 @@
     }
     
     
-    
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title p .prep3_list_title{
         font-size:22px;
@@ -1110,7 +1093,6 @@
         height: 70px;
     }
 
-    
     /* slidenav position */
     .box8 .slick-prev{
         left: -4.7%;
@@ -1136,7 +1118,6 @@
     
 }/*max-width:850px end*/
 /*-----------------------------------------------------------------------------------------------*/
-
 
 
 /*max-width:750px(750px 이하 _ 핸드폰 기준)*/
@@ -1234,7 +1215,6 @@
         
         background: url('../img/busan_consult_frame_750.png') no-repeat center;
         background-size: cover;
-        
     }
     
     
@@ -1291,13 +1271,11 @@
     }
     
     
-    
     /* slider nav*/
     .box6 .slick-prev{
         left: -6.8%;
         top: 47.987%;
-        
-
+    
         transform: rotate(-90deg);
     }
 
@@ -1348,10 +1326,8 @@
     }
     
     .box8 .Prep3_title{
-        padding-top: 210px;
+        padding-top: 184px;
     }
-    
-    
     
     /* prep1 */
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
@@ -1387,7 +1363,6 @@
     }
     
     
-    
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title p .prep3_list_title{
         font-size:22px;
@@ -1410,7 +1385,6 @@
         height: 70px;
     }
 
-    
      /* slidenav position */
     .box8 .slick-prev{
         left: -6.7%;
