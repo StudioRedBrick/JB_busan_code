@@ -10,16 +10,19 @@
     /*box1_header start*/
     .box1 .header_busan a{
     font-size:18px;
+    height:37px;
     padding-top:22px;
 }
     
     .box1 .header_marin a{
     font-size:18px;
+    height:37px;
     padding-top:22px;
 }
     
     .box1 .header_jeju a{
     font-size:18px;
+    height:37px;
     padding-top:22px;
 }
     /*box1_header end*/
@@ -301,7 +304,10 @@
         right: -3.7%;
         top: 45%;
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 90964eb5eecbc8773dc590b66f9dfe6f51d698b7
     /*box8_prep & ad2 end*/
     
     /*---------------------------------------------------------------*/
@@ -317,7 +323,7 @@
     /*prof start*/
     
     .box9 .box9_wrap .prof_wrap .prof_title p{
-    padding-bottom:30px;
+    padding-bottom:25px;
 }
     /*교수 프로필*/
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
@@ -328,6 +334,10 @@
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
     font-size:11.5px;
     line-height:18px;
+}
+    
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul{
+    padding-top:25px;
 }
     /*prof end*/
     
@@ -348,16 +358,20 @@
         width:940px;
 }
     
-    /*footer start*/
+    /*ask start*/
+    .box11 .box11_wrap .ask_form_boxes form .form_box{
+    padding-left:1.9%;
+}
+    /*ask_end*/
     
+    /*footer start*/
     .footer{
         width:940px;
 }
-    
     /*footer end*/
+    
     /*box11_ask & footer end*/
 
-    
 }/*max-width:1300px end*/
 /*-----------------------------------------------------------------------------------------------*/
 
@@ -365,15 +379,183 @@
 @media screen and (min-width:851px) and (max-width:1024px) {
     
     /*box1_header start*/
+    .box1 .header_busan a{
+    font-size:17px;
+    height:36px;
+    padding-top:23px;
+}
+    
+    .box1 .header_marin a{
+    font-size:17px;
+    height:36px;
+    padding-top:23px;
+}
+    
+    .box1 .header_jeju a{
+    font-size:17px;
+    height:36px;
+    padding-top:23px;
+}
     /*box1_header end*/
     
     /*box2_logo start*/
     /*box2_logo end*/
 
     /*box3_menu start*/
+    .box3 .menu_wrap{
+        width:740px;
+}
+    
+    .box3 .menu_wrap .menus a{
+    font-size:14px;
+    padding-top:23px;
+}
+    
+    .box3 .menu_wrap .menu7 a{
+    font-size:10.5px;
+    padding-top:20px;
+}
+    
+    .box3 .menu_wrap .menu8 a{
+    font-size:10.5px;
+    padding-top:20px;
+}
+    
+    .box3 .menu_wrap .menu9 a{
+    font-size:10.5px;
+    padding-top:20px;
+}
+    
+    .box3 .menu_wrap .menu8 a{
+    background-size:contain;
+}
+    
+    .box3-clone .menu_wrap{
+    width:740px;
+}
+    
+    .box3-clone .menu_wrap .menus a{
+    font-size:13px;
+    letter-spacing:0.03em;
+    padding-top:13px;
+}
+    
+    .box3-clone .menu_wrap .menu7 a{
+    height:30px;
+    font-size:10px;
+    font-weight:400;
+    line-height:1.1em;
+    padding-top:10px;
+}
+
+    .box3-clone .menu_wrap .menu7 a span{
+    font-size:9.5px;
+}
+    
+    .box3-clone .menu_wrap .menu8 a{
+    height:30px;
+    font-size:10px;
+    font-weight:400;
+    line-height:1.1em;
+    padding-top:10px;
+}
+
+    .box3-clone .menu_wrap .menu8 a span{
+    font-size:9.5px;
+}
+    
+    .box3-clone .menu_wrap .menu9 a{
+    height:30px;
+    font-size:10px;
+    font-weight:400;
+    line-height:1.1em;
+    padding-top:10px;
+}
+
+    .box3-clone .menu_wrap .menu9 a span{
+    font-size:9.5px;
+}
+    
+    .box3-clone .menu_wrap .jb_logo_white a img{
+    width:55px;
+    padding-top:14px;
+}
     /*box3_menu end*/
     
     /*box4_video start*/
+    .box4 .video_container{
+    width:740px;
+    padding-top:120px;
+    position:absolute;
+    top:0px;
+    left:50%;
+    margin-left:-370px;
+        
+    /*background-color:blue;*/
+}
+    
+    .box4 .video_container .video_txt_1{
+    font-size:60px;
+    font-weight:700;
+}
+    
+    .box4 .video_container .video_txt_2{
+    font-size:30px;
+    font-weight:500;
+}
+    
+    .box4 .video_container .button1{
+    font-size:17px;
+    font-weight:400;
+    padding-top:10px;
+}
+    
+    .box4 .video_container .button1 a{
+    width:153.2px;
+    height:40px;
+}
+    
+    .box4 .video_container .button1 a p{
+    margin-top:10.5px;
+}
+    
+    .box4 .video_container .button2{
+    font-size:17px;
+    font-weight:400;
+    padding-top:10px;
+}
+    
+    .box4 .video_container .button2 a{
+    width:153.2px;
+    height:40px;
+}
+    
+    .box4 .video_container .button2 a{
+    width:153.2px;
+    height:40px;
+}
+    
+    .box4 .video_container .button2 a .button2_contents{
+    width:84px;
+    height:20px;
+    margin:auto;
+    margin-top:10.5px;
+    
+    /*background-color:darkviolet;*/
+}
+    
+    .box4 .video_container .button2 a .button2_contents p{
+    padding-top:1px;
+}
+    
+    .box4 .video_container .button2 a .button2_contents img{
+    margin-right:1px;
+    padding-top:0px;
+    transform:scale(0.8,0.8);
+    
+    /*background-color:red;*/
+}
+    
     /*box4_video end*/
     
     /*box5_blog start*/
