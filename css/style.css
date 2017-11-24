@@ -1556,7 +1556,7 @@ body{
 .box9 .box9_wrap .ask_mid_wrap{
     width:100%;
     
-    background-color:blue;
+    /*background-color:blue;*/
 }
 
 .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
@@ -1689,19 +1689,22 @@ body{
     float:left;
     position:relative;
     
-    background-color:mediumvioletred;
+    /*background-color:mediumvioletred;*/
 }
 
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right{
     float:left;
+    height:112px;
     
-    background-color:red;
+    /*background-color:red;*/
 }
 
 /*교사 이력*/
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul{
     padding-left:7px;
-    padding-top:13px;
+    padding-top:17px;
+    
+    /*background-color:green;*/
 }
 
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
@@ -1747,6 +1750,11 @@ body{
     top:-36px;
     left:50%;
     margin-left:-38.5px;
+}
+
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .prof_4 .prof_right ul .list_indent{
+    padding-left:8px;
+    /*background-color:green;*/
 }
 
 /*-----------------*/
