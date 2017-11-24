@@ -837,7 +837,7 @@ body{
 /*    background: blue;*/
 }
 
-.box6 .consult_txt_title{
+.box6 .consult_txt_all{
     margin-top: 58px;
 }
 
@@ -856,7 +856,7 @@ body{
 
 .box6 .consult_txt_main{
     width: 312px;
-    height: 159px;
+    
     
     margin-top: 58px;
 }
@@ -889,6 +889,8 @@ body{
 .box6 .slick-list{
     width: 597px;
     padding: 50px 0px;
+    
+/*    background-color: skyblue;*/
 }
 
 
@@ -1307,6 +1309,15 @@ body{
 /*    background-color:blue;*/
 }
 
+.box8 .Prep3_container .prep3_box .prep3_ko p{
+    font-size : 37px;
+    font-weight: bold;
+    
+    padding-bottom: 4px;
+    border-bottom:1px solid #ffffff;
+/*    background:blue;*/
+}
+
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
     font-size:16px;
     font-weight: 200;
@@ -1406,9 +1417,9 @@ body{
 }
 
 
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_1st:after,
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_2nd:after,
-.box8 .prep3_list_container .prep3_list_inner .prep3_list_1st .prep3_list_3rd:after{
+/* after */
+
+.box8 .prep3_list_container .prep3_list_inner .prep3_list_float:after{
     content:"";
     display:block;
     clear:both;   
