@@ -243,6 +243,15 @@
         /*background-color:red;*/
     }
     
+    
+    .box8 .Prep2_title{
+        padding-top: 45px;
+    }
+    
+    .box8 .Prep3_title{
+        padding-top: 225px;
+    }
+    
     /* prep1 */
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
@@ -290,6 +299,10 @@
         right: -3.7%;
         top: 45%;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90964eb5eecbc8773dc590b66f9dfe6f51d698b7
     /*box8_prep & ad2 end*/
     
     /*---------------------------------------------------------------*/
@@ -613,6 +626,8 @@
         width: 715px;
         margin: auto;
         
+        margin-left: 13px;
+        
         background: url('../img/busan_consult_frame3.png') no-repeat center;
         background-size: cover;
     }
@@ -673,7 +688,7 @@
     
     /* slider nav*/
     .box6 .slick-prev{
-        left: -6%;
+        left: -5%;
         top: 50%;
         
 
@@ -681,7 +696,7 @@
     }
 
     .box6 .slick-next{
-        left: 101%;
+        left: 100.4%;
         top: 50%;
 
         transform: rotate(-90deg);
@@ -737,6 +752,16 @@
 
         /*background-color:red;*/
     }
+    
+    .box8 .Prep2_title{
+        padding-top: 45px;
+    }
+    
+    .box8 .Prep3_title{
+        padding-top: 239px;
+    }
+    
+    
     
     /* prep1 */
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
@@ -822,7 +847,7 @@
 
 
 /*max-width:850px(850px 이하 _ 3rd break point)*/
-@media screen and (min-width:668px) and (max-width:850px) {
+@media screen and (min-width:751px) and (max-width:850px) {
     
     /*box1_header start*/
     /*box1_header end*/
@@ -906,11 +931,13 @@
         
     .box6 .consult_slider_frame{
         height: 260px;
-        width: 715px;
+        width: 594px;
         margin: auto;
         
-        background: url('../img/busan_consult_frame3.png') no-repeat center;
+        margin-left: 14px;
+        background: url('../img/busan_consult_frame_850.png') no-repeat center;
         background-size: cover;
+        
     }
     
     
@@ -968,8 +995,8 @@
     
     /* slider nav*/
     .box6 .slick-prev{
-        left: -6%;
-        top: 50%;
+        left: -5.8%;
+        top: 48.5%;
         
 
         transform: rotate(-90deg);
@@ -1017,6 +1044,13 @@
         font-weight: 300;
     }
 
+    .box8 .Prep2_title{
+        padding-top: 45px;
+    }
+    
+    .box8 .Prep3_title{
+        padding-top: 184px;
+    }
     
     
     /* prep1 */
@@ -1105,8 +1139,8 @@
 
 
 
-/*max-width:667px(667px 이하 _ 핸드폰 기준)*/
-@media screen and (max-width:667px) {
+/*max-width:750px(750px 이하 _ 핸드폰 기준)*/
+@media screen and (max-width:750px) {
     
     /*box1_header start*/
     /*box1_header end*/
@@ -1124,6 +1158,155 @@
     /*box5_blog end*/
     
     /*box6_consult start*/
+     .box6 .consult_container{
+        width: 540px;
+        margin: auto;
+    }
+    
+    .box6 .consult_contents{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .box6 .consult_txt_container{
+        float: none;
+        width: 100%;
+        
+        padding: 0 8px;
+/*        background-color: dodgerblue;*/
+    }
+    
+    .box6 .consult_slider_container{
+        float: none;
+        width: 540px;
+        margin-top: 2%;
+        
+/*        background-color: forestgreen;*/
+    }
+    
+   
+    .box6 .consult_txt_all:after{
+        content:"";
+        display:block;
+        clear:both;   
+    }
+    
+   .box6 .consult_txt_all{
+        margin-top: -2px;
+/*        background-color: red;*/
+        
+    }
+
+    .box6 .consult_txt_main{
+        width: 99%;
+        margin-top: 18px;
+/*        background-color: aquamarine;*/
+    }
+
+    
+    /* consult_txt */
+    .box6 .consult_txt_title p{
+        font-size: 36px;
+    }
+    
+    .box6 .consult_txt_subtitle p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    .box6 .consult_txt_main span{
+        font-size: 12.5px;
+        line-height: 1.8;
+    }
+    
+    /* consult_slider*/
+    .box6 .slider_indent,
+    .box6 .slick-list,
+    .box6 .consult_slider_item{
+        width: 100%;
+    }
+    
+        
+    .box6 .consult_slider_frame{
+        height: 260px;
+        width: 524px;
+        margin: auto;
+        
+        background: url('../img/busan_consult_frame_750.png') no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    
+    .box6 .slider_indent{
+        margin:auto;
+        height: 280px;
+    
+/*
+        border-radius: 8px;
+        
+        background-color: rgba(255,255,255,0.2);
+*/
+/*        background-color: darkslateblue;*/
+    }
+
+    .box6 .slick-list{
+        padding: 28px 0px;
+
+/*        background-color: skyblue;*/
+    }
+
+    .box6 .slick-track{
+/*        background-color: darksalmon;*/
+        margin-left: 2%;
+    }
+    .box6 .consult_slider_main{
+        width: 50%;
+        margin: auto;
+/*        background-color: firebrick;*/
+    }    
+    
+    .box6 .consult_slider_title{
+        padding-right: 10%;
+/*        background-color: darkviolet;*/
+    }
+    .box6 .consult_slider_title p{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .box6 .consult_slider_main1{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.6;
+        
+        padding-bottom: 17px;
+    }
+    
+    .box6 .consult_slider_main2{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.65;
+        
+        padding-top: 23px;
+    }
+    
+    
+    
+    /* slider nav*/
+    .box6 .slick-prev{
+        left: -6.8%;
+        top: 47.987%;
+        
+
+        transform: rotate(-90deg);
+    }
+
+    .box6 .slick-next{
+        left: 100.3%;
+        top: 50%;
+
+        transform: rotate(-90deg);
+    }
     
     /*box6_consult end*/
     
@@ -1135,7 +1318,7 @@
     .box8 .Prep1_title,
     .box8 .Prep2_title,
     .box8 .Prep3_title{
-        width: 480px;
+        width: 540px;
     }
     
     /* prep frame setting */
@@ -1143,10 +1326,101 @@
     .box8 .Prep2_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
-        width: 480px;
+        width: 540px;
+    }
+    
+    /* 공통 */
+    .box8 .Prep1_title ul li h3,
+    .box8 .Prep2_title ul li h3,
+    .box8 .Prep3_title ul li h3{
+        font-size: 36px;
+    }
+    
+    .box8 .Prep1_title ul li p,
+    .box8 .Prep2_title ul li p,
+    .box8 .Prep3_title ul li p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .box8 .Prep2_title{
+        padding-top: 45px;
+    }
+    
+    .box8 .Prep3_title{
+        padding-top: 210px;
     }
     
     
+    
+    /* prep1 */
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
+        font-size: 37px;
+    }
+    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
+        font-size: 16px;
+        font-weight: 200;
+    }
+   
+    /* prep2 */
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
+        font-size:24px;
+    }
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
+        font-size: 13px;
+    }
+    
+    /* prep3_slider */
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
+        font-size: 38px;
+    }
+    
+    .box8 .Prep3_container .prep3_box .prep3_ko p{
+        font-size : 34px;
+        padding-bottom: 4px;
+    }
+    
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        font-size: 15px;
+    }
+    
+    
+    
+    /* prep3_list */
+    .box8 .prep3_list_container .prep3_list_title p .prep3_list_title{
+        font-size:22px;
+        /*background-color:aqua;*/
+    }
+
+    .box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
+        font-size:13px;
+        font-weight:300;
+        /*background-color:blue;*/
+    }
+    
+    .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
+        width: 20%;
+        height: 70px;
+    }
+
+    
+     /* slidenav position */
+    .box8 .slick-prev{
+        left: -6.7%;
+        top: 46%;
+    }
+
+    .box8 .slick-next{
+        right: -6.7%;
+        top: 46%;
+    }
     /*box8_prep & ad2 end*/
     
     /*box9_mid-ask & prof start*/
