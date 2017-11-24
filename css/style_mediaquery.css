@@ -60,7 +60,10 @@
     .box3 .menu_wrap .menu8 a{
     background-size:contain;
 }
-
+    
+    .box3-clone .menu_wrap{
+    width:940px;
+}
     /*box3_menu end*/
     
     /*---------------------------------------------------------------*/
@@ -284,7 +287,10 @@
         right: -3.7%;
         top: 45%;
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 41f4e3b79e55618255187ebf33f9251f4bc9c564
     
     /*box8_prep & ad2 end*/
     
