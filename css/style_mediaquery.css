@@ -169,6 +169,10 @@
     /*box8_prep & ad2 start*/
     
     /* Prep start*/
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8908a76ebf5bd025d0ddb2b208c937a6023dac9a
     
     /*ad2 start*/
     
@@ -272,6 +276,8 @@
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
         font-weight: 500;
     }
+<<<<<<< HEAD
+=======
     
     
      /* slidenav position */
@@ -284,6 +290,7 @@
         right: -3.7%;
         top: 45%;
     }
+>>>>>>> 8908a76ebf5bd025d0ddb2b208c937a6023dac9a
     
     /*box8_prep & ad2 end*/
     
