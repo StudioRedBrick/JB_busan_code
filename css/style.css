@@ -35,7 +35,7 @@ body{
     width:100%;
     text-align:center;
     padding-top:20px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing:0.1em;
     
     opacity:1;
@@ -56,7 +56,7 @@ body{
     width:100%;
     text-align:center;
     padding-top:20px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing:0.1em;
     
     opacity:0.6;
@@ -81,7 +81,7 @@ body{
     width:100%;
     text-align:center;
     padding-top:20px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing:0.1em;
     
     opacity:0.6;
@@ -125,6 +125,8 @@ body{
     background:url(../img/busan_logo.png) no-repeat center;
     background-size:cover;
 }
+
+
 /*logo end*/
 
 /*---------------------------------------------------------------*/
@@ -203,6 +205,10 @@ body{
 
 .box3 .menu_wrap .menu9 a span{
     font-size:11px;
+}
+
+.box3 .menu_wrap .jb_logo_white{
+    display:none;
 }
 
 /*-----------------*/
@@ -616,7 +622,7 @@ body{
 }
 
 .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner{
-    width:337px;
+    width:80%;
     padding-top:30px;
     padding-left:38px;
     
@@ -714,6 +720,10 @@ body{
     /*background-color:forestgreen;*/
 }
 
+.blog_contents .see_more_2{
+    display:none;
+}
+
 /*블로그 컨텐츠 5번*/
 .blog_contents .blog_contents_5{
     width:32.93%;
@@ -801,7 +811,7 @@ body{
     position: relative;
     top: 9%;
     
-/*    background-color: black;*/
+    /*background-color: black;*/
 /*    opacity: 0.3;*/
 }
 
@@ -871,7 +881,7 @@ body{
     width: 597px;
     padding: 50px 0px;
     
-/*    background-color: skyblue;*/
+    /*background-color: skyblue;*/
 }
 
 
@@ -914,8 +924,8 @@ body{
     width: 23.7%;
     margin-left: 4.3%;
     padding-right: 7.3%;
-/*    background-color: blue;*/
-        
+    
+    /*background-color: blue;*/   
 }
 
 .box6 .consult_slider_main{
@@ -982,7 +992,7 @@ body{
 }
 
 .box7 .ad1_title ul li p{
-    font-size:20px;
+    font-size:16px;
     padding-top:2px;
     padding-bottom:27px;
     font-weight:500;
@@ -1194,7 +1204,7 @@ body{
 .box8 .Prep1_container .prep1_box .prep1_contents_inner{
     padding: 9.2% 12.6%;
     margin: 8.9px 6.5px;
-/*    background-color: aquamarine;*/
+    /*background-color: aquamarine;*/
 }
 
 .box8 .Prep1_container .prep1_box .prep1_contents_inner p{
@@ -1320,7 +1330,6 @@ body{
 }
 
 
-
 .box8 .prep3_list_container .prep3_list_title{
     margin-top: 37px;
     margin-bottom: 9px;
@@ -1371,7 +1380,7 @@ body{
     text-align: center;
     vertical-align: middle;
 
-/*    background-color: forestgreen;*/
+    /*background-color: forestgreen;*/
 }
 
 .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{    

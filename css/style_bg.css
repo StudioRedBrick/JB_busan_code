@@ -30,7 +30,7 @@
 
 .box6{
     background: url(../img/busan_bg_consult.png) no-repeat center;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .box6 .consult_slider_frame{
@@ -44,8 +44,8 @@
 }
 
 .box8{
-    background: url('../img/busan_bg_prep_&_ad_2.png') no-repeat center; 
-    background-size: cover;
+    background: url('../img/busan_bg_prep_&_ad_2_2.png') no-repeat center; 
+    background-size:cover;
 }
 
 .box9{
