@@ -317,7 +317,7 @@
         font-size: 14px;
     }
     
-    .box8 .prep3_list_container .prep3_list_title{ /*--------------------------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
         margin-top: 20px;
         
         background:blue;
@@ -1065,13 +1065,13 @@
     }
     
     /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title p .prep3_list_title{ /*------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ /*------------------예은 확인 바람--*/
         font-size:23px;
         
         background-color:aqua;
     }
     
-    .box8 .prep3_list_container .prep3_list_title{ /*--------------------------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
         margin-top: 20px;
     }
     
@@ -2071,16 +2071,16 @@
     
     
     /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title p .prep3_list_title{ /*------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ /*------------------예은 확인 바람--*/
         font-size:22px;
         background-color:aqua;
     }
     
-    .box8 .prep3_list_container .prep3_list_title{ /*--------------------------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
         margin-top: 20px;
     }
 
-    .box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
         font-size:13px;
         font-weight:300;
         /*background-color:blue;*/
@@ -3100,16 +3100,16 @@
     
     
     /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title p .prep3_list_title{ /*------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ /*------------------예은 확인 바람--*/
         font-size:22px;
         background-color:aqua;
     }
     
-    .box8 .prep3_list_container .prep3_list_title{ /*--------------------------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
         margin-top: 20px;
     }
 
-    .box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
         font-size:13px;
         font-weight:300;
         /*background-color:blue;*/

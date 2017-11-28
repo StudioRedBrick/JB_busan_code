@@ -1330,20 +1330,20 @@ body{
 }
 
 
-.box8 .prep3_list_container .prep3_list_title{
+.box8 .prep3_list_container .prep3_list_title_all{
     margin-top: 37px;
     margin-bottom: 9px;
     margin-left: 6px;
 }
 
-.box8 .prep3_list_container .prep3_list_title p .prep3_list_title{
+.box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
     font-size:24px;
     font-weight:bold;
     margin-right: 9px;
     /*background-color:aqua;*/
 }
 
-.box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
+.box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
     font-size:14px;
     font-weight:500;
     line-height: 1.5;
