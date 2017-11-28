@@ -124,17 +124,31 @@
     /*box6_consult start*/
     .box6{
     height: 535px;
-}
+    }
+    
+    .box6 .consult_txt_all{
+        margin-top: 45px;
+    }
+    
+    .box6 .consult_txt_main{
+        width: 70%;
+        margin-top: 45px;
+    }
     
     .box6 .consult_contents{
         width: 940px;
         padding-top:10px;
     }
     
+    
     .box6 .slider_indent,
     .box6 .slick-list,
     .box6 .consult_slider_item{
         width: 483px;
+    }
+    
+    .box6 .slick-list{
+        padding: 52px 0px;
     }
     
     .box6 .consult_slider_title{
@@ -751,8 +765,8 @@
     .box6 .consult_container{
         width: 740px;
         margin: auto;
-        padding-top:5px;
         
+        top: 8%;
         /*background-color:red;*/
     }
     
@@ -1779,6 +1793,8 @@
     .box6 .consult_container{
         width: 615px;
         margin: auto;
+        
+        top: 8%;
     }
     
     .box6 .consult_contents{
@@ -1798,11 +1814,6 @@
     }
     
    
-    .box6 .consult_txt_all:after{
-        content:"";
-        display:block;
-        clear:both;   
-    }
     
    .box6 .consult_txt_all{
         margin-top: -2px;
@@ -1863,7 +1874,7 @@
     }
 
     .box6 .slick-list{
-        padding: 32px 0px;
+        padding: 15px 0px;
 
 /*        background-color: skyblue;*/
     }
@@ -2790,6 +2801,8 @@
      .box6 .consult_container{
         width: 540px;
         margin: auto;
+         
+         top: 5%;
     }
     
     .box6 .consult_contents{
@@ -3080,6 +3093,16 @@
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
         font-size:24px;
     }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
+        font-size:13.5px;
+        font-weight: 200;
+        line-height: 1.5;
+
+    /*    background-color:red;*/
+    }
+
+    
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
         font-size: 13px;
     }
@@ -3100,12 +3123,12 @@
     
     
     /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ /*------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
         font-size:22px;
-        background-color:aqua;
+/*        background-color:aqua;*/
     }
     
-    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all{ 
         margin-top: 20px;
     }
 
