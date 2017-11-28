@@ -262,6 +262,7 @@
     .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
+
         padding-bottom:0px;
 }
     
@@ -277,7 +278,7 @@
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        margin-top: 24px;
+        margin-top: 27px;
         /*background-color:green;*/
     }
     
@@ -298,10 +299,6 @@
     }
     
     /* prep1 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-        padding: 9.2% 10.6%;
-    }
-    
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
         font-size: 37px;
@@ -313,16 +310,6 @@
     }
    
     /* prep2 */
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner{
-        padding-left: 10.6%;
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
-        width: 105%;
-
-    /*    background-color:red;*/
-    }
-    
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
         font-size:24px;
     }
@@ -344,7 +331,7 @@
         font-size: 14px;
     }
     
-    .box8 .prep3_list_container .prep3_list_title_all{
+    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
         margin-top: 20px;
         
         background:blue;
@@ -3533,7 +3520,7 @@
     .box8 .Prep1_title,
     .box8 .Prep2_title,
     .box8 .Prep3_title{
-        width: 540px;
+        width: 75.4%;
     }
     
     /* prep frame setting */
@@ -3541,14 +3528,15 @@
     .box8 .Prep2_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
-        width: 540px;
+        width: 75.4%;
     }
     
     /* 공통 */
     .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
-        font-size: 36px;
+        font-size: 23px;
+        margin-bottom: 2px;
     }
     
     .box8 .Prep1_title ul li p,
@@ -3568,10 +3556,11 @@
     }
     
     .box8 .Prep3_title{
-        padding-top: 148px;
+        padding-top: 30px;
     }
     
     /* prep1 */
+
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
         font-size: 37px;
@@ -3591,6 +3580,7 @@
         font-size:13.5px;
         font-weight: 200;
         line-height: 1.5;
+        width: 90%;
 
     /*    background-color:red;*/
     }
@@ -3618,6 +3608,8 @@
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
         font-size:22px;
+        margin-right: 100%;
+        
 /*        background-color:aqua;*/
     }
     
@@ -3632,12 +3624,12 @@
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 400;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
-        width: 20%;
+        width: 33.3333%;
         height: 70px;
     }
 
