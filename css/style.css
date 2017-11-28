@@ -830,7 +830,7 @@ body{
 }
 
 .box6 .consult_txt_all{
-    margin-top: 58px;
+    margin-top: 55px;
 }
 
 .box6 .consult_txt_title p{
@@ -847,9 +847,9 @@ body{
 }
 
 .box6 .consult_txt_main{
-    width: 312px;
+    width: 64%;
 
-    margin-top: 58px;
+    margin-top: 55px;
 }
 
 .box6 .consult_txt_main span{
@@ -867,19 +867,19 @@ body{
 
 .box6 .slider_indent{
     padding: 18px 0px;
-    width: 597px;
+    width: 100%;
     height: 425px;
 /*    background-color: darkslateblue;*/
 }
 
 .box6 .consult_slider_frame{
-    height: 345px;
+    height: 349px;
     margin-top: 15px;
 }
 
 .box6 .slick-list{
-    width: 597px;
-    padding: 50px 0px;
+    width: 100%;
+    padding: 40px 0px;
     
     /*background-color: skyblue;*/
 }
