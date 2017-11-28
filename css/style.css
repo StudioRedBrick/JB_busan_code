@@ -1126,7 +1126,7 @@ body{
 
 .box8 .Prep3_title{
     width:1160px;
-    padding-top: 100px;
+    padding-top: 110px;
     margin:auto;
     
     /*background-color:red;*/
@@ -1336,7 +1336,7 @@ body{
 
 
 .box8 .prep3_list_container .prep3_list_title_all{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 9px;
     margin-left: 6px;
 }
@@ -1427,7 +1427,7 @@ body{
 /*Ad2 start*/
 
 .box8 .ad_2_wrap{
-    margin-top:187px;
+    margin-top:175px;
 }
 
 /*컨텐츠 제목 & 소제목*/
@@ -1467,7 +1467,7 @@ body{
 .box8 .ad2_contents_wrap .ad2_contents_box{
     width:49.05%;
     height:215px;
-    padding-top:35px;
+    padding-top:40px;
     border-radius:8px;
     border:1px solid #ffffff;
     float:left;

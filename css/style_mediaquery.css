@@ -102,19 +102,22 @@
         width:940px;
 }
     
-    .blog_contents .blog_contents_bottom .blog_contents_4 p{
-    font-size:1px;
+    .blog_contents .blog_contents_4 p{
+    font-size:18px;
     padding-top:6px;
+    line-height:24px;
 }
     
-    .blog_contents .blog_contents_bottom .blog_contents_5 p{
-    font-size:1px;
+    .blog_contents .blog_contents_5 p{
+    font-size:18px;
     padding-top:6px;
+    line-height:24px;
 }
     
-    .blog_contents .blog_contents_bottom .blog_contents_6 p{
-    font-size:1px;
+    .blog_contents .blog_contents_6 p{
+    font-size:18px;
     padding-top:6px;
+    line-height:24px;
 }
     
     /*box5_blog end*/
@@ -123,7 +126,7 @@
     
     /*box6_consult start*/
     .box6{
-    height: 535px;
+        height: 535px;
     }
     
     .box6 .consult_txt_all{
@@ -137,7 +140,7 @@
     
     .box6 .consult_contents{
         width: 940px;
-        padding-top:10px;
+        padding-top:9px;
     }
     
     
@@ -145,6 +148,10 @@
     .box6 .slick-list,
     .box6 .consult_slider_item{
         width: 483px;
+    }
+    
+    .box6 .slider_indent{
+        padding: 20px 0px;
     }
     
     .box6 .slick-list{
@@ -176,6 +183,9 @@
     /*---------------------------------------------------------------*/
     
     /*box7_ad1 start*/
+    .box7{
+    height: 900px; 
+}
     
     .box7 .ad1_title{
     width:940px;
@@ -185,23 +195,42 @@
     width:940px;
 }
     
+    /*컨텐츠 박스넓이 통일화*/
+    .box7 .ad1_contents_wrap .ad1_contents_box{
+    height:300px;
+}
+    
     /*컨텐츠 박스 패딩값 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
-    padding-top:48px;
+    padding-top:33px;
 }
     
     /*컨텐츠 서체크기 통일화 1*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
-    font-size:35px;
-    padding-bottom:25px;
+    font-size:34px;
+    line-height:45px;
+    padding-bottom:15px;
     
     /*background-color:blue;*/
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
-    padding-top:27px;
+    padding-top:15px;
+    line-height:24px;
+    letter-spacing:0;
     
     /*background-color:green;*/
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_3{
+    height:328px;
+    margin-top:16px;
+}
+
+    .box7 .ad1_contents_wrap .ad1_contents_4{
+    height:328px;
+    float:right;
+    margin-top:16px;
 }
     
     /*box7_ad1 end*/
@@ -288,13 +317,18 @@
         /*background-color:red;*/
     }
     
+    .box8 .Prep1_title{
+    width: 940px;
+    padding-top: 60px;
+    margin:auto;
+}
     
     .box8 .Prep2_title{
         padding-top: 40px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 125px;
+        padding-top: 105px;
     }
     
     /* prep1 */
@@ -345,13 +379,13 @@
     }
     
     .box8 .prep3_list_container .prep3_list_title_all{
-        margin-top: 20px;
+        margin-top: 15px;
         
-        background:blue;
+        /*background:blue;*/
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
-        height:80px;
+        height:75px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
@@ -372,13 +406,13 @@
     /*ad_2 start*/
     
     .box8 .ad_2_wrap{
-    margin-top:165px;
+    margin-top:160px;
 }
     
     /*컨텐츠 박스넓이 통일화*/
     .box8 .ad2_contents_wrap .ad2_contents_box{
-    height:182px;
-    padding-top:28px;
+    height:190px;
+    padding-top:20px;
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_3{
@@ -404,17 +438,25 @@
     .box9 .box9_wrap{
         width:940px;
 }
+    
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
+    width:55%;
+    height:192px;
+    float:left;
+    
+    /*background-color:blueviolet*/
+}
     /*mid-ask end*/
     
     /*prof start*/
     
     .box9 .box9_wrap .prof_wrap .prof_title p{
-    padding-bottom:25px;
+    padding-bottom:20px;
 }
     /*교수 프로필*/
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
     width:50%;
-    padding-bottom:25px;
+    padding-bottom:20px;
 }
     
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
@@ -424,6 +466,16 @@
     
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul{
     padding-top:25px;
+}
+    
+    /*교사 이름*/
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box p{
+    width:70%;
+    margin:48px auto;
+    text-align:center;
+    font-size:19px;
+    line-height:19px;
+    border-bottom:0.5px solid rgba(255,255,255,0.9);
 }
     /*prof end*/
     
@@ -479,20 +531,20 @@
     /*box1_header start*/
     .box1 .header_busan a{
     font-size:16px;
-    height:36px;
-    padding-top:23px;
+    height:41px;
+    padding-top:18px;
 }
     
     .box1 .header_marin a{
     font-size:16px;
-    height:36px;
-    padding-top:23px;
+    height:41px;
+    padding-top:18px;
 }
     
     .box1 .header_jeju a{
     font-size:16px;
-    height:36px;
-    padding-top:23px;
+    height:41px;
+    padding-top:18px;
 }
     /*box1_header end*/
 /*---------------------------------------------------------------*/
@@ -519,22 +571,29 @@
     
     .box3 .menu_wrap .menus a{
     font-size:14px;
-    padding-top:23px;
+    padding-top:20px;
+    height:38px;
 }
     
     .box3 .menu_wrap .menu7 a{
     font-size:10.5px;
-    padding-top:20px;
+    padding-top:16px;
+    height:43px;
+    line-height:1.3em;
 }
     
     .box3 .menu_wrap .menu8 a{
     font-size:10.5px;
-    padding-top:20px;
+    padding-top:16px;
+    height:43px;
+    line-height:1.3em;
 }
     
     .box3 .menu_wrap .menu9 a{
     font-size:10.5px;
-    padding-top:20px;
+    padding-top:16px;
+    height:43px;
+    line-height:1.3em;
 }
     
     .box3 .menu_wrap .menu8 a{
@@ -548,15 +607,15 @@
     .box3-clone .menu_wrap .menus a{
     font-size:13px;
     letter-spacing:0.03em;
-    padding-top:13px;
+    padding-top:11px;
 }
     
     .box3-clone .menu_wrap .menu7 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:400;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
     .box3-clone .menu_wrap .menu7 a span{
@@ -564,11 +623,11 @@
 }
     
     .box3-clone .menu_wrap .menu8 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:400;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
     .box3-clone .menu_wrap .menu8 a span{
@@ -576,11 +635,11 @@
 }
     
     .box3-clone .menu_wrap .menu9 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:400;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
     .box3-clone .menu_wrap .menu9 a span{
@@ -589,7 +648,7 @@
     
     .box3-clone .menu_wrap .jb_logo_white a img{
     width:55px;
-    padding-top:14px;
+    padding-top:15px;
 }
     /*box3_menu end*/
 /*---------------------------------------------------------------*/
@@ -618,12 +677,13 @@
     .box4 .video_container .video_txt_2{
     font-size:30px;
     font-weight:500;
+    line-height:30px;
 }
     
     .box4 .video_container .button1{
     font-size:17px;
     font-weight:400;
-    padding-top:10px;
+    padding-top:13px;
 }
     
     .box4 .video_container .button1 a{
@@ -632,13 +692,13 @@
 }
     
     .box4 .video_container .button1 a p{
-    margin-top:10.5px;
+    margin-top:7px;
 }
     
     .box4 .video_container .button2{
     font-size:17px;
     font-weight:400;
-    padding-top:10px;
+    padding-top:8px;
 }
     
     .box4 .video_container .button2 a{
@@ -647,7 +707,7 @@
 }
     
     .box4 .video_container .button2 a .button2_contents{
-    width:84px;
+    width:88px;
     height:20px;
     margin:auto;
     margin-top:10.5px;
@@ -656,7 +716,9 @@
 }
     
     .box4 .video_container .button2 a .button2_contents p{
-    padding-top:1px;
+    padding-top:0px;
+    line-height:17px;
+    
 }
     
     .box4 .video_container .button2 a .button2_contents img{
@@ -687,16 +749,20 @@
     .box5 .blog_wrap .blog_icon_box p{
     font-size:15px;
     margin-top:8px;
-    padding-top:1px;
+    padding-top:0px;
     padding-left:4px;
+    line-height:20px;
     
     /*background-color:blue;*/
 }
 
     /*blog 제목 서체크기 통일화*/
     .blog_contents p{
-    font-size:18px;
+    font-size:17px;
     padding-top:6px;
+    line-height:22px;
+        
+    /*background:red;*/
 }
     
     /*블로그 컨텐츠 1번*/
@@ -710,7 +776,7 @@
     
     .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner{
     width:337px;
-    padding-top:30px;
+    padding-top:27px;
     padding-left:38px;
     
     /*background-color:red;*/
@@ -724,7 +790,8 @@
 
     .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner p{
     font-size:21px;
-    padding-top:10px;
+    padding-top:8px;
+    line-height:27px;
     
     /*background-color:greenyellow;*/
 }
@@ -748,6 +815,7 @@
     
     .blog_contents .blog_contents_4 p{
     font-size:14px;
+    line-height:19px;
 }
     
     /*블로그 컨텐츠 5번*/
@@ -757,6 +825,7 @@
 }
     .blog_contents .blog_contents_5 p{
     font-size:14px;
+    line-height:19px;
 }
     
     /*블로그 컨텐츠 6번*/
@@ -766,6 +835,7 @@
 }
     .blog_contents .blog_contents_6 p{
     font-size:14px;
+    line-height:19px;
 }
     
     /*box5_blog end*/
@@ -934,6 +1004,7 @@
     
     .box7 .ad1_title{
     width:740px;
+    padding-top:60px;
 }
     
     .box7 .ad1_title ul li h3{
@@ -955,20 +1026,22 @@
     
     /*컨텐츠 박스넓이 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box{
-    height:292px;
+    height:287px;
     /*background-color:orange;*/
 }
     
     /*컨텐츠 박스 패딩값 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
     padding-left:12%;
-    padding-top:40px;
+    padding-top:30px;
 }
     
     /*컨텐츠 서체크기 통일화 1*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
-    font-size:28px;
+    font-size:26px;
+    line-height:35px;
     padding-bottom:12px;
+    letter-spacing:0;
         
     /*background-color:red;*/
 }
@@ -989,12 +1062,12 @@
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_3{
-    height:346px;
+    height:340px;
     margin-top:12px;
 }
 
     .box7 .ad1_contents_wrap .ad1_contents_4{
-    height:346px;
+    height:340px;
     margin-top:12px;
 }
     /*box7_ad1 end*/
@@ -1049,12 +1122,17 @@
         /*background-color:red;*/
     }
     
+    .box8 .Prep1_title{
+    width: 740px;
+    padding-top: 60px;
+}
+    
     .box8 .Prep2_title{
         padding-top: 20px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 150px;
+        padding-top: 134px;
     }
     
     /* prep1 */
@@ -1092,14 +1170,14 @@
     }
     
     /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ /*------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ 
         font-size:23px;
         
-        background-color:aqua;
+        /*background-color:aqua;*/
     }
     
-    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
-        margin-top: 20px;
+    .box8 .prep3_list_container .prep3_list_title_all{
+        margin-top: 10px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
@@ -1139,7 +1217,7 @@
     
     /*ad2 start*/
     .box8 .ad_2_wrap{
-    margin-top:145px;
+    margin-top:140px;
 }
     
     /*컨텐츠 제목 & 소제목*/
@@ -1164,13 +1242,13 @@
     
     /*컨텐츠 서체크기 통일화 1*/
     .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p{
-    font-size:29px;
+    font-size:27px;
     letter-spacing:-0.3px;
-    padding-bottom:12px;
+    padding-bottom:8px;
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner .ad2_span{
-    padding-top:15px;
+    padding-top:8px;
     
     /*background-color:green;*/
 }
@@ -1184,17 +1262,17 @@
     
     /*컨텐츠 박스넓이 통일화*/
     .box8 .ad2_contents_wrap .ad2_contents_box{
-    height:187px;
-    padding-top:30px;
+    height:186px;
+    padding-top:25px;
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_3{
-    margin-top:12px;
+    margin-top:10px;
     height:292px;
 }
 
     .box8 .ad2_contents_wrap .ad2_contents_4{
-    margin-top:12px;
+    margin-top:10px;
     height:292px;
 }
     /*ad2 end*/
@@ -1211,13 +1289,13 @@
     /*mid-ask start*/
     
     .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
-    width:54%;
+    width:55%;
 }
     
     /*제목: 모의테스트 문의*/
     .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt h3{
     font-size:38px;
-    padding-top:52px;
+    padding-top:44px;
 }
     /*소제목: SAT,ACT.....제시합니다.*/
     .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt p{
@@ -1239,14 +1317,31 @@
     text-align:center;
     font-size:22px;
     font-weight:500;
-    padding-top:16.5px;
+    padding-top:11px;
 }
     /*mid-ask end*/
     /*------------------------------*/
     /*prof start*/
+    
+    /*제목: Professor Profile*/
+    .box9{
+        height:905px;
+    }
+    
+    .box9 .box9_wrap .prof_wrap .prof_title h3{
+    padding-top:50px;
+}
+    
     .box9 .box9_wrap .prof_wrap .prof_title p{
     padding-bottom:25px;
 }
+    
+    /*교사 이름*/
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box p{
+    font-size:18px;
+    line-height:18px;
+}
+    
     /*교수 프로필*/
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
     width:50%;
@@ -1283,7 +1378,7 @@
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:73%;
-    padding-top:30px;
+    padding-top:19px;
     font-size:30px;
     font-weight:bold;
     text-align:center;
@@ -1296,6 +1391,34 @@
     width:72%;
         
     /*background:red;*/
+}
+    
+    /*제목:연락처*/
+    .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
+    padding-top:15px;
+    position:relative;
+    
+    /*background-color:blue;*/
+}
+    
+    /*arrow img1*/
+    .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
+    float:left;
+    position:absolute;
+    top:25px;
+    left:-10px;
+    
+    /*background-color:green;*/
+}
+    
+    /*arrow img2*/
+.box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title img{
+    float:left;
+    position:absolute;
+    top:25px;
+    left:-10px;
+    
+    /*background-color:green;*/
 }
     
     .box10_wrap .addrs_box .addrs_box_time{
@@ -1354,7 +1477,7 @@
     /*제목:문의하기*/
     .box11 .box11_wrap .ask_form_title{
     font-size:38px;
-    padding-top:53px;
+    padding-top:45px;
 }
 
     /*소제목:자세한...*/
@@ -1396,7 +1519,7 @@
     /*footer start*/
     .footer{
     width:740px;
-    height:143px;
+    height:137px;
     position:relative;
         
     /*background-color:deepskyblue;*/
