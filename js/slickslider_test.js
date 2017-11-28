@@ -44,16 +44,13 @@
                     {
                         breakpoint: 1025,
                         settings: {
-                            slidesToShow: 1,
-                            vertical: false,
-                            centerMode: true,
-                            
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false,
                         }
                     }
-              
-                
                 ]
-                
             });
  
                        
@@ -88,6 +85,20 @@
                             slidesToScroll: 1,
                             infinite: true,
                             dots: false,
+                        }
+                    },
+                    {
+                        breakpoint: 861,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 681,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
                         }
                     }
               // You can unslick at a given breakpoint now by adding:
