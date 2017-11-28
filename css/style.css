@@ -31,10 +31,10 @@ body{
     display:block;
     background:#3288af;
     font-size:20px;
-    height:39px;
+    height:44px;
     width:100%;
     text-align:center;
-    padding-top:20px;
+    padding-top:15px;
     font-weight:400;
     letter-spacing:0.1em;
     
@@ -52,10 +52,10 @@ body{
     background:#000000;
     color:#969696;
     font-size:20px;
-    height:39px;
+    height:44px;
     width:100%;
     text-align:center;
-    padding-top:20px;
+    padding-top:15px;
     font-weight:400;
     letter-spacing:0.1em;
     
@@ -77,10 +77,10 @@ body{
     background:#000000;
     color:#969696;
     font-size:20px;
-    height:39px;
+    height:44px;
     width:100%;
     text-align:center;
-    padding-top:20px;
+    padding-top:15px;
     font-weight:400;
     letter-spacing:0.1em;
     
@@ -154,12 +154,12 @@ body{
 
 .box3 .menu_wrap .menus a{
     display:block;
-    height:37px;
+    height:41px;
     font-size:18px;
     letter-spacing:0.1em;
     /*background:green;*/
     text-align:center;
-    padding-top:21px;
+    padding-top:17px;
 }
 
 .box3 .menu_wrap .menus a:hover{
@@ -267,11 +267,11 @@ body{
 
 .box3-clone .menu_wrap .menus a{
     display:block;
-    height:27px;
+    height:29px;
     font-size:13px;
     letter-spacing:0.1em;
     text-align:center;
-    padding-top:13px;
+    padding-top:11px;
     
     background-color:rgba(170,170,170,1);
 }
@@ -281,11 +281,11 @@ body{
 }
 
 .box3-clone .menu_wrap .menu7 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:500;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
 .box3-clone .menu_wrap .menu7 a span{
@@ -294,11 +294,11 @@ body{
 
 .box3-clone .menu_wrap .menu8 a{
     width:100%;
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:500;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
     float:left;
     
     background:url(../img/busan_menu_border.png) no-repeat center;
@@ -312,11 +312,11 @@ body{
 }
 
 .box3-clone .menu_wrap .menu9 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:500;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
 .box3-clone .menu_wrap .menu9 a span{
@@ -337,7 +337,7 @@ body{
     display:block;
     width:60px;
     margin:auto;
-    padding-top:13px;
+    padding-top:14px;
     
     /*background-color:blue;*/
 }
@@ -397,6 +397,7 @@ body{
     letter-spacing: 0em;
     
     font-size:70px;
+    line-height:70px;
     font-weight:700;
     text-align:right;
     text-shadow: 4px 4px 10px rgba(0,0,0,0.1);
@@ -448,7 +449,7 @@ body{
 }
 
 .box4 .video_container .button1 a p{
-    margin-top:14.5px;
+    margin-top:10px;
     
     /*background-color:yellow;*/
 }
@@ -460,6 +461,7 @@ body{
     letter-spacing: 0.03em;
     
     font-size:22px;
+    line-height:22px;
     font-weight:400;
     text-align:right;
     padding-top:8px;
@@ -484,7 +486,7 @@ body{
 }
 
 .box4 .video_container .button2 a .button2_contents{
-    width:107px;
+    width:112px;
     height:25px;
     margin:auto;
     margin-top:14.5px;
@@ -567,7 +569,7 @@ body{
     font-size:16px;
     font-weight:500;
     float:left;
-    padding-top:8px;
+    padding-top:3px;
     padding-left:9px;
     
     /*background-color:blue;*/
@@ -589,6 +591,7 @@ body{
 .blog_contents p{
     font-size:20px;
     padding-top:8px;
+    line-height:27px;
 }
 
 /*-----------------*/
@@ -623,7 +626,7 @@ body{
 
 .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner{
     width:80%;
-    padding-top:30px;
+    padding-top:20px;
     padding-left:38px;
     
     /*background-color:red;*/
@@ -638,6 +641,7 @@ body{
 .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner p{
     font-size:26px;
     padding-top:12px;
+    line-height:35px;
     
     /*background-color:greenyellow;*/
 }
@@ -972,7 +976,7 @@ body{
 
 .box7{
     width: 100%;
-    height: 953px; 
+    height: 930px; 
 }
 
 /*컨텐츠 제목 & 소제목*/
@@ -1012,7 +1016,7 @@ body{
 /*컨텐츠 박스넓이 통일화*/
 .box7 .ad1_contents_wrap .ad1_contents_box{
     width:49.05%;
-    height:339px;
+    height:295px;
     border-radius:8px;
     border:1px solid #ffffff;
     float:left;
@@ -1028,16 +1032,17 @@ body{
 /*컨텐츠 박스 패딩값 통일화*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
     padding-left:12%;
-    padding-top:52px;
+    padding-top:32px;
 }
 
 /*컨텐츠 서체크기 통일화 1*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
     width:87%;
     font-size:41px;
+    line-height:55px;
     letter-spacing:-0.3px;
     font-weight:bold;
-    padding-bottom:28px;
+    padding-bottom:16px;
     border-bottom:1px solid #ffffff;
     
     /*background-color:blue;*/
@@ -1045,7 +1050,7 @@ body{
 
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
     width:87%;
-    padding-top:30px;
+    padding-top:16px;
     
     /*background-color:green;*/
 }
@@ -1070,12 +1075,12 @@ body{
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_3{
-    height:369px;
+    height:355px;
     margin-top:19px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_4{
-    height:369px;
+    height:355px;
     float:right;
     margin-top:19px;
 }
@@ -1422,7 +1427,7 @@ body{
 /*Ad2 start*/
 
 .box8 .ad_2_wrap{
-    margin-top:167px;
+    margin-top:147px;
 }
 
 /*컨텐츠 제목 & 소제목*/
@@ -1461,8 +1466,8 @@ body{
 /*컨텐츠 박스넓이 통일화*/
 .box8 .ad2_contents_wrap .ad2_contents_box{
     width:49.05%;
-    height:214px;
-    padding-top:56px;
+    height:210px;
+    padding-top:26px;
     border-radius:8px;
     border:1px solid #ffffff;
     float:left;
@@ -1503,9 +1508,9 @@ body{
 
 /*컨텐츠 서체크기 통일화 2*/
 .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
-    font-size:15px;
+    font-size:14px;
     font-weight:200;
-    line-height:30px;
+    line-height:29px;
     
     /*background-color:red;*/
 }
@@ -1585,7 +1590,7 @@ body{
 .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt h3{
     font-size:40px;
     font-weight:bold;
-    padding-top:49px;
+    padding-top:40px;
     padding-bottom:6px;
     
     /*background-color:limegreen;*/
@@ -1595,7 +1600,7 @@ body{
 .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt p{
     width:85%;
     font-size:15px;
-    font-weight:200;
+    font-weight:400;
     line-height:21px;
     
     /*background-color:forestgreen;*/
@@ -1621,7 +1626,7 @@ body{
     text-align:center;
     font-size:27px;
     font-weight:500;
-    padding-top:19px;
+    padding-top:13px;
     
     /*background-color:mediumvioletred;*/
 }
@@ -1668,9 +1673,10 @@ body{
 
 /*소제목: 세계 최고 수준의....*/
 .box9 .box9_wrap .prof_wrap .prof_title p{
-    font-size:15px;
-    font-weight:200;
+    font-size:16x;
+    font-weight:500;
     padding-bottom:38px;
+    padding-top:6px;
     
     /*background-color:limegreen;*/
 }
@@ -1708,7 +1714,7 @@ body{
 /*교사 이력*/
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul{
     padding-left:7px;
-    padding-top:17px;
+    padding-top:14px;
     
     /*background-color:green;*/
 }
@@ -1809,8 +1815,8 @@ body{
 .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:64%;
-    padding-top:40px;
-    font-size:35px;
+    padding-top:25px;
+    font-size:33px;
     font-weight:bold;
     text-align:center;
     border-bottom:1.5px solid #ffffff;
@@ -1828,8 +1834,8 @@ body{
 /*제목:연락처*/
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
     font-size:20px;
-    padding-bottom:8px;
-    padding-top:25px;
+    padding-bottom:5px;
+    padding-top:20px;
     position:relative;
     
     /*background-color:blue;*/
@@ -1839,7 +1845,7 @@ body{
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
     float:left;
     position:absolute;
-    top:31px;
+    top:28px;
     left:-10px;
     
     /*background-color:green;*/
@@ -1881,8 +1887,8 @@ body{
 /*제목:운영시간*/
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
     font-size:20px;
-    padding-bottom:8px;
-    padding-top:25px;
+    padding-bottom:5px;
+    padding-top:15px;
     position:relative;
     
     /*background-color:blue;*/
@@ -1892,7 +1898,7 @@ body{
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title img{
     float:left;
     position:absolute;
-    top:31px;
+    top:27px;
     left:-10px;
     
     /*background-color:green;*/
@@ -1967,7 +1973,7 @@ body{
 .box11 .box11_wrap .ask_form_title{
     font-size:40px;
     font-weight:bold;
-    padding-top:62px;
+    padding-top:45px;
     
     /*background-color:blue;*/
 }
