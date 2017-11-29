@@ -344,7 +344,9 @@
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
         font-size: 16px;
         font-weight: 200;
+        margin-left: -4px;
     }
+    
    
     /* prep2 */
     .box8 .Prep2_container .prep2_box .prep2_contents_inner{
@@ -1144,6 +1146,8 @@
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
         font-size: 16px;
         font-weight: 200;
+        
+        margin-left: -4px;
     }
    
     /* prep2 */
@@ -2201,9 +2205,12 @@
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-size: 16px;
+        font-size: 19px;
         font-weight: 200;
+        font-weight: bold;
     }
+    
+    
    
     /* prep2 */
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
@@ -2229,12 +2236,12 @@
     
     
     /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ /*------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
         font-size:22px;
         /*background-color:aqua;*/
     }
     
-    .box8 .prep3_list_container .prep3_list_title_all{ /*--------------------------------------예은 확인 바람--*/
+    .box8 .prep3_list_container .prep3_list_title_all{
         margin-top: 10px;
     }
 
@@ -3288,6 +3295,8 @@
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
         font-size: 16px;
         font-weight: 200;
+        
+        margin-left: -4px;
     }
    
     /* prep2 */
@@ -3744,7 +3753,7 @@
 /*-----------------------------------------------------------------------------------------------*/
 
 /*max-width:680px(680px 이하 _ 핸드폰 기준)*/
-@media screen and (min-width: 375px) and (max-width:680px) { /*----------------------------------------------------------------*/
+@media screen and (min-width: 376px) and (max-width:680px) { /*----------------------------------------------------------------*/
 
 
         /*box8_prep & ad2 start*/

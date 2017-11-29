@@ -44,10 +44,10 @@
                     {
                         breakpoint: 1025,
                         settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            dots: false,
+                            slidesToShow: 1,
+                            vertical: false
+                            
+                            
                         }
                     }
                 ]
@@ -95,7 +95,14 @@
                         }
                     },
                     {
-                        breakpoint: 681,
+                        breakpoint: 690,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 400,
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1
