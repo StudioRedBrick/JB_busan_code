@@ -338,7 +338,7 @@
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 37px;
+        font-size: 34px;
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
@@ -1138,7 +1138,7 @@
     /* prep1 */
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 37px;
+        font-size: 34px;
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
@@ -1770,7 +1770,7 @@
 }
     
     .box4 .video_container .button2{
-    font-size:14px;
+    font-size:13px;
     line-height:14px;
     font-weight:400;
     padding-top:7px;
@@ -1782,7 +1782,7 @@
 }
     
     .box4 .video_container .button2 a .button2_contents{
-    width:76px;
+    width:72px;
     padding-top:1px;
     height:18px;
     margin:auto;
@@ -2585,16 +2585,12 @@
     width:615px;
     height:143px;
     position:relative;
-        
-    /*background-color:red;/
 }
     
     .footer .footer_wrap{
     width:100%;
     position:absolute;
     bottom:15px;
-    
-    /*background-color:orange;*/
 }
     
     .footer .footer_wrap .footer_copyright{
@@ -2733,8 +2729,8 @@
     font-size:12px;
     font-weight:300;
     letter-spacing:0.03em;
-    padding-top:14px;
-    height:26px;
+    padding-top:11px;
+    height:29px;
 }
     
     .box3-clone .menu_wrap .menu7 a{
@@ -2775,7 +2771,7 @@
     
     .box3-clone .menu_wrap .jb_logo_white a img{
     width:45px;
-    padding-top:15px;
+    padding-top:16px;
 }
     /*box3_menu end*/
 /*---------------------------------------------------------------*/
@@ -2809,7 +2805,7 @@
 }
     
     .box4 .video_container .button1{
-    font-size:21px;
+    font-size:19px;
     font-weight:400;
     padding-top:15px;
 }
@@ -2820,11 +2816,11 @@
 }
     
     .box4 .video_container .button1 a p{
-    margin-top:6px;
+    margin-top:7px;
 }
     
     .box4 .video_container .button2{
-    font-size:21px;
+    font-size:18px;
     font-weight:400;
     padding-top:7px;
 }
@@ -2835,10 +2831,10 @@
 }
     
     .box4 .video_container .button2 a .button2_contents{
-    width:104px;
+    width:93px;
     height:18px;
     margin:auto;
-    margin-top:12px;
+    margin-top:10px;
     
     /*background-color:darkviolet;*/
 }
@@ -2849,7 +2845,7 @@
     
     .box4 .video_container .button2 a .button2_contents img{
     margin-right:2px;
-    padding-top:1px;
+    padding-top:2px;
     transform:scale(0.9,0.9);
     
     /*background-color:red;*/
