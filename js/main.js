@@ -117,13 +117,13 @@ $(function(){
     
     $(".menu1").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box5").offset().top},
+        scrollTop: $(".box5").position().top},
         'slow');
     }); // menu1 JB소식
     
     $(".menu2").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box6").offset().top},
+        scrollTop: $(".box6").position().top},
         'slow');
     }); // menu2 컨설팅
     
@@ -152,6 +152,7 @@ $(function(){
     }); // menu6 문의하기
     
 });//MENU END
+
 
 $(function(){
         
@@ -202,3 +203,68 @@ $(function(){
         });
     
 });//FIXED MENU END
+
+//CLONE MENU START
+$(function(){
+        
+    //alert("hello");
+    
+    $(".box3-clone .menu1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box5").position().top},
+        'slow');
+    }); // menu1 JB소식
+    
+    $(".box3-clone .menu2").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box6").position().top},
+        'slow');
+    }); // menu2 컨설팅
+    
+    $(".box3-clone .menu3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box8").offset().top},
+        'slow');
+    }); // menu3 수업안내
+    
+    $(".box3-clone .menu4").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".prof_wrap").offset().top},
+        'slow');
+    }); // menu4 교사안내
+    
+    $(".box3-clone .menu5").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box10").offset().top},
+        'slow');
+    }); // menu5 위치보기
+    
+    $(".box3-clone .menu6").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").offset().top},
+        'slow');
+    }); // menu6 문의하기
+    
+});//CLONE MENU END
+
+//문의하기1 시작
+$(function(){
+    
+    $(".video_container .button1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").position().top},
+        'slow');
+    }); // menu1 JB소식
+    
+});
+
+//문의하기2 시작
+$(function(){
+    
+    $(".ask_mid_wrap .ask_mid_button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").position().top},
+        'slow');
+    }); // menu1 JB소식
+    
+});
