@@ -2430,6 +2430,23 @@
     /*box9_mid-ask & prof end*/
 /*---------------------------------------------------------------*/
     /*box10_map start*/
+    .box10{
+        position:relative;
+}
+    
+    .box10 .bg_visible{
+        display:block;
+        position:absolute;
+        top:0;
+        left:-450px;
+        z-index:-1;
+}
+    
+    .box10{
+    background:none;
+}
+    
+    
     .box10_wrap{
     width:615px;
 }

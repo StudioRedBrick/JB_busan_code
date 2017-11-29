@@ -1926,6 +1926,10 @@ body{
     /*background-color:darkblue;*/
 }
 
+.box10 .bg_visible{
+    display:none;
+}
+
 /*-----------------*/
 
 .box10_wrap .addrs_box .addrs_box_contact:after{ /*clearfix*/
