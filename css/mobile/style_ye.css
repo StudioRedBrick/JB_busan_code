@@ -66,7 +66,7 @@
     }
     
     .box6 .slick-list{
-        padding: 6.6% 0px;
+        padding: 6.5% 0px;
 
 /*        background-color: skyblue;*/
     } 
@@ -128,6 +128,10 @@
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
         height: 69px;
+    }
+    
+    .box8 .Prep2_title{
+        padding-top: 20px;
     }
     
     .box8 .Prep3_title{
