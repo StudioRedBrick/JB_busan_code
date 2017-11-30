@@ -528,8 +528,7 @@
 /*-----------------------------------------------------------------------------------------------*/
 
 /*max-width:1024px(1024px 이하 _ 2nd break point)*/
-@media screen and (min-width:851px) and (max-width:1024px) and (orientation: landscape) { /*---------------------------------------*/
-    
+@media screen and (min-width:851px) and (max-width:1024px), (orientation: landscape) { /*---------------------------------------*/
     /*box1_header start*/
     .box1 .header_busan a{
     font-size:16px;
@@ -1559,7 +1558,8 @@
 
 
 /*max-width:850px(850px 이하 _ 3rd break point)*/
-@media screen and (min-width:768px) and (max-width:850px) { /*---------------------------------------*/
+@media screen and (min-width:768px) and (max-width:850px), (orientation: portrait ) { /*---------------------------------------*/
+    
     
     /*box1_header start*/
     .box1{
