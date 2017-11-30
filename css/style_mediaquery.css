@@ -528,7 +528,7 @@
 /*-----------------------------------------------------------------------------------------------*/
 
 /*max-width:1024px(1024px 이하 _ 2nd break point)*/
-@media screen and (min-width:851px) and (max-width:1024px) { /*---------------------------------------*/
+@media screen and (min-width:851px) and (max-width:1024px) and (orientation: landscape) { /*---------------------------------------*/
     
     /*box1_header start*/
     .box1 .header_busan a{
@@ -1559,7 +1559,7 @@
 
 
 /*max-width:850px(850px 이하 _ 3rd break point)*/
-@media screen and (min-width:751px) and (max-width:850px) { /*---------------------------------------*/
+@media screen and (min-width:768px) and (max-width:850px) { /*---------------------------------------*/
     
     /*box1_header start*/
     .box1{
@@ -2631,8 +2631,8 @@
 /*-----------------------------------------------------------------------------------------------*/
 
 
-/*max-width:750px(750px 이하 _ 핸드폰 기준)*/
-@media screen and (min-width: 681px) and (max-width:750px) { /*----------------------------------------------------------------*/
+/*max-width:767px(핸드폰 가로 기준)*/
+@media screen and (min-width: 415px) and (max-width:767px) and (orientation: landscape) { /*----------------------------------------------------------------*/
     
     /*box1_header start*/
     .box1 .header_busan{
@@ -3766,149 +3766,68 @@
     /*box11_ask & footer end*/
 
     
-}/*max-width:667px end*/
-/*-----------------------------------------------------------------------------------------------*/
-
-/*max-width:680px(680px 이하 _ 핸드폰 기준)*/
-@media screen and (min-width: 376px) and (max-width:680px) { /*----------------------------------------------------------------*/
-
-
-        /*box8_prep & ad2 start*/
-    .box8{
-    height:2550px;
-}
-    /* Prep start */
-    .box8 .Prep1_title,
-    .box8 .Prep2_title,
-    .box8 .Prep3_title{
-        width: 540px;
-    }
-    
-    /* prep frame setting */
-    .box8 .Prep1_container,
-    .box8 .Prep2_container,
-    .box8 .Prep3_container,
-    .box8 .prep3_list_container{
-        width: 540px;
-    }
-    
-    /* 공통 */
-    .box8 .Prep1_title ul li h3,
-    .box8 .Prep2_title ul li h3,
-    .box8 .Prep3_title ul li h3{
-        font-size: 36px;
-    }
-    
-    .box8 .Prep1_title ul li p,
-    .box8 .Prep2_title ul li p,
-    .box8 .Prep3_title ul li p{
-        font-size: 14px;
-        font-weight: 300;
-        padding-bottom:0px;
-    }
-    
-    .box8 .Prep1_title{
-        padding-top:60px;
-    }
-
-    .box8 .Prep2_title{
-        padding-top: 30px;
-    }
-    
-    .box8 .Prep3_title{
-        padding-top: 148px;
-    }
-    
-    /* prep1 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 37px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-size: 16px;
-        font-weight: 200;
-    }
-   
-    /* prep2 */
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
-        font-size:24px;
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
-        font-size:13.5px;
-        font-weight: 200;
-        line-height: 1.5;
-
-    /*    background-color:red;*/
-    }
-
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
-        font-size: 13px;
-    }
-    
-    /* prep3_slider */
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
-        font-size: 38px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_ko p{
-        font-size : 34px;
-        padding-bottom: 4px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        font-size: 15px;
-    }
-    
-    
-    /* prep3_list */
-    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
-        font-size:22px;
-/*        background-color:aqua;*/
-    }
-    
-    .box8 .prep3_list_container .prep3_list_title_all{ 
-        margin-top: 20px;
-    }
-
-    .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
-        font-size:13px;
-        font-weight:300;
-        /*background-color:blue;*/
-    }
-    
-    .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
-        font-size: 15px;
-        font-weight: 400;
-    }
-    
-    .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
-        width: 20%;
-        height: 70px;
-    }
-
-     /* slidenav position */
-    .box8 .slick-prev{
-        left: -6.7%;
-        top: 46%;
-    }
-
-    .box8 .slick-next{
-        right: -6.7%;
-        top: 46%;
-    }
-    /*prep end*/
-/*---------------------------------------------------------------*/
-
-
-
-
-}/*max-width:680px end*/
+}/*max-width:767px end*/
 /*-----------------------------------------------------------------------------------------------*/
 
 
+/*max-width:414px(핸드폰 세로 기준)*/
+@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: landscape) { /*----------------------------------------------------------------*/
+ 
+    /*box1_header start*/
+    /*box1_header end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box2_logo start*/
+    /*box2_logo end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box3_menu start*/
+    /*box3_menu end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box4_video start*/
+    /*box4_video end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box5_blog start*/
+    /*box5_blog end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box6_consult start*/
+    /*box6_consult end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box7_ad1 start*/
+    /*box7_ad1 end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box8_prep_ad2 start*/
+    /*box8_prep_ad2 end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box9_mid_ask / prof start*/
+    /*box9_mia_ask / prof end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box10_map start*/
+    /*box10_map end*/
+    
+    /*-------------------------------------------------------*/
+    
+    /*box11_footer start*/
+    /*box11_footer end*/
+    
+    /*-------------------------------------------------------*/
 
-
+}/*max-width:414px end*/
+/*-----------------------------------------------------------------------------------------------*/
 

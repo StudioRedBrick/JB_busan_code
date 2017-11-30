@@ -891,7 +891,8 @@ body{
 
 .box6 .consult_slider_item{
     width: 597px;
-    margin-top: 22px;
+    padding: 10px;
+    
 /*    background-color: darkgreen;*/
 }
 
