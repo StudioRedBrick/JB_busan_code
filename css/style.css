@@ -1107,6 +1107,8 @@ body{
     letter-spacing: 0.03em;
 }
 
+.box8 .Prep1_title br,
+.box8 .Prep2_title br,
 .box8 .Prep3_title br{
     display: none;
 }

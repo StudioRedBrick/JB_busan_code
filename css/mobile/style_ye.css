@@ -2,21 +2,20 @@
 /*max-width:1024px(1024px 이하 _ 2nd break point)*/
 @media screen and (min-width:851px) and (max-width:1024px){ /*---------------------------------------*/
     
-    .box6 .consult_txt_subtitle p{
-        font-weight: 500;
-    }
-    
-    .box6 .consult_txt_main span{
-        font-size: 13.5px;  
-    }
-    
+    .box6 .consult_txt_subtitle p,
     .box6 .consult_slider_main1{
         font-weight: 500;
     }
     
+   .box6 .slick-list{
+        padding: 3% 0px;
+/*       background-color: skyblue;*/
+    } 
+
     
-    
-    
+    .box6 .consult_txt_main span{
+        font-size: 13.5px;  
+    }
     
      /* hover off */
     .box8 .multi_slider .prep1_contents_inner:hover{
@@ -66,6 +65,28 @@
         font-weight: 500;
     }
     
+    .box6 .slick-list{
+        padding: 6.6% 0px;
+
+/*        background-color: skyblue;*/
+    } 
+    
+    .box6 .consult_slider_title{
+        padding-right: 9%;
+        margin-left: 0;
+/*        background-color: darkviolet;*/
+    }
+    
+    .box6 .consult_slider_main{
+        width: 60%;
+        margin: auto;
+/*        background-color: firebrick;*/
+    }    
+    
+    .box6 .consult_slider_frame{
+        width: 96.5%;
+    }
+    
     
     
     /* hover off */
@@ -110,11 +131,11 @@
     }
     
     .box8 .Prep3_title{
-        padding-top: 99px;
+        padding-top: 96px;
     }
     
     /* ad2 */
     .box8 .ad_2_wrap{
-        margin-top:138px;
+        margin-top:141px;
     }
 }
