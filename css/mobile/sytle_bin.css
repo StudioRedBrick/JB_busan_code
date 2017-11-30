@@ -1,7 +1,13 @@
 @charset 'utf-8';
+/*max-width:1024px(1024px 이하 _ 2nd break point)*/
+@media screen and (min-width:851px) and (max-width:1024px), (orientation: landscape) { /*---------------------------------------*/
+    
+}
+
 
 
 /*max-width:850px(850px 이하 _ 3rd break point)*/
-@media screen and (min-width:768px) and (max-width:850px) and (orientation: portrait) { /*---------------------------------------*/
+@media screen and (min-width:768px) and (max-width:850px), (orientation: portrait) { /*---------------------------------------*/
+
     
 }
