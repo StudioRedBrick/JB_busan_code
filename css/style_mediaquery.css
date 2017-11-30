@@ -1215,17 +1215,20 @@
     
     .box1 .header_busan{
     background:url(../img/all_header_busan.png) no-repeat center;
-    background-size:contain;
+    background-size:cover;
+    height:50px;
 }
 
     .box1 .header_marin{
     background:url(../img/all_header_marin.png) no-repeat center;
-    background-size:contain;
+    background-size:cover;
+    height:50px;
 }
 
     .box1 .header_jeju{
     background:url(../img/all_header_jeju.png) no-repeat center;
-    background-size:contain;
+    background-size:cover;
+    height:50px;
 }
     
     .box1 .header_busan a{
@@ -2079,6 +2082,8 @@
     /*box10_map start*/
     .box10{
         position:relative;
+        width:100%;
+        overflow:hidden;
 }
     
     .box10 .bg_visible{
