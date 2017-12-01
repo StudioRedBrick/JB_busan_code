@@ -672,13 +672,13 @@
 }
     
     .box10_wrap{
-    padding-top:190px;
+    padding-top:0px;
 }
     
     .box10_wrap .addrs_box{
-    width:74.5%;
+    width:100%;
     margin:0 auto;
-    height:280px;
+    height:414px;
     border-radius:0px;
 }
     
@@ -687,7 +687,8 @@
     margin:0 auto;
     width:74.5%;
     padding-top:20px;
-    font-size:20px;
+    padding-bottom:8px;
+    font-size:30px;
     font-weight:bold;
     text-align:left;
     border-bottom:1px solid #ffffff;
@@ -695,15 +696,24 @@
     /*background-color:blueviolet;*/
 }
     
+    /*제목:주소*/
+    .box10_wrap .addrs_box .addrs_mobile{
+    display:block;
+    
+    margin:0 auto;
+    
+    width:70%;
+}
+    
     .box10_wrap .addrs_box .addrs_box_contact{
-    width:74.5%;
+    width:70%;
         
     /*background:red;*/
 }
     
     /*제목:연락처*/
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
-    padding-top:10px;
+    padding-top:15px;
     padding-bottom:2px;
     position:relative;
     font-size:18px;
@@ -713,7 +723,7 @@
     /*제목:운영시간*/
     .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
     font-weight:500;
-    padding-top:10px;
+    padding-top:15px;
     padding-bottom:2px;
     font-size:18px;
 }
@@ -722,7 +732,7 @@
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
     float:left;
     position:absolute;
-    top:20px;
+    top:30px;
     left:-10px;
 }
     
@@ -730,13 +740,13 @@
     .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title img{
     float:left;
     position:absolute;
-    top:20px;
+    top:30px;
     left:-10px;
 }
 
     
     .box10_wrap .addrs_box .addrs_box_time{
-    width:74.5%;
+    width:70%;
 }
     
     /*detailed txt*/
