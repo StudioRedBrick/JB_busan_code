@@ -1629,18 +1629,13 @@
         margin-top: 1%;
     }
     
-   
-    
    .box6 .consult_txt_all{
         margin-top: -2px;
-/*        background-color: red;*/
-        
     }
 
     .box6 .consult_txt_main{
         width: 98%;
         margin-top: 20px;
-/*        background-color: aquamarine;*/
     }
 
     
@@ -1651,7 +1646,7 @@
     
     .box6 .consult_txt_subtitle p{
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 500;
     }
     
     .box6 .consult_txt_main span{
@@ -1668,7 +1663,7 @@
       
     .box6 .consult_slider_frame{
         height: 260px;
-        width: 594px;
+        width: 96.5%;
         margin: auto;
         
         margin-left: 14px;
@@ -1676,46 +1671,37 @@
         background-size: cover; 
     }
     
-    
     .box6 .slider_indent{
         margin:auto;
         height: 280px;
-    
-/*
-        border-radius: 8px;
-        
-        background-color: rgba(255,255,255,0.2);
-*/
-/*        background-color: darkslateblue;*/
     }
 
     .box6 .slick-list{
-        padding: 15px 0px;
-
-/*        background-color: skyblue;*/
+        padding: 6.5% 0px;
     }
 
     .box6 .slick-track{
-/*        background-color: darksalmon;*/
         margin-left: 2.8%;
     }
+    
     .box6 .consult_slider_main{
-        width: 50%;
+        width: 60%;
         margin: auto;
-/*        background-color: firebrick;*/
     }    
     
     .box6 .consult_slider_title{
-        padding-right: 5%;
-/*        background-color: darkviolet;*/
+        padding-right: 9%;
+        margin-left: 0;
     }
+    
     .box6 .consult_slider_title p{
         font-size: 26px;
         font-weight: 600;
     }
+    
     .box6 .consult_slider_main1{
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.6;
     }
     
@@ -1831,6 +1817,22 @@
         width: 615px;
     }
     
+    /* hover off */
+    .box8 .multi_slider .prep1_contents_inner:hover{
+        background: url(../../img/busan_prep1_box_line.png) no-repeat center;
+        background-size: contain;
+    }
+    
+    .box8 .multi_slider .prep2_contents_inner:hover{
+        background: url('../../img/busan_prep2_box_line.png') no-repeat center;
+        background-size: contain;
+    }
+    
+    .box8 .multi_slider .prep3_contents_inner:hover{    
+        background: url('../../img/busan_prep3_box_line.png') no-repeat center;
+        background-size: contain;
+    }
+    
     /* prep frame setting */
     .box8 .Prep1_container,
     .box8 .Prep2_container,
@@ -1850,8 +1852,14 @@
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
         padding-bottom:0px;
+    }
+    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        font-weight: 400;
     }
     
     .box8 .Prep1_title{
@@ -1859,11 +1867,11 @@
     }
 
     .box8 .Prep2_title{
-        padding-top: 25px;
+        padding-top: 20px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 108px;
+        padding-top: 96px;
     }
     
     /* prep1 */
@@ -1878,14 +1886,15 @@
         font-weight: bold;
     }
     
-    
    
     /* prep2 */
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
         font-size:24px;
     }
+    
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
         font-size: 13px;
+        font-weight: 400;
     }
     
     /* prep3_slider */
@@ -1906,7 +1915,6 @@
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
         font-size:22px;
-        /*background-color:aqua;*/
     }
     
     .box8 .prep3_list_container .prep3_list_title_all{
@@ -1915,18 +1923,17 @@
 
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
         font-size:13px;
-        font-weight:300;
-        /*background-color:blue;*/
+        font-weight:400;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 500;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
         width: 20%;
-        height: 65px;
+        height: 69px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents .prep3_list_txt{    
@@ -1948,7 +1955,11 @@
     
     /*ad2 start*/
     .box8 .ad_2_wrap{
+<<<<<<< HEAD
     margin-top:130px;
+=======
+    margin-top:141px;
+>>>>>>> 5a12b1da4abbfb40278bd957f69c98b41ee89670
 }
     
     /*컨텐츠 제목 & 소제목*/
@@ -2684,11 +2695,15 @@
     
     .box6 .consult_txt_subtitle p{
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
     }
     
-    .box6 .consult_txt_main span{
-        font-size: 13px;
+    .box6 .consult_slider_main1{
+        font-weight: 500;
+    }
+    
+    .box6 .consult_txt_main span{ 
+        font-size: 13.5px;
         line-height: 1.9;
     }
     
@@ -2736,7 +2751,7 @@
     }
 
     .box6 .slick-list{
-        padding: 32px 0px;
+        padding: 3% 0px;
 
 
 /*        background-color: skyblue;*/
@@ -2879,6 +2894,23 @@
         width: 740px;
     }
     
+    /* hover off */
+    .box8 .multi_slider .prep1_contents_inner:hover{
+        background: url(../../img/busan_prep1_box_line.png) no-repeat center;
+        background-size: contain;
+    }
+    
+    .box8 .multi_slider .prep2_contents_inner:hover{
+        background: url('../../img/busan_prep2_box_line.png') no-repeat center;
+        background-size: contain;
+    }
+    
+    .box8 .multi_slider .prep3_contents_inner:hover{    
+        background: url('../../img/busan_prep3_box_line.png') no-repeat center;
+        background-size: contain;
+    }
+    
+    
     /* prep frame setting */
     .box8 .Prep1_container,
     .box8 .Prep2_container,
@@ -2898,7 +2930,7 @@
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
         padding-bottom:0px;
     }
 
@@ -2906,8 +2938,8 @@
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        margin-top: 27px;
-/*        background-color:green;*/
+        font-weight: 400;
+        margin-top: 22px;
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
@@ -2949,6 +2981,7 @@
     }
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
         font-size: 13px;
+        font-weight: 400;
     }
     
     /* prep3_slider */
@@ -2988,7 +3021,7 @@
 
     .box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
         font-size:13px;
-        font-weight:300;
+        font-weight:400;
         /*background-color:blue;*/
     }
     
