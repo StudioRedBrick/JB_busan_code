@@ -1816,6 +1816,34 @@ body{
     background-color:rgba(255,158,18,1);
 }
 
+.box10_wrap .addrs_box .addrs_mobile{
+    display:none;
+    
+    margin:auto;
+    width:74.5%;
+}
+
+/*제목:주소*/
+.box10_wrap .addrs_box .addrs_mobile .addrs_mobile_title{
+    font-size:20px;
+    padding-bottom:0px;
+    padding-top:10px;
+    position:relative;
+    font-weight:500;
+    
+    /*background-color:blue;*/
+}
+
+/*arrow img*/
+.box10_wrap .addrs_box .addrs_mobile .addrs_mobile_title img{
+    float:left;
+    position:absolute;
+    top:28px;
+    left:-10px;
+    
+    /*background-color:green;*/
+}
+
 /*제목:해운대 본원*/
 .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
