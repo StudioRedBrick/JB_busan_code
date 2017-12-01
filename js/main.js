@@ -1,3 +1,11 @@
+//VIDEO PLAY START
+$(function(){
+        
+    document.getElementById('vid_busan').play();
+    
+});//VIDEO PLAY END
+
+
 //MENU START
 $(function(){
         
