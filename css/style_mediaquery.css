@@ -13,6 +13,19 @@
     /*-------------------------------------------------------*/
     
     /*box2_logo start*/
+    
+    .box2 .busan_bg_logo{
+    width:200px;
+    height:65px;
+    margin-top:30px;
+    
+    /*고정형 레이아웃*/
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+
+    background-size:contain;
+}
     /*box2_logo end*/
     
     /*-------------------------------------------------------*/
@@ -23,11 +36,281 @@
     /*-------------------------------------------------------*/
     
     /*box4_video start*/
+    .box4{
+    height:370px;
+    width:100%;
+}
+    
+    .box4 .video_container{
+    width:75.4%;
+    padding-top:130px;
+    position:absolute;
+    top:0px;
+    left:50%;
+    margin-left:-37.7%;
+        
+    /*background-color:blue;*/
+}
+    
+    .box4 .video_container .video_txt_1{
+    font-size:35px;
+    font-weight:700;
+    line-height:35px;
+    text-align:left;
+    
+    /*background-color:red;*/
+}
+    
+    .box4 .video_container .video_txt_2{
+    font-size:24px;
+    font-weight:400;
+    text-align:left;
+}
+    
+    .box4 .video_container .button1{
+    font-size:20px;
+    font-weight:500;
+    padding-top:15px;
+}
+    
+    .box4 .video_container .button1 a{
+    width:140px;
+    height:50px;
+    float:left;
+}
+    
+    .box4 .video_container .button1 a p{
+    margin-top:10px;
+}
+    
+    .box4 .video_container .button2{
+    font-size:19px;
+    font-weight:500;
+    padding-top:7px;
+}
+    
+    .box4 .video_container .button2 a{
+    width:140px;
+    height:50px;
+    float:left;
+}
+    
+    .box4 .video_container .button2 a .button2_contents{
+    width:97px;
+    height:18px;
+    margin:0 auto;
+    margin-top:14px;
+    
+    /*background-color:darkviolet;*/
+}
+    
+    .box4 .video_container .button2 a .button2_contents p{
+    padding-top:0px;
+}
+    
+    .box4 .video_container .button2 a .button2_contents img{
+    margin-right:2px;
+    padding-top:2px;
+    transform:scale(0.9,0.9);
+    
+    /*background-color:red;*/
+}
+    
     /*box4_video end*/
     
     /*-------------------------------------------------------*/
     
     /*box5_blog start*/
+    
+    .box5{
+    height:950px;
+    width:100%;
+}
+    
+    .box5 .blog_wrap{
+    width:75.4%;
+}
+    
+    /*블로그 아이콘*/
+    .box5 .blog_wrap .blog_icon_box{
+    padding-bottom:8px;
+    padding-top:40px;
+    /*background-color:red;*/
+}
+    
+    .box5 .blog_wrap .blog_icon_box a{
+    transform:scale(1,1);
+        
+    /*background-color:orange;*/
+}
+
+    .box5 .blog_wrap .blog_icon_box p{
+    font-size:16px;
+    margin-top:4px;
+    padding-top:0px;
+    padding-left:8px;
+    line-height:22px;
+    
+    /*background-color:blue;*/
+}
+
+    /*blog 제목 서체크기 통일화*/
+    .blog_contents p{
+    font-size:15px;
+    line-height:19px;
+    padding-top:2px;
+}
+    
+    /*blog 날짜 서체크기 통일화*/
+    .blog_contents span{
+    font-size:11px;
+}
+    
+    /*컨텐츠 4,5,6 기사읽기 통일*/
+    .blog_contents .see_more_1{
+    display:block;
+}
+    
+    .blog_contents .see_more_2{
+    display:none;
+}
+    
+    .blog_contents .visible_none{
+    display:block;
+}
+    
+    /*블로그 컨텐츠 1번*/
+    .blog_contents .blog_contents_1{
+    width:100%;
+    height:350px;
+}
+    
+    .blog_contents .blog_contents_1:hover{
+    background-color:darkgrey;
+    cursor:pointer;
+}
+    
+    .blog_contents .blog_contents_1 .blog_contents_1_wrap{
+    height:110px;
+}
+    
+    .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner{
+    width:80%;
+    padding-top:20px;
+    padding-left:8%;
+    
+    /*background-color:red;*/
+}
+    
+    .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner span{
+    font-size:13px;
+    
+    /*background-color:red;*/
+}
+
+    .blog_contents .blog_contents_1 .blog_contents_1_wrap .blog_contents_1_inner p{
+    font-size:17px;
+    padding-top:2px;
+    line-height:23px;
+    
+    /*background-color:greenyellow;*/
+}
+    
+    /*블로그 컨텐츠 2번*/
+    
+    .blog_contents .blog_contents_2{
+    width:100%;
+    height:82px;
+    margin-top:7px;
+}
+    
+    .blog_contents .blog_contents_2 .blog_contents_2_inner{
+    display:block;
+    
+    padding-top:9px;
+    padding-left:8%;
+}
+    
+    .blog_contents .blog_contents_2:hover{
+    background-color:darkgrey;
+    cursor:pointer;
+}
+    
+    /*블로그 컨텐츠 3번*/
+    .blog_contents .blog_contents_3{
+    width:100%;
+    height:82px;
+    margin-top:7px;
+}
+    
+    .blog_contents .blog_contents_3 .blog_contents_3_inner{
+    display:block;
+    
+    padding-top:9px;
+    padding-left:8%;
+}
+    
+    .blog_contents .blog_contents_3:hover{
+    background-color:darkgrey;
+    cursor:pointer;
+}
+    
+    /*블로그 컨텐츠 4번*/
+    .blog_contents .blog_contents_4{
+    width:100%;
+    height:82px;
+    margin-top:7px;
+}
+    
+    .blog_contents .blog_contents_4 .blog_contents_4_inner{
+    display:block;
+        
+    padding-top:9px;
+    padding-left:8%;
+}
+    
+    .blog_contents .blog_contents_4:hover{
+    background-color:darkgrey;
+    cursor:pointer;
+}
+    
+    /*블로그 컨텐츠 5번*/
+    .blog_contents .blog_contents_5{
+    width:100%;
+    height:82px;
+    margin-top:7px;
+}
+    
+    .blog_contents .blog_contents_5 .blog_contents_5_inner{
+    display:block;
+    
+    padding-top:9px;
+    padding-left:8%;
+}
+    
+    .blog_contents .blog_contents_5:hover{
+    background-color:darkgrey;
+    cursor:pointer;
+}
+
+    /*블로그 컨텐츠 6번*/
+    .blog_contents .blog_contents_6{
+    width:100%;
+    height:82px;
+    margin-top:7px;
+}
+    
+    .blog_contents .blog_contents_6 .blog_contents_6_inner{
+    display:block;
+    
+    padding-top:9px;
+    padding-left:8%;
+}
+    
+    .blog_contents .blog_contents_6:hover{
+    background-color:darkgrey;
+    cursor:pointer;
+}
     /*box5_blog end*/
     
     /*-------------------------------------------------------*/
@@ -38,21 +321,467 @@
     /*-------------------------------------------------------*/
     
     /*box7_ad1 start*/
+    
+    .box7{
+    height: 1280px;
+    width:100%;
+}
+    
+    .box7 .ad1_title{
+    width:75.4%;
+    padding-top:55px;
+}
+    
+    .box7 .ad1_title ul li h3{
+    font-size:30px;
+    line-height:40px;
+}
+    
+    .box7 .ad1_title ul li p{
+    font-size:16px;
+    width:80%;
+    line-height:23px;
+    padding-top:5px;
+    padding-bottom:25px;
+    font-weight:500;
+    letter-spacing:0;
+    
+    /*background-color:blue;*/
+}
+    
+    .box7 .ad1_contents_wrap{
+    width:75.4%;
+}
+    
+    /*컨텐츠 박스넓이 통일화*/
+    .box7 .ad1_contents_wrap .ad1_contents_box{
+    width:100%;
+    height:215px;
+    background-color:rgba(156,216,61,0.8);
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_box:hover{
+    background-color:rgba(156,216,61,0.8);
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p br{
+    display:block;
+}
+    
+    /*컨텐츠 박스 패딩값 통일화*/
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
+    width:87%;
+    padding-left:0%;
+    padding-top:15px;
+    margin:0 auto;
+}
+    
+    /*컨텐츠 서체크기 통일화 1*/
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
+    width:100%;
+    font-size:25px;
+    line-height:33px;
+    padding-bottom:8px;
+        
+    /*background-color:red;*/
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
+    width:100%;
+    padding-top:8px;
+    
+    /*background-color:green;*/
+}
+
+    /*컨텐츠 서체크기 통일화 2*/
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
+    width:100%;
+    font-size:13.5px;
+    letter-spacing:0;
+    font-weight:400;
+    line-height:1.9;
+    
+    /*background-color:red;*/
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_2{
+    height:235px;
+    margin-top:12px;
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_3{
+    height:285px;
+    margin-top:12px;
+}
+
+    .box7 .ad1_contents_wrap .ad1_contents_4{
+    height:285px;
+    margin-top:12px;
+}
     /*box7_ad1 end*/
     
     /*-------------------------------------------------------*/
     
     /*box8_prep_ad2 start*/
+    .box8{
+        height:2700px;
+    }
+    
+    .box8 .ad_2_wrap{
+    margin-top:20px;
+}
+    
+    /*컨텐츠 제목 & 소제목*/
+    .box8 .ad_2_wrap .ad2_title{
+    width:75.4%;
+}
+    
+    .box8 .ad2_title ul li h3{
+    font-size:30px;
+    line-height:30px;
+}
+
+    .box8 .ad2_title ul li p{
+    width:80%;
+    font-size:16px;
+    line-height:23px;
+    padding-top:5px;
+    padding-bottom:25px;
+    font-weight:500;
+    letter-spacing:0;
+}
+    
+    .box8 .ad2_contents_wrap{
+    width:75.4%;
+}
+    
+    /*컨텐츠 박스 패딩값 통일화*/
+    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner{
+    width:88%;
+    margin:auto;
+    padding:0%;
+    
+    /*background-color:deepskyblue;*/
+}
+    
+    /*컨텐츠 서체크기 통일화 1*/
+    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p{
+    font-size:23px;
+    letter-spacing:-0.3px;
+    padding-bottom:5px;
+}
+    
+    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner .ad2_span{
+    padding-top:5px;
+    
+    /*background-color:green;*/
+}
+
+    /*컨텐츠 서체크기 통일화 2*/
+    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
+    font-size:13.4px;
+    letter-spacing:0;
+    font-weight:400;
+    line-height:1.9;
+} 
+    
+    /*컨텐츠 박스넓이 통일화*/
+    .box8 .ad2_contents_wrap .ad2_contents_box{
+    height:160px;
+    padding-top:17px;
+    width:100%;
+    background-color:rgba(156,216,61,0.8);
+}
+    
+    .box8 .ad2_contents_wrap .ad2_contents_box:hover{
+    background-color:rgba(156,216,61,0.8);
+}
+    
+    .box8 .ad2_contents_wrap .ad2_contents_2{
+    margin-top:12px;
+}
+    
+    .box8 .ad2_contents_wrap .ad2_contents_3{
+    margin-top:12px;
+    height:260px;
+}
+
+    .box8 .ad2_contents_wrap .ad2_contents_4{
+    margin-top:12px;
+    height:260px;
+}
+    
+    .box8{
+    background: url('../img/busan_bg_prep_ad_2_2.png') no-repeat center; 
+    background-size:cover;
+}
+    
     /*box8_prep_ad2 end*/
     
     /*-------------------------------------------------------*/
     
     /*box9_mid_ask / prof start*/
+    .box9{
+    height:1420px;
+}
+    .box9 .box9_wrap{
+    width:75.4%;
+}
+    /*mid-ask start*/
+    
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
+    width:100%;
+    height:85px;
+    float:none;
+}
+    
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_button{
+    width:100%;
+    height:93px;
+    float:none;
+    
+    /*background-color:skyblue;*/
+}
+    
+    /*제목: 모의테스트 문의*/
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt h3{
+    font-size:30px;
+    padding-top:30px;
+}
+    /*소제목: SAT,ACT.....제시합니다.*/
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt p{
+    width:100%;
+    font-size:13px;
+    font-weight:500;
+    line-height:1.6;
+    letter-spacing:0;
+}
+    
+    /*문의하기 버튼*/
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_button a{
+    display:block;
+    width:150px;
+    height:55.71px;
+    margin-top:72px;
+}
+    
+    .box9 .box9_wrap .ask_mid_wrap .ask_mid_button a p{
+    text-align:center;
+    font-size:22px;
+    font-weight:500;
+    padding-top:12px;
+}
+    
+    /*문의하기 배경*/
+    .box9 .mid_ask_bg{
+    width:100%;
+    height:250px;
+    position:absolute;
+    top:0;
+    z-index:-9999;
+    
+    background-color:#ff9212;
+}
+    /*mid-ask end*/
+    /*-------------------------------------------------------*/
+    /*prof start*/
+    .box9{
+        height:970px;
+    }
+    
+    /*제목: Professor Profile*/
+    .box9 .box9_wrap .prof_wrap .prof_title h3{
+    font-size:30px;
+    line-height:40px;
+    padding-top:50px;
+}
+    
+    /*소제목: 세계 최고 수준의....*/
+    .box9 .box9_wrap .prof_wrap .prof_title p{
+    width:80%;
+    font-size:16px;
+    line-height:22px;
+    padding-bottom:20px;
+}
+
+    /*교수 프로필*/
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
+    width:50%;
+    padding-bottom:20px;
+    
+    /*background-color:blue;*/
+}
+    
+    
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left{
+    width:95%;
+    height:112px;
+    float:none;
+    position:relative;
+    
+    /*background-color:mediumvioletred;*/
+}
+    
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right{
+    display:none;
+    float:none;
+    height:112px;
+    
+    /*background-color:red;*/
+}
+    
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
+    font-size:15px;
+    line-height:23px;
+    font-weight:400;
+        
+    /*background-color:darkblue;*/
+}
+    
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul{
+    width:100%;
+    padding-top:10px;
+    padding-left:0px;
+}
+
+    /*교사 이름*/
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box p{
+    width:80%;
+    margin:45px auto;
+    text-align:center;
+    font-size:20px;
+    line-height:23px;
+    border-bottom:0.5px solid rgba(255,255,255,0.9);
+    
+    /*background-color:mediumpurple;*/
+}
     /*box9_mia_ask / prof end*/
     
     /*-------------------------------------------------------*/
     
     /*box10_map start*/
+    .box10_wrap{
+    width:100%;
+}
+    
+    .box10_wrap{
+    padding-top:80px;
+}
+    
+    .box10_wrap .addrs_box{
+    width:100%;
+    height:350px;
+    border-radius:0px;
+}
+    
+    /*제목:해운대 본원*/
+    .box10_wrap .addrs_box .addrs_box_title{
+    margin:auto;
+    width:75.4%;
+    padding-top:25px;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    border-bottom:1px solid #ffffff;
+    
+    /*background-color:blueviolet;*/
+}
+    
+    .box10_wrap .addrs_box .addrs_box_contact{
+    width:72%;
+        
+    /*background:red;*/
+}
+    
+    /*제목:연락처*/
+    .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
+    padding-top:15px;
+    position:relative;
+    font-weight:500;
+}
+    
+    /*제목:운영시간*/
+    .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
+    font-weight:500;
+}
+
+    /*arrow img1*/
+    .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
+    float:left;
+    position:absolute;
+    top:25px;
+    left:-10px;
+}
+    
+    /*arrow img2*/
+    .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title img{
+    float:left;
+    position:absolute;
+    top:25px;
+    left:-10px;
+}
+
+    
+    .box10_wrap .addrs_box .addrs_box_time{
+    width:72%;
+}
+    
+    /*detailed txt*/
+    .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_left{
+    font-size:15px;
+    font-weight:400;
+    float:left;
+    width:25%;
+    padding-left:5%;
+    line-height:20px;
+    
+    /*background-color:skyblue;*/
+}
+    
+    .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
+    width:60%;
+    padding-left:7%;
+    font-weight:400;
+    line-height:20px;
+    
+    /*background-color:darkblue;*/
+}
+    
+        
+    /*detailed txt*/
+    .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_left{
+    font-size:15px;
+    font-weight:400;
+    float:left;
+    width:25%;
+    padding-left:5%;
+    line-height:20px;
+    
+    /*background-color:skyblue;*/
+}
+    
+    .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
+    width:60%;
+    padding-left:7%;
+    font-weight:400;
+    line-height:20px;
+    
+    /*background-color:darkblue;*/
+}
+    
+    .box10{
+    overflow:hidden;
+    background:none;
+    position:relative;
+}
+    
+    .box10 .bg_visible{
+        display:block;
+        position:absolute;
+        top:0;
+        left:-50px;
+        z-index:-1;
+    }
     /*box10_map end*/
     
     /*-------------------------------------------------------*/
@@ -238,13 +967,13 @@
 /*---------------------------------------------------------------*/
     /*box4_video start*/
     .box4{
-    height:390px;
+    height:370px;
     width:100%;
 }
     
     .box4 .video_container{
     width:75.4%;
-    padding-top:120px;
+    padding-top:100px;
     position:absolute;
     top:0px;
     left:50%;
@@ -369,7 +1098,7 @@
 }
     
     .blog_contents .visible_none{
-        display:block;
+    display:block;
 }
     
     /*블로그 컨텐츠 1번*/
@@ -418,7 +1147,7 @@
 }
     
     .blog_contents .blog_contents_2 .blog_contents_2_inner{
-    display:none;
+    display:block;
     
     padding-top:9px;
     padding-left:8%;
@@ -437,7 +1166,7 @@
 }
     
     .blog_contents .blog_contents_3 .blog_contents_3_inner{
-    display:none;
+    display:block;
     
     padding-top:9px;
     padding-left:8%;
@@ -475,7 +1204,7 @@
 }
     
     .blog_contents .blog_contents_5 .blog_contents_5_inner{
-    display:none;
+    display:block;
     
     padding-top:9px;
     padding-left:8%;
@@ -494,7 +1223,7 @@
 }
     
     .blog_contents .blog_contents_6 .blog_contents_6_inner{
-    display:none;
+    display:block;
     
     padding-top:9px;
     padding-left:8%;
@@ -666,7 +1395,7 @@
 /*---------------------------------------------------------------*/
     /*box7_ad1 start*/
     .box7{
-    height: 1020px;
+    height: 1030px;
     width:100%;
 }
     
@@ -696,8 +1425,12 @@
     /*컨텐츠 박스넓이 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box{
     width:100%;
-    height:180px;
-    /*background-color:orange;*/
+    height:183px;
+    background-color:rgba(156,216,61,0.8);
+}
+    
+    .box7 .ad1_contents_wrap .ad1_contents_box:hover{
+    background-color:rgba(156,216,61,0.8);
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p br{
@@ -744,19 +1477,19 @@
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_3{
-    height:205px;
+    height:208px;
     margin-top:12px;
 }
 
     .box7 .ad1_contents_wrap .ad1_contents_4{
-    height:205px;
+    height:208px;
     margin-top:12px;
 }
     /*box7_ad1 end*/
 /*---------------------------------------------------------------*/
     /*box8_prep & ad2 start*/
     .box8{
-    height:2580px;
+    height:2680px;
 }
     /* Prep start */
     .box8 .Prep1_title,
@@ -896,6 +1629,7 @@
     
     .box8 .ad2_title ul li h3{
     font-size:40px;
+    line-height:40px;
 }
 
     .box8 .ad2_title ul li p{
@@ -933,17 +1667,22 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
-    font-size:14px;
+    font-size:13.4px;
     letter-spacing:0;
     font-weight:400;
     line-height:1.9;
-}
+} 
     
     /*컨텐츠 박스넓이 통일화*/
     .box8 .ad2_contents_wrap .ad2_contents_box{
-    height:162px;
+    height:160px;
     padding-top:17px;
     width:100%;
+    background-color:rgba(156,216,61,0.8);
+}
+    
+    .box8 .ad2_contents_wrap .ad2_contents_box:hover{
+    background-color:rgba(156,216,61,0.8);
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_2{
@@ -952,16 +1691,16 @@
     
     .box8 .ad2_contents_wrap .ad2_contents_3{
     margin-top:12px;
-    height:215px;
+    height:208px;
 }
 
     .box8 .ad2_contents_wrap .ad2_contents_4{
     margin-top:12px;
-    height:215px;
+    height:208px;
 }
     
     .box8{
-    background: url('../img/busan_bg_prep_ad_2_mobile.png') no-repeat center; 
+    background: url('../img/busan_bg_prep_ad_2_2.png') no-repeat center; 
     background-size:cover;
 }
     /*ad2 end*/
@@ -1013,19 +1752,21 @@
     /*-------------------------------------------------------*/
     /*prof start*/
     .box9{
-    height:1440px;
+    height:1425px;
 }
     
     /*제목: Professor Profile*/
     .box9 .box9_wrap .prof_wrap .prof_title h3{
     font-size:40px;
+    line-height:40px;
     padding-top:50px;
 }
     
     /*소제목: 세계 최고 수준의....*/
     .box9 .box9_wrap .prof_wrap .prof_title p{
     font-size:17px;
-    padding-bottom:30px;
+    line-height:17px;
+    padding-bottom:33px;
 }
 
     /*교수 프로필*/
@@ -1054,8 +1795,8 @@
 }
     
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
-    font-size:14px;
-    line-height:25px;
+    font-size:13px;
+    line-height:23px;
     font-weight:400;
         
     /*background-color:darkblue;*/
@@ -1082,7 +1823,7 @@
 /*---------------------------------------------------------------*/
     /*box10_map start*/
     .box10_wrap{
-    width:540px;
+    width:75.4%;
 }
     
     .box10_wrap{
@@ -1257,7 +1998,7 @@
 /*---------------------------------------------------------------*/
     /*footer start*/
     .footer{
-    width:75.4%;
+    width:90%;
     height:165px;
     font-size:10px;
     line-height:16px;
@@ -1267,9 +2008,11 @@
 }
     
     .footer .footer_wrap{
-    width:100%;
+    width:90%;
     position:absolute;
     bottom:15px;
+    left:50%;
+    margin-left:-41.5%;
     font-weight:400;
     
     /*background-color:orange;*/
@@ -1277,11 +2020,11 @@
     
     .footer .footer_wrap .footer_copyright{
     width:35%;
-    padding-right:10px;
+    padding-right:5px;
 }
 
     .footer .footer_wrap .footer_contact_wrap .footer_contact{
-    padding-left:5px;
+    padding-left:3px;
 }
     
     .footer .footer_wrap .footer_contact_wrap{
