@@ -465,7 +465,12 @@
     }
     
     .box8 .ad_2_wrap{
-    margin-top:150px;
+    background:url(/img/busan_bg_ad2_mobile.jpg) no-repeat center;
+    background-size:cover;
+    margin-top:0px;
+    padding-top:60px;
+    padding-bottom:60px;
+    background-color:red;
 }
     
     /*컨텐츠 제목 & 소제목*/
@@ -1748,7 +1753,12 @@
 /*---------------------------------------------------------------*/
     /*ad2 start*/
     .box8 .ad_2_wrap{
-    margin-top:175px;
+    background:url(/img/busan_bg_ad2_mobile.jpg) no-repeat center;
+    background-size:cover;
+    margin-top:0px;
+    padding-top:60px;
+    padding-bottom:60px;
+    background-color:red;
 }
     
     /*컨텐츠 제목 & 소제목*/
