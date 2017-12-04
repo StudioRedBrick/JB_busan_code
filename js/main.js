@@ -171,16 +171,11 @@ $(function(){
 
 
 $(function(){
-    
     $(".closebtn_menu").click(function(){
-        
-         $("#menu_sidenav").hide();
+         $("#menu_sidenav").hide();   
     });
     
     $(".openbtn_menu").click(function(){
-//        TweenMax.fromTo($menuArea,.5,{x:100+"%"},{x:0+"%"});
          $("#menu_sidenav").show();
-      
     });
-    
 });
