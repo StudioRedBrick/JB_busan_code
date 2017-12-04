@@ -226,12 +226,19 @@
     /*box6_consult end*/
 /*---------------------------------------------------------------*/
     
-    
-    
-    
-    
-    
+
     /*box8_prep & ad2 start*/
+    .box8{
+        background:none;
+        height:auto;
+    }
+    
+    .box8 .prep_all_wrap{
+        background:url(/img/busan_bg_prep_mobile.jpg) no-repeat center;
+        background-size:cover;
+        padding-top:60px;
+        padding-bottom:60px;
+    }
     
     .box8 .Prep1_title br,
     .box8 .Prep2_title br,
@@ -319,17 +326,17 @@
     }
     
     .box8 .Prep1_title{
-        padding-top:60px;
+        padding-top:0px;
         margin-left: 16%;
     }
 
     .box8 .Prep2_title{
-        padding-top: 30px;
+        padding-top: 40px;
         margin-left: 16%;
     }
     
     .box8 .Prep3_title{
-        padding-top: 30px;
+        padding-top: 40px;
         margin-left: 16%;
     }
     
@@ -609,9 +616,16 @@
     
     /*box8_prep & ad2 start*/
     .box8{
-        height:2550px;  
+        height:auto;
     }
     
+    .box8 .prep_all_wrap{
+        background:url(/img/busan_bg_prep_mobile.jpg) no-repeat center;
+        background-size:cover;
+        padding-top:60px;
+        padding-bottom:60px;
+        background-color:blue;
+    }
     
       /* hover off */
     .box8 .multi_slider .prep1_contents_inner,
@@ -691,15 +705,15 @@
     
     
     .box8 .Prep1_title{
-        padding-top:60px;
+        padding-top:0px;
     }
 
     .box8 .Prep2_title{
-        padding-top: 30px;
+        padding-top: 45px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 30px;
+        padding-top: 45px;
     }
     
     /* prep1 */
