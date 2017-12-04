@@ -8,21 +8,50 @@
 @media screen and (min-width: 320px) and (max-width: 414px){ /*----------------------------------------------------------------*/
  
     /*box1_header start*/
+    .box1{
+        display:none;
+    }
     /*box1_header end*/
     
     /*-------------------------------------------------------*/
     
     /*box2_logo start*/
+    .box2{
+        height:80px;
+        
+    }
     
     .box2 .busan_bg_logo{
-    width:200px;
+    width:150px;
     height:65px;
-    margin-top:30px;
+    margin-top:8px;
     
     /*고정형 레이아웃*/
     position:absolute;
     left:50%;
-    margin-left:-100px;
+    margin-left:-75px;
+
+    background-size:contain;
+}
+    
+    .box2-clone{
+        display:block;
+        height:80px;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:1;
+    }
+    
+    .box2-clone .busan_bg_logo{
+    width:150px;
+    height:65px;
+    margin-top:8px;
+    
+    /*고정형 레이아웃*/
+    position:absolute;
+    left:50%;
+    margin-left:-75px;
 
     background-size:contain;
 }
@@ -31,6 +60,13 @@
     /*-------------------------------------------------------*/
     
     /*box3_menu start*/
+    .box3{
+        display:none;
+    }
+    
+    .box3-clone{
+        display:none;
+    }
     /*box3_menu end*/
     
     /*-------------------------------------------------------*/
@@ -987,6 +1023,10 @@
 @media screen and (min-width: 415px) and (max-width:767px){ /*----------------------------------------------------------------*/
     
     /*box1_header start*/
+    .box1{
+        display:none;
+    }
+    
     .box1 .header_busan{
     height:59px;
 }
@@ -1032,15 +1072,41 @@
     /*box1_header end*/
 /*---------------------------------------------------------------*/
     /*box2_logo start*/
+    .box2{
+        height:80px;
+    }
+    
     .box2 .busan_bg_logo{
-    width:240px;
+    width:150px;
     height:65px;
-    margin-top:30px;
+    margin-top:8px;
     
     /*고정형 레이아웃*/
     position:absolute;
     left:50%;
-    margin-left:-120px;
+    margin-left:-75px;
+
+    background-size:contain;
+}
+    
+    .box2-clone{
+        display:block;
+        height:80px;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:1;
+    }
+    
+    .box2-clone .busan_bg_logo{
+    width:150px;
+    height:65px;
+    margin-top:8px;
+    
+    /*고정형 레이아웃*/
+    position:absolute;
+    left:50%;
+    margin-left:-75px;
 
     background-size:contain;
 }
@@ -1048,6 +1114,7 @@
 /*---------------------------------------------------------------*/
     /*box3_menu start*/
     .box3{
+        display:none;
         height:50px;
 }
     

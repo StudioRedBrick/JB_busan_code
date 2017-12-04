@@ -23,6 +23,11 @@
     background-size:cover;
 }
 
+.box2-clone{
+    background:url(../img/busan_bg_logo_solid.jpg) no-repeat center;
+    background-size:cover;
+}
+
 .box5{
     background:url(../img/busan_bg_blog_2.png) no-repeat center;
     background-size:cover;
