@@ -3,6 +3,69 @@
 /*max-width:414px(핸드폰 세로 기준)*/
 @media screen and (min-width: 320px) and (max-width: 414px){ /*----------------------------------------------------------------*/
 
+    /* 잊지말고 지울것 */
+    .box2-clone .mobile_hamburger_left{
+        width:50px;
+        height:50px;
+        background-color:blue;
+        position:absolute;
+        top:16px;
+        left:15px;
+        text-align: center;
+        
+    }
+
+    .box2-clone .mobile_hamburger_right{
+        width:50px;
+        height:50px;
+        background-color:red;
+        position:absolute;
+        top:16px;
+        right:15px;
+    }
+
+    /*-----------------*/
+    
+    .mobile_hamburger_left .menu_select_area {
+        height: 100%;
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(17, 17, 17, 0.95);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .mobile_hamburger_left .menu_select_area a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.1s;
+    }
+
+    .mobile_hamburger_left .menu_select_area a:hover {
+        color: #f1f1f1;
+    }
+
+    .mobile_hamburger_left .menu_select_area .closebtn_menu {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    .mobile_hamburger_left .openbtn_menu{
+        font-size: 26px;
+    }
+
+    
     /*box6_consult start*/
 
     .box6{
@@ -295,7 +358,7 @@
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
         font-size:13.5px;
         line-height: 1.5;
-        width: 100%;
+        width: 90%;
 
     /*    background-color:red;*/
     }
