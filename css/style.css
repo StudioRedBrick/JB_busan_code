@@ -369,7 +369,7 @@ body{
     position:relative;
 }
 
-.box4 .marin_video{
+.box4 .busan_video{
     min-width:100% !important;
     min-height:100% !important;
     margin:auto;
@@ -1838,7 +1838,7 @@ body{
 .box10_wrap .addrs_box .addrs_mobile .addrs_mobile_title img{
     float:left;
     position:absolute;
-    top:28px;
+    top:20px;
     left:-10px;
     
     /*background-color:green;*/
