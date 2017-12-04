@@ -10,11 +10,11 @@
     }
 
     
-     .box6 .consult_container{
+    .box6 .consult_container{
         width: 75.4%;
         margin: auto;
          
-         top: 5%;
+        top: 5%;
     }
     
     .box6 .consult_contents{
@@ -178,16 +178,19 @@
 
     
     /* hover off */
+    .box8 .multi_slider .prep1_contents_inner,
     .box8 .multi_slider .prep1_contents_inner:hover{
-        background: url(../../img/busan_prep1_box_line.png) no-repeat center;
+        background: url(../../img/busan_prep1_box_line2.png) no-repeat center;
         background-size: contain;
     }
     
+    .box8 .multi_slider .prep2_contents_inner,
     .box8 .multi_slider .prep2_contents_inner:hover{
-        background: url('../../img/busan_prep2_box_line.png') no-repeat center;
+        background: url('../../img/busan_prep2_box_line2.png') no-repeat center;
         background-size: contain;
     }
     
+    .box8 .multi_slider .prep3_contents_inner,
     .box8 .multi_slider .prep3_contents_inner:hover{    
         background: url('../../img/busan_prep3_box_line.png') no-repeat center;
         background-size: contain;
@@ -244,6 +247,13 @@
         padding-bottom:0px;
     }
     
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        margin-top: 18px;
+    /*    background-color:green;*/
+    }
+    
     .box8 .Prep1_title{
         padding-top:60px;
     }
@@ -257,7 +267,15 @@
     }
     
     /* prep1 */
-
+ /*   .box8 .Prep1_container .prep1_box .prep1_contents_inner{
+        padding-top: 8.2%;
+        padding-bottom: 14.2%;
+        padding-left: 11.6%;
+        padding-right: 11.6%;
+        margin: 7.9px 6.5px;
+        background-color: aquamarine;
+    }*/
+    
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
         font-size: 37px;
@@ -612,31 +630,45 @@
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span{
         width: 110%;
-        font-size: 13.5px;   
+        font-size: 13px;   
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-        padding: 14.2% 10.6%;
+        padding-top: 10.2%;
+        padding-bottom: 14.2%;
+        padding-left: 9.6%;
+        padding-right: 10.6%;
         margin: 7.9px 6.5px;
         /*background-color: aquamarine;*/
     }
    
     /* prep2 */
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt{
+        width: 110%;
+/*        background-color: red;*/
+    }
+    
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
         font-size:24px;
     }
     
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
-        font-size:13.5px;
+        font-size:13px;
         line-height: 1.5;
         width: 110%;
 
     /*    background-color:red;*/
     }
     
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span br{
+        display: none;
+    }
+    
+    
     .box8 .Prep2_container .prep2_box .prep2_contents_inner{
-        padding: 17.2% 1%;
-        padding-left: 10.6%;
+        padding-top: 11.2%;
+        padding-bottom: 13.2%;
+        padding-left: 9.6%;
         padding-right: 17.6%;
         margin: 8.9px 6.5px;
 
@@ -649,6 +681,15 @@
     }
     
     /* prep3_slider */
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
+        padding-top: 7.5%;
+        padding-bottom: 10.7%;
+        padding-left: 12.6%;
+        padding-right: 17.6%;
+        margin: 8.9px 6.5px;
+    /*    background-color: aquamarine;*/
+    }
+    
     .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
         font-size: 38px;
     }
