@@ -163,11 +163,7 @@
     /*box6_consult end*/
 /*---------------------------------------------------------------*/
     
-    
-    
-    
-    
-    
+
     /*box8_prep & ad2 start*/
     
     .box8 .Prep1_title br,
@@ -261,12 +257,12 @@
     }
 
     .box8 .Prep2_title{
-        padding-top: 30px;
+        padding-top: 40px;
         margin-left: 16%;
     }
     
     .box8 .Prep3_title{
-        padding-top: 30px;
+        padding-top: 40px;
         margin-left: 16%;
     }
     
@@ -546,9 +542,8 @@
     
     /*box8_prep & ad2 start*/
     .box8{
-        height:2550px;  
+        height:2760px;  
     }
-    
     
       /* hover off */
     .box8 .multi_slider .prep1_contents_inner,
@@ -632,11 +627,11 @@
     }
 
     .box8 .Prep2_title{
-        padding-top: 30px;
+        padding-top: 45px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 30px;
+        padding-top: 45px;
     }
     
     /* prep1 */
