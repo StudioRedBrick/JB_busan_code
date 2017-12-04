@@ -1,12 +1,12 @@
 @charset 'utf-8';
 
 /*max-width:414px(핸드폰 세로 기준)*/
-@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) { /*----------------------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 414px){ /*----------------------------------------------------------------*/
 
     /*box6_consult start*/
 
     .box6{
-        height:535px;    
+        height:580px;    
     }
 
     
@@ -234,7 +234,7 @@
     .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
-        font-size: 30px;
+        font-size: 34px;
         line-height: 1.1;
         margin-bottom: 7px;
     }
@@ -242,9 +242,10 @@
     .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
-        padding-bottom:0px;
+        margin-left: 2px;
+        /*padding-bottom:10px;*/
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
@@ -256,25 +257,28 @@
     
     .box8 .Prep1_title{
         padding-top:60px;
+        margin-left: 16%;
     }
 
     .box8 .Prep2_title{
         padding-top: 30px;
+        margin-left: 16%;
     }
     
     .box8 .Prep3_title{
         padding-top: 30px;
+        margin-left: 16%;
     }
     
     /* prep1 */
- /*   .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-        padding-top: 8.2%;
-        padding-bottom: 14.2%;
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner{
+        padding-top: 9.2%;
+        padding-bottom: 13.2%;
         padding-left: 11.6%;
         padding-right: 11.6%;
         margin: 7.9px 6.5px;
-        background-color: aquamarine;
-    }*/
+/*        background-color: aquamarine;*/
+    }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
@@ -284,6 +288,8 @@
     .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
         font-size: 16px;
     }
+    
+
    
     /* prep2 */
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
@@ -296,6 +302,14 @@
         width: 100%;
 
     /*    background-color:red;*/
+    }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner{
+        padding-top: 10.2%;
+        padding-bottom: 12.2%;
+        padding-left: 11.6%;
+        padding-right: 11.6%;
+        margin: 7.9px 6.5px;
     }
 
     
@@ -317,6 +331,14 @@
         font-size: 15px;
     }
     
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
+        padding-top: 8.5%;
+        padding-bottom: 9.7%;
+        padding-left: 12.6%;
+        padding-right: 17.6%;
+        margin: 8.9px 6.5px;
+    /*    background-color: aquamarine;*/
+    }
     
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
@@ -340,6 +362,8 @@
         height: 70px;
     }
 
+    
+    
      /* slidenav position */
     .box8 .slick-prev{
         left: -8.2%;
@@ -357,7 +381,7 @@
 
 
 
-@media screen and (min-width: 415px) and (max-width: 767px) and (orientation: landscape){ /*----------------------------------------------------------------*/
+@media screen and (min-width: 415px) and (max-width: 767px){ /*----------------------------------------------------------------*/
     /*box6_consult start*/
 
     .box6{
@@ -522,8 +546,7 @@
     
     /*box8_prep & ad2 start*/
     .box8{
-        height:2550px;
-        
+        height:2550px;  
     }
     
     
