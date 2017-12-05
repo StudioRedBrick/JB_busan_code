@@ -176,6 +176,6 @@ $(function(){
     });
     
     $(".openbtn_menu").click(function(){
-         $("#menu_sidenav").show();
+         $("#menu_sidenav").show('slide',{ direction : 'right'},500);
     });
 });
