@@ -1879,6 +1879,13 @@ body{
     /*background-color:blue;*/
 }
 
+/*주소 텍스트*/
+.box10_wrap .addrs_box .addrs_mobile .addrs_mobile_txt{
+    font-weight:500;
+    
+    /*background-color:blue;*/
+}
+
 /*arrow img*/
 .box10_wrap .addrs_box .addrs_mobile .addrs_mobile_title img{
     float:left;
