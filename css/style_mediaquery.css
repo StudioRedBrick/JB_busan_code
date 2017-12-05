@@ -2656,7 +2656,7 @@
     }
 
     .box6 .slick-list{
-        padding: 4.5% 0px;
+        padding: 5.1% 0px;
     }
 
     .box6 .slick-track{
@@ -4524,7 +4524,9 @@
     
     .box6 .consult_slider_title{
         padding-right: 10%;
+        margin-left: 3.5%;
     }
+    
     .box6 .consult_slider_title p{
         font-size: 28px;
     }
