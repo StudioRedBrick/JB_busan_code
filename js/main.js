@@ -167,7 +167,7 @@ $(function(){
     
 });
 
-// mobile menu
+// mobile menu start
 $(function(){
     var $menu = $('.mobile_hamburger_left')
     var $menuBtnOpen = $menu.find('.openbtn_menu');
@@ -180,7 +180,7 @@ $(function(){
     // open에 대한 가상선택자 추가
     $menuArea.addClass('comeon');
     
-    //open
+    //menu open
     $menuBtnOpen.on('click',function(){    
         $menuArea.toggleClass('open');
         
@@ -194,8 +194,95 @@ $(function(){
             $menuArea.addClass('comeout');
         };
     });
+
+        
+    //hamburg menu window close when menu clicked start
+    $(".ham_menu_1").click(function() {
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    }); // ham_menu_1 JB소식
     
-    //close
+    $(".ham_menu_2").click(function() {
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    }); // ham_menu_2 컨설팅
+    
+    $(".ham_menu_3").click(function() {
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    }); // ham_menu_3 수업안내
+    
+    $(".ham_menu_4").click(function() {
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    }); // ham_menu_4 교사안내
+    
+    $(".ham_menu_5").click(function() {
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    }); // ham_menu_5 위치보기
+    
+    $(".ham_menu_6").click(function() {
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    }); // ham_menu_5 문의하기
+    //hamburg menu window close when menu clicked end
+    
+    //menu close
     $menuBtnClose.on('click',function(){
         $menuArea.toggleClass('open');
         
@@ -210,9 +297,7 @@ $(function(){
         };
     });
     
-    
-    
-    // mobile academy
+    // mobile academy menu start
     var $academy = $('.mobile_hamburger_right');
     var $acaBtnOpen = $academy.find('.openbtn_aca');
     
@@ -224,7 +309,7 @@ $(function(){
     // open에 대한 가상선택자 추가
     $acaArea.addClass('comeon2');
     
-    //open
+    //academy menu open
     $acaBtnOpen.on('click',function(){   
         $acaArea.toggleClass('open');
         
@@ -238,8 +323,8 @@ $(function(){
             $acaArea.addClass('comeout2');
         };
     });
-    
-    //close
+
+    //academy menu close
     $acaBtnClose.on('click',function(){
         $acaArea.toggleClass('open');
         
@@ -253,9 +338,9 @@ $(function(){
             $acaArea.addClass('comeon2');
         };
     });
-});
+}); // mobile academy menu end
 
-// academy 
+// academy css change when hover start
 $(function(){
     var $acaBusan = $('.aca_busan');
     var $acaMarin = $('.aca_marin');
@@ -288,5 +373,7 @@ $(function(){
         $shortcut3.css("border","none");
     });
     
-});
+}); //academy css change when hover end
+
+
 
