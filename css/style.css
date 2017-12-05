@@ -14,7 +14,8 @@ body{
     color:#ffffff;
     letter-spacing:0.03em;
     background-color:rgba(130,130,130,1);
-    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
     height:auto;
 }
 
@@ -2084,6 +2085,12 @@ body{
 
 .box11 .box11_wrap .ask_form_boxes textarea:focus{
     outline:none;
+}
+
+.box11 .box11_wrap .ask_form_boxes textarea{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    outline:0px none transparent;
 }
 
 /*form boxes*/

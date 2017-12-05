@@ -254,12 +254,12 @@
 
     /* consult_txt */
     .box6 .consult_txt_title p{
-        font-size: 36px;
+        font-size: 27px;
     }
     
     .box6 .consult_txt_subtitle p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
     }
     
     .box6 .consult_txt_main span{
@@ -371,10 +371,10 @@
     }
     
     .box8 .prep_all_wrap{
-        background:url(/img/busan_bg_prep_mobile.jpg) no-repeat center;
+        background:url(../../img/busan_bg_prep_mobile.jpg) no-repeat center;
         background-size:cover;
-        padding-top:60px;
-        padding-bottom:60px;
+        padding-top:50px;
+        padding-bottom:50px;
     }
     
     .box8 .Prep1_title br,
@@ -441,15 +441,16 @@
     .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
-        font-size: 34px;
-        line-height: 1.1;
-        margin-bottom: 7px;
+        font-size: 27px;
+        line-height: 27px;
+        margin-bottom: 12px;
     }
     
     .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 16px;
+        line-height:22px;
         font-weight: 400;
         margin-left: 2px;
         /*padding-bottom:10px;*/
@@ -484,7 +485,7 @@
         padding-left: 11.6%;
         padding-right: 11.6%;
         margin: 7.9px 6.5px;
-/*        background-color: aquamarine;*/
+        /*background-color: aquamarine;*/
     }
     
     .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
@@ -951,7 +952,7 @@
     }
     
     .box8 .prep_all_wrap{
-        background:url(/img/busan_bg_prep_mobile.jpg) no-repeat center;
+        background:url(../../img/busan_bg_prep_mobile.jpg) no-repeat center;
         background-size:cover;
         padding-top:60px;
         padding-bottom:60px;
@@ -1015,15 +1016,18 @@
     .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
-        font-size: 40px;
+        font-size: 33px;
+        line-height:33px;
         margin-bottom: 2px;
+        padding-left:5px;
     }
     
     .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
+        padding-top:5px;
         padding-bottom:0px;
     }
     
@@ -1138,6 +1142,7 @@
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
         font-size:22px;
+        line-height:22px;
         margin-right: 100%;
         
 /*        background-color:aqua;*/
@@ -1149,6 +1154,7 @@
 
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
         font-size:13px;
+        line-height:13px;
         /*background-color:blue;*/
     }
     
