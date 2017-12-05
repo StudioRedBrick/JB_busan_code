@@ -583,6 +583,7 @@ body{
 .box5{
     width:100%;
     height:1080px;
+    position:relative;
 }
 
 .box5 .blog_wrap{
@@ -591,6 +592,13 @@ body{
     margin:auto;
     
     /*background-color:green;*/
+}
+
+.box5 .anchor_box5{
+    visibility:block;
+    position:absolute;
+    top:-40px;
+    left:0;
 }
 
 /*블로그 아이콘*/
