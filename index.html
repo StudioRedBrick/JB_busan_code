@@ -22,8 +22,7 @@
     <link rel="stylesheet" type="text/css" href="./css/mobile/style_ye2.css">
     
     <script type="text/javascript" src="./js/vendor/jquery-3.2.1.min.js"></script>
-    
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
     
     <!-- slickslider js -->
     <script type="text/javascript" src="js/vendor/slick.min.js"></script>
@@ -67,7 +66,7 @@
         <div class="mobile_hamburger_left">
                 <div id="menu_sidenav" class="menu_select_area">
                     <a href="javascript:void()" class="closebtn_menu">&times;</a>
-                    <a href="#">JB소식</a>
+                    <a href="#" class="menus menu1">JB소식</a>
                     <a href="#">컨설팅</a>
                     <a href="#">수업안내</a>
                     <a href="#">교사안내</a>
@@ -80,7 +79,39 @@
             <a href="javascript:void()" class="openbtn_menu">&#9776;</a>
         </div>
         
-        <div class="mobile_hamburger_right">hamburg right</div>
+        <div class="mobile_hamburger_right">
+            <div id="academy_sidenav" class="academy_select_area">
+                <h1>지점선택</h1>
+                <a href="javascript:void()" class="closebtn_aca">&times;</a>
+                <div class="academy_wrap">
+                    <div class="aca_busan">
+                        <a href="#" class="aca_hover">
+                            <p id="aca_name">JB 해운대본원</p>
+                            <div class="shortcut">
+                                <p>바로가기</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="aca_marin">
+                        <a href="#" class="aca_hover">
+                            <p id="aca_name">JB 마린시티 러닝센터</p>
+                            <div class="shortcut">
+                                <p>바로가기</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="aca_jeju">  
+                        <a href="#" class="aca_hover">
+                            <p id="aca_name">JB 제주 러닝센터</p>
+                            <div class="shortcut">
+                                <p>바로가기</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void()" class="openbtn_aca">&#9776;</a>
+        </div>
         
     </div>
     <!--logo end-->

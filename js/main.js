@@ -168,14 +168,125 @@ $(function(){
 });
 
 // mobile menu
-
-
 $(function(){
-    $(".closebtn_menu").click(function(){
-         $("#menu_sidenav").hide();   
+    var $menu = $('.mobile_hamburger_left')
+    var $menuBtnOpen = $menu.find('.openbtn_menu');
+    
+    var $menuArea = $('#menu_sidenav');
+    var $menuBtnClose = $menuArea.find('.closebtn_menu');
+    
+    var dr = 100;
+    
+    // open에 대한 가상선택자 추가
+    $menuArea.addClass('comeon');
+    
+    //open
+    $menuBtnOpen.on('click',function(){    
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeon')){
+            $menuArea.stop().animate({
+               'left':'0' 
+            },dr,'linear');
+            
+            // open 가상선택자 삭제 --> close 가상선택자 추가
+            $menuArea.removeClass('comeon');
+            $menuArea.addClass('comeout');
+        };
     });
     
-    $(".openbtn_menu").click(function(){
-         $("#menu_sidenav").show('slide',{ direction : 'right'},500);
+    //close
+    $menuBtnClose.on('click',function(){
+        $menuArea.toggleClass('open');
+        
+        if($menuArea.hasClass('comeout')){
+            $menuArea.stop().animate({
+               'left':'-100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $menuArea.removeClass('comeout');
+            $menuArea.addClass('comeon');
+        };
+    });
+    
+    
+    
+    // mobile academy
+    var $academy = $('.mobile_hamburger_right');
+    var $acaBtnOpen = $academy.find('.openbtn_aca');
+    
+    var $acaArea = $('#academy_sidenav');
+    var $acaBtnClose = $acaArea.find('.closebtn_aca');
+    
+    var dr = 100;
+    
+    // open에 대한 가상선택자 추가
+    $acaArea.addClass('comeon2');
+    
+    //open
+    $acaBtnOpen.on('click',function(){   
+        $acaArea.toggleClass('open');
+        
+        if($acaArea.hasClass('comeon2')){
+            $acaArea.stop().animate({
+               'left':'0' 
+            },dr,'linear');
+            
+            // open 가상선택자 삭제 --> close 가상선택자 추가
+            $acaArea.removeClass('comeon2');
+            $acaArea.addClass('comeout2');
+        };
+    });
+    
+    //close
+    $acaBtnClose.on('click',function(){
+        $acaArea.toggleClass('open');
+        
+        if($acaArea.hasClass('comeout2')){
+            $acaArea.stop().animate({
+               'left':'100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $acaArea.removeClass('comeout2');
+            $acaArea.addClass('comeon2');
+        };
     });
 });
+
+// academy 
+$(function(){
+    var $acaBusan = $('.aca_busan');
+    var $acaMarin = $('.aca_marin');
+    var $acaJeju = $('.aca_jeju');
+    
+    var $acaName1 = $acaBusan.find('#aca_name');
+    var $acaName2 = $acaMarin.find('#aca_name');
+    var $acaName3 = $acaJeju.find('#aca_name');
+    
+    var $shortcut1 = $acaBusan.find('.shortcut');
+    var $shortcut2 = $acaMarin.find('.shortcut');
+    var $shortcut3 = $acaJeju.find('.shortcut');
+    
+    
+    $acaBusan.hover(function(){
+        $shortcut1.css("border","2px solid #ffffff");
+    },function(){
+        $shortcut1.css("border","none");
+    });
+    
+    $acaMarin.hover(function(){
+        $shortcut2.css("border","2px solid #ffffff");
+    },function(){
+        $shortcut2.css("border","none");
+    });
+    
+    $acaJeju.hover(function(){
+        $shortcut3.css("border","2px solid #ffffff");
+    },function(){
+        $shortcut3.css("border","none");
+    });
+    
+});
+

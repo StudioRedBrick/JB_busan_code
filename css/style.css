@@ -159,6 +159,7 @@ body{
     position:absolute;
     top:16px;
     left:15px;
+    text-align: center; 
 }
 
 .box2-clone .mobile_hamburger_right{
@@ -168,6 +169,7 @@ body{
     position:absolute;
     top:16px;
     right:15px;
+    text-align: center;
 }
 
 
