@@ -22,26 +22,27 @@
         position:absolute;
         top:16px;
         right:15px;
+        text-align: center;
     }
 
-    /*-----------------*/
+    /*---------------------------------------*/
     
-    .mobile_hamburger_left .menu_select_area {
+     /* menu start */
+    .box2-clone .mobile_hamburger_left .menu_select_area {
         height: 100%;
         width: 100%;
-        display: none;
         position: fixed;
         z-index: 1;
         top: 0;
-        left: 0;
+        left: -100%;
         background-color: rgba(17, 17, 17, 0.95);
         overflow: hidden;
         transition: 0.5s;
         padding-top: 60px;
     }
     
-    .mobile_hamburger_left .menu_select_area a {
-        padding: 8px 8px 8px 32px;
+    .box2-clone .mobile_hamburger_left .menu_select_area a {
+        padding: 8px;
         text-decoration: none;
         font-size: 25px;
         color: #818181;
@@ -49,11 +50,11 @@
         transition: 0.1s;
     }
 
-    .mobile_hamburger_left .menu_select_area a:hover {
+    .box2-clone .mobile_hamburger_left .menu_select_area a:hover {
         color: #f1f1f1;
     }
 
-    .mobile_hamburger_left .menu_select_area .closebtn_menu {
+    .box2-clone .mobile_hamburger_left .menu_select_area .closebtn_menu {
         position: absolute;
         top: 0;
         right: 25px;
@@ -61,10 +62,142 @@
         margin-left: 50px;
     }
     
-    .mobile_hamburger_left .openbtn_menu{
+    .box2-clone .mobile_hamburger_left .openbtn_menu{
         font-size: 26px;
     }
 
+    /* menu end */
+    
+    /* academy start */
+    .box2-clone .mobile_hamburger_right .academy_select_area{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 100%; 
+        background-color: rgba(17, 17, 17, 0.95);
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.1s;
+/*        background: blue;*/
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area h1{
+        text-align: center;
+        font-size: 25px;
+/*        background-color: forestgreen;*/
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
+        color: #f1f1f1;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
+        height: 80%;
+        
+/*        background-color: red;*/
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+        width: 90%;
+        height: 33%;
+        margin: auto;
+        margin-top: 5.5%;
+        
+        display: table;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../img/busan_bg_academy_busan2.png') no-repeat center;
+        background-size: cover;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../img/busan_bg_academy_marin2.png') no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../img/busan_bg_academy_jeju2.png') no-repeat center;
+        background-size: cover;
+    }
+    
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 500;
+        color: #ffffff;
+    
+        transition: 0.1s;
+    }
+    
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
+        background: rgba(50, 136, 175, 0.8);
+    }
+    
+    
+    /* 바로가기 */
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut{
+        width: 100px;
+        background-color: #3288af;
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    /* btn setting */
+    .box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
+        position: absolute;
+        top: 0;
+        left: 25px;
+        font-size: 36px;
+    }
+    
+    .box2-clone .mobile_hamburger_right .openbtn_aca{
+        font-size: 26px;
+    }
+    
+    /* academy end */
+    
+    /*---------------------------------------*/
     
     /*box6_consult start*/
 
@@ -453,6 +586,178 @@
 
 
 @media screen and (min-width: 415px) and (max-width: 767px){ /*----------------------------------------------------------------*/
+    /* menu start */
+    .box2-clone .mobile_hamburger_left .menu_select_area {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -100%;
+        background-color: rgba(17, 17, 17, 0.95);
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .box2-clone .mobile_hamburger_left .menu_select_area a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.1s;
+    }
+
+    .box2-clone .mobile_hamburger_left .menu_select_area a:hover {
+        color: #f1f1f1;
+    }
+
+    .box2-clone .mobile_hamburger_left .menu_select_area .closebtn_menu {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    .box2-clone .mobile_hamburger_left .openbtn_menu{
+        font-size: 26px;
+    }
+
+    /* menu end */
+    
+    /* academy start */
+    .box2-clone .mobile_hamburger_right .academy_select_area{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 100%; 
+        background-color: rgba(17, 17, 17, 0.95);
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.1s;
+/*        background: blue;*/
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area h1{
+        text-align: center;
+        font-size: 25px;
+/*        background-color: forestgreen;*/
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
+        color: #f1f1f1;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
+        height: 80%;
+        
+/*        background-color: red;*/
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+        width: 90%;
+        height: 33%;
+        margin: auto;
+        margin-top: 3.3%;
+        
+        display: table;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../img/busan_bg_academy_busan2.png') no-repeat bottom;
+        background-size: cover;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../img/busan_bg_academy_marin2.png') no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../img/busan_bg_academy_jeju2.png') no-repeat center;
+        background-size: cover;
+    }
+    
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 500;
+        color: #ffffff;
+    
+        transition: 0.1s;
+    }
+    
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
+        background: rgba(50, 136, 175, 0.8);
+    }
+    
+    
+    /* 바로가기 */
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut{
+        width: 100px;
+        background-color: #3288af;
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut p,
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    /* btn setting */
+    .box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
+        position: absolute;
+        top: 0;
+        left: 25px;
+        font-size: 36px;
+    }
+    
+    .box2-clone .mobile_hamburger_right .openbtn_aca{
+        font-size: 26px;
+    }
+    
+    /* academy end */
+    
+    
+    
     /*box6_consult start*/
 
     .box6{
