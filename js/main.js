@@ -15,37 +15,37 @@ $(function(){
     
     $(".menu1").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box5").position().top},
+        scrollTop: $(".box5").position().top - 40},
         'slow');
     }); // menu1 JB소식
     
     $(".menu2").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box6").position().top},
+        scrollTop: $(".box6").position().top - 39},
         'slow');
     }); // menu2 컨설팅
     
     $(".menu3").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box8").offset().top},
+        scrollTop: $(".box8").offset().top - 40},
         'slow');
     }); // menu3 수업안내
     
     $(".menu4").click(function() {
     $('html,body').animate({
-        scrollTop: $(".prof_wrap").offset().top},
+        scrollTop: $(".prof_wrap").offset().top - 40},
         'slow');
     }); // menu4 교사안내
     
     $(".menu5").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box10").offset().top},
+        scrollTop: $(".box10").offset().top - 40},
         'slow');
     }); // menu5 위치보기
     
     $(".menu6").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box11").offset().top},
+        scrollTop: $(".box11").offset().top - 40},
         'slow');
     }); // menu6 문의하기
     
@@ -63,7 +63,7 @@ $(function(){
     }); // menu1 JB소식
     
     
-});//MENU END
+});//MENU END 이거 뭔지 모르겠음..?
 
 //FIXED MENU START
 $(function(){
@@ -109,37 +109,37 @@ $(function(){
     
     $(".box3-clone .menu1").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box5").position().top},
+        scrollTop: $(".box5").position().top - 40},
         'slow');
     }); // menu1 JB소식
     
     $(".box3-clone .menu2").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box6").position().top},
+        scrollTop: $(".box6").position().top - 39},
         'slow');
     }); // menu2 컨설팅
     
     $(".box3-clone .menu3").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box8").offset().top},
+        scrollTop: $(".box8").offset().top - 40},
         'slow');
     }); // menu3 수업안내
     
     $(".box3-clone .menu4").click(function() {
     $('html,body').animate({
-        scrollTop: $(".prof_wrap").offset().top},
+        scrollTop: $(".prof_wrap").offset().top - 40},
         'slow');
     }); // menu4 교사안내
     
     $(".box3-clone .menu5").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box10").offset().top},
+        scrollTop: $(".box10").offset().top - 40},
         'slow');
     }); // menu5 위치보기
     
     $(".box3-clone .menu6").click(function() {
     $('html,body').animate({
-        scrollTop: $(".box11").offset().top},
+        scrollTop: $(".box11").offset().top - 40},
         'slow');
     }); // menu6 문의하기
     
