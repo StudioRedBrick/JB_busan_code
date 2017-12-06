@@ -11,8 +11,56 @@ $(function(){
 //MENU START
 $(function(){
         
-    //alert("hello");
+    alert("hello");
     
+    if(matchMedia){
+        const mq = window.matchMedia("(max-width: 414px)");
+        mq.addListener(WidthChange);
+        WidthChange(mq);
+    }
+    
+    function WidthChange(mq){
+    
+    if(mq.matches){
+        
+    $(".menu1").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box5").position().top - 80},
+        'slow');
+    }); // menu1 JB소식
+    
+    $(".menu2").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box6").position().top - 80},
+        'slow');
+    }); // menu2 컨설팅
+    
+    $(".menu3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box8").offset().top - 80},
+        'slow');
+    }); // menu3 수업안내
+    
+    $(".menu4").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".prof_wrap").offset().top - 80},
+        'slow');
+    }); // menu4 교사안내
+    
+    $(".menu5").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box10").offset().top - 80},
+        'slow');
+    }); // menu5 위치보기
+    
+    $(".menu6").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").offset().top - 80},
+        'slow');
+    }); // menu6 문의하기
+        
+    }else{
+        
     $(".menu1").click(function() {
     $('html,body').animate({
         scrollTop: $(".box5").position().top - 40},
@@ -48,6 +96,9 @@ $(function(){
         scrollTop: $(".box11").offset().top - 40},
         'slow');
     }); // menu6 문의하기
+        
+    } //else END
+    } // function widthchage END
     
 });//MENU END
 
