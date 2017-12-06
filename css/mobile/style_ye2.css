@@ -7,7 +7,7 @@
     .box2-clone .mobile_hamburger_left{
         width:50px;
         height:50px;
-        background-color:blue;
+/*        background-color:blue;*/
         position:absolute;
         top:16px;
         left:15px;
@@ -18,7 +18,7 @@
     .box2-clone .mobile_hamburger_right{
         width:50px;
         height:50px;
-        background-color:red;
+/*        background-color:red;*/
         position:absolute;
         top:16px;
         right:15px;
@@ -63,12 +63,17 @@
     }
     
     .box2-clone .mobile_hamburger_left .openbtn_menu{
-        font-size: 26px;
+        font-size: 30px;
+        color: #969696;
     }
 
     /* menu end */
     
     /* academy start */
+    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan br{
+        display: none;
+    }
+    
     .box2-clone .mobile_hamburger_right .academy_select_area{
         height: 100%;
         width: 100%;
@@ -95,7 +100,7 @@
     .box2-clone .mobile_hamburger_right .academy_select_area h1{
         position: absolute;
         width: 30%;
-        top: 5%;
+        top: 4%;
         left: 35%;
         font-size: 25px;
 /*        background-color: forestgreen;*/
@@ -103,6 +108,11 @@
     
     .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
         color: #f1f1f1;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area a img{
+        width: 20px;
+        height: 20px;
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
@@ -189,14 +199,17 @@
     /* btn setting */
     .box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
         position: absolute;
-        top: 0;
+        top: 2%;
         left: 25px;
         font-size: 36px;
         padding: 0;
     }
     
     .box2-clone .mobile_hamburger_right .openbtn_aca{
-        font-size: 26px;
+        font-size: 30px;
+        color: #969696;
+
+/*        background-color: red;*/
     }
     
     /* academy end */
@@ -655,8 +668,11 @@
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area h1{
+        position: absolute;
+        width: 30%;
+        top: 4%;
+        left: 35%;
         font-size: 25px;
-        padding-bottom: 2%;
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
@@ -667,6 +683,7 @@
         height: 80%;
         width: 95%;
         margin: 0 auto;
+        margin-top: 5%;
         padding: 0;
     }
     
@@ -770,9 +787,10 @@
     /* btn setting */
     .box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
         position: absolute;
-        top: 0;
+        top: 2%;
         left: 25px;
         font-size: 36px;
+        padding: 0;
     }
     
     .box2-clone .mobile_hamburger_right .openbtn_aca{
