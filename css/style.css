@@ -156,7 +156,7 @@ body{
 .box2-clone .mobile_hamburger_left{
     width:50px;
     height:50px;
-    background-color:blue;
+/*    background-color:blue;*/
     position:absolute;
     top:16px;
     left:15px;
@@ -166,7 +166,7 @@ body{
 .box2-clone .mobile_hamburger_right{
     width:50px;
     height:50px;
-    background-color:red;
+/*    background-color:red;*/
     position:absolute;
     top:16px;
     right:15px;

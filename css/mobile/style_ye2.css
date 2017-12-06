@@ -7,7 +7,7 @@
     .box2-clone .mobile_hamburger_left{
         width:50px;
         height:50px;
-        background-color:blue;
+/*        background-color:blue;*/
         position:absolute;
         top:16px;
         left:15px;
@@ -18,7 +18,7 @@
     .box2-clone .mobile_hamburger_right{
         width:50px;
         height:50px;
-        background-color:red;
+/*        background-color:red;*/
         position:absolute;
         top:16px;
         right:15px;
@@ -63,7 +63,8 @@
     }
     
     .box2-clone .mobile_hamburger_left .openbtn_menu{
-        font-size: 26px;
+        font-size: 30px;
+        color: #969696;
     }
 
     /* menu end */
@@ -107,6 +108,11 @@
     
     .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
         color: #f1f1f1;
+    }
+    
+    .box2-clone .mobile_hamburger_right .academy_select_area a img{
+        width: 20px;
+        height: 20px;
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
@@ -200,7 +206,10 @@
     }
     
     .box2-clone .mobile_hamburger_right .openbtn_aca{
-        font-size: 26px;
+        font-size: 30px;
+        color: #969696;
+
+/*        background-color: red;*/
     }
     
     /* academy end */
