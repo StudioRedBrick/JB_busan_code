@@ -6,7 +6,7 @@
 body{font-size:14px;}
 a{text-decoration:none; color:#ffffff;}
 ul, li{list-style:none;}
-p, span{hyphens:none; word-break:keep-all;}
+p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
 /*reset end*/
 
 body{
