@@ -42,12 +42,16 @@
     }
     
     .box2-clone .mobile_hamburger_left .menu_select_area a {
-        padding: 8px;
+        padding: 10px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: #818181;
         display: block;
         transition: 0.1s;
+    }
+    
+    .box2-clone .mobile_hamburger_left .menu_select_area .ham_menu_1 {
+        margin-top: 10px;
     }
 
     .box2-clone .mobile_hamburger_left .menu_select_area a:hover {
@@ -619,24 +623,43 @@
     }
     
     .box2-clone .mobile_hamburger_left .menu_select_area a {
-        padding: 8px;
+        width:32%;
+        padding-top: 15px;
+        padding-bottom: 15px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 15px;
         color: #818181;
         display: block;
         transition: 0.1s;
+        float:left;
     }
+    
+    .box2-clone .mobile_hamburger_left .menu_select_area:after {
+        content:"";
+        display:block;
+        clear:both;
+    }
+    
+    .box2-clone .mobile_hamburger_left .menu_select_area .ham_menu_1, .ham_menu_2, .ham_menu_3 {
+        margin-top:40px;
+    }
+
+    .box2-clone .mobile_hamburger_left .menu_select_area .ham_menu_2, .ham_menu_3, .ham_menu_5, .ham_menu_6, .ham_menu_8, .ham_menu_9 {
+        border-left:0.5px solid rgba(255,255,255,0.5);
+    }
+
 
     .box2-clone .mobile_hamburger_left .menu_select_area a:hover {
         color: #f1f1f1;
     }
 
     .box2-clone .mobile_hamburger_left .menu_select_area .closebtn_menu {
+        width:15%;
         position: absolute;
         top: 0;
-        right: 25px;
+        right: 0px;
         font-size: 36px;
-        margin-left: 50px;
+        margin-left:0px;
     }
     
     .box2-clone .mobile_hamburger_left .openbtn_menu{

@@ -11,7 +11,7 @@ $(function(){
 //MENU START
 $(function(){
         
-    alert("hello");
+    //alert("hello");
     
     if(matchMedia){
         const mq = window.matchMedia("(max-width: 414px)");
