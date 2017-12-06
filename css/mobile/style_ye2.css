@@ -224,7 +224,7 @@
     /*box6_consult start*/
 
     .box6{
-        height:580px;    
+        height:630px;    
     }
 
     
@@ -293,7 +293,7 @@
     
     .box6 .consult_slider_title{
         float: none;
-        width: 80%;
+        width: 85%;
         margin: 0;
         padding: 0;
         
@@ -303,26 +303,26 @@
     
     .box6 .consult_slider_main{
         float: none;
-        width: 92%;
+        width: 96%;
         margin: 0;
         padding: 0;
-        
 /*        background: blue;*/
     }
     
     .box6 .consult_slider_item{
-        margin-top:17px;
-        margin-left: 0.07%;
+        margin-top: 27px;
+        margin-left: -3px;
+        margin-right: 0;
 
 /*        background-color:purple;*/
     }
       
     .box6 .consult_slider_frame{
-        height: 260px;
+        height: 280px;
         width: 100%;
         margin: auto;
         
-        background: url('../../img/busan_consult_frame_295_3.png') no-repeat center;
+        background: url('../../img/busan_consult_frame_295_7.png') no-repeat center;
         background-size: contain;
     }
     
@@ -333,7 +333,7 @@
 
     .box6 .slick-list{
         width: 100%;
-        padding: 3% 0;
+        padding: 1% 0;
 /*        background-color: skyblue;*/
     }
 
@@ -342,7 +342,6 @@
         margin: 0 3%;
 
     }
-  
     
     .box6 .consult_slider_title p{
         font-size: 26px;
@@ -360,14 +359,19 @@
         font-size: 12px;
         font-weight: 300;
         line-height: 1.65;
+        width: 100%;
         
         padding-top: 13px;
     }
     
+    .box6 .consult_slider_main2 p br{
+        display: none;
+    }
+    
     /* slider nav*/
     .box6 .slick-prev{
-        left: -12.8%;
-        top: 47.987%;
+        left: -13.2%;
+        top: 50%;
     
         transform: rotate(-90deg);
     }
