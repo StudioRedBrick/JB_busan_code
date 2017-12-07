@@ -897,7 +897,7 @@ body{
 
 .box8 .Prep3_title{
     width:1160px;
-    padding-top: 119px;
+    padding-top: 90px;
     margin:auto;
     
     /*background-color:red;*/
@@ -991,11 +991,15 @@ body{
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
-    font-size:25px;
+    font-size:28px;
     line-height: 1.38;
     font-weight: bold;
     
 /*    background-color: red;*/
+}
+
+.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
+    font-size: 25px;
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
@@ -1058,6 +1062,9 @@ body{
     
 /*    background-color: red;*/
 }
+.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title_sub{
+    font-size: 15.5px;
+}
 
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
     font-size: 16px;
@@ -1066,10 +1073,9 @@ body{
 /*    background-color: blue;*/
 }
 
-
 .box8 .prep3_list_container .prep3_list_title_all{
-    margin-top: 0px;
-    margin-bottom: 9px;
+    margin-top: 25px;
+    margin-bottom: 20px;
     margin-left: 6px;
 }
 
