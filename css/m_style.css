@@ -949,35 +949,35 @@ body{
 
 
 /* 공통 */
-.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
-.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-    margin-top: 21px;
-/*    background-color:green;*/
-}
 
-.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
-.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
-    padding-bottom: 8px;
-    border-bottom:1px solid #ffffff;
-}
-
-
-/* prep2 */
-.box8 .Prep2_container .prep2_box .prep2_contents_inner{
+.box8 .Prep2_container .prep2_box .prep2_contents_inner,
+.box8 .Prep3_container .prep3_box .prep3_contents_inner{
     padding: 9.2% 0px;
-    padding-left: 12.6%;
-    padding-right: 17.6%;
+    padding-left: 9%;
+    padding-right: 9%;
     margin: 8.9px 6.5px;
     
 /*    background-color: forestgreen;*/
 }
 
+.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
+.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+    margin-top: 18px;
+/*    background-color:green;*/
+}
+
+.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
+.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
+    padding-bottom: 15px;
+    border-bottom:1px solid #ffffff;
+}
+
+
+/* prep2 */
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
     font-size:16px;
     font-weight: 200;
     line-height: 1.56;
-    
-/*    background-color:red;*/
 }
 
 
@@ -985,8 +985,6 @@ body{
     font-size:24px;
     line-height: 1.38;
     font-weight: bold;
-    
-/*    background-color: red;*/
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
@@ -1001,20 +999,10 @@ body{
 
 
 /* prep3 */
-.box8 .Prep3_container .prep3_box .prep3_contents_inner{
-    padding: 9.2% 0px;
-    padding-left: 12.6%;
-    padding-right: 17.6%;
-    margin: 8.9px 6.5px;
-/*    background-color: aquamarine;*/
-}
-
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
     font-size:14.5px;
     font-weight: 200;
     line-height: 1.56;
-    
-/*    background-color:red;*/
 }
 
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
