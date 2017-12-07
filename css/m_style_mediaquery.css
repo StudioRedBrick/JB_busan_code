@@ -1988,11 +1988,12 @@
     
    .box6 .consult_txt_all{
         margin-top: -2px;
+        margin-bottom: 15px;
     }
 
     .box6 .consult_txt_main{
         width: 99%;
-        margin-top: 18px;
+        padding-top: 18px;
     }
 
     /* consult_txt */
@@ -2040,24 +2041,25 @@
         width: 100%;
         margin: auto;
         
-        background: url('../img/busan_consult_frame_510.png') no-repeat center;
-        background-size: contain;
+        background-image: none;
+        background-color: rgba(225,225,225,0.2);
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
     }
     
     .box6 .slider_indent{
         margin:auto;
-        height: 200px;
+        height: 240px;
     }
 
     .box6 .slick-list{
         width: 100%;
-        padding: 4.8% 0;
+        padding: 3% 0;
     }
 
     .box6 .slick-track{
         margin: 0 3%;
     }
-    
     
     .box6 .consult_slider_title p{
         font-size: 26px;
@@ -2066,16 +2068,7 @@
     .box6 .consult_slider_main1{
         font-size: 13px;
         font-weight: 400;
-        line-height: 1.6;
-        
-        padding-bottom: 10px;
-    }
-    
-    .box6 .consult_slider_main2{
-        font-size: 12px;
-        font-weight: 300;
-        line-height: 1.65;
-        padding-top: 13px;
+        line-height: 1.8;
     }
     
     .box6 .consult_slider_main2 p br{
@@ -2200,44 +2193,37 @@
     /*box8_prep start*/
      .box8{
         width:100%;
-        height:auto;
+        height: auto;
+         background-image: none;
     }
     
-    .box8 .prep_all_wrap{
-        background:url(../img/busan_bg_prep_mobile.jpg) no-repeat center;
-        background-size:cover;
-        padding-top:60px;
-        padding-bottom:60px;
-        background-color:blue;
+    .box8 .prep_wrap_mb_1{
+        height: 400px;
+        background: url('../img/marin_bg_prep1_mb.png') no-repeat left;
+        background-size: cover; 
+    }
+    
+    .box8 .prep_wrap_mb_2{
+        height: 900px;
+        background: url('../img/marin_bg_prep2_mb.png') no-repeat left;
+        background-size: cover;
     }
     
       /* hover off */
-    .box8 .multi_slider .prep1_contents_inner,
-    .box8 .multi_slider .prep1_contents_inner:hover{
-        background: url(../img/busan_prep1_box_line2.png) no-repeat center;
-        background-size: contain;
-    }
-    
     .box8 .multi_slider .prep2_contents_inner,
     .box8 .multi_slider .prep2_contents_inner:hover{
-        background: url('../img/busan_prep2_box_line2.png') no-repeat center;
+        background: url('../img/marin_prep1_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     .box8 .multi_slider .prep3_contents_inner,
     .box8 .multi_slider .prep3_contents_inner:hover{    
-        background: url('../img/busan_prep3_box_line.png') no-repeat center;
+        background: url('../img/marin_prep2_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     
-    /* font-weight */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-weight: 500;
-    }
-    
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
+    /* font-weight */    
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
         font-weight: 400;
@@ -2250,14 +2236,12 @@
     }
     
     /* Prep start */
-    .box8 .Prep1_title,
     .box8 .Prep2_title,
     .box8 .Prep3_title{
         width: 75.4%;
     }
     
     /* prep frame setting */
-    .box8 .Prep1_container,
     .box8 .Prep2_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
@@ -2265,7 +2249,6 @@
     }
     
     /* 공통 */
-    .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
         font-size: 33px;
@@ -2274,27 +2257,47 @@
         padding-left:5px;
     }
     
-    .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 16px;
         font-weight: 400;
         padding-top:5px;
-        padding-bottom:0px;
     }
     
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
         margin-top: 18px;
-    /*    background-color:green;*/
+        font-weight: 400;
+        font-size: 14px;
+        width: 110%;
     }
     
-    
-    .box8 .Prep1_title{
-        padding-top:0px;
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
+        padding-top: 11.2%;
+        padding-bottom: 13.2%;
+        padding-left: 9.6%;
+        padding-right: 17.6%;
+        margin: 8.9px 6.5px;
     }
-
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
+        width: 110%;
+        padding-bottom :15px;
+    }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
+        font-size: 25px;
+    }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
     .box8 .Prep2_title{
         padding-top: 45px;
     }
@@ -2302,106 +2305,24 @@
     .box8 .Prep3_title{
         padding-top: 45px;
     }
-    
-    /* prep1 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 35px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-size: 16px;
-        
-        margin-left: -4px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span{
-        width: 110%;
-        font-size: 13px;   
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-        padding-top: 10.2%;
-        padding-bottom: 14.2%;
-        padding-left: 9.6%;
-        padding-right: 10.6%;
-        margin: 7.9px 6.5px;
-        /*background-color: aquamarine;*/
-    }
    
     /* prep2 */
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt{
-        width: 110%;
-/*        background-color: red;*/
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
+        font-size: 22px;
     }
     
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
-        font-size:24px;
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
-        font-size:13px;
-        line-height: 1.5;
-        width: 110%;
-
-    /*    background-color:red;*/
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span br{
-        display: none;
-    }
-    
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner{
-        padding-top: 11.2%;
-        padding-bottom: 13.2%;
-        padding-left: 9.6%;
-        padding-right: 17.6%;
-        margin: 8.9px 6.5px;
-
-    /*    background-color: forestgreen;*/
-    }
-
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
-        font-size: 13px;
-    }
     
     /* prep3_slider */
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
-        padding-top: 7.5%;
-        padding-bottom: 10.7%;
-        padding-left: 12.6%;
-        padding-right: 17.6%;
-        margin: 8.9px 6.5px;
-    /*    background-color: aquamarine;*/
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
-        font-size: 38px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_ko p{
-        font-size : 34px;
-        padding-bottom: 4px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        font-size: 15px;
-    }
-    
+ 
     
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{
         font-size:22px;
         line-height:22px;
-        margin-right: 100%;
-        
-/*        background-color:aqua;*/
     }
     
     .box8 .prep3_list_container .prep3_list_title_all{ 
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
@@ -2520,10 +2441,6 @@
     height:208px;
 }
     
-    .box8{
-    background: url('../img/busan_bg_prep_ad_2_2.png') no-repeat center; 
-    background-size:cover;
-}
     /*ad2 end*/
     
     /*box8_prep & ad2 end*/
@@ -3145,8 +3062,8 @@
 /*---------------------------------------------------------------*/
     /*box6_consult start*/
     .box6{
-    height: 547px;
-}
+        height: 560px;
+    }
     
     .box6 .consult_container{
         width: 615px;
@@ -3173,11 +3090,12 @@
     
    .box6 .consult_txt_all{
         margin-top: -2px;
+        margin-bottom: 15px;
     }
 
     .box6 .consult_txt_main{
         width: 98%;
-        margin-top: 20px;
+        padding-top: 18px;
     }
 
     
@@ -3192,7 +3110,7 @@
     }
     
     .box6 .consult_txt_main span{
-        font-size: 13px;
+        font-size: 13.5px;
         line-height: 1.9;
     }
     
@@ -3202,15 +3120,21 @@
     .box6 .consult_slider_item{
         width: 100%;
     }
+    
+    .box6 .consult_slider_item{
+        margin-top: 0px;
+    }
       
     .box6 .consult_slider_frame{
         height: 260px;
         width: 96.5%;
         margin: auto;
-        
         margin-left: 14px;
-        background: url('../img/busan_consult_frame_850.png') no-repeat center;
-        background-size: cover; 
+        
+        background-image: none;
+        background-color: rgba(225,225,225,0.2);
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
     }
     
     .box6 .slider_indent{
@@ -3219,7 +3143,7 @@
     }
 
     .box6 .slick-list{
-        padding: 5.1% 0px;
+        padding: 3% 0px;
     }
 
     .box6 .slick-track{
@@ -3350,34 +3274,27 @@
 /*---------------------------------------------------------------*/
     /*box8_prep & ad2 start*/
     .box8{
-    height:2300px;
-}
+        height:1250px;
+    }
     
     /* Prep start */
-    .box8 .Prep1_title,
     .box8 .Prep2_title,
     .box8 .Prep3_title{
         width: 615px;
     }
     
     /* hover off */
-    .box8 .multi_slider .prep1_contents_inner:hover{
-        background: url(../img/busan_prep1_box_line.png) no-repeat center;
-        background-size: contain;
-    }
-    
     .box8 .multi_slider .prep2_contents_inner:hover{
-        background: url('../img/busan_prep2_box_line.png') no-repeat center;
+        background: url('../img/marin_prep1_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     .box8 .multi_slider .prep3_contents_inner:hover{    
-        background: url('../img/busan_prep3_box_line.png') no-repeat center;
+        background: url('../img/marin_prep2_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     /* prep frame setting */
-    .box8 .Prep1_container,
     .box8 .Prep2_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
@@ -3385,74 +3302,64 @@
     }
     
      /* 공통 */
-    .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
         font-size: 38px;
     }
     
-    .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
         font-weight: 400;
-        padding-bottom:0px;
+    }
+
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
+        padding-left: 8.6%;
+        padding-right: 9%;
+        padding-bottom: 10%;
     }
     
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
+        padding-bottom: 15px;
+        border-bottom:1px solid #ffffff;
+    }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
+        font-size: 28px;
+    }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
+        font-size: 15px;
         font-weight: 400;
     }
     
-    .box8 .Prep1_title{
-        padding-top:50px;
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        font-weight: 400;
+        margin-top: 18px;
     }
-
+    
     .box8 .Prep2_title{
         padding-top: 30px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 109px;
+        padding-top: 75px;
     }
     
-    /* prep1 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 37px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-size: 19px;
-        font-weight: 200;
-        font-weight: bold;
-    }
-    
+ 
    
     /* prep2 */
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
-        font-size:24px;
+     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
+        font-size: 25px;
     }
     
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
-        font-size: 13px;
-        font-weight: 400;
-    }
-    
-    /* prep3_slider */
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
-        font-size: 38px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_ko p{
-        font-size : 34px;
-        padding-bottom: 4px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        font-size: 15px;
-    }
+    /* prep3_slider */  
+
     
     
     /* prep3_list */
@@ -3460,23 +3367,19 @@
         font-size:22px;
     }
     
-    .box8 .prep3_list_container .prep3_list_title_all{
-        margin-top: 10px;
-    }
-
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_subtitle{
         font-size:13px;
         font-weight:400;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
-        font-size: 14px;
+        font-size: 12.5px;
         font-weight: 500;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
-        width: 20%;
-        height: 69px;
+        width: 16.6666%;
+        height: 75px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents .prep3_list_txt{    
@@ -4076,15 +3979,14 @@
 /*---------------------------------------------------------------*/
     /*box6_consult start*/
     .box6{
-    height: 545px;
-}
+        height: 545px;
+    }
     
     .box6 .consult_container{
         width: 740px;
         margin: auto;
         
         top: 8%;
-        /*background-color:red;*/
     }
     
     .box6 .consult_contents{
@@ -4100,20 +4002,17 @@
     .box6 .consult_slider_container{
         float: none;
         width: 100%;
-        margin-top: 1%;
-        
-        /*background-color:purple;*/
+        margin-top: 2%;
     }
     
    .box6 .consult_txt_all{
         margin-top: -2px;
-        /*background-color: red;*/
+        margin-bottom: 15px;
     }
 
     .box6 .consult_txt_main{
         width: 98%;
-        margin-top: 20px;
-        /*background-color: aquamarine;*/
+        padding-top: 18px;
     }
 
     /* consult_txt */
@@ -4143,60 +4042,47 @@
     }
     
     .box6 .consult_slider_item{
-        margin-top:14px;
-        
-        /*background-color:purple;*/
+        margin-top: 0px;
     }
     
     .box6 .consult_slider_title{
-    margin-left: 5.3%;
-    
-    /*background-color: blue;*/   
-}
+        margin-left: 5.3%;   
+    }
     
     .box6 .consult_slider_frame{
         height: 260px;
         width: 715px;
         margin: auto;
-        
         margin-left: 13px;
         
-        background: url('../img/busan_consult_frame3.png') no-repeat center;
-        background-size: cover;
+        background-image: none;
+        background-color: rgba(225,225,225,0.2);
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
     }
     
     
     .box6 .slider_indent{
         margin:auto;
         height: 280px;
-    
-/*
-        border-radius: 8px;
-        
-        background-color: rgba(255,255,255,0.2);
-*/
-/*        background-color: darkslateblue;*/
     }
 
     .box6 .slick-list{
-        padding: 4.5% 0px;
-/*        background-color: skyblue;*/
+        padding: 3% 0px;
     }
 
     .box6 .slick-track{
-/*        background-color: darksalmon;*/
         margin-left: 2.8%;
     }
     .box6 .consult_slider_main{
         width: 50%;
         margin: auto;
-/*        background-color: firebrick;*/
     }    
     
     .box6 .consult_slider_title{
         padding-right: 5%;
-/*        background-color: darkviolet;*/
     }
+    
     .box6 .consult_slider_title p{
         font-size: 26px;
         font-weight: 600;
@@ -4205,14 +4091,6 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 1.6;
-    }
-    
-    .box6 .consult_slider_main2{
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 1.65;
-        
-        padding-top: 25px;
     }
     
     /* slider nav*/
@@ -4303,35 +4181,28 @@
 /*---------------------------------------------------------------*/
     /*box8_prep & ad2 start*/
     .box8{
-    height:1100px;
+    height:1160px;
 }
     
     /* Prep start */
-    .box8 .Prep1_title,
     .box8 .Prep2_title,
     .box8 .Prep3_title{
         width: 740px;
     }
     
     /* hover off */
-    .box8 .multi_slider .prep1_contents_inner:hover{
-        background: url(../img/busan_prep1_box_line.png) no-repeat center;
-        background-size: contain;
-    }
-    
     .box8 .multi_slider .prep2_contents_inner:hover{
-        background: url('../img/busan_prep2_box_line.png') no-repeat center;
+        background: url('../img/marin_prep1_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     .box8 .multi_slider .prep3_contents_inner:hover{    
-        background: url('../img/busan_prep3_box_line.png') no-repeat center;
+        background: url('../img/marin_prep2_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     
     /* prep frame setting */
-    .box8 .Prep1_container,
     .box8 .Prep2_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
@@ -4339,84 +4210,57 @@
     }
     
     /* 공통 */
-    .box8 .Prep1_title ul li h3,
     .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
         font-size: 38px;
     }
     
-    .box8 .Prep1_title ul li p,
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
         font-weight: 400;
-        padding-bottom:0px;
     }
 
     
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
         font-weight: 400;
-        margin-top: 22px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
+        margin-top: 12px;
         font-size: 12px;
-
-        /*background-color:red;*/
     }
     
-    .box8 .Prep1_title{
-    width: 740px;
-    padding-top: 60px;
-}
-    
-    .box8 .Prep2_title{
-        padding-top: 30px;
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
+        padding-left: 8.6%;
+        padding-right: 9%;
+        padding-bottom: 10%;
     }
     
-    .box8 .Prep3_title{
-        padding-top: 134px;
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
+        font-size:23px;
     }
     
-    /* prep1 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 34px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-size: 16px;
-        font-weight: 200;
-        
-        margin-left: -4px;
-    }
-   
-    /* prep2 */
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
-        font-size:24px;
-    }
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
         font-size: 13px;
         font-weight: 400;
     }
+ 
+    .box8 .Prep2_title{
+        padding-top: 35px;
+    }
     
+    .box8 .Prep3_title{
+        padding-top: 82px;
+    }
+   
+    /* prep2 */
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
+        font-size: 21px;
+    }
+   
     /* prep3_slider */
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
-        font-size: 38px;
-    }
-    
-    .box8 .Prep3_container .prep3_box .prep3_ko p{
-        font-size : 34px;
-        padding-bottom: 4px;
-    }
-    
-    
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        font-size: 14px;
-    }
     
     /* prep3_list */
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ 
@@ -4430,25 +4274,17 @@
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
-        height:80px;
+        height: 80px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents .prep3_list_txt{    
         padding-top:3px;
-        /*background-color:purple;*/
-}
-
-    .box8 .prep3_list_container .prep3_list_title p .prep3_list_subtitle{
-        font-size:13px;
-        font-weight:400;
-        /*background-color:blue;*/
     }
-    
+
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
         font-size: 16px;
         font-weight: 500;
     }
-    
     
     /* slidenav position */
     .box8 .slick-prev{
@@ -4913,11 +4749,13 @@
     }
     
     .box6 .consult_txt_all{
-        margin-top: 45px;
+        margin-top: 60px;
+        margin-bottom: 28px;
     }
-    
+
     .box6 .consult_txt_main{
-        width: 70%;
+        width: 75%;
+        padding-top: 30px;
     }
     
     .box6 .consult_contents{
@@ -5031,7 +4869,7 @@
     
     /*box8_prep & ad2 start*/
     .box8{
-        height:1315px;
+        height:1200px;
 
         /* 자간벙벙해서 끕니다 */
         letter-spacing: 0.03em;
@@ -5113,11 +4951,11 @@
     }
     
     .box8 .Prep2_title{
-        padding-top: 60px;
+        padding-top: 40px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 130px;
+        padding-top: 90px;
     }
    
     /* prep2 */
@@ -5132,7 +4970,7 @@
 
     
     .box8 .prep3_list_container .prep3_list_title_all{
-        margin-top: 40px;
+        margin-top: 25px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
