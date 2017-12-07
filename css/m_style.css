@@ -1143,7 +1143,9 @@ body{
 /*Ad2 start*/
 
 .box13 .ad_2_wrap{
-    margin-top:175px;
+    padding-top:50px;
+    padding-bottom:50px;
+    
 }
 
 /*컨텐츠 제목 & 소제목*/
@@ -1223,8 +1225,6 @@ body{
 
 .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner .ad2_span{
     padding-top:18px;
-    
-    /*background-color:green;*/
 }
 
 /*컨텐츠 서체크기 통일화 2*/
@@ -1268,30 +1268,19 @@ body{
 /*Ad2 end*/
 /*---------------------------------------------------------------*/
 
-/*ask_mid & prof start*/
-
-.box9{
-    width:100%;
-    height:883px;
-    position:relative;
-}
-
-.box9 .box9_wrap{
-    width:1160px;
-    margin:auto;
-    
-    /*background-color:red;*/
-}
-
 /*ask_mid start*/
-
-.box9 .box9_wrap .ask_mid_wrap{
+.box14{
+    background-color:#ff9e12;
     width:100%;
-    
-    /*background-color:blue;*/
 }
 
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
+.box14 .ask_mid_wrap{
+    width:1160px;
+    height:192px;
+    margin:auto;
+}
+
+.box14 .ask_mid_wrap .ask_mid_txt{
     width:49.82%;
     height:192px;
     float:left;
@@ -1299,7 +1288,7 @@ body{
     /*background-color:blueviolet*/
 }
 
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_button{
+.box14 .ask_mid_wrap .ask_mid_button{
     width:20%;
     height:192px;
     float:left;
@@ -1308,7 +1297,7 @@ body{
 }
 
 /*제목: 모의테스트 문의*/
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_txt h3{
+.box14 .ask_mid_wrap .ask_mid_txt h3{
     font-size:40px;
     font-weight:bold;
     padding-top:40px;
@@ -1318,7 +1307,7 @@ body{
 }
 
 /*소제목: SAT,ACT.....제시합니다.*/
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_txt p{
+.box14 .ask_mid_wrap .ask_mid_txt p{
     width:85%;
     font-size:15px;
     font-weight:400;
@@ -1328,22 +1317,22 @@ body{
 }
 
 /*문의하기 버튼*/
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_button a{
+.box14 .ask_mid_wrap .ask_mid_button a{
     display:block;
     width:175px;
     height:65px;
-    border-radius:40px;
+    border-radius:0px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
     margin-top:67px;
     
-    background-color:rgba(50,136,175,0.9);
+    background-color:rgba(156,216,61,0.9);
 }
 
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_button a:hover{
-    background-color:rgba(50,136,175,1);
+.box14 .ask_mid_wrap .ask_mid_button a:hover{
+    background-color:rgba(156,216,61,1);
 }
 
-.box9 .box9_wrap .ask_mid_wrap .ask_mid_button a p{
+.box14 .ask_mid_wrap .ask_mid_button a p{
     text-align:center;
     font-size:27px;
     font-weight:500;
@@ -1351,28 +1340,31 @@ body{
     
     /*background-color:mediumvioletred;*/
 }
-
-/*문의하기 배경*/
-.box9 .mid_ask_bg{
-    width:100%;
-    height:192px;
-    position:absolute;
-    top:0;
-    z-index:-9999;
-    
-    background-color:#ff9212;
-}
 /*-----------------*/
 
-.box9 .box9_wrap .ask_mid_wrap:after{ /*clearfix*/
+.box14 .ask_mid_wrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
 
 /*ask_mid end*/
+/*---------------------------------------------------------------*/
 
 /*prof start*/
+
+.box9{
+    width:100%;
+    height:510px;
+    position:relative;
+}
+
+.box9 .box9_wrap{
+    width:1160px;
+    margin:auto;
+    
+    /*background-color:red;*/
+}
 
 .box9 .box9_wrap .prof_wrap{
     /*background-color:darkblue;*/
@@ -1447,6 +1439,10 @@ body{
     font-weight:200;
 }
 
+.box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li.prof_list_hidden{
+    visibility:hidden;
+}
+
 /*교사 이름 담긴 박스*/
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box{
     width:100%;
@@ -1460,11 +1456,11 @@ body{
 
 /*교사 이름*/
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box p{
-    width:70%;
+    width:80%;
     margin:48px auto;
     text-align:center;
     font-size:19px;
-    line-height:12px;
+    line-height:19px;
     border-bottom:0.5px solid rgba(255,255,255,0.9);
     
     /*background-color:mediumpurple;*/
@@ -1505,8 +1501,6 @@ body{
 }
 
 /*prof end*/
-/*ask_mid & prof end*/
-
 /*---------------------------------------------------------------*/
 
 /*map start*/
@@ -1570,9 +1564,9 @@ body{
 /*제목:해운대 본원*/
 .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
-    width:64%;
-    padding-top:25px;
-    font-size:33px;
+    width:72%;
+    padding-top:37px;
+    font-size:23px;
     font-weight:bold;
     text-align:center;
     border-bottom:1.5px solid #ffffff;
@@ -1626,8 +1620,8 @@ body{
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
     font-size:15px;
     font-weight:300;
-    padding-left:7%;
-    width:50%;
+    padding-left:8%;
+    width:60%;
     float:left;
     
     /*background-color:darkblue;*/
@@ -1673,8 +1667,8 @@ body{
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
     font-size:15px;
     font-weight:300;
-    padding-left:7%;
-    width:50%;
+    padding-left:8%;
+    width:60%;
     float:left;
     
     /*background-color:darkblue;*/
@@ -1714,12 +1708,10 @@ body{
 /*map end*/
 /*---------------------------------------------------------------*/
 
-/*ask & footer start*/
-
 /*ask start*/
 .box11{
     width:100%;
-    height:553px;
+    height:454px;
 }
 
 .box11 .box11_wrap{
@@ -1733,7 +1725,7 @@ body{
 .box11 .box11_wrap .ask_form_title{
     font-size:40px;
     font-weight:bold;
-    padding-top:45px;
+    padding-top:50px;
     
     /*background-color:blue;*/
 }
@@ -1856,14 +1848,18 @@ body{
 /*---------------------------------------------------------------*/
 
 /*footer start*/
+.box12{
+    height:134px;
+    background-color:rgba(109,109,109,1);
+}
 
-.footer{
+.box12 .footer{
     font-size:11px;
     line-height:18px;
     font-weight:100;
     
     width:1160px;
-    height:162px;
+    height:134px;
     margin:auto;
     
     opacity:0.8;
@@ -1872,29 +1868,29 @@ body{
     /*background-color:red;*/
 }
 
-.footer .footer_wrap{
+.box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:22px;
+    bottom:36px;
     
     /*background-color:orange;*/
 }
 
-.footer .footer_wrap .footer_copyright{
+.box12 .footer .footer_wrap .footer_copyright{
     float:left;
     width:25%;
     
     /*background-color:blue;*/
 }
 
-.footer .footer_wrap .footer_contact_wrap{
+.box12 .footer .footer_wrap .footer_contact_wrap{
     float:left;
     width:70%;
     
     /*background-color:cornflowerblue;*/
 }
 
-.footer .footer_wrap .footer_contact_wrap .footer_contact{
+.box12 .footer .footer_wrap .footer_contact_wrap .footer_contact{
     float:left;
     padding-left:1.12%;
     padding-right:1.89%;
@@ -1905,18 +1901,17 @@ body{
 
 /*-----------------*/
 
-.footer_wrap:after{ /*clearfix*/
+.box12 .footer_wrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
 
-.footer .footer_contact_wrap:after{ /*clearfix*/
+.box12 .footer .footer_contact_wrap:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
 }
 
 /*footer end*/
-/*ask & footer end*/
 /*---------------------------------------------------------------*/

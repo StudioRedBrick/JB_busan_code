@@ -49,17 +49,22 @@
 }
 
 .box9{
-    background:url('../img/busan_bg_mid_ask_prof_2.png') no-repeat center;
+    background:url('../img/marin_bg_prof.png') no-repeat center;
     background-size:cover;
 }
 
 .box10{
-    background:url('../img/busan_bg_map_2.jpg') no-repeat center;
+    background:url('../img/marin_bg_map_2.jpg') no-repeat center;
     background-size:cover;
 }
 
 .box11{
-    background:url('../img/busan_bg_ask_footer_2.png') no-repeat center;
+    background:url('../img/marin_bg_ask_form.png') no-repeat center;
+    background-size:cover;
+}
+
+.box13{
+    background:url('../img/marin_bg_ad_2.png') no-repeat center;
     background-size:cover;
 }
 
