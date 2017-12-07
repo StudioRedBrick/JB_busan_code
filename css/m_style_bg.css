@@ -29,22 +29,22 @@
 }
 
 .box6{
-    background: url(../img/marin_bg_consult.png) no-repeat center;
+    background: url(../img/busan_bg_consult.png) no-repeat center;
     background-size: cover; 
 }
 
 .box6 .consult_slider_frame{
-    background: url('../img/marin_consult_frame.png') no-repeat center;
+    background: url('../img/busan_consult_frame.png') no-repeat center;
     background-size: cover;
 }
 
 .box7{
-    background:url('../img/busan_bg_ad_1.png') no-repeat center;
+    background:url('../img/marin_bg_ad_1.png') no-repeat center;
     background-size:cover;
 }
 
 .box8{
-    background: url('../img/marin_bg_prep.png') no-repeat center; 
+    background: url('../img/busan_bg_prep_ad_2_2.png') no-repeat center; 
     background-size:cover;
 }
 
