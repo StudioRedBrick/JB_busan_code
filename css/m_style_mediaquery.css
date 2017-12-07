@@ -2194,17 +2194,17 @@
      .box8{
         width:100%;
         height: auto;
-         background-image: none;
+        background-image: none;
     }
     
     .box8 .prep_wrap_mb_1{
-        height: 400px;
+        height: 380px;
         background: url('../img/marin_bg_prep1_mb.png') no-repeat left;
         background-size: cover; 
     }
     
     .box8 .prep_wrap_mb_2{
-        height: 900px;
+        height: 1100px;
         background: url('../img/marin_bg_prep2_mb.png') no-repeat left;
         background-size: cover;
     }
@@ -3310,6 +3310,7 @@
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
+        margin-top: -2px;
         font-weight: 400;
     }
 
@@ -4218,6 +4219,7 @@
     .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
+        margin-top: -3px;
         font-weight: 400;
     }
 
@@ -4917,6 +4919,17 @@
         width: 940px;
     }
     
+    .box8 .Prep2_title ul li h3,
+    .box8 .Prep3_title ul li h3{
+        font-size:38px;
+    }
+
+    .box8 .Prep2_title ul li p,
+    .box8 .Prep3_title ul li p{
+        font-size:15px;
+        margin-top: -2px;
+    }
+    
     /* prep frame setting */
     .box8 .Prep2_container,
     .box8 .Prep3_container,
@@ -4927,7 +4940,7 @@
     /* 공통 */
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        margin-top: 14px;
+        margin-top: 13px;
         font-size: 12px;
         width: 105%;
         /*background-color:green;*/
@@ -4938,6 +4951,12 @@
         padding-left: 8.6%;
         padding-right: 9%;
         padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
+        padding-bottom: 10px;
     }
     
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
@@ -4970,14 +4989,15 @@
 
     
     .box8 .prep3_list_container .prep3_list_title_all{
-        margin-top: 25px;
+        margin-top: 20px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
-        height:80px;
+        height: 77px;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
+        font-size: 16px;
         font-weight: 500;
     }
     
