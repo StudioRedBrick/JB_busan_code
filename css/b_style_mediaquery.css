@@ -831,9 +831,9 @@
     
     /*box8_prep_ad2 start*/
     .box8{
-        height:2940px;
+        height:auto;
         overflow:hidden;
-        background:none;
+        background: none;
     }
     
     .box8 .prep_all_wrap{
