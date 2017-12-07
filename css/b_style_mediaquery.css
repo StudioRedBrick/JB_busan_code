@@ -288,23 +288,21 @@
     
     /*box4_video start*/
     .box4{
-    height:330px;
+    height:250px;
     width:100%;
     overflow:hidden;
     position:relative;
 }
     
     .box4 .busan_video{
-    width:auto;
-    max-height:100%;
     position:absolute;
     top:0px;
-    right:-270px;
+    right:-195px;
 }
     
     .box4 .video_container{
     width:75.4%;
-    padding-top:130px;
+    padding-top:65px;
     position:absolute;
     top:0px;
     left:50%;
@@ -317,7 +315,7 @@
     font-size:30px;
     font-weight:700;
     line-height:30px;
-    text-align:left;
+    text-align:right;
     
     /*background-color:red;*/
 }
@@ -325,7 +323,7 @@
     .box4 .video_container .video_txt_2{
     font-size:20px;
     font-weight:400;
-    text-align:left;
+    text-align:right;
 }
     
     .box4 .video_container .button1{
@@ -337,7 +335,7 @@
     .box4 .video_container .button1 a{
     width:130px;
     height:40px;
-    float:left;
+    float:right;
 }
     
     .box4 .video_container .button1 a p{
@@ -353,7 +351,7 @@
     .box4 .video_container .button2 a{
     width:130px;
     height:40px;
-    float:left;
+    float:right;
 }
     
     .box4 .video_container .button2 a .button2_contents{
@@ -384,7 +382,7 @@
     /*box5_blog start*/
     
     .box5{
-    height:950px;
+    height:880px;
     width:100%;
     overflow:hidden;
 }
@@ -482,14 +480,14 @@
     
     .blog_contents .blog_contents_2{
     width:100%;
-    height:82px;
-    margin-top:7px;
+    height:180px;
+    margin-top:10px;
 }
     
     .blog_contents .blog_contents_2 .blog_contents_2_inner{
     display:block;
     
-    padding-top:9px;
+    padding-top:16px;
     padding-left:8%;
 }
     
@@ -501,14 +499,14 @@
     /*블로그 컨텐츠 3번*/
     .blog_contents .blog_contents_3{
     width:100%;
-    height:82px;
-    margin-top:7px;
+    height:180px;
+    margin-top:10px;
 }
     
     .blog_contents .blog_contents_3 .blog_contents_3_inner{
     display:block;
     
-    padding-top:9px;
+    padding-top:16px;
     padding-left:8%;
 }
     
@@ -519,6 +517,7 @@
     
     /*블로그 컨텐츠 4번*/
     .blog_contents .blog_contents_4{
+    display:none;
     width:100%;
     height:82px;
     margin-top:7px;
@@ -538,6 +537,7 @@
     
     /*블로그 컨텐츠 5번*/
     .blog_contents .blog_contents_5{
+    display:none;
     width:100%;
     height:82px;
     margin-top:7px;
@@ -557,6 +557,7 @@
 
     /*블로그 컨텐츠 6번*/
     .blog_contents .blog_contents_6{
+    display:none;
     width:100%;
     height:82px;
     margin-top:7px;
@@ -1087,8 +1088,9 @@
     /*prep end*/
     
     .box8 .ad_2_wrap{
-    background:url(../img/busan_bg_ad2_mobile.jpg) no-repeat left;
+    background:url(../img/busan_bg_ad2_mobile_2.jpg) no-repeat;
     background-size:cover;
+    background-position: 81.5% 0%;
     margin-top:0px;
     padding-top:60px;
     padding-bottom:60px;
@@ -1176,12 +1178,6 @@
     margin-top:20px;
     height:248px;
 }
-    
-    .box8{
-    background: url('../img/busan_bg_prep_ad_2_2.png') no-repeat center; 
-    background-size:cover;
-}
-    
     /*box8_prep_ad2 end*/
     
     /*-------------------------------------------------------*/
@@ -2126,12 +2122,12 @@
     max-height:100%;
     position:absolute;
     top:0px;
-    right:-250px;
+    right:-190px;
 }
     
     .box4 .video_container{
     width:75.4%;
-    padding-top:100px;
+    padding-top:70px;
     position:absolute;
     top:0px;
     left:50%;
@@ -3509,6 +3505,11 @@
     height:350px;    
 }
     
+    .box4 .busan_video{
+    position: absolute;
+    right:-100px;
+}
+    
     .box4 .video_container{
     width:615px;
     padding-top:90px;
@@ -4569,9 +4570,15 @@
     
     position:relative;
 }
+    
+    .box4 .busan_video{
+    position: absolute;
+    right:-50px;
+}
+    
     .box4 .video_container{
     width:740px;
-    padding-top:120px;
+    padding-top:110px;
     position:absolute;
     top:0px;
     left:50%;
@@ -5584,6 +5591,11 @@
         top:0px;
         left:50%;
         margin-left:-470px;
+}
+    
+    .box4 .busan_video{
+        position: absolute;
+        right:-150px;
 }
     /*box4_video end*/
     

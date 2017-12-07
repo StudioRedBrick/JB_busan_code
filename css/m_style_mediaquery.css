@@ -3480,6 +3480,12 @@
     margin-top:8px;
     height:300px;
 }
+    
+    .box13{
+    background:url('../img/marin_bg_ad_2.png') no-repeat;
+    background-size:cover;
+    background-position: 90% 0%;
+}
     /*ad2 end*/
     
     /*box8_prep & ad2 end*/
