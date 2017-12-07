@@ -2925,11 +2925,11 @@
 }
     
     .box3-clone .menu_wrap .menu7 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:300;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
     .box3-clone .menu_wrap .menu7 a span{
@@ -2937,11 +2937,11 @@
 }
     
     .box3-clone .menu_wrap .menu8 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:300;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
     .box3-clone .menu_wrap .menu8 a span{
@@ -2949,11 +2949,11 @@
 }
     
     .box3-clone .menu_wrap .menu9 a{
-    height:30px;
+    height:31px;
     font-size:10px;
     font-weight:300;
     line-height:1.1em;
-    padding-top:10px;
+    padding-top:9px;
 }
 
     .box3-clone .menu_wrap .menu9 a span{
@@ -3005,7 +3005,7 @@
 }
     
     .box4 .video_container .video_txt_2{
-    font-size:25px;
+    font-size:23px;
     font-weight:400;
 }
     
@@ -3199,7 +3199,7 @@
 /*---------------------------------------------------------------*/
     /*box7_ad1 start*/
     .box7{
-    height: 880px; 
+    height: 480px; 
 }
     
     .box7 .ad1_title{
@@ -3226,50 +3226,63 @@
     
     /*컨텐츠 박스넓이 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box{
-    height:285px;
+    height:255px;
     /*background-color:orange;*/
 }
     
     /*컨텐츠 박스 패딩값 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
-    padding-left:12%;
+    padding-left:10%;
     padding-top:25px;
 }
     
     /*컨텐츠 서체크기 통일화 1*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
-    font-size:22px;
-    line-height:32px;
+    width:90%;
+    font-size:21px;
+    line-height:20px;
     padding-bottom:10px;
+    text-align:center;
         
     /*background-color:red;*/
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
+    width:90%;
     padding-top:10px;
+    text-align:left;
     
     /*background-color:green;*/
 }
 
     /*컨텐츠 서체크기 통일화 2*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-    font-size:14.5px;
+    font-size:12.6px;
     font-weight:500;
     line-height:1.7;
     letter-spacing:0;
     
+    
     /*background-color:red;*/
 }
     
-    .box7 .ad1_contents_wrap .ad1_contents_3{
-    height:360px;
-    margin-top:8px;
+    .box7 .ad1_contents_wrap .ad1_contents_2{
+    float:left;
+    margin-left:1.5%
 }
 
-    .box7 .ad1_contents_wrap .ad1_contents_4{
-    height:360px;
-    margin-top:8px;
+    .box7 .ad1_contents_wrap .ad1_contents_3{
+    float:left;
+    margin-left:1.5%
 }
+    
+    .box7{
+    background:url('../img/marin_bg_ad_1.png') no-repeat;
+    background-size:cover;
+    background-position: 85% 0%;
+}
+
+
     /*box7_ad1 end*/
 /*---------------------------------------------------------------*/
     /*box8_prep & ad2 start*/
@@ -3400,65 +3413,71 @@
     /*---------------------------------------------*/
     
     /*ad2 start*/
-    .box8 .ad_2_wrap{
-    margin-top:130px;
-}
+    .box13 .ad_2_wrap{
+        padding-bottom:65px;
+    }
+    
     
     /*컨텐츠 제목 & 소제목*/
-    .box8 .ad_2_wrap .ad2_title{
+    .box13 .ad_2_wrap .ad2_title{
     width:615px;
 }
     
-    .box8 .ad2_title ul li h3{
+    .box13 .ad2_title ul li h3{
     font-size:38px;
 }
 
-    .box8 .ad2_title ul li p{
+    .box13 .ad2_title ul li p{
     font-size:15px;
     padding-top:2px;
     padding-bottom:27px;
     font-weight:500;
 }
     
-    .box8 .ad2_contents_wrap{
+    .box13 .ad2_contents_wrap{
     width:615px;
 }
     
     /*컨텐츠 서체크기 통일화 1*/
-    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p{
-    font-size:23px;
+    .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p{
+    font-size:19px;
     letter-spacing:-0.3px;
     padding-bottom:8px;
 }
     
-    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner .ad2_span{
+    /*ssat/isee*/
+    .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner p .ssat_isee{
+    font-size:14px;
+}
+    
+    .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner .ad2_span{
     padding-top:8px;
     
     /*background-color:green;*/
 }
 
     /*컨텐츠 서체크기 통일화 2*/
-    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
-    font-size:14px;
-    font-weight:500;
-    line-height:1.7;
+    .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
+    font-size:12.8px;
+    font-weight:400;
+    line-height:1.8;
     letter-spacing:0;
 }
     
     /*컨텐츠 박스넓이 통일화*/
-    .box8 .ad2_contents_wrap .ad2_contents_box{
-    height:190px;
+    .box13 .ad2_contents_wrap .ad2_contents_box{
+    height:230px;
     padding-top:25px;
 }
     
-    .box8 .ad2_contents_wrap .ad2_contents_3{
-    margin-top:12px;
-    height:309px;
+    .box13 .ad2_contents_wrap .ad2_contents_3{
+    margin-top:8px;
+    height:300px;
 }
 
-    .box8 .ad2_contents_wrap .ad2_contents_4{
-    margin-top:12px;
-    height:309px;
+    .box13 .ad2_contents_wrap .ad2_contents_4{
+    margin-top:8px;
+    height:300px;
 }
     /*ad2 end*/
     
@@ -3467,25 +3486,22 @@
     /*box9_mid-ask & prof start*/
     
     /*mid-ask start*/
-    .box9{
-    height:905px;
-}
-    .box9 .box9_wrap{
+    .box14 .ask_mid_wrap{
     width:615px;
 }
     /*mid-ask start*/
     
-    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt{
+    .box14 .ask_mid_wrap .ask_mid_txt{
     width:65%;
 }
     
     /*제목: 모의테스트 문의*/
-    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt h3{
+    .box14 .ask_mid_wrap .ask_mid_txt h3{
     font-size:38px;
     padding-top:43px;
 }
     /*소제목: SAT,ACT.....제시합니다.*/
-    .box9 .box9_wrap .ask_mid_wrap .ask_mid_txt p{
+    .box14 .ask_mid_wrap .ask_mid_txt p{
     width:90%;
     font-size:13px;
     font-weight:500;
@@ -3494,26 +3510,30 @@
 }
     
     /*문의하기 버튼*/
-    .box9 .box9_wrap .ask_mid_wrap .ask_mid_button a{
+    .box14 .ask_mid_wrap .ask_mid_button a{
     display:block;
     width:150px;
     height:55.71px;
     margin-top:72px;
 }
     
-    .box9 .box9_wrap .ask_mid_wrap .ask_mid_button a p{
+    .box14 .ask_mid_wrap .ask_mid_button a p{
     text-align:center;
     font-size:22px;
     font-weight:500;
     padding-top:12px;
 }
     /*mid-ask end*/
-    
+/*---------------------------------------------------------------*/
     /*prof start*/
     .box9{
-        height:905px;
-    }
-
+    height:580px;
+}
+    
+    .box9 .box9_wrap{
+    width:615px;
+}
+    
     .box9 .box9_wrap .prof_wrap .prof_title h3{
     padding-top:50px;
 }
@@ -3544,35 +3564,23 @@
     width:80%;
     margin:49px auto;
     text-align:center;
-    font-size:17px;
+    font-size:16px;
     line-height:17px;
     border-bottom:0.5px solid rgba(255,255,255,0.9);
-    
-    /*background-color:mediumpurple;*/
+
 }
     /*prof end*/
-    
-    /*box9_mid-ask & prof end*/
 /*---------------------------------------------------------------*/
     /*box10_map start*/
     .box10{
-        position:relative;
-        width:100%;
-        overflow:hidden;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+        
+    background:url('../img/marin_bg_map_2.jpg') no-repeat;
+    background-size:cover;
+    background-position: 62% 0%;
 }
-    
-    .box10 .bg_visible{
-        display:block;
-        position:absolute;
-        top:0;
-        left:-450px;
-        z-index:-1;
-}
-    
-    .box10{
-    background:none;
-}
-    
     
     .box10_wrap{
     width:615px;
@@ -3591,8 +3599,8 @@
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:73%;
-    padding-top:20px;
-    font-size:30px;
+    padding-top:37px;
+    font-size:20px;
     font-weight:bold;
     text-align:center;
     border-bottom:1px solid #ffffff;
@@ -3608,9 +3616,20 @@
     
     /*제목:연락처*/
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
+    padding-top:20px;
+    position:relative;
+    font-weight:500;
+    font-size:19px;
+    
+    /*background-color:blue;*/
+}
+    
+    /*제목:연락처*/
+    .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
     padding-top:15px;
     position:relative;
     font-weight:500;
+    font-size:19px;
     
     /*background-color:blue;*/
 }
@@ -3631,7 +3650,6 @@
     left:-10px;
 }
 
-    
     .box10_wrap .addrs_box .addrs_box_time{
     width:72%;
 }
@@ -3644,8 +3662,6 @@
     width:25%;
     padding-left:5%;
     line-height:20px;
-        
-    /*background-color:skyblue;*/
 }
     
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
@@ -3653,11 +3669,8 @@
     padding-left:7%;
     font-weight:400;
     line-height:20px;
-    
-    /*background-color:darkblue;*/
 }
-    
-        
+     
     /*detailed txt*/
     .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_left{
     font-size:15px;
@@ -3666,8 +3679,6 @@
     width:25%;
     padding-left:5%;
     line-height:20px;
-    
-    /*background-color:skyblue;*/
 }
     
     .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
@@ -3675,14 +3686,12 @@
     padding-left:7%;
     font-weight:400;
     line-height:20px;
-    
-    /*background-color:darkblue;*/
 }
     /*box10_map end*/
 /*---------------------------------------------------------------*/
     /*box11_ask & footer start*/
     .box11{
-    height:450px;
+    height:355px;
 }
     
     .box11 .box11_wrap{
@@ -3742,27 +3751,31 @@
     /*ask end*/
 /*---------------------------------------------------------------*/
     /*footer start*/
-    .footer{
+    .box12{
+        height:100px;
+    }
+    
+    .box12 .footer{
     width:615px;
-    height:143px;
+    height:100px;
     position:relative;
     font-weight:300;
 }
     
-    .footer .footer_wrap{
+    .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:15px;
+    bottom:18px;
 }
     
-    .footer .footer_wrap .footer_copyright{
+    .box12 .footer .footer_wrap .footer_copyright{
     width:33.5%;
 }
 
-    .footer .footer_wrap .footer_contact_wrap{
+    .box12 .footer .footer_wrap .footer_contact_wrap{
     width:60%;
 }
-    /*box11_ask & footer end*/
+    /*footer end*/
 
     
 }/*max-width:850px end*/
@@ -4825,11 +4838,6 @@
     /*컨텐츠 박스넓이 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box{
     height:290px;
-}
-    
-    /*컨텐츠 박스 패딩값 통일화*/
-    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
-    
 }
     
     /*컨텐츠 서체크기 통일화 1*/
