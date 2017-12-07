@@ -771,7 +771,7 @@
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_box:hover{
-    background-color:rgba(156,216,61,0.8);
+    background-color:rgba(255,255,255,0.15);
     border:1px solid rgba(255,255,255,1);
 }
     
@@ -1137,7 +1137,7 @@
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_box:hover{
-    background-color:rgba(156,216,61,0.8);
+    background-color:rgba(255,255,255,0.15);
     border:1px solid rgba(255,255,255,1);
 }
     
@@ -2096,6 +2096,15 @@
     .box4{
     height:370px;
     width:100%;
+    position:relative;
+}
+    
+    .box4 .busan_video{
+    width:auto;
+    max-height:100%;
+    position:absolute;
+    top:0px;
+    right:-250px;
 }
     
     .box4 .video_container{
@@ -2507,7 +2516,7 @@
 /*---------------------------------------------------------------*/
     /*box7_ad1 start*/
     .box7{
-    height: 1030px;
+    height: 1050px;
     width:100%;
 }
     
@@ -2538,11 +2547,11 @@
     .box7 .ad1_contents_wrap .ad1_contents_box{
     width:100%;
     height:183px;
-    background-color:rgba(156,216,61,0.8);
+    background-color:rgba(255,255,255,0.15);
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_box:hover{
-    background-color:rgba(156,216,61,0.8);
+    background-color:rgba(255,255,255,0.15);
     border:1px solid rgba(255,255,255,1);
 }
     
@@ -2586,17 +2595,22 @@
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_2{
-    margin-top:12px;
+    margin-top:20px;
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_3{
     height:208px;
-    margin-top:12px;
+    margin-top:20px;
 }
 
     .box7 .ad1_contents_wrap .ad1_contents_4{
     height:208px;
-    margin-top:12px;
+    margin-top:20px;
+}
+    
+    .box7{
+    background:url('../img/b_box7_bg_2.jpeg') no-repeat left;
+    background-size:cover;
 }
     /*box7_ad1 end*/
 /*---------------------------------------------------------------*/
@@ -2839,7 +2853,7 @@
     
     /*ad2 start*/
     .box8 .ad_2_wrap{
-    background:url(../img/busan_bg_ad2_mobile.jpg) no-repeat center;
+    background:url(../img/busan_bg_ad2_mobile.jpg) no-repeat left;
     background-size:cover;
     margin-top:0px;
     padding-top:60px;
@@ -2903,25 +2917,25 @@
     height:160px;
     padding-top:17px;
     width:100%;
-    background-color:rgba(156,216,61,0.8);
+    background-color:rgba(255,255,255,0.15);
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_box:hover{
-    background-color:rgba(156,216,61,0.8);
+    background-color:rgba(255,255,255,0.15);
     border:1px solid rgba(255,255,255,1);
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_2{
-    margin-top:12px;
+    margin-top:20px;
 }
     
     .box8 .ad2_contents_wrap .ad2_contents_3{
-    margin-top:12px;
+    margin-top:20px;
     height:208px;
 }
 
     .box8 .ad2_contents_wrap .ad2_contents_4{
-    margin-top:12px;
+    margin-top:20px;
     height:208px;
 }
     
