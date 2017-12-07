@@ -30,26 +30,6 @@ body{
 
 .box1 .header_busan a{
     display:block;
-    background:#3288af;
-    font-size:20px;
-    height:44px;
-    width:100%;
-    text-align:center;
-    padding-top:15px;
-    font-weight:400;
-    letter-spacing:0.1em;
-    
-    opacity:1;
-}
-
-.box1 .header_marin{
-    height:59px;
-    width:33.3333%;
-    float:left;
-}
-
-.box1 .header_marin a{
-    display:block;
     background:#000000;
     color:#969696;
     font-size:20px;
@@ -61,6 +41,27 @@ body{
     letter-spacing:0.1em;
     
     opacity:0.6;
+}
+
+.box1 .header_marin{
+    height:59px;
+    width:33.3333%;
+    float:left;
+}
+
+.box1 .header_marin a{
+    display:block;
+    background:#ff9e12;
+    color:#ffffff;
+    font-size:20px;
+    height:44px;
+    width:100%;
+    text-align:center;
+    padding-top:15px;
+    font-weight:400;
+    letter-spacing:0.1em;
+    
+    opacity:1;
 }
 
 .box1 .header_marin a:hover{
@@ -195,7 +196,7 @@ body{
 }
 
 .box3 .menu_wrap .menus{
-    width:11.1111%;
+    width:12.5%;
     height:58px;
     /*background:orange;*/
     float:right; 
