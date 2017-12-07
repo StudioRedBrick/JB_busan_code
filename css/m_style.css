@@ -625,20 +625,21 @@ body{
     text-align: left;
 }
 
+
 .box6 .consult_txt_subtitle p{
-    width: 64%;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.81;
     text-align: left;
     
     padding-bottom: 39px;
-    border-bottom: 1px solid #ffffff;
+    
 }
 
 .box6 .consult_txt_main{
     width: 64%;
-    margin-top: 41px;
+    padding-top: 41px;
+    border-top: 1px solid #ffffff;
 }
 
 .box6 .consult_txt_main span{
@@ -1017,27 +1018,6 @@ body{
     padding-right: 17.6%;
     margin: 8.9px 6.5px;
 /*    background-color: aquamarine;*/
-}
-
-
-.box8 .Prep3_container .prep3_box .prep3_contents_inner p{
-    font-size:40px;
-    font-weight: bold;
-
-    
-    margin-bottom: 16px;
-    border-bottom:1px solid #ffffff;
-    
-/*    background-color:blue;*/
-}
-
-.box8 .Prep3_container .prep3_box .prep3_ko p{
-    font-size : 37px;
-    font-weight: bold;
-    
-    padding-bottom: 4px;
-    border-bottom:1px solid #ffffff;
-/*    background:blue;*/
 }
 
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
