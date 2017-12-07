@@ -617,6 +617,7 @@ body{
 
 .box6 .consult_txt_all{
     margin-top: 55px;
+    margin-bottom: 39px;
 }
 
 .box6 .consult_txt_title p{
@@ -631,8 +632,7 @@ body{
     font-weight: 500;
     line-height: 1.81;
     text-align: left;
-    
-    padding-bottom: 39px;
+  
     
 }
 
@@ -659,7 +659,6 @@ body{
     padding: 18px 0px;
     width: 100%;
     height: 425px;
-/*    background-color: darkslateblue;*/
 }
 
 .box6 .consult_slider_frame{
@@ -670,8 +669,6 @@ body{
 .box6 .slick-list{
     width: 100%;
     padding: 40px 0px;
-    
-    /*background-color: skyblue;*/
 }
 
 
@@ -679,15 +676,12 @@ body{
     width: 597px;
     height: 250px;
     margin-top: 20px;
-    
-/*    background-color: darkgreen;*/
 }
 
 .box6 .consult_slider_title p{
     font-size: 30px;
     font-weight: bold;
     text-align: left;
-    
 }
 
 .box6 .consult_slider_main1{
@@ -696,8 +690,6 @@ body{
     line-height: 1.93;
     text-align: left;
 }
-
-
 
 .box6 .consult_slider_title{
     float: left;
@@ -963,6 +955,11 @@ body{
 /*    background-color:green;*/
 }
 
+.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
+.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
+    padding-bottom: 8px;
+    border-bottom:1px solid #ffffff;
+}
 
 
 /* prep2 */
@@ -983,15 +980,9 @@ body{
 /*    background-color:red;*/
 }
 
-.box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt{
-    padding-bottom: 8px;
-    border-bottom:1px solid #ffffff;
-    
-/*    background-color: aquamarine;*/
-}
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title{
-    font-size:28px;
+    font-size:24px;
     line-height: 1.38;
     font-weight: bold;
     
@@ -999,15 +990,13 @@ body{
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle{
     font-size: 16px;
     line-height: 1.56;
     font-weight: 200;
-    
-/*    background-color: blue;*/
 }
 
 
@@ -1026,13 +1015,6 @@ body{
     line-height: 1.56;
     
 /*    background-color:red;*/
-}
-
-.box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
-    padding-bottom: 8px;
-    border-bottom:1px solid #ffffff;
-    
-/*    background-color: aquamarine;*/
 }
 
 .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
