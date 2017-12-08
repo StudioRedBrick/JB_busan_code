@@ -4325,83 +4325,79 @@
     height:290px;
     }
     
-    
-    
-    .box8 .Prep1_title,
+    .box8 .Prep2_title,
     .box8 .Prep3_title{
         width: 940px;
     }
     
-    .box8 .Prep1_title ul li h3,
+    .box8 .Prep2_title ul li h3,
     .box8 .Prep3_title ul li h3{
         font-size:38px;
     }
 
-    .box8 .Prep1_title ul li p,
+    .box8 .Prep2_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size:15px;
         margin-top: -2px;
     }
     
     /* prep frame setting */
-    .box8 .Prep1_container,
+    .box8 .Prep2_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
         width: 940px;
     }
     
     /* 공통 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        margin-top: 18px;
-    /*    background-color:green;*/
-    }
-    
-    .box8 .Prep1_title{
-        padding-top: 110px;
-    }
-    
-    .box8 .Prep3_title{
-        padding-top: 50px;
-    }
-   
-    /* prep1 */
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner{
-        padding: 9.2% 10.6%;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span{
+        margin-top: 13px;
         font-size: 12px;
-        font-weight: 400;
+        width: 105%;
+        /*background-color:green;*/
     }
     
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
-        font-size: 34px;
-    }
-    
-    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
-        font-size: 16px;
-        font-weight: 200;
-        margin-left: -4px;
-    }
-    
-    
-    /* prep3 */
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner{
         padding-left: 8.6%;
         padding-right: 9%;
-        padding-bottom: 12%;
-        padding-top: 8%;
+        padding-bottom: 10%;
+        padding-top: 10%;
     }
     
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
-        font-size: 35px;
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt{
+        padding-bottom: 10px;
     }
     
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
-        font-size: 14px;
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
+        font-size:23px;
     }
+    
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
+        font-size: 13px;
+    }
+    
+    .box8 .Prep2_title{
+        padding-top: 40px;
+    }
+    
+    .box8 .Prep3_title{
+        padding-top: 90px;
+    }
+   
+    /* prep2 */
+    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
+        font-size: 21px;
+    }
+    
+    /* prep3 */
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title_sub{
+        font-size: 14.5px;
+    }
+
     
     .box8 .prep3_list_container .prep3_list_title_all{
         margin-top: 20px;
