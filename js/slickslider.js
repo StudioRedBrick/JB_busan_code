@@ -57,11 +57,11 @@
             });
  
                        
-            $('.slick-prev').click(function(){
+            $('.box6 .slick-prev').click(function(){
                $('.vertical_slider').slick('slickPrev'); 
             });
             
-            $('.slick-next').click(function(){
+            $('.box6 .slick-next').click(function(){
                $('.vertical_slider').slick('slickNext'); 
             });
             
