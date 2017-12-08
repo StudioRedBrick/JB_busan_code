@@ -29,14 +29,14 @@
 }
 
 .box6{
-    background: url(../img/marin_bg_consult.png) no-repeat center;
+    background: url(../img/jeju_bg_consult.png) no-repeat center;
     background-size: cover; 
 }
 
-.box6 .consult_slider_frame{
+/*.box6 .consult_slider_frame{
     background: url('../img/marin_consult_frame.png') no-repeat center;
     background-size: cover;
-}
+}*/
 
 .box7{
     background:url('../img/marin_bg_ad_1.png') no-repeat;
@@ -45,7 +45,7 @@
 }
 
 .box8{
-    background: url('../img/marin_bg_prep.png') no-repeat left; 
+    background: url('../img/jeju_bg_prep_ad_2.png') no-repeat right; 
     background-size:cover;
 }
 
