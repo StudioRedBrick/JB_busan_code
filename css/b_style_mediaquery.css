@@ -838,7 +838,7 @@
 }
     
     .box7{
-    background:url('../img/b_box7_bg_2.jpeg') no-repeat left;
+    background:url('../img/busan_bg_box7_mobile.jpeg') no-repeat;
     background-size:cover;
 }
     /*box7_ad1 end*/
@@ -2647,6 +2647,7 @@
         background-size:cover;
         padding-top:60px;
         padding-bottom:60px;
+        height:1425px;
         background-color:blue;
     }
     
@@ -3844,7 +3845,7 @@
 /*---------------------------------------------------------------*/
     /*box7_ad1 start*/
     .box7{
-    height: 880px; 
+    height: 835px; 
 }
     
     .box7 .ad1_title{
@@ -3871,7 +3872,7 @@
     
     /*컨텐츠 박스넓이 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box{
-    height:285px;
+    height:264px;
     /*background-color:orange;*/
 }
     
@@ -3898,28 +3899,28 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-    font-size:14.5px;
-    font-weight:500;
-    line-height:1.7;
+    font-size:13.2px;
+    font-weight:400;
+    line-height:2;
     letter-spacing:0;
     
     /*background-color:red;*/
 }
     
     .box7 .ad1_contents_wrap .ad1_contents_3{
-    height:360px;
+    height:342px;
     margin-top:8px;
 }
 
     .box7 .ad1_contents_wrap .ad1_contents_4{
-    height:360px;
+    height:342px;
     margin-top:8px;
 }
     /*box7_ad1 end*/
 /*---------------------------------------------------------------*/
     /*box8_prep & ad2 start*/
     .box8{
-    height:2300px;
+    height:2200px;
 }
     
     /* Prep start */
@@ -3979,11 +3980,11 @@
     }
 
     .box8 .Prep2_title{
-        padding-top: 30px;
+        padding-top: 15px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 109px;
+        padding-top: 75px;
     }
     
     /* prep1 */
@@ -4067,7 +4068,7 @@
     
     /*ad2 start*/
     .box8 .ad_2_wrap{
-    margin-top:130px;
+    margin-top:100px;
 }
     
     /*컨텐츠 제목 & 소제목*/
@@ -4105,15 +4106,15 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
-    font-size:14px;
-    font-weight:500;
-    line-height:1.7;
+    font-size:13.1px;
+    font-weight:400;
+    line-height:2;
     letter-spacing:0;
 }
     
     /*컨텐츠 박스넓이 통일화*/
     .box8 .ad2_contents_wrap .ad2_contents_box{
-    height:190px;
+    height:180px;
     padding-top:25px;
 }
     
@@ -4976,9 +4977,9 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-    font-size:14px;
-    font-weight:500;
-    line-height:1.9;
+    font-size:13.5px;
+    font-weight:400;
+    line-height:1.95;
     
     /*background-color:red;*/
 }
@@ -5197,9 +5198,9 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
-    font-size:14px;
-    font-weight:200;
+    font-size:13.7px;
     line-height:1.9;
+    font-weight:400;
 }
     
     /*컨텐츠 박스넓이 통일화*/
@@ -5472,7 +5473,7 @@
     width:740px;
     height:137px;
     position:relative;
-    font-weight:300;
+    font-weight:400;
         
     /*background-color:deepskyblue;*/
 }
@@ -5926,6 +5927,11 @@
     padding-top:20px;
 }
     
+    /*컨텐츠 서체크기 통일화 2*/
+    .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
+    font-size:13.3px;
+}
+    
     .box8 .ad2_contents_wrap .ad2_contents_3{
     margin-top:14px;
     height:275px;
@@ -6035,4 +6041,3 @@
 
 }/*max-width:1300px end*/
 /*-----------------------------------------------------------------------------------------------*/
-

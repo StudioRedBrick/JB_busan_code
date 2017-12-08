@@ -411,9 +411,9 @@ body{
 
 /*video start*/
 .box4{
+    width:100%;
     height:501px;
     overflow:hidden;
-    
     position:relative;
 }
 
@@ -1081,7 +1081,7 @@ body{
     border:1px solid #ffffff;
     float:left;
     
-    /*background-color:orange;*/
+    background-color:rgba(255, 255, 255, 0.1);
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_box:hover{
@@ -1118,7 +1118,7 @@ body{
 /*컨텐츠 서체크기 통일화 2*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
     font-size:14px;
-    font-weight:200;
+    font-weight:400;
     line-height:29px;
     
     /*background-color:red;*/
@@ -1536,7 +1536,7 @@ body{
     border:1px solid #ffffff;
     float:left;
     
-    /*background-color:orange;*/
+    background-color:rgba(255,255,255,0.1);
 }
 
 .box8 .ad2_contents_wrap .ad2_contents_box:hover{
@@ -1573,7 +1573,7 @@ body{
 /*컨텐츠 서체크기 통일화 2*/
 .box8 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
     font-size:14px;
-    font-weight:200;
+    font-weight:400;
     line-height:29px;
     
     /*background-color:red;*/
@@ -1787,7 +1787,7 @@ body{
     letter-spacing:0;
     font-size:12px;
     line-height:20px;
-    font-weight:200;
+    font-weight:400;
 }
 
 /*교사 이름 담긴 박스*/
@@ -1804,10 +1804,10 @@ body{
 /*교사 이름*/
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box p{
     width:70%;
-    margin:48px auto;
+    margin:46px auto;
     text-align:center;
-    font-size:19px;
-    line-height:19px;
+    font-size:18px;
+    line-height:20px;
     border-bottom:0.5px solid rgba(255,255,255,0.9);
     
     /*background-color:mediumpurple;*/
@@ -1959,7 +1959,7 @@ body{
 /*detailed txt*/
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_left{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     float:left;
     width:25%;
     
@@ -1968,9 +1968,9 @@ body{
 
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     padding-left:7%;
-    width:50%;
+    width:65%;
     float:left;
     
     /*background-color:darkblue;*/
@@ -2006,7 +2006,7 @@ body{
 /*detailed txt*/
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_left{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     float:left;
     width:25%;
     
@@ -2015,7 +2015,7 @@ body{
 
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     padding-left:7%;
     width:50%;
     float:left;
@@ -2203,7 +2203,7 @@ body{
 .footer{
     font-size:11px;
     line-height:18px;
-    font-weight:100;
+    font-weight:400;
     
     width:1160px;
     height:162px;
@@ -2263,3 +2263,11 @@ body{
 /*footer end*/
 /*ask & footer end*/
 /*---------------------------------------------------------------*/
+
+
+@media screen and (min-width:1301px){
+    
+    .box4 video{
+    object-fit:cover;
+}
+}
