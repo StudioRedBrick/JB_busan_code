@@ -43,6 +43,10 @@ body{
     opacity:0.6;
 }
 
+.box1 .header_busan a:hover{
+    opacity:0.7; 
+}
+
 .box1 .header_marin{
     height:59px;
     width:33.3333%;
@@ -420,9 +424,11 @@ body{
 
 .box4 .busan_video{
     min-width:100%;
-    min-height:100%;
+    max-height:100%;
     margin:auto;
     pointer-events:none;
+    position:absolute;
+    right:0px;
 }
 
 .box4 .video_container{
@@ -440,7 +446,7 @@ body{
     /*background-color:rgba(0,0,0,0.8);*/
 }
 
-/*전문성과 진정성으로*/
+/*시작부터 다르다*/
 .box4 .video_container .video_txt_1{
     /* 자간벙벙해서 끕니다 */
     letter-spacing: 0em;
@@ -454,7 +460,7 @@ body{
      /*background:blue;*/
 }
 
-/*학생의 미래를 밝힙니다*/
+/*제주 국제학교 입학에서...*/
 .box4 .video_container .video_txt_2{
     /* 자간벙벙해서 끕니다 */
     letter-spacing: 0em;
