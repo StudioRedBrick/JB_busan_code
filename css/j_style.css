@@ -1223,7 +1223,7 @@ body{
     top: -47px;
     margin-left: 420.8px;
     
-    background: url('../img/jeju_consult_frame.png');
+    background: url('../img/jeju_consult_frame.png') no-repeat;
 }
 
 
