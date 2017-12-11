@@ -3645,37 +3645,37 @@
 }
     
     /* Prep start */
-    .box8 .Prep2_title,
+    .box8 .Prep1_title,
     .box8 .Prep3_title{
         width: 740px;
     }
     
     /* hover off */
-    .box8 .multi_slider .prep2_contents_inner:hover{
-        background: url('../img/marin_prep1_box_line.png') no-repeat center;
+    .box8 .multi_slider .prep1_contents_inner:hover{
+        background: url('../img/jeju_prep2_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     .box8 .multi_slider .prep3_contents_inner:hover{    
-        background: url('../img/marin_prep2_box_line.png') no-repeat center;
+        background: url('../img/jeju_prep1_box_line.png') no-repeat center;
         background-size: contain;
     }
     
     
     /* prep frame setting */
-    .box8 .Prep2_container,
+    .box8 .Prep1_container,
     .box8 .Prep3_container,
     .box8 .prep3_list_container{
         width: 740px;
     }
     
     /* 공통 */
-    .box8 .Prep2_title ul li h3,
+    .box8 .Prep1_title ul li h3,
     .box8 .Prep3_title ul li h3{
         font-size: 38px;
     }
     
-    .box8 .Prep2_title ul li p,
+    .box8 .Prep1_title ul li p,
     .box8 .Prep3_title ul li p{
         font-size: 15px;
         margin-top: -3px;
@@ -3683,32 +3683,13 @@
     }
 
     
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span,
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
         font-weight: 400;
         margin-top: 12px;
-        font-size: 12px;
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner,
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
-        padding-left: 8.6%;
-        padding-right: 9%;
-        padding-bottom: 10%;
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
-        font-size:23px;
-    }
-    
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
-    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
-        font-size: 13px;
-        font-weight: 400;
     }
  
-    .box8 .Prep2_title{
+    .box8 .Prep1_title{
         padding-top: 35px;
     }
     
@@ -3716,14 +3697,58 @@
         padding-top: 82px;
     }
    
-    /* prep2 */
-    .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title_ko{
-        font-size: 21px;
+    /* prep1 */
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner{
+        padding-bottom: 12.2%;
+        padding-top: 11.2%;
+        padding-left: 12.6%;
+        padding-right: 15.6%;
+        margin: 8.9px 6.5px;
+    /*    background-color: aquamarine;*/
+    }
+    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner p,
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_title{
+        font-size: 34px;
+    }
+    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_txt_subtitle{
+        font-size: 16px;
+        font-weight: 200;
+        
+        margin-left: -4px;
     }
    
+    .box8 .Prep1_container .prep1_box .prep1_contents_inner .prep1_span{
+        font-size: 12px;
+    }
     /* prep3_slider */
     
     /* prep3_list */
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner{
+        padding-bottom: 10.2%;
+        padding-top: 7.2%;
+        padding-left: 9.6%;
+        padding-right: 10.6%;
+        margin: 8.9px 6.5px;
+    /*    background-color: aquamarine;*/
+    }
+    
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner p{
+        font-size: 38px;
+    }
+    
+    .box8 .Prep3_container .prep3_box .prep3_ko p{
+        font-size : 34px;
+        padding-bottom: 4px;
+    }
+    
+    
+    .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_span{
+        font-size: 14px;
+    }
+    
+    
     .box8 .prep3_list_container .prep3_list_title_all .prep3_list_title{ 
         font-size:23px;
         
@@ -3841,10 +3866,14 @@
         
         background-image: none;
         background-color: rgba(225,225,225,0.2);
+        border: none;
         border-left: 1px solid #ffffff;
         border-right: 1px solid #ffffff;
     }
     
+    .box6 .consult_slider_wrap{
+        display: none;
+    }
     
     .box6 .slider_indent{
         margin:auto;
@@ -3852,7 +3881,7 @@
     }
 
     .box6 .slick-list{
-        padding: 3% 0px;
+        padding: 4% 0px;
     }
 
     .box6 .slick-track{
@@ -4684,8 +4713,8 @@
     }
     
     .box6 .consult_slider_frame{
-        width: 490px;
-        margin-top: 10px;
+        width: 483px;
+        margin-top: 9px;
         background-color: rgba(225,225,225,0.1);
         border-top: 1px solid #ffffff;
         border-bottom: 1px solid #ffffff;
@@ -4694,8 +4723,8 @@
     .box6 .consult_slider_wrap{
         position: absolute;
         width: 744px;
-        top: -47px;
-        margin-left: 319px;
+        top: -48px;
+        margin-left: 315px;
         
         background: url('../img/jeju_consult_frame_1300.png') no-repeat center;
     }
@@ -4705,7 +4734,7 @@
     }
     
     .box6 .slick-list{
-        padding: 52px 0px;
+        padding: 38px 0px;
     }
     
     .box6 .consult_slider_title{
