@@ -1213,11 +1213,13 @@ body{
 
 .box6 .consult_slider_wrap{
     position: absolute;
-    width: 603px;
+    width: 844px;
     height: 527px;
     
     top: -47px;
     margin-left: 420.8px;
+    
+    background: url('../img/jeju_consult_frame.png');
 }
 
 

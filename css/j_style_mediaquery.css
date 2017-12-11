@@ -4499,7 +4499,6 @@
     
     /*box8_prep & ad2 start*/
     .box8{
-        
         height:1200px;
 
         /* 자간벙벙해서 끕니다 */
@@ -4646,7 +4645,7 @@
     
     /*box6_consult start*/
     .box6{
-        height: 535px;
+        height: 525px;
     }
     
     .box6 .consult_txt_all{
@@ -4664,6 +4663,20 @@
         padding-top:9px;
     }
     
+    .box6 .consult_txt_container{
+        padding: 0 15px;
+
+        float: left;
+        width: 413px;
+    /*    background: blue;*/
+    }
+    
+    .box6 .consult_slider_container{
+        float: left;
+        width: 483px;
+    /*    background: red;*/
+    }
+    
     .box6 .slider_indent,
     .box6 .slick-list,
     .box6 .consult_slider_item{
@@ -4671,9 +4684,20 @@
     }
     
     .box6 .consult_slider_frame{
-        width: 500px;
-        background: url('../img/marin_consult_frame_1300.png') no-repeat center;
-        background-size: cover;
+        width: 490px;
+        margin-top: 10px;
+        background-color: rgba(225,225,225,0.1);
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    .box6 .consult_slider_wrap{
+        position: absolute;
+        width: 744px;
+        top: -47px;
+        margin-left: 319px;
+        
+        background: url('../img/jeju_consult_frame_1300.png') no-repeat center;
     }
     
     .box6 .slider_indent{
@@ -4704,6 +4728,16 @@
     
         margin-top: 14px;
         /*background-color: darkgreen;*/
+    }
+    
+    .box6 .slick-prev{
+        left: 48%;
+        top: 0.3%;
+    }
+
+    .box6 .slick-next{
+        left: 48%;
+        top: 97.4%;
     }
     
     /*box6_consult end*/
