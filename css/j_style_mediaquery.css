@@ -2691,22 +2691,25 @@
 }
     
     .box4 .video_container .video_txt_1{
-    font-size:50px;
+    font-size:40px;
     font-weight:700;
-    line-height:48px;
+    line-height:40px;
     
     /*background-color:red;*/
 }
     
     .box4 .video_container .video_txt_2{
-    font-size:23px;
-    font-weight:400;
+    font-size:40px;
+    line-height:47px;
+    font-weight:700;
+    padding-left:114px;
 }
     
     .box4 .video_container .button1{
     font-size:14px;
     font-weight:500;
     padding-top:10px;
+    padding-left:114px;
 }
     
     .box4 .video_container .button1 a{
@@ -2723,6 +2726,7 @@
     line-height:14px;
     font-weight:500;
     padding-top:7px;
+    padding-left:114px;
 }
     
     .box4 .video_container .button2 a{
@@ -2756,85 +2760,124 @@
 /*---------------------------------------------------------------*/
     
 /*ad_1 start*/
+.box7{
+    height:1020px;
+}
 
 /*컨텐츠 제목 & 소제목*/
 .box7 .ad1_title{
-    width:740px;
+    width:615px;
 }
 /*-----------------*/
 
 .box7 .ad1_contents_wrap{
-    width:740px;
+    width:615px;
 }
 
 /*컨텐츠 서체크기 통일화 2*/
  .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-     font-size:13px;
+     font-size:12.5px;
  }
  
  /*-----------------*/
 
 /*contents1*/
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner{
-    padding-top:18px;
+    padding-top:27px;
+    padding-left:25px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .floating{
-    font-size:33px;
-    line-height:42px;
+    font-size:22px;
+    line-height:30px;
     margin-right:12px;
-    padding-top:22px;
+    padding-top:9px;
+    width:28%;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .floating br{
+    display:none;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .ad1_span{
-    width:43%;
-    margin-left:25px;
-    padding-top:7px;
+    width:64%;
+    margin-left:10px;
+    padding-top:0px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .slash_image{
-    margin-top:27px;
+    display:none;
 }
 
 
 /*contents2*/
-
+.box7 .ad1_contents_wrap .ad1_contents_2{
+    width:100%;
+    height:113px;
+}    
+    
+.box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner{
+    padding-left:25px;
+}
+    
 .box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .floating{
-    font-size:27px;
-    line-height:38px;
+    font-size:22px;
+    line-height:30px;
+    margin-right:12px;
+    width:28%;
+    padding-bottom:0px;
+    float:left;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .ad1_span{
-    width:81%;
+    width:64%;
+    margin-left:10px;
+    float:left;
+}
+
+    
+.box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner:after{
+    content:"";
+    display:block;
+    clear:both;
 }
 
 /*contents3*/
+.box7 .ad1_contents_wrap .ad1_contents_3{
+    width:100%;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner{
-    padding-top:21px;
+    padding-top:28px;
+    padding-left:25px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .floating{
     font-size:20px;
     line-height:28px;
-    padding-top:20px;
+    padding-top:13px;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .ad1_span{
     width:48%;
+    padding-top:0px;
 }
 
 /*contents4*/
+.box7 .ad1_contents_wrap .ad1_contents_4{
+    width:100%;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner{
-    padding-top:15px;
+    padding-top:19px;
+    padding-left:25px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .floating{
     font-size:20px;
     line-height:28px;
-    padding-top:18px;
+    padding-top:15px;
 }
 
 
@@ -2844,39 +2887,67 @@
 }
 
 /*contents5*/
+.box7 .ad1_contents_wrap .ad1_contents_5{
+    width:48.5%;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner{
-    padding-top:27px;
+    padding-top:20px;
+    padding-left:25px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .floating{
+    width:92%;
     font-size:20px;
     line-height:28px;
-    padding-top:16px;
+    padding-top:0px;
+    padding-bottom:10px;
+    float:none;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .floating br{
+    display:none;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .ad1_span{
-    width:50%;
-    margin-left:58px;
+    width:94%;
+    margin-left:0px;
+    float:none;
 }
 
 /*contents6*/
+.box7 .ad1_contents_wrap .ad1_contents_6{
+    width:48.5%;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner{
-    padding-top:27px;
+    padding-top:20px;
+    padding-left:25px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .floating{
     font-size:20px;
     line-height:28px;
-    padding-top:16px;
+    padding-top:0px;
+    padding-bottom:10px;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .floating br{
+    display:none;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .ad1_span{
-    width:51%;
-    margin-left:50px;
+    width:94%;
+    margin-left:0px;
+}
+    
+.box7{
+    background:url('../img/jeju_bg_ad_1.png') no-repeat;
+    background-size:cover;
+    background-position: 86% 0%;
+    
 }
 /*box7_ad1 end*/
 /*---------------------------------------------------------------*/
@@ -3145,7 +3216,7 @@
     
     /*prof start*/
     .box9{
-    height:580px;
+    height:445px;
 }
     
     .box9 .box9_wrap{
@@ -3194,10 +3265,6 @@
     position:relative;
     width:100%;
     overflow:hidden;
-        
-    background:url('../img/marin_bg_map_2.jpg') no-repeat;
-    background-size:cover;
-    background-position: 62% 0%;
 }
     
     .box10_wrap{
@@ -3216,14 +3283,19 @@
     /*제목:해운대 본원*/
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
-    width:73%;
-    padding-top:37px;
-    font-size:20px;
+    width:80%;
+    padding-top:35px;
+    padding-bottom:7px;
+    font-size:18px;
+    line-height:27px;
     font-weight:bold;
     text-align:center;
     border-bottom:1px solid #ffffff;
+}
     
-    /*background-color:blueviolet;*/
+    .box10_wrap .addrs_box .addrs_box_title h3{
+    padding-top:7px;
+    border-top:1.5px solid #ffffff;
 }
     
     .box10_wrap .addrs_box .addrs_box_contact{
@@ -3256,7 +3328,7 @@
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
     float:left;
     position:absolute;
-    top:25px;
+    top:29px;
     left:-10px;
 }
     
@@ -3304,6 +3376,11 @@
     padding-left:7%;
     font-weight:400;
     line-height:20px;
+}
+    
+    .box10{
+    background:url('../img/jeju_bg_map_2.jpg') no-repeat center;
+    background-size:cover;
 }
     /*box10_map end*/
 /*---------------------------------------------------------------*/
@@ -3553,7 +3630,7 @@
     
     .box4 .video_container .video_txt_2{
     font-size:40px;
-    font-weight:500;
+    font-weight:700;
     line-height:30px;
     padding-left:114px;
 }
@@ -3634,107 +3711,172 @@
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner{
     padding-top:18px;
+    padding-left:30px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .floating{
-    font-size:33px;
-    line-height:42px;
+    font-size:29px;
+    line-height:37px;
     margin-right:12px;
-    padding-top:22px;
+    padding-top:26px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .ad1_span{
-    width:43%;
-    margin-left:25px;
+    width:54%;
+    margin-left:10px;
     padding-top:7px;
 }
-
+    
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .slash_image{
-    margin-top:27px;
+    display:none;
 }
 
 
 /*contents2*/
+.box7 .ad1_contents_wrap .ad1_contents_2{
+    width:30%;
+    height:307px;
+    margin-top:18px;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner{
+    padding-left:30px;
+    padding-top:25px;
+}
+
 
 .box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .floating{
-    font-size:27px;
-    line-height:38px;
+    font-size:23px;
+    line-height:32px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .ad1_span{
-    width:81%;
+    width:85%;
+    hyphens:auto;
+    word-break:normal;
 }
 
 /*contents3*/
+.box7 .ad1_contents_wrap .ad1_contents_3{
+    width:67%;
+    height:164px;
+    float:right;
+    margin-top:18px;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner{
-    padding-top:21px;
+    padding-top:25px;
+    padding-left:25px;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner br{
+    display:none;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .floating{
-    font-size:20px;
-    line-height:28px;
-    padding-top:20px;
+    font-size:18px;
+    line-height:26px;
+    padding-top:7px;
+    width:35%;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .ad1_span{
-    width:48%;
+    width:58%;
+    margin-left:10px;
+    padding-top:0px;
 }
 
 /*contents4*/
+.box7 .ad1_contents_wrap .ad1_contents_4{
+    width:67%;
+    height:123px;
+    float:right;
+    margin-top:18px;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner{
-    padding-top:15px;
+    padding-top:16px;
+    padding-left:25px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .floating{
-    font-size:20px;
-    line-height:28px;
-    padding-top:18px;
+    font-size:18px;
+    line-height:26px;
+    padding-top:20px;
+    width:29%;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .ad1_span{
-    width:48%;
-    margin-left:126px;
+    width:58%;
+    margin-left:35px;
+    padding-top:0px;
 }
 
 /*contents5*/
+.box7 .ad1_contents_wrap .ad1_contents_5{
+    width:48.5%;
+
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner{
-    padding-top:27px;
+    padding-top:21px;
+    padding-left:30px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .floating{
     font-size:20px;
     line-height:28px;
-    padding-top:16px;
+    padding-top:0px;
+    padding-bottom:7px;
+    float:none;
+    width:92%;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .floating br{
+    display:none;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .ad1_span{
-    width:50%;
-    margin-left:58px;
+    width:92%;
+    margin-left:0px;
+    float:none;
 }
 
 /*contents6*/
+.box7 .ad1_contents_wrap .ad1_contents_6{
+    width:48.5%;
+}
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner{
-    padding-top:27px;
+    padding-top:21px;
+    padding-left:30px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .floating{
     font-size:20px;
     line-height:28px;
-    padding-top:16px;
+    padding-top:0px;
+    padding-bottom:7px;
+    float:none;
+    width:92%;
+}
+    
+.box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .floating br{
+    display:none;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .ad1_span{
-    width:51%;
-    margin-left:50px;
+    width:92%;
+    margin-left:0px;
+    float:none;
 }
+    
+
+
 /*box7_ad1 end*/
     
 /*---------------------------------------------------------------*/
@@ -4027,7 +4169,7 @@
     
     /*제목: Professor Profile*/
     .box9{
-        height:583px;
+        height:430px;
     }
     
     .box9 .box9_wrap{
@@ -4050,19 +4192,36 @@
     
     /*교수 프로필*/
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
-    width:50%;
+    width:33.3333%;
     padding-bottom:20px;
 }
     
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left{
+    float:none;
+    width:95%;
+}
+
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right{
+    float:none;
+}   
+    
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li{
-    font-size:11.5px;
-    line-height:18px;
-    font-weight:500;
-    letter-spacing:0;
+    font-size:12.5px;
+    line-height:22px;
 }
     
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul{
-    padding-top:25px;
+    padding-top:10px;
+}
+    
+    /*교사 이름*/
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_left .prof_box p{
+    width:70%;
+    margin:48px auto;
+    text-align:center;
+    font-size:19px;
+    line-height:19px;
+    border-bottom:0.5px solid rgba(255,255,255,0.9);
 }
     /*prof end*/
 /*---------------------------------------------------------------*/
@@ -4080,17 +4239,24 @@
     height:350px;
 }
     
-    /*제목:해운대 본원*/
+    /*제목:제주 프런티어 러닝센터*/
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
-    width:73%;
-    padding-top:29px;
-    font-size:20px;
+    width:80%;
+    padding-top:35px;
+    padding-bottom:7px;
+    font-size:18px;
+    line-height:27px;
     font-weight:bold;
     text-align:center;
     border-bottom:1px solid #ffffff;
     
     /*background-color:blueviolet;*/
+}
+    
+    .box10_wrap .addrs_box .addrs_box_title h3{
+    padding-top:7px;
+    border-top:1.5px solid #ffffff;
 }
     
     .box10_wrap .addrs_box .addrs_box_contact{
@@ -4101,7 +4267,7 @@
     
     /*제목:연락처*/
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
-    padding-top:15px;
+    padding-top:20px;
     position:relative;
     font-weight:500;
     
@@ -4112,7 +4278,7 @@
     .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title img{
     float:left;
     position:absolute;
-    top:25px;
+    top:30px;
     left:-10px;
     
     /*background-color:green;*/
@@ -4122,7 +4288,7 @@
     .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title img{
     float:left;
     position:absolute;
-    top:25px;
+    top:30px;
     left:-10px;
     
     /*background-color:green;*/
@@ -4168,6 +4334,11 @@
     font-weight:400;
     
     /*background-color:darkblue;*/
+}
+    
+    .box10{
+    background:url('../img/jeju_bg_map_2.jpg') no-repeat center;
+    background-size:cover;
 }
     
     /*box10_map end*/
