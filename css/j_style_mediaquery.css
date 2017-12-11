@@ -3292,7 +3292,12 @@
     font-size:16px;
     line-height:17px;
     border-bottom:0.5px solid rgba(255,255,255,0.9);
-
+}
+    
+    .box9{
+    background:url('../img/jeju_bg_prof.png') no-repeat;
+    background-size:cover;
+    background-position:100% 0%;
 }
     /*prof end*/
 /*---------------------------------------------------------------*/
@@ -4221,7 +4226,7 @@
     
     /*제목: Professor Profile*/
     .box9{
-        height:430px;
+        height:435px;
     }
     
     .box9 .box9_wrap{
@@ -4229,7 +4234,7 @@
     }
     
     .box9 .box9_wrap .prof_wrap .prof_title h3{
-    padding-top:50px;
+    padding-top:57px;
     font-size:38px;
 }
     
@@ -4276,6 +4281,12 @@
     font-size:19px;
     line-height:19px;
     border-bottom:0.5px solid rgba(255,255,255,0.9);
+}
+    
+    .box9{
+    background:url('../img/jeju_bg_prof.png') no-repeat;
+    background-size:cover;
+    background-position:3% 0%;
 }
     /*prof end*/
 /*---------------------------------------------------------------*/
@@ -4981,6 +4992,7 @@
     .box9 .box9_wrap .prof_wrap .prof_title h3{
     font-size:38px;
     line-height:38px;
+    padding-top:62px;
 }
     
     .box9 .box9_wrap .prof_wrap .prof_title p{
@@ -5020,6 +5032,12 @@
     font-size:19px;
     line-height:19px;
     border-bottom:0.5px solid rgba(255,255,255,0.9);
+}
+    
+    .box9{
+    background:url('../img/jeju_bg_prof.png') no-repeat;
+    background-size:cover;
+    background-position:0% 0%;
 }
     /*prof end*/
     /*---------------------------------------------------------------*/
