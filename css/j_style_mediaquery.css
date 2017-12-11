@@ -3160,7 +3160,7 @@
     }
 
     .box6 .slick-next{
-        left: 101%;
+        left: 101.5%;
         top: 39%;
 
         transform: rotate(-90deg);
@@ -4042,7 +4042,7 @@
     }
 
     .box6 .slick-next{
-        left: 100.4%;
+        left: 100.7%;
         top: 43%;
 
         transform: rotate(-90deg);
@@ -4750,12 +4750,12 @@
     
     .box6 .slick-prev{
         left: 48%;
-        top: 0.3%;
+        top: 0.1%;
     }
 
     .box6 .slick-next{
         left: 48%;
-        top: 97.4%;
+        top: 97%;
     }
     
     /*box6_consult end*/
