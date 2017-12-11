@@ -1108,6 +1108,18 @@ body{
 /*Prep END*/
 /*---------------------------------------------------------------*/
 
+/* box_empty start */
+
+.box_empty{
+    width: 100%;
+    height: 15px;
+    background-color: #e8e8e8;
+}
+
+/* box_empty END */
+
+/*---------------------------------------------------------------*/
+
 /*consult start*/
 .box6{
     width: 100%;
