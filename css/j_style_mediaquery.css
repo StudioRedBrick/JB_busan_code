@@ -4230,56 +4230,265 @@
     
     /*---------------------------------------------------------------*/
     
-    /*box7_ad1 start*/
-    .box7{
-    height: 550px; 
+    /*ad_1 start*/
+
+.box7{
+    width: 100%;
+    height: 898px; 
 }
+
+/*컨텐츠 제목 & 소제목*/
+.box7 .ad1_title{
+    width:1160px;
+    padding-top:80px;
+    margin:auto;
     
-    .box7 .ad1_title{
-    width:940px;
+    /*background-color:red;*/
 }
+
+.box7 .ad1_title ul li h3{
+    font-size:40px;
+    line-height:40px;
+    font-weight:bold;
     
-    .box7 .ad1_contents_wrap{
-    width:940px;
+    /*background-color:aqua;*/
 }
-    
-    /*컨텐츠 박스넓이 통일화*/
-    .box7 .ad1_contents_wrap .ad1_contents_box{
-    height:290px;
-}
-    
-    /*컨텐츠 서체크기 통일화 1*/
-    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
-    font-size:31px;
-    line-height:45px;
-    padding-bottom:10px;
+
+.box7 .ad1_title ul li p{
+    font-size:16px;
+    padding-top:2px;
+    padding-bottom:27px;
+    padding-left:4px;
+    font-weight:500;
     
     /*background-color:blue;*/
 }
+
+/*-----------------*/
+
+.box7 .ad1_contents_wrap{
+    width:1160px;
+    margin:auto;
     
-    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
-    padding-top:10px;
-    line-height:24px;
-    letter-spacing:0;
-    
-    /*background-color:green;*/
-}
-    
-    .box7 .ad1_contents_wrap .ad1_contents_2{
-    float:left;
-    margin-left:1.5%
+    /*background-color:forestgreen;*/
 }
 
-    .box7 .ad1_contents_wrap .ad1_contents_3{
+/*컨텐츠 박스넓이 통일화*/
+.box7 .ad1_contents_wrap .ad1_contents_box{
+    border-radius:10px;
+    border:1px solid #ffffff;
     float:left;
-    margin-left:1.5%
-}
     
-    .box7{
-    background:url('../img/marin_bg_ad_1.png') no-repeat right;
-    background-size:cover;
+    /*background-color:orange;*/
 }
-    /*box7_ad1 end*/
+
+.box7 .ad1_contents_wrap .ad1_contents_box:hover{
+    background-color:rgba(156,216,61,0.8);
+    border:1px solid rgba(156,216,61,0.8);
+}
+
+/*컨텐츠 박스 패딩값 통일화*/
+.box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
+    padding-left:0%;
+    padding-top:0px;
+}
+
+/*컨텐츠 서체크기 통일화 2*/
+ .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
+     font-size:14px;
+     font-weight:400;
+     line-height:1.79;
+ }
+ 
+ /*-----------------*/
+ /*안에 들어가는 내용들 floating 세부작업*/
+ 
+ .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .floating{
+     float:left;
+  }
+
+.box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner .ad1_span{
+    float:left;
+}
+
+/*contents1*/
+.box7 .ad1_contents_wrap .ad1_contents_1{
+    width:100%;
+    height:162px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner{
+    padding-left:40px;
+    padding-top:30px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .floating{
+    font-size:37px;
+    font-weight:600;
+    line-height:52px;
+    margin-right:30px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .ad1_span{
+    width:46%;
+    margin-left:45px;
+    padding-top:3px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .slash_image{
+    background:url(../img/jeju_ad_1_box1_line.png) no-repeat;
+    height:72px;
+    width:132px;
+    float:left;
+    margin-top:20px;
+}
+
+
+/*contents2*/
+.box7 .ad1_contents_wrap .ad1_contents_2{
+    width:28%;
+    height:307px;
+    margin-top:18px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner{
+    padding-left:40px;
+    padding-top:25px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .floating{
+    font-size:35px;
+    font-weight:600;
+    line-height:49px;
+    margin-right:30px;
+    padding-bottom:30px;
+    float:none;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .ad1_span{
+    width:86%;
+    float:none;
+}
+
+/*contents3*/
+.box7 .ad1_contents_wrap .ad1_contents_3{
+    width:70.6%;
+    height:164px;
+    float:right;
+    margin-top:18px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner{
+    padding-left:40px;
+    padding-top:28px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .floating{
+    font-size:26px;
+    font-weight:600;
+    line-height:35px;
+}
+
+
+.box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .ad1_span{
+    width:50%;
+    margin-left:25px;
+    padding-top:5px;
+}
+
+/*contents4*/
+.box7 .ad1_contents_wrap .ad1_contents_4{
+    width:70.6%;
+    height:123px;
+    float:right;
+    margin-top:18px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner{
+    padding-left:40px;
+    padding-top:25px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .floating{
+    font-size:26px;
+    font-weight:600;
+    line-height:35px;
+}
+
+
+.box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .ad1_span{
+    width:50%;
+    margin-left:160px;
+    padding-top:0px;
+}
+
+/*contents5*/
+.box7 .ad1_contents_wrap .ad1_contents_5{
+    width:49.3%;
+    height:143px;
+    float:left;
+    margin-top:18px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner{
+    padding-left:40px;
+    padding-top:36px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .floating{
+    font-size:26px;
+    font-weight:600;
+    line-height:35px;
+}
+
+
+.box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .ad1_span{
+    width:55%;
+    margin-left:45px;
+    padding-top:0px;
+}
+
+/*contents6*/
+.box7 .ad1_contents_wrap .ad1_contents_6{
+    width:49.3%;
+    height:143px;
+    float:right;
+    margin-top:18px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner{
+    padding-left:40px;
+    padding-top:36px;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .floating{
+    font-size:26px;
+    font-weight:600;
+    line-height:35px;
+}
+
+
+.box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .ad1_span{
+    width:58%;
+    margin-left:45px;
+    padding-top:0px;
+}
+
+/*-----------------*/
+
+.box7 .ad1_contents_wrap:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*ad_1 end*/
     
     /*---------------------------------------------------------------*/
     
