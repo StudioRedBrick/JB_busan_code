@@ -4239,7 +4239,7 @@
 
 /*컨텐츠 제목 & 소제목*/
 .box7 .ad1_title{
-    width:1160px;
+    width:940px;
     padding-top:80px;
     margin:auto;
     
@@ -4267,7 +4267,7 @@
 /*-----------------*/
 
 .box7 .ad1_contents_wrap{
-    width:1160px;
+    width:940px;
     margin:auto;
     
     /*background-color:forestgreen;*/
@@ -4295,7 +4295,7 @@
 
 /*컨텐츠 서체크기 통일화 2*/
  .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-     font-size:14px;
+     font-size:13px;
      font-weight:400;
      line-height:1.79;
  }
@@ -4319,20 +4319,21 @@
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner{
     padding-left:40px;
-    padding-top:30px;
+    padding-top:18px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .floating{
-    font-size:37px;
+    font-size:33px;
     font-weight:600;
-    line-height:52px;
-    margin-right:30px;
+    line-height:42px;
+    margin-right:12px;
+    padding-top:22px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .ad1_span{
-    width:46%;
-    margin-left:45px;
-    padding-top:3px;
+    width:43%;
+    margin-left:25px;
+    padding-top:7px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_1 .ad1_contents_inner .slash_image{
@@ -4340,7 +4341,7 @@
     height:72px;
     width:132px;
     float:left;
-    margin-top:20px;
+    margin-top:27px;
 }
 
 
@@ -4357,16 +4358,16 @@
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .floating{
-    font-size:35px;
+    font-size:27px;
     font-weight:600;
-    line-height:49px;
+    line-height:38px;
     margin-right:30px;
-    padding-bottom:30px;
+    padding-bottom:40px;
     float:none;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_2 .ad1_contents_inner .ad1_span{
-    width:86%;
+    width:81%;
     float:none;
 }
 
@@ -4380,18 +4381,19 @@
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner{
     padding-left:40px;
-    padding-top:28px;
+    padding-top:21px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .floating{
-    font-size:26px;
+    font-size:20px;
     font-weight:600;
-    line-height:35px;
+    line-height:28px;
+    padding-top:20px;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_3 .ad1_contents_inner .ad1_span{
-    width:50%;
+    width:48%;
     margin-left:25px;
     padding-top:5px;
 }
@@ -4406,19 +4408,20 @@
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner{
     padding-left:40px;
-    padding-top:25px;
+    padding-top:15px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .floating{
-    font-size:26px;
+    font-size:20px;
     font-weight:600;
-    line-height:35px;
+    line-height:28px;
+    padding-top:18px;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner .ad1_span{
-    width:50%;
-    margin-left:160px;
+    width:48%;
+    margin-left:126px;
     padding-top:0px;
 }
 
@@ -4432,19 +4435,20 @@
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner{
     padding-left:40px;
-    padding-top:36px;
+    padding-top:27px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .floating{
-    font-size:26px;
+    font-size:20px;
     font-weight:600;
-    line-height:35px;
+    line-height:28px;
+    padding-top:16px;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner .ad1_span{
-    width:55%;
-    margin-left:45px;
+    width:50%;
+    margin-left:58px;
     padding-top:0px;
 }
 
@@ -4458,19 +4462,20 @@
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner{
     padding-left:40px;
-    padding-top:36px;
+    padding-top:27px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .floating{
-    font-size:26px;
+    font-size:20px;
     font-weight:600;
-    line-height:35px;
+    line-height:28px;
+    padding-top:16px;
 }
 
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner .ad1_span{
-    width:58%;
-    margin-left:45px;
+    width:51%;
+    margin-left:50px;
     padding-top:0px;
 }
 
@@ -4751,6 +4756,11 @@
     
     .box10_wrap{
     padding-top:70px;
+}
+    
+    .box10{
+    background:url('../img/jeju_bg_map_2.jpg') no-repeat center;
+    background-size:cover;
 }
     /*box10_map end*/
     
