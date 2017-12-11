@@ -2768,6 +2768,15 @@
 .box7 .ad1_title{
     width:615px;
 }
+    
+.box7 .ad1_title ul li h3{
+    font-size:38px;
+    line-height:38px;
+}
+    
+.box7 .ad1_title ul li p{
+    font-size:15px;
+}
 /*-----------------*/
 
 .box7 .ad1_contents_wrap{
@@ -3251,11 +3260,12 @@
     
     .box9 .box9_wrap .prof_wrap .prof_title h3{
     padding-top:50px;
+    font-size:38px;
 }
 
-    
     .box9 .box9_wrap .prof_wrap .prof_title p{
     padding-bottom:25px;
+    font-size:15px;
 }
     /*교수 프로필*/
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
@@ -3310,7 +3320,7 @@
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:80%;
-    padding-top:35px;
+    padding-top:40px;
     padding-bottom:7px;
     font-size:18px;
     line-height:27px;
@@ -3486,7 +3496,7 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:18px;
+    bottom:20px;
 }
     
     .box12 .footer .footer_wrap .footer_copyright{
@@ -3720,6 +3730,14 @@
 .box7 .ad1_title{
     width:740px;
 }
+    
+.box7 .ad1_title ul li h3{
+    font-size:38px;
+}
+    
+.box7 .ad1_title ul li p{
+    font-size:15px;
+}
 /*-----------------*/
 
 .box7 .ad1_contents_wrap{
@@ -3901,6 +3919,12 @@
     float:none;
 }
     
+.box7{
+    background:url('../img/jeju_bg_ad_1.png') no-repeat;
+    background-size:cover;
+    background-position: 85% 0%;
+}
+    
 
 
 /*box7_ad1 end*/
@@ -3946,7 +3970,7 @@
     .box8 .Prep3_title ul li p{
         font-size: 15px;
         margin-top: -3px;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     
@@ -4098,7 +4122,7 @@
     
     .box6 .consult_txt_subtitle p{
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 500;
     }
     
     .box6 .consult_slider_main1{
@@ -4206,10 +4230,12 @@
     
     .box9 .box9_wrap .prof_wrap .prof_title h3{
     padding-top:50px;
+    font-size:38px;
 }
     
     .box9 .box9_wrap .prof_wrap .prof_title p{
     padding-bottom:25px;
+    font-size:15px;
 }
     
     /*교사 이름*/
@@ -4428,12 +4454,12 @@
 /*---------------------------------------------------------------*/
     /*footer start*/
     .box12{
-    height:107px;    
+    height:100px;    
 }
     
     .box12 .footer{
     width:740px;
-    height:107px;
+    height:100px;
     position:relative;
     font-weight:300;
         
@@ -4443,7 +4469,7 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:24px;
+    bottom:20px;
     
     /*background-color:orange;*/
 }
@@ -4562,6 +4588,15 @@
 /*컨텐츠 제목 & 소제목*/
 .box7 .ad1_title{
     width:940px;
+}
+    
+.box7 .ad1_title ul li h3{
+    font-size:38px;
+    line-height:38px;
+}
+    
+.box7 .ad1_title ul li p{
+    font-size:15px;
 }
 /*-----------------*/
 
@@ -4942,9 +4977,17 @@
         width:940px;
     }
     
+    /*제목: Professor Profile*/
+    .box9 .box9_wrap .prof_wrap .prof_title h3{
+    font-size:38px;
+    line-height:38px;
+}
+    
     .box9 .box9_wrap .prof_wrap .prof_title p{
     padding-bottom:25px;
+    font-size:15px;
 }
+    
     /*교수 프로필*/
     .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs{
     width:33.3333%;
@@ -4956,7 +4999,7 @@
     width:95%;
 }
 
-.box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right{
+    .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right{
     float:none;
 }   
     
@@ -5003,6 +5046,17 @@
     width:940px;
 }
     
+    /*제목:문의하기*/
+    .box11 .box11_wrap .ask_form_title{
+    font-size:38px;
+    line-height:38px;
+}
+    
+    /*소제목:자세한...*/
+    .box11 .box11_wrap .ask_form_subtitle{
+    font-size:15px;
+}
+    
     /*ask start*/
     .box11 .box11_wrap .ask_form_boxes form .form_box{
     padding-left:1.9%;
@@ -5010,6 +5064,15 @@
     /*ask_end*/
     /*---------------------------------------------------------------*/
     /*footer start*/
+    .box12{
+    height:100px;
+}
+    
+    .box12 .footer{
+
+    height:100px;
+}
+    
     .box12 .footer{
     width:940px;
 }
@@ -5017,13 +5080,9 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:35px;
-    
-    /*background-color:orange;*/
+    bottom:20px;
 }
     /*footer end*/
-    
-    /*box11_ask & footer end*/
 
 }/*max-width:1300px end*/
 /*-----------------------------------------------------------------------------------------------*/
