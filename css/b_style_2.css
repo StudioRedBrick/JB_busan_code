@@ -279,7 +279,7 @@ body{
         width: 30%;
         top: 4%;
         left: 35%;
-        font-size: 25px;
+        font-size: 100px;
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
@@ -318,19 +318,19 @@ body{
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/busan_bg_academy_busan2.png') no-repeat bottom;
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_busan.png') no-repeat bottom;
         background-size: cover;
     }
     
     .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/busan_bg_academy_marin2.png') no-repeat center;
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_marin.png') no-repeat center;
         background-size: cover;
         
     }
     
     
     .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/busan_bg_academy_jeju2.png') no-repeat center;
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_jeju.png') no-repeat center;
         background-size: cover;
     }
     
@@ -340,7 +340,7 @@ body{
     .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
         padding: 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 80px;
         font-weight: 500;
         color: #ffffff;
     
