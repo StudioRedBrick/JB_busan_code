@@ -134,10 +134,5 @@ $(function(){
         
     }
     
-    
-        
-    
-    
-    
 });//BLOG END
 
