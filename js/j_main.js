@@ -200,6 +200,7 @@ $(function(){
         scrollTop: $(".box11").position().top},
         'slow');
     }); // menu1 JB소식
+    
 });
 
 //문의하기2 시작
@@ -210,6 +211,7 @@ $(function(){
         scrollTop: $(".box11").position().top},
         'slow');
     }); // menu1 JB소식
+    
 });
 
 // mobile menu start

@@ -1,5 +1,3 @@
-
-
 //VIDEO PLAY START
 $(function(){
         
@@ -149,8 +147,7 @@ $(function(){
             else{
                 $headerCloneContainer.removeClass('visible');
             };
-        });
-    
+        });    
 });//FIXED MENU END
 
 //CLONE MENU START
@@ -193,7 +190,6 @@ $(function(){
         scrollTop: $(".box11").offset().top - 40},
         'slow');
     }); // menu6 문의하기
-    
 });//CLONE MENU END
 
 //문의하기1 시작
