@@ -100,20 +100,6 @@ $(function(){
     
 });//MENU END
 
-
-$(function(){
-        
-    //alert("hello");
-    
-    $(".jb_logo_white").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".box5")},
-        'slow');
-    }); // menu1 JB소식
-    
-    
-});//MENU END 이거 뭔지 모르겠음..?
-
 //FIXED MENU START
 $(function(){
         
@@ -391,10 +377,6 @@ $(function(){
     var $acaMarin = $('.aca_marin');
     var $acaJeju = $('.aca_jeju');
     
-    var $acaName1 = $acaBusan.find('#aca_name');
-    var $acaName2 = $acaMarin.find('#aca_name');
-    var $acaName3 = $acaJeju.find('#aca_name');
-    
     var $shortcut1 = $acaBusan.find('.shortcut');
     var $shortcut2 = $acaMarin.find('.shortcut');
     var $shortcut3 = $acaJeju.find('.shortcut');
@@ -417,6 +399,55 @@ $(function(){
     },function(){
         $shortcut3.css("border","none");
     });
+    
+    
+    $('.aca_hover').on('mouseover',function(){
+
+        $('.aca_small_icon').css({
+            'background':'url(../img/b_mobile_menu_icon_kakao.png)'
+        });
+		
+		$('.aca_small_name').css({
+            'color':'#3288af'
+        });
+
+    });
+    
+//    var $acaKakao = $('.aca_kakao');
+//    var $acaCall = $('.aca_call');
+//    var $acaAsk = $('.aca_ask');
+//    
+//    var $smallIcon1 = $acaKakao.find('.aca_small_icon');
+//    var $smallIcon2 = $acaCall.find('.aca_small_icon');
+//    var $smallIcon3 = $acaAsk.find('.aca_small_icon');
+//    
+//    var $smallName1 = $acaKakao.find('.aca_small_name');
+//    var $smallName2 = $acaCall.find('.aca_small_name');
+//    var $smallName3 = $acaAsk.find('.aca_small_name');
+//    
+//    $acaKakao.hover(function(){
+//        $smallIcon1.css("background","url('../img/b_mobile_menu_icon_kakao.png')");
+//        $smallName1.css("color","#3288af");
+//    },function(){
+//        $smallIcon1.css("background","url('../img/all_mobile_menu_icon_kakao.png')");
+//        $smallName1.css("color","#ffffff");
+//    });
+//    
+//    $acaCall.hover(function(){
+//        $smallIcon2.css("background","url('../img/b_mobile_menu_icon_phone.png')");
+//        $smallName2.css("color","#3288af");
+//    },function(){
+//        $smallIcon2.css("background","url('../img/all_mobile_menu_icon_phone.png')");
+//        $smallName2.css("color","#ffffff");
+//    });
+//    
+//    $acaAsk.hover(function(){
+//        $smallIcon3.css("background","url('../img/b_mobile_menu_icon_mail.png')");
+//        $smallName3.css("color","#3288af");
+//    },function(){
+//        $smallIcon3.css("background","url('../img/all_mobile_menu_icon_mail.png')");
+//        $smallName3.css("color","#ffffff");
+//    });
     
 }); //academy css change when hover end
 
