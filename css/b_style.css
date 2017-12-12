@@ -3,6 +3,30 @@
 
 /*reset*/
 *{margin:0; padding:0;}
+* {-webkit-padding-start: 0px;}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+
 body{font-size:14px;}
 a{text-decoration:none; color:#ffffff;}
 ul, li{list-style:none;}
@@ -17,6 +41,11 @@ body{
     max-width:100%;
     overflow-x:hidden;
     height:auto;
+    
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
 }
 
 /*---------------------------------------------------------------*/
@@ -1184,7 +1213,7 @@ body{
 
 .box8 .Prep2_title{
     width:1160px;
-    padding-top: 30px;
+    padding-top: 2em;
     margin:auto;
     
     /*background-color:red;*/
@@ -1192,7 +1221,7 @@ body{
 
 .box8 .Prep3_title{
     width:1160px;
-    padding-top: 110px;
+    padding-top: 7.5em;
     margin:auto;
     
     /*background-color:red;*/
@@ -1490,7 +1519,7 @@ body{
 /*Ad2 start*/
 
 .box8 .ad_2_wrap{
-    margin-top:175px;
+    padding-top:13em !important;
 }
 
 /*컨텐츠 제목 & 소제목*/
