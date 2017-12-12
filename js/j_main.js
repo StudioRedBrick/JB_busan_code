@@ -368,6 +368,22 @@ $(function(){
             $acaArea.addClass('comeout2');
         };
     });
+    
+    //hamburg menu window close when menu clicked start
+    $(".aca_ask").click(function() {
+        $acaArea.toggleClass('open');
+        
+        if($acaArea.hasClass('comeout2')){
+            $acaArea.stop().animate({
+               'left':'100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $acaArea.removeClass('comeout2');
+            $acaArea.addClass('comeon2');
+        };
+    }); // right_hamburg_menu_문의하기
+    //hamburg menu window close when menu clicked end
 
     //academy menu close
     $acaBtnClose.on('click',function(){
