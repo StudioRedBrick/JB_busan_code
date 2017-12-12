@@ -187,218 +187,292 @@ body{
 }
 
 
- /* left hamburg menu start */
-    .box2-clone .mobile_hamburger_left .menu_select_area {
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: -100%;
-        background-color: rgba(17, 17, 17, 0.95);
-        overflow: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-    
-    .box2-clone .mobile_hamburger_left .menu_select_area a {
-        padding: 10px;
-        text-decoration: none;
-        font-size: 20px;
-        color: #818181;
-        display: block;
-        transition: 0.1s;
-    }
-    
-    .box2-clone .mobile_hamburger_left .menu_select_area .ham_menu_1 {
-        margin-top: 10px;
-    }
+/* left hamburg menu start */
+.box2-clone .mobile_hamburger_left .menu_select_area {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    background-color: rgba(17, 17, 17, 0.95);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
 
-    .box2-clone .mobile_hamburger_left .menu_select_area a:hover {
-        color: #f1f1f1;
-    }
+.box2-clone .mobile_hamburger_left .menu_select_area a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
 
-    .box2-clone .mobile_hamburger_left .menu_select_area .closebtn_menu {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    
-    /*left hamburg icon 위치*/
-    .box2-clone .mobile_hamburger_left{
-        padding:0;
-        margin-top:4px;
-        width:40px;
-        height:40px;
-    }
-    
-    .box2-clone .mobile_hamburger_left .openbtn_menu img{
-        width:40px;
-        height:40px;
-        opacity:0.8;
-    }
-    /* left hamburg menu end */
-    
-    /*----------------------------------------*/
-    
-    /* right hamburg menu start */
-    
-    /*right hamburg icon 위치*/
-    .box2-clone .mobile_hamburger_right{
-        padding:0;
-        margin-top:4px;
-        width:40px;
-        height:40px;
-    }
-    
-    .box2-clone .mobile_hamburger_right .openbtn_aca img{
-        width:40px;
-        height:40px;
-        opacity:0.8;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan br{
-        display: none;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area{
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 100%; 
-        background-color: rgba(17, 17, 17, 0.95);
-        overflow: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area a{
-        padding: 8px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.1s;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area h1{
-        position: absolute;
-        width: 30%;
-        top: 4%;
-        left: 35%;
-        font-size: 100px;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area a:hover{
-        color: #f1f1f1;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area a img{
-        width: 20px;
-        height: 20px;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
-        height: 80%;
-        margin-top: 8%;
-        
+.box2-clone .mobile_hamburger_left .menu_select_area .ham_menu_1 {
+    margin-top: 10px;
+}
+
+.box2-clone .mobile_hamburger_left .menu_select_area a:hover {
+    color: #f1f1f1;
+}
+
+.box2-clone .mobile_hamburger_left .menu_select_area .closebtn_menu {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*left hamburg icon 위치*/
+.box2-clone .mobile_hamburger_left{
+    padding:0;
+    margin-top:4px;
+    width:40px;
+    height:40px;
+}
+
+.box2-clone .mobile_hamburger_left .openbtn_menu img{
+    width:40px;
+    height:40px;
+    opacity:0.8;
+}
+/* left hamburg menu end */
+
+/*----------------------------------------*/
+
+/* right hamburg menu start */
+
+/*right hamburg icon 위치*/
+.box2-clone .mobile_hamburger_right{
+    padding:0;
+    margin-top:4px;
+    width:40px;
+    height:40px;
+}
+
+.box2-clone .mobile_hamburger_right .openbtn_aca img{
+    width:40px;
+    height:40px;
+    opacity:0.8;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan br{
+    display: none;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 100%; 
+    background-color: rgba(17, 17, 17, 0.95);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area h1{
+    position: absolute;
+    width: 30%;
+    top: 4%;
+    left: 35%;
+    font-size: 80px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area a:hover{
+    color: #f1f1f1;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area a img{
+    width: 20px;
+    height: 20px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
+    height: 60%;
+    margin-top: 270px;
+
 /*        background-color: red;*/
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
-        width: 90%;
-        height: 30%;
-        margin: auto;
-        margin-top: 5.5%;
-        
-        display: table;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a{
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_busan.png') no-repeat bottom;
-        background-size: cover;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_marin.png') no-repeat center;
-        background-size: cover;
-        
-    }
-    
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
-        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_jeju.png') no-repeat center;
-        background-size: cover;
-    }
-    
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan p,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin p,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
-        padding: 8px;
-        text-decoration: none;
-        font-size: 80px;
-        font-weight: 500;
-        color: #ffffff;
-    
-        transition: 0.1s;
-    }
-    
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
-        background: rgba(50, 136, 175, 0.8);
-    }
-    
-    
-    /* 바로가기 */
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut{
-        width: 100px;
-        background-color: #3288af;
-        margin: auto;
-        margin-top: 5px;
-    }
-    
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut p,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut p,
-    .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut p{
-        font-size: 15px;
-        font-weight: 400;
-        color: #ffffff;
-    }
-    
-    /* btn setting */
-    .box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
-        position: absolute;
-        top: 2%;
-        left: 25px;
-        font-size: 36px;
-        padding: 0;
-    }
-    
-    .box2-clone .mobile_hamburger_right .openbtn_aca{
-        font-size: 30px;
-        color: #969696;
-    }
-    
-    /* hamburg right menu end */
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    margin-top: 5.5%;
+
+    display: table;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_busan.png') no-repeat bottom;
+    background-size: cover;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_marin.png') no-repeat center;
+    background-size: cover;
+
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_jeju.png') no-repeat center;
+    background-size: cover;
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 500;
+    color: #ffffff;
+
+    transition: 0.1s;
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
+    background: rgba(255, 158, 18,0.8);
+}
+
+
+/* 바로가기 */
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut{
+    width: 300px;
+    background-color: #ff9e12;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut p{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+/* small setting */
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap{
+width: 90%;
+height: 30%;
+margin: auto;
+margin-top: 8.5%;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_kakao,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_call,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_ask{
+float: left;
+width: 33.1333%;
+height: 80%;
+
+display: table;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_kakao,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_call{
+border-right: 3px solid #ffffff;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap:after{
+content:"";
+display:block;
+clear:both;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small a{
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small .aca_small_name{
+padding: 8px;
+text-decoration: none;
+font-size: 60px;
+font-weight: 500;
+color: #ffffff;
+opacity: 0.8;
+
+transition: 0.1s;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small .aca_small_icon{
+width: 150px;
+height: 150px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+opacity: 0.8;
+
+transition: 0.1s;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_kakao .aca_small_icon{
+background: url('../img/all_mobile_menu_icon_kakao.png') no-repeat center;
+background-size: contain;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_call .aca_small_icon{
+background: url('../img/all_mobile_menu_icon_phone.png') no-repeat center;
+background-size: contain;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_ask .aca_small_icon{
+background: url('../img/all_mobile_menu_icon_mail.png') no-repeat center;
+background-size: contain;
+}
+
+
+/* btn setting */
+.box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
+    position: absolute;
+    top: 3.4%;
+    left: 5%;
+    font-size: 100px;
+    padding: 0;
+}
+
+.box2-clone .mobile_hamburger_right .openbtn_aca{
+    font-size: 30px;
+    color: #969696;
+}
+
+/* hamburg right menu end */
 
 /*logo end*/
 

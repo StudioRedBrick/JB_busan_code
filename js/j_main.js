@@ -434,6 +434,64 @@ $(function(){
         $shortcut3.css("border","none");
     });
     
+    
+    var $acaSmall = $('.aca_small_wrap');
+    
+    var $acaKakao = $acaSmall.find('.aca_kakao');
+    var $acaCall = $acaSmall.find('.aca_call');
+    var $acaAsk = $acaSmall.find('.aca_ask');
+    
+    var $smallIcon1 = $acaKakao.find('.aca_small_icon');
+    var $smallIcon2 = $acaCall.find('.aca_small_icon');
+    var $smallIcon3 = $acaAsk.find('.aca_small_icon');
+    
+    var $smallName1 = $acaKakao.find('.aca_small_name');
+    var $smallName2 = $acaCall.find('.aca_small_name');
+    var $smallName3 = $acaAsk.find('.aca_small_name');
+    
+    $acaKakao.hover(function(){
+        $smallIcon1.css({
+            "background":"url('img/j_mobile_menu_icon_kakao.png')",
+            "background-size":"contain"
+        });
+        $smallName1.css("color","#9cd83d");
+    },function(){
+        $smallIcon1.css({
+            "background":"url('img/all_mobile_menu_icon_kakao.png')",
+            "background-size":"contain"
+        });
+        $smallName1.css("color","#ffffff");
+    });
+//    
+    $acaCall.hover(function(){
+       $smallIcon2.css({
+            "background":"url('img/j_mobile_menu_icon_phone.png')",
+            "background-size":"contain"
+        });
+        $smallName2.css("color","#9cd83d");
+    },function(){
+        $smallIcon2.css({
+            "background":"url('img/all_mobile_menu_icon_phone.png')",
+            "background-size":"contain"
+        });
+        $smallName2.css("color","#ffffff");
+    });
+    
+    $acaAsk.hover(function(){
+        $smallIcon3.css({
+            "background":"url('img/j_mobile_menu_icon_mail.png')",
+            "background-size":"contain"
+        });
+        $smallName3.css("color","#9cd83d");
+    },function(){
+        $smallIcon3.css({
+            "background":"url('img/all_mobile_menu_icon_mail.png')",
+            "background-size":"contain"
+        });
+        $smallName3.css("color","#ffffff");
+    });
+    
+    
 }); //academy css change when hover end
 
 
