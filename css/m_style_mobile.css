@@ -164,6 +164,7 @@ body{
     background-size:cover;
 }
 
+<<<<<<< HEAD
 .box2-clone .mobile_hamburger_right{
     width:40px;
     height:40px;
@@ -175,6 +176,8 @@ body{
     /*background-color:red;*/
 }
 
+=======
+>>>>>>> 4bd3f2b7cc6acf8c2deaf5ab7cbbb4a3c2032e49
 /*----------------------------------------*/
 
 /* right hamburg menu start */
@@ -182,19 +185,34 @@ body{
 /*right hamburg icon 위치*/
 .box2-clone .mobile_hamburger_right{
     padding:0;
-    margin-top:4px;
-    width:40px;
-    height:40px;
+    margin-top:0px;
+    width:80px;
+    height:550px;
+    background-color:rgba(100,100,100,1);
+    position:fixed;
+    right:0px;
+    top:990px;
+    z-index:9999;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box2-clone .mobile_hamburger_right .openbtn_aca{
+    display:block;
+    width:80px;
+    height:550px;
+    margin:0 auto;
+    position:relative;
+    /*background-color:blue;*/
 }
 
 .box2-clone .mobile_hamburger_right .openbtn_aca img{
-    width:40px;
-    height:40px;
-    opacity:0.8;
-}
-
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan br{
-    display: none;
+    position:absolute;
+    /*고정형 레이아웃*/
+    left:50%;
+    margin-left:-20px;
+    top:50%;
+    margin-top:-20px;
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area{

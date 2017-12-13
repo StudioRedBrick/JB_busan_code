@@ -164,6 +164,7 @@ body{
     background-size:cover;
 }
 
+<<<<<<< HEAD
 .box2-clone .mobile_hamburger_right{
     width:40px;
     height:40px;
@@ -179,20 +180,48 @@ body{
 
 /* right hamburg menu start */
     
+=======
+/*----------------------------------------*/
+    
+/* right hamburg menu start */
+    
+>>>>>>> 4bd3f2b7cc6acf8c2deaf5ab7cbbb4a3c2032e49
 /*right hamburg icon 위치*/
 .box2-clone .mobile_hamburger_right{
     padding:0;
-    margin-top:4px;
-    width:40px;
-    height:40px;
+    margin-top:0px;
+    width:80px;
+    height:550px;
+    background-color:#9cd83d;
+    position:fixed;
+    right:0;
+    top:940px;
+    z-index:9999;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
+.box2-clone .mobile_hamburger_right .openbtn_aca{
+    display:block;
+    width:80px;
+    height:550px;
+    margin:0 auto;
+    position:relative;
+    /*background-color:blue;*/
+}
+
+<<<<<<< HEAD
+=======
 .box2-clone .mobile_hamburger_right .openbtn_aca img{
-    width:40px;
-    height:40px;
-    opacity:0.8;
+    position:absolute;
+    /*고정형 레이아웃*/
+    left:50%;
+    margin-left:-20px;
+    top:50%;
+    margin-top:-20px;
 }
 
+>>>>>>> 4bd3f2b7cc6acf8c2deaf5ab7cbbb4a3c2032e49
 .box2-clone .mobile_hamburger_right .academy_select_area{
     height: 100%;
     width: 100%;
