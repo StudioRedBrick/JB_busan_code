@@ -180,12 +180,6 @@ body{
 
 /* right hamburg menu start */
     
-=======
-/*----------------------------------------*/
-    
-/* right hamburg menu start */
-    
->>>>>>> 4bd3f2b7cc6acf8c2deaf5ab7cbbb4a3c2032e49
 /*right hamburg icon 위치*/
 .box2-clone .mobile_hamburger_right{
     padding:0;
@@ -210,8 +204,6 @@ body{
     /*background-color:blue;*/
 }
 
-<<<<<<< HEAD
-=======
 .box2-clone .mobile_hamburger_right .openbtn_aca img{
     position:absolute;
     /*고정형 레이아웃*/
@@ -221,7 +213,6 @@ body{
     margin-top:-20px;
 }
 
->>>>>>> 4bd3f2b7cc6acf8c2deaf5ab7cbbb4a3c2032e49
 .box2-clone .mobile_hamburger_right .academy_select_area{
     height: 100%;
     width: 100%;
