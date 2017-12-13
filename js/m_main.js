@@ -200,133 +200,6 @@ $(function(){
 
 // mobile menu start
 $(function(){
-    var $menu = $('.mobile_hamburger_left')
-    var $menuBtnOpen = $menu.find('.openbtn_menu');
-    
-    var $menuArea = $('#menu_sidenav');
-    var $menuBtnClose = $menuArea.find('.closebtn_menu');
-    
-    var dr = 100;
-    
-    // open에 대한 가상선택자 추가
-    $menuArea.addClass('comeon');
-    
-    //menu open
-    $menuBtnOpen.on('click',function(){    
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeon')){
-            $menuArea.stop().animate({
-               'left':'0' 
-            },dr,'linear');
-            
-            // open 가상선택자 삭제 --> close 가상선택자 추가
-            $menuArea.removeClass('comeon');
-            $menuArea.addClass('comeout');
-        };
-    });
-
-        
-    //hamburg menu window close when menu clicked start
-    $(".ham_menu_1").click(function() {
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    }); // ham_menu_1 JB소식
-    
-    $(".ham_menu_2").click(function() {
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    }); // ham_menu_2 컨설팅
-    
-    $(".ham_menu_3").click(function() {
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    }); // ham_menu_3 수업안내
-    
-    $(".ham_menu_4").click(function() {
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    }); // ham_menu_4 교사안내
-    
-    $(".ham_menu_5").click(function() {
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    }); // ham_menu_5 위치보기
-    
-    $(".ham_menu_6").click(function() {
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    }); // ham_menu_5 문의하기
-    //hamburg menu window close when menu clicked end
-    
-    //menu close
-    $menuBtnClose.on('click',function(){
-        $menuArea.toggleClass('open');
-        
-        if($menuArea.hasClass('comeout')){
-            $menuArea.stop().animate({
-               'left':'-100%' 
-            },dr,'linear');
-            
-            // close 가상선택자 삭제 --> open 가상선택자 추가
-            $menuArea.removeClass('comeout');
-            $menuArea.addClass('comeon');
-        };
-    });
     
     // mobile academy menu start
     var $academy = $('.mobile_hamburger_right');
@@ -354,6 +227,22 @@ $(function(){
             $acaArea.addClass('comeout2');
         };
     });
+    
+    //hamburg menu window close when menu clicked start
+    $(".aca_ask").click(function() {
+        $acaArea.toggleClass('open');
+        
+        if($acaArea.hasClass('comeout2')){
+            $acaArea.stop().animate({
+               'left':'100%' 
+            },dr,'linear');
+            
+            // close 가상선택자 삭제 --> open 가상선택자 추가
+            $acaArea.removeClass('comeout2');
+            $acaArea.addClass('comeon2');
+        };
+    }); // right_hamburg_menu_문의하기
+    //hamburg menu window close when menu clicked end
 
     //academy menu close
     $acaBtnClose.on('click',function(){
