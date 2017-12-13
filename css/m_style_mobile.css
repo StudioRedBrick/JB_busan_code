@@ -447,9 +447,9 @@ background: url('../img/all_mobile_menu_icon_kakao.png') no-repeat center;
 background-size: contain;
 }
 
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_call .aca_small_icon{
-background: url('../img/all_mobile_menu_icon_phone.png') no-repeat center;
-background-size: contain;
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_call .aca_small_icon i{
+    font-size: 150px;
+    color: #ffffff;
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_ask .aca_small_icon{

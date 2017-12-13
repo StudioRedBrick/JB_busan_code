@@ -377,12 +377,6 @@ body{
     color: #ffffff;
 }
 
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan,
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin,
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
-    display: none;
-}
-
 /* small setting */
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap{
     width: 90%;

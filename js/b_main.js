@@ -313,7 +313,7 @@ $(function(){
     var $acaAsk = $acaSmall.find('.aca_ask');
     
     var $smallIcon1 = $acaKakao.find('.aca_small_icon');
-    var $smallIcon2 = $acaCall.find('.aca_small_icon');
+    var $smallIcon2 = $acaCall.find('.fa-phone');
     var $smallIcon3 = $acaAsk.find('.aca_small_icon');
     
     var $smallName1 = $acaKakao.find('.aca_small_name');
@@ -321,17 +321,14 @@ $(function(){
     var $smallName3 = $acaAsk.find('.aca_small_name');
     
     $acaKakao.click(function(){
-        $smallName1.css("color","#ff9e12");
+        $smallName1.css("color","#3288af");
         $smallIcon1.css({
-            "background":"url('img/m_mobile_menu_icon_kakao.png')",
+            "background":"url('img/b_mobile_menu_icon_kakao.png')",
             "background-size":"contain"
         });
         
         // call off
-        $smallIcon2.css({
-            "background":"url('img/all_mobile_menu_icon_phone.png')",
-            "background-size":"contain"
-        });
+        $smallIcon2.css("color","#ffffff");
         $smallName2.css("color","#ffffff");
         
         // ask off
@@ -344,11 +341,8 @@ $(function(){
     });
     
     $acaCall.click(function(){
-        $smallName2.css("color","#ff9e12");
-        $smallIcon2.css({
-            "background":"url('img/m_mobile_menu_icon_phone.png')",
-            "background-size":"contain"
-        });
+        $smallName2.css("color","#3288af");
+        $smallIcon2.css("color","#3288af");
         
         // kakao off
         $smallIcon1.css({
@@ -369,10 +363,10 @@ $(function(){
 
     $acaAsk.click(function(){
         $smallIcon3.css({
-            "background":"url('img/m_mobile_menu_icon_mail.png')",
+            "background":"url('img/b_mobile_menu_icon_mail.png')",
             "background-size":"contain"
         });
-        $smallName3.css("color","##ff9e12");
+        $smallName3.css("color","#3288af");
         
         // kakao off
         $smallIcon1.css({
@@ -382,10 +376,7 @@ $(function(){
         $smallName1.css("color","#ffffff");
         
         // call off
-        $smallIcon2.css({
-            "background":"url('img/all_mobile_menu_icon_phone.png')",
-            "background-size":"contain"
-        });
+        $smallIcon2.css("color","#ffffff");
         $smallName2.css("color","#ffffff");
         
     });
