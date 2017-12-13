@@ -457,6 +457,11 @@ background: url('../img/all_mobile_menu_icon_mail.png') no-repeat center;
 background-size: contain;
 }
 
+.aca_onclick_txt{
+    color: #ff9e12;
+}
+
+
 
 /* btn setting */
 .box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{

@@ -354,8 +354,6 @@ body{
     font-size: 80px;
     font-weight: 500;
     color: #ffffff;
-
-    transition: 0.1s;
 }
 
 
@@ -427,8 +425,6 @@ body{
     font-weight: 500;
     color: #ffffff;
     opacity: 0.8;
-    
-    transition: 0.1s;
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small .aca_small_icon{

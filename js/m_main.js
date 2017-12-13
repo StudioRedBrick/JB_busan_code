@@ -414,46 +414,75 @@ $(function(){
     var $smallName2 = $acaCall.find('.aca_small_name');
     var $smallName3 = $acaAsk.find('.aca_small_name');
     
-    $acaKakao.hover(function(){
+    
+    $acaKakao.click(function(){
+        $smallName1.css("color","#ff9e12");
         $smallIcon1.css({
             "background":"url('img/m_mobile_menu_icon_kakao.png')",
             "background-size":"contain"
         });
-        $smallName1.css("color","#ff9e12");
-    },function(){
-        $smallIcon1.css({
-            "background":"url('img/all_mobile_menu_icon_kakao.png')",
-            "background-size":"contain"
-        });
-        $smallName1.css("color","#ffffff");
-    });
-//    
-    $acaCall.hover(function(){
-       $smallIcon2.css({
-            "background":"url('img/m_mobile_menu_icon_phone.png')",
-            "background-size":"contain"
-        });
-        $smallName2.css("color","##ff9e12");
-    },function(){
+        
+        // call off
         $smallIcon2.css({
             "background":"url('img/all_mobile_menu_icon_phone.png')",
             "background-size":"contain"
         });
         $smallName2.css("color","#ffffff");
-    });
-    
-    $acaAsk.hover(function(){
-        $smallIcon3.css({
-            "background":"url('img/m_mobile_menu_icon_mail.png')",
-            "background-size":"contain"
-        });
-        $smallName3.css("color","##ff9e12");
-    },function(){
+        
+        // ask off
         $smallIcon3.css({
             "background":"url('img/all_mobile_menu_icon_mail.png')",
             "background-size":"contain"
         });
         $smallName3.css("color","#ffffff");
+        
+    });
+    
+    $acaCall.click(function(){
+        $smallName2.css("color","#ff9e12");
+        $smallIcon2.css({
+            "background":"url('img/m_mobile_menu_icon_phone.png')",
+            "background-size":"contain"
+        });
+        
+        // kakao off
+        $smallIcon1.css({
+            "background":"url('img/all_mobile_menu_icon_kakao.png')",
+            "background-size":"contain"
+        });
+        $smallName1.css("color","#ffffff");
+        
+        // ask off
+        $smallIcon3.css({
+            "background":"url('img/all_mobile_menu_icon_mail.png')",
+            "background-size":"contain"
+        });
+        $smallName3.css("color","#ffffff");
+        
+    });
+        
+
+    $acaAsk.click(function(){
+        $smallIcon3.css({
+            "background":"url('img/m_mobile_menu_icon_mail.png')",
+            "background-size":"contain"
+        });
+        $smallName3.css("color","##ff9e12");
+        
+        // kakao off
+        $smallIcon1.css({
+            "background":"url('img/all_mobile_menu_icon_kakao.png')",
+            "background-size":"contain"
+        });
+        $smallName1.css("color","#ffffff");
+        
+        // call off
+        $smallIcon2.css({
+            "background":"url('img/all_mobile_menu_icon_phone.png')",
+            "background-size":"contain"
+        });
+        $smallName2.css("color","#ffffff");
+        
     });
     
 }); //academy css change when hover end
