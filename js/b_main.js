@@ -214,11 +214,10 @@ $(function(){
 
 //핸드폰 메뉴 문의하기 시작
 $(function(){
-    
     $(".aca_small_wrap .aca_ask").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".box11").position().top},
-        'slow');
+        $('html,body').animate({
+            scrollTop: $(".box11").position().top},
+            'slow');
     }); // 핸드폰 메뉴 문의하기 END
 });
 
@@ -238,7 +237,8 @@ $(function(){
     $acaArea.addClass('comeon2');
     
     //academy menu open
-    $acaBtnOpen.on('click',function(){   
+    $acaBtnOpen.on('click',function(){ 
+        
         $acaArea.toggleClass('open');
         
         if($acaArea.hasClass('comeon2')){
@@ -253,7 +253,7 @@ $(function(){
     });
 
     //hamburg menu window close when menu clicked start
-    $(".aca_ask").click(function() {
+    $(".aca_ask").click(function() {    
         $acaArea.toggleClass('open');
         
         if($acaArea.hasClass('comeout2')){
