@@ -443,13 +443,8 @@ body{
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_call .aca_small_icon i{
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 150px;
     color: #ffffff;
- 
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_ask .aca_small_icon{
