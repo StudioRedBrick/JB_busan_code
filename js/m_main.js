@@ -198,6 +198,16 @@ $(function(){
     }); // menu1 JB소식
 });
 
+//핸드폰 메뉴 문의하기 시작
+$(function(){
+    
+    $(".aca_small_wrap .aca_ask").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").position().top},
+        'slow');
+    }); // 핸드폰 메뉴 문의하기 END
+});
+
 // mobile menu start
 $(function(){
     

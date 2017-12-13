@@ -199,8 +199,7 @@ $(function(){
     $('html,body').animate({
         scrollTop: $(".box11").position().top},
         'slow');
-    }); // menu1 JB소식
-    
+    }); // 문의하기1 END
 });
 
 //문의하기2 시작
@@ -210,8 +209,17 @@ $(function(){
     $('html,body').animate({
         scrollTop: $(".box11").position().top},
         'slow');
-    }); // menu1 JB소식
+    }); // 문의하기2 END
+});
+
+//핸드폰 메뉴 문의하기 시작
+$(function(){
     
+    $(".aca_small_wrap .aca_ask").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".box11").position().top},
+        'slow');
+    }); // 핸드폰 메뉴 문의하기 END
 });
 
 // mobile menu start
