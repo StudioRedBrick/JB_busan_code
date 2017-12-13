@@ -172,7 +172,7 @@ body{
     background-color:#3288af;
     position:fixed;
     right:0;
-    top:1050px;
+    top:100px;
     z-index:9999;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -220,9 +220,10 @@ body{
 
 .box2-clone .mobile_hamburger_right .academy_select_area h1{
     position: absolute;
+    text-align: center;
     width: 30%;
     top: 4%;
-    left: 35%;
+    left: 35.4%;
     font-size: 80px;
 }
 
