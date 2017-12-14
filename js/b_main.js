@@ -300,38 +300,29 @@ $(function(){
     
     
     $acaBusan.click(function(){
-        $busanBg.css("background","rgba(50, 136, 175, 0.8)");
         $shortcut1.css("border","2px solid #ffffff");
         
         // marin off
-        $marinBg.css("background","none");
         $shortcut2.css("border","none");
         // jeju off
-        $jejuBg.css("background","none");
         $shortcut3.css("border","none");
     });
     
     $acaMarin.click(function(){
-        $marinBg.css("background","rgba(50, 136, 175, 0.8)");
         $shortcut2.css("border","2px solid #ffffff");
   
         // busan off
-        $busanBg.css("background","none");
         $shortcut1.css("border","none");
         // jeju off
-        $jejuBg.css("background","none");
         $shortcut3.css("border","none"); 
     });
     
     $acaJeju.click(function(){
-        $jejuBg.css("background","rgba(50, 136, 175, 0.8)");
         $shortcut3.css("border","2px solid #ffffff");
     
         // busan off
-        $busanBg.css("background","none");
         $shortcut1.css("border","none");
         // marin off
-        $marinBg.css("background","none");
         $shortcut2.css("border","none");
     });
     
@@ -411,8 +402,36 @@ $(function(){
         
     });
     
-    
 }); //academy css change when hover end
 
+$(function(){
+    var $acaBusan = $('.aca_busan');
+    var $acaMarin = $('.aca_marin');
+    var $acaJeju = $('.aca_jeju');
+    
+    var $linkB = $acaBusan.find('a');
+    var $linkM = $acaMarin.find('a');
+    var $linkJ = $acaJeju.find('a');
+    
+    
+    $linkB.click(function(){
+        setTimeout(function(){
+            window.location.href = './b_index.html';
+        },50);
+    });
+    
+    $linkM.click(function(){
+        setTimeout(function(){
+            window.location.href = './m_index.html';
+        },50);
+    });
+    
+    $linkJ.click(function(){
+        setTimeout(function(){
+            window.location.href = './j_index.html';
+        },50);
+    });
+    
+});
 
 
