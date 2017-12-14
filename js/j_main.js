@@ -1,6 +1,6 @@
 //VIDEO PLAY START
 $(function(){
-        
+    
     document.getElementById('vid_busan').play();
     
 });//VIDEO PLAY END
@@ -152,8 +152,6 @@ $(function(){
 
 //CLONE MENU START
 $(function(){
-        
-    //alert("hello");
     
     $(".box3-clone .menu1").click(function() {
     $('html,body').animate({
@@ -411,8 +409,6 @@ $(function(){
         
     });
     
-    
 }); //academy css change when hover end
-
 
 
