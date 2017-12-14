@@ -164,7 +164,6 @@ body{
     background-size:cover;
 }
 
-<<<<<<< HEAD
 .box2-clone .mobile_hamburger_right{
     width:40px;
     height:40px;
@@ -277,6 +276,13 @@ body{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
+    background-color: rgba(156, 216, 61, 0.8);   
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{

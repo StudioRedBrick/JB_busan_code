@@ -417,19 +417,19 @@ $(function(){
     $linkB.click(function(){
         setTimeout(function(){
             window.location.href = './b_index.html';
-        },50);
+        },40);
     });
     
     $linkM.click(function(){
         setTimeout(function(){
             window.location.href = './m_index.html';
-        },50);
+        },40);
     });
     
     $linkJ.click(function(){
         setTimeout(function(){
             window.location.href = './j_index.html';
-        },50);
+        },40);
     });
     
 });
