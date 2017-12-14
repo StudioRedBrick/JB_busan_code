@@ -309,14 +309,6 @@ body{
     transition: 0.1s;
 }
 
-
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
-    background: rgba(255, 158, 18,0.8);
-}
-
-
 /* 바로가기 */
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut,

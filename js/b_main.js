@@ -290,27 +290,49 @@ $(function(){
     var $acaMarin = $('.aca_marin');
     var $acaJeju = $('.aca_jeju');
     
+    var $busanBg = $acaBusan.find('a');
+    var $marinBg = $acaMarin.find('a');
+    var $jejuBg = $acaJeju.find('a');
+    
     var $shortcut1 = $acaBusan.find('.shortcut');
     var $shortcut2 = $acaMarin.find('.shortcut');
     var $shortcut3 = $acaJeju.find('.shortcut');
     
     
-    $acaBusan.hover(function(){
+    $acaBusan.click(function(){
+        $busanBg.css("background","rgba(50, 136, 175, 0.8)");
         $shortcut1.css("border","2px solid #ffffff");
-    },function(){
-        $shortcut1.css("border","none");
-    });
-    
-    $acaMarin.hover(function(){
-        $shortcut2.css("border","2px solid #ffffff");
-    },function(){
+        
+        // marin off
+        $marinBg.css("background","none");
         $shortcut2.css("border","none");
+        // jeju off
+        $jejuBg.css("background","none");
+        $shortcut3.css("border","none");
     });
     
-    $acaJeju.hover(function(){
+    $acaMarin.click(function(){
+        $marinBg.css("background","rgba(50, 136, 175, 0.8)");
+        $shortcut2.css("border","2px solid #ffffff");
+  
+        // busan off
+        $busanBg.css("background","none");
+        $shortcut1.css("border","none");
+        // jeju off
+        $jejuBg.css("background","none");
+        $shortcut3.css("border","none"); 
+    });
+    
+    $acaJeju.click(function(){
+        $jejuBg.css("background","rgba(50, 136, 175, 0.8)");
         $shortcut3.css("border","2px solid #ffffff");
-    },function(){
-        $shortcut3.css("border","none");
+    
+        // busan off
+        $busanBg.css("background","none");
+        $shortcut1.css("border","none");
+        // marin off
+        $marinBg.css("background","none");
+        $shortcut2.css("border","none");
     });
     
     

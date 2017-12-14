@@ -280,7 +280,6 @@ body{
     background-size: cover;
 }
 
-
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan p,
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_marin p,
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
@@ -290,14 +289,6 @@ body{
     font-weight: 500;
     color: #ffffff;
 }
-
-
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
-.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
-    background: rgba(50, 136, 175, 0.8);
-}
-
 
 /* 바로가기 */
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
