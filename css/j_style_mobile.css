@@ -877,11 +877,6 @@ body{
     background-color:rgba(255, 255, 255, 0.1);
 }
 
-.box7 .ad1_contents_wrap .ad1_contents_box:hover{
-    background-color:rgba(156,216,61,0.8);
-    border:1px solid rgba(156,216,61,0.8);
-}
-
 /*컨텐츠 박스 패딩값 통일화*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner{
     padding-left:0%;

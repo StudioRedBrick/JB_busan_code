@@ -432,3 +432,215 @@ $(function(){
     
 });
 
+
+//mobile tap START
+$(function(){
+    
+    $(".ad1_contents_1").click(function(){
+        $('.ad1_contents_1').css({
+            'background-color':'rgba(156,216,61,0.8)',
+            'border':'1px solid rgba(156,216,61,0.8)'
+        });
+        
+        $('.ad1_contents_2').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_3').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_4').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_5').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_6').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+    });
+});
+
+$(function(){
+    
+    $(".ad1_contents_2").click(function(){
+        $('.ad1_contents_2').css({
+            'background-color':'rgba(156,216,61,0.8)',
+            'border':'1px solid rgba(156,216,61,0.8)'
+        });
+        
+        $('.ad1_contents_1').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_3').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_4').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_5').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_6').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+    });
+});
+
+$(function(){
+    
+    $(".ad1_contents_3").click(function(){
+        $('.ad1_contents_3').css({
+            'background-color':'rgba(156,216,61,0.8)',
+            'border':'1px solid rgba(156,216,61,0.8)'
+        });
+        
+        $('.ad1_contents_1').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_2').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_4').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_5').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_6').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+    });
+});
+
+$(function(){
+    
+    $(".ad1_contents_4").click(function(){
+        $('.ad1_contents_4').css({
+            'background-color':'rgba(156,216,61,0.8)',
+            'border':'1px solid rgba(156,216,61,0.8)'
+        });
+        
+        $('.ad1_contents_1').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_2').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_3').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_5').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_6').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+    });
+});
+
+$(function(){
+    
+    $(".ad1_contents_5").click(function(){
+        $('.ad1_contents_5').css({
+            'background-color':'rgba(156,216,61,0.8)',
+            'border':'1px solid rgba(156,216,61,0.8)'
+        });
+        
+        $('.ad1_contents_1').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_2').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_3').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_4').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_6').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+    });
+});
+
+$(function(){
+    
+    $(".ad1_contents_6").click(function(){
+        $('.ad1_contents_6').css({
+            'background-color':'rgba(156,216,61,0.8)',
+            'border':'1px solid rgba(156,216,61,0.8)'
+        });
+        
+        $('.ad1_contents_1').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_2').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_3').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_4').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+        
+        $('.ad1_contents_5').css({
+            'background-color':'rgba(255,255,255,0.1)',
+            'border':'1px solid rgba(255,255,255,1)'
+        });
+    });
+});
+//mobile tap END
