@@ -639,7 +639,7 @@ body{
     border:1px solid #ffffff;
     float:left;
     
-    /*background-color:orange;*/
+    background-color:rgba(255, 255, 255, 0.1);
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_box:hover{

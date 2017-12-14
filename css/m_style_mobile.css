@@ -1037,7 +1037,7 @@ background-size: contain;
     border:1px solid #ffffff;
     float:left;
     
-    /*background-color:orange;*/
+    background-color:rgba(255, 255, 255, 0.1);
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_box:hover{
@@ -1076,7 +1076,7 @@ background-size: contain;
 /*컨텐츠 서체크기 통일화 2*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
     font-size:14px;
-    font-weight:300;
+    font-weight:500;
     line-height:27px;
     
     /*background-color:red;*/
@@ -1408,7 +1408,7 @@ background-size: contain;
     border:1px solid #ffffff;
     float:left;
     
-    /*background-color:orange;*/
+    background-color:rgba(255, 255, 255, 0.1);
 }
 
 .box13 .ad2_contents_wrap .ad2_contents_box:hover{
@@ -1448,7 +1448,7 @@ background-size: contain;
 /*컨텐츠 서체크기 통일화 2*/
 .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
     font-size:14px;
-    font-weight:300;
+    font-weight:500;
     line-height:29px;
     width:100%;
     
@@ -1654,7 +1654,7 @@ background-size: contain;
     letter-spacing:0;
     font-size:12px;
     line-height:20px;
-    font-weight:200;
+    font-weight:500;
 }
 
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li.prof_list_hidden{
@@ -1828,7 +1828,7 @@ background-size: contain;
 /*detailed txt*/
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_left{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     float:left;
     width:25%;
     
@@ -1837,7 +1837,7 @@ background-size: contain;
 
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     padding-left:8%;
     width:60%;
     float:left;
@@ -1875,7 +1875,7 @@ background-size: contain;
 /*detailed txt*/
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_left{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     float:left;
     width:25%;
     
@@ -1884,7 +1884,7 @@ background-size: contain;
 
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     padding-left:8%;
     width:60%;
     float:left;
@@ -1953,6 +1953,7 @@ background-size: contain;
     font-size:16px;
     padding-top:1px;
     padding-bottom:15px;
+    font-weight:500;
 
     /*background-color:purple;*/
 }
@@ -2021,6 +2022,7 @@ background-size: contain;
     width:94%;
     height:17px;
     font-size:16px;
+    font-weight:400;
     color:#969696;
     float:left;
     border:none;
@@ -2074,7 +2076,7 @@ background-size: contain;
 .box12 .footer{
     font-size:11px;
     line-height:18px;
-    font-weight:100;
+    font-weight:400;
     
     width:1160px;
     height:134px;
