@@ -1393,7 +1393,7 @@
     /*컨텐츠 서체크기 통일화 2*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
     font-size:13px;
-    font-weight:300;
+    font-weight:400;
     line-height:25px;
     
     /*background-color:red;*/
@@ -1582,7 +1582,6 @@
     /*컨텐츠 서체크기 통일화 2*/
     .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
     font-size:13px;
-    font-weight:300;
     line-height:1.8;
 }
     
@@ -1858,7 +1857,7 @@
     width:740px;
     height:107px;
     position:relative;
-    font-weight:300;
+    font-weight:400;
         
     /*background-color:deepskyblue;*/
 }
@@ -2276,7 +2275,6 @@
     /*컨텐츠 서체크기 통일화 2*/
     .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
     font-size:13.8px;
-    font-weight:300;
     line-height:29px;
     width:100%;
     

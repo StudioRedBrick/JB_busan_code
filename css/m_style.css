@@ -840,7 +840,7 @@ body{
 /*컨텐츠 서체크기 통일화 2*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
     font-size:14px;
-    font-weight:300;
+    font-weight:400;
     line-height:27px;
     
     /*background-color:red;*/
@@ -1212,7 +1212,7 @@ body{
 /*컨텐츠 서체크기 통일화 2*/
 .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
     font-size:14px;
-    font-weight:300;
+    font-weight:400;
     line-height:29px;
     width:100%;
     
@@ -1418,7 +1418,7 @@ body{
     letter-spacing:0;
     font-size:12px;
     line-height:20px;
-    font-weight:200;
+    font-weight:400;
 }
 
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li.prof_list_hidden{
@@ -1566,6 +1566,7 @@ body{
 /*제목:연락처*/
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
     font-size:20px;
+    font-weight:500;
     padding-bottom:5px;
     padding-top:20px;
     position:relative;
@@ -1592,7 +1593,7 @@ body{
 /*detailed txt*/
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_left{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     float:left;
     width:25%;
     
@@ -1601,7 +1602,7 @@ body{
 
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_right{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     padding-left:8%;
     width:60%;
     float:left;
@@ -1619,6 +1620,7 @@ body{
 /*제목:운영시간*/
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
     font-size:20px;
+    font-weight:500;
     padding-bottom:5px;
     padding-top:15px;
     position:relative;
@@ -1639,7 +1641,7 @@ body{
 /*detailed txt*/
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_left{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     float:left;
     width:25%;
     
@@ -1648,7 +1650,7 @@ body{
 
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_right{
     font-size:15px;
-    font-weight:300;
+    font-weight:400;
     padding-left:8%;
     width:60%;
     float:left;
@@ -1717,6 +1719,7 @@ body{
     font-size:16px;
     padding-top:1px;
     padding-bottom:15px;
+    font-weight:400;
 
     /*background-color:purple;*/
 }
@@ -1838,7 +1841,7 @@ body{
 .box12 .footer{
     font-size:11px;
     line-height:18px;
-    font-weight:100;
+    font-weight:400;
     
     width:1160px;
     height:134px;
