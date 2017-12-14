@@ -278,7 +278,7 @@
 /*---------------------------------------------------------------*/
     /*box6_consult start*/
     .box6{
-        height: 560px;
+        height: 540px;
     }
     
     .box6 .consult_container{
@@ -342,7 +342,7 @@
     }
       
     .box6 .consult_slider_frame{
-        height: 260px;
+        height: 240px;
         width: 96.5%;
         margin: auto;
         margin-left: 14px;
@@ -359,7 +359,7 @@
     }
 
     .box6 .slick-list{
-        padding: 3% 0px;
+        padding: 5.6% 0px;
     }
 
     .box6 .slick-track{
@@ -367,7 +367,7 @@
     }
     
     .box6 .consult_slider_main{
-        width: 60%;
+        width: 60.1%;
         margin: auto;
     }    
     
@@ -1215,7 +1215,7 @@
 /*---------------------------------------------------------------*/
     /*box6_consult start*/
     .box6{
-        height: 545px;
+        height: 525px;
     }
     
     .box6 .consult_container{
@@ -1286,7 +1286,7 @@
     }
     
     .box6 .consult_slider_frame{
-        height: 260px;
+        height: 240px;
         width: 715px;
         margin: auto;
         margin-left: 13px;
@@ -1304,7 +1304,7 @@
     }
 
     .box6 .slick-list{
-        padding: 3% 0px;
+        padding: 4.4% 0px;
     }
 
     .box6 .slick-track{
@@ -1475,7 +1475,7 @@
     
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
-        font-size:23px;
+        font-size:22.3px;
     }
     
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
@@ -2002,11 +2002,11 @@
     .box6 .slider_indent,
     .box6 .slick-list,
     .box6 .consult_slider_item{
-        width: 483px;
+        width: 500px;
     }
     
     .box6 .consult_slider_frame{
-        width: 500px;
+        width: 510px;
         background: url('../img/marin_consult_frame_1300.png') no-repeat center;
         background-size: cover;
     }
@@ -2016,17 +2016,23 @@
     }
     
     .box6 .slick-list{
-        padding: 52px 0px;
+        padding: 43px 0px;
     }
     
+    
     .box6 .consult_slider_title{
-        padding-right: 10%;
-        margin-left: 3.5%;
+        padding-right: 5%;
+        margin-left: 1.5%;
     }
     
     .box6 .consult_slider_title p{
-        font-size: 28px;
+        font-size: 24px;
     }
+    
+    .box6 .consult_slider_main{
+        width: 64.5%;
+    }
+    
     .box6 .consult_slider_main1{
         font-size: 15px;
     }
@@ -2190,12 +2196,12 @@
     
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_title,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_title{
-        font-size:23px;
+        font-size:21.3px;
     }
     
     .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt_subtitle,
     .box8 .Prep3_container .prep3_box .prep3_contents_inner .prep3_txt_subtitle{
-        font-size: 13px;
+        font-size: 12.5px;
     }
     
     .box8 .Prep2_title{
