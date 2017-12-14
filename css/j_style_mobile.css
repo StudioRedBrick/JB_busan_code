@@ -280,7 +280,8 @@ body{
 }
 
 .box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_busan.png') no-repeat bottom;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_busan.png') no-repeat;
+    background-position: 0 90%;
     background-size: cover;
 }
 
