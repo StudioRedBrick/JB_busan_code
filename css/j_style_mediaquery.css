@@ -600,11 +600,12 @@
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
         width: 16.6666%;
+        line-height: 18px;
         height: 75px;
     }
     
      .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
     }
     
