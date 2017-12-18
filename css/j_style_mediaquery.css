@@ -307,7 +307,7 @@
 
 /*컨텐츠 서체크기 통일화 2*/
  .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-     font-size:12.5px;
+     font-size:12px;
  }
  
  /*-----------------*/
@@ -398,6 +398,7 @@
 /*contents4*/
 .box7 .ad1_contents_wrap .ad1_contents_4{
     width:100%;
+    height:130px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_4 .ad1_contents_inner{
@@ -420,6 +421,7 @@
 /*contents5*/
 .box7 .ad1_contents_wrap .ad1_contents_5{
     width:48.5%;
+    height:145px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_5 .ad1_contents_inner{
@@ -450,6 +452,7 @@
 /*contents6*/
 .box7 .ad1_contents_wrap .ad1_contents_6{
     width:48.5%;
+    height:145px;
 }
 
 .box7 .ad1_contents_wrap .ad1_contents_6 .ad1_contents_inner{
