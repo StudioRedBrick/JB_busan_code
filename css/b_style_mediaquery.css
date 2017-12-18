@@ -2437,8 +2437,8 @@
     
     /*컨텐츠 서체크기 통일화 1*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner p{
-    font-size:34px;
-    line-height:45px;
+    font-size:30px;
+    line-height:42px;
     padding-bottom:15px;
     
     /*background-color:blue;*/
@@ -2451,6 +2451,15 @@
     
     /*background-color:green;*/
 }
+    
+    .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
+    font-size:13.5px;
+    font-weight:400;
+    line-height:29px;
+    
+    /*background-color:red;*/
+}
+
     
     .box7 .ad1_contents_wrap .ad1_contents_3{
     height:328px;
