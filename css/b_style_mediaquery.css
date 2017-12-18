@@ -11,6 +11,8 @@
     /*box1_header start*/
     .box1{
     height:50px;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box1 .header_busan{
@@ -58,6 +60,8 @@
     width:100%;
     height:110px;
     position:relative;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box2 .busan_bg_logo{
@@ -77,6 +81,8 @@
     /*box3_menu start*/
     .box3{
         height:50px;
+        max-width:100%;
+        overflow-x:hidden;
 }
     
     .box3 .menu_wrap{
@@ -198,7 +204,9 @@
 /*---------------------------------------------------------------*/
     /*box4_video start*/
     .box4{
-    height:350px;    
+    height:350px;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box4 .busan_video{
@@ -282,7 +290,9 @@
 /*---------------------------------------------------------------*/
     /*box5_blog start*/
     .box5{
-    height:700px;    
+    height:700px;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box5 .blog_wrap{
@@ -409,6 +419,8 @@
     /*box6_consult start*/
     .box6{
     height: 547px;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box6 .consult_container{
@@ -539,6 +551,8 @@
     /*box7_ad1 start*/
     .box7{
     height: 835px; 
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box7 .ad1_title{
@@ -614,6 +628,8 @@
     /*box8_prep & ad2 start*/
     .box8{
     height:2200px;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     /* Prep start */
@@ -873,6 +889,8 @@
     /*prof start*/
     .box9{
         height:905px;
+        max-width:100%;
+        overflow-x:hidden;
     }
 
     .box9 .box9_wrap .prof_wrap .prof_title h3{
@@ -1050,6 +1068,8 @@
     /*box11_ask & footer start*/
     .box11{
     height:450px;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .box11 .box11_wrap{
@@ -1114,6 +1134,8 @@
     height:143px;
     position:relative;
     font-weight:300;
+    max-width:100%;
+    overflow-x:hidden;
 }
     
     .footer .footer_wrap{
