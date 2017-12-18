@@ -278,7 +278,7 @@
 /*---------------------------------------------------------------*/
     /*box6_consult start*/
     .box6{
-        height: 540px;
+        height: 550px;
     }
     
     .box6 .consult_container{
@@ -504,6 +504,7 @@
     /*box8_prep & ad2 start*/
     .box8{
         height:1250px;
+        background-position: 3% 0%;
     }
     
     /* Prep start */
@@ -574,11 +575,11 @@
     }
     
     .box8 .Prep2_title{
-        padding-top: 30px;
+        padding-top: 25px;
     }
     
     .box8 .Prep3_title{
-        padding-top: 75px;
+        padding-top: 70px;
     }
     
  
@@ -603,12 +604,13 @@
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents span{
-        font-size: 12.5px;
+        font-size: 13px;
         font-weight: 500;
     }
     
     .box8 .prep3_list_container .prep3_list_inner .prep3_list_contents{
         width: 16.6666%;
+        line-height: 18px;
         height: 75px;
     }
     
