@@ -1349,6 +1349,7 @@ body{
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_span{
+    width: 110%;
     font-size:14px;
     line-height: 1.5;
     
@@ -1356,6 +1357,7 @@ body{
 }
 
 .box8 .Prep2_container .prep2_box .prep2_contents_inner .prep2_txt{
+    width: 110%;
     padding-bottom: 8px;
     border-bottom:1px solid #ffffff;
     
