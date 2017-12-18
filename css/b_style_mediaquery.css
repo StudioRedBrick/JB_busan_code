@@ -1038,6 +1038,12 @@
     
     /*background-color:darkblue;*/
 }
+    
+    .box10{
+    background:url('../img/busan_bg_map_3.jpg') no-repeat;
+    background-size:cover;
+    background-position: 65% 0%;
+}
     /*box10_map end*/
 /*---------------------------------------------------------------*/
     /*box11_ask & footer start*/
