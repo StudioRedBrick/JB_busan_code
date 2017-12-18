@@ -420,7 +420,7 @@
     
     .box7 .ad1_title{
     width:615px;
-    padding-top:50px;
+    padding-top:40px;
 }
     
     .box7 .ad1_title ul li h3{
@@ -442,7 +442,7 @@
     
     /*컨텐츠 박스넓이 통일화*/
     .box7 .ad1_contents_wrap .ad1_contents_box{
-    height:255px;
+    height:270px;
     /*background-color:orange;*/
 }
     
@@ -473,7 +473,7 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
-    font-size:12.3px;
+    font-size:12.6px;
     font-weight:500;
     line-height:1.7;
     letter-spacing:0;
@@ -675,7 +675,7 @@
 
     /*컨텐츠 서체크기 통일화 2*/
     .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
-    font-size:12.8px;
+    font-size:12px;
     font-weight:400;
     line-height:1.8;
     letter-spacing:0;
@@ -689,12 +689,12 @@
     
     .box13 .ad2_contents_wrap .ad2_contents_3{
     margin-top:8px;
-    height:300px;
+    height:280px;
 }
 
     .box13 .ad2_contents_wrap .ad2_contents_4{
     margin-top:8px;
-    height:300px;
+    height:280px;
 }
     
     .box13{
