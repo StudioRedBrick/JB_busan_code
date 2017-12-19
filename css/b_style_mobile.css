@@ -1107,7 +1107,7 @@ body{
     padding: 0 15px;
     
     float: left;
-    width: 44%;
+    width: 510px;
 /*    background: blue;*/
 }
 
@@ -1129,7 +1129,7 @@ body{
 }
 
 .box6 .consult_txt_main{
-    width: 64%;
+    width: 340px;
 
     margin-top: 55px;
 }
