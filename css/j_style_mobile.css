@@ -782,13 +782,13 @@ body{
     width:112px;
     height:25px;
     margin:auto;
-    margin-top:14.5px;
+    margin-top:14px;
     
     /*background-color:darkviolet;*/
 }
 
 .box4 .video_container .button2 a .button2_contents img{
-    margin-right:6px;
+    margin-right:3px;
     padding-top:2px;
     float:right;
     
@@ -797,6 +797,7 @@ body{
 
 .box4 .video_container .button2 a .button2_contents p{
     float:right;
+    padding-top:1px;
     
     /*background-color:darkgoldenrod;*/
 }

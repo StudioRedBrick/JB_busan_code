@@ -264,8 +264,8 @@
 }
     
     .box4 .video_container .button2 a .button2_contents{
-    width:72px;
-    padding-top:1px;
+    width:75px;
+    padding-top:0px;
     height:18px;
     margin:auto;
     margin-top:7px;
@@ -274,7 +274,7 @@
 }
     
     .box4 .video_container .button2 a .button2_contents p{
-    padding-top:2px;
+    padding-top:3.5px;
 }
     
     .box4 .video_container .button2 a .button2_contents img{
@@ -1408,16 +1408,16 @@
 }
     
     .box4 .video_container .button2 a .button2_contents{
-    width:88px;
+    width:91px;
     height:20px;
     margin:auto;
-    margin-top:10.5px;
+    margin-top:10px;
     
     /*background-color:darkviolet;*/
 }
     
     .box4 .video_container .button2 a .button2_contents p{
-    padding-top:0px;
+    padding-top:1px;
     line-height:17px;
     
 }
