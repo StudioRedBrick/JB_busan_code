@@ -430,6 +430,37 @@
         height: 150px;
     }
     
+    /*img detail*/
+    .blog_contents .blog_contents_1 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_2 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_3 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_4 img{
+    height:100%;
+    object-fit:cover;
+    }
+    
+    .blog_contents .blog_contents_5 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_6 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
     /*box5_blog end*/
 /*---------------------------------------------------------------*/
     /*box6_consult start*/
@@ -1507,7 +1538,6 @@
     line-height:19px;
 }
     
-    
     /* hover setting */
     .blog_contents .blog_contents_2 .blog_contents_2_inner,
     .blog_contents .blog_contents_3 .blog_contents_3_inner{
@@ -1520,6 +1550,37 @@
     .blog_contents .blog_contents_6 .blog_contents_6_inner{
         width: 245px;
         height: 190px;
+    }
+    
+    /*img detail*/
+    .blog_contents .blog_contents_1 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_2 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_3 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_4 img{
+    height:100%;
+    object-fit:cover;
+    }
+    
+    .blog_contents .blog_contents_5 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_6 img{
+    height: 100%;
+    object-fit: cover;
     }
     
     /*box5_blog end*/
@@ -2405,6 +2466,37 @@
     .blog_contents .blog_contents_5 .blog_contents_5_inner,
     .blog_contents .blog_contents_6 .blog_contents_6_inner{
         width: 310px;
+    }
+    
+    /*img detail*/
+    .blog_contents .blog_contents_1 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_2 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_3 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_4 img{
+    height:100%;
+    object-fit:cover;
+    }
+    
+    .blog_contents .blog_contents_5 img{
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .blog_contents .blog_contents_6 img{
+    height: 100%;
+    object-fit: cover;
     }
     
     /*box5_blog end*/

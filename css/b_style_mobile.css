@@ -499,6 +499,7 @@ body{
 
 /*fixed menu start*/
 .box3-clone{
+    z-index:9999;
     width:100%;
     height:40px;
     position:fixed;
@@ -957,15 +958,14 @@ body{
     border-radius:8px;
     float:right;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_2 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_2 .blog_contents_2_inner{
@@ -1010,15 +1010,14 @@ body{
     margin-top:12px;
     float:right;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_3 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_3 .blog_contents_3_inner{
@@ -1064,15 +1063,14 @@ body{
     margin-top:28px;
     float:left;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_4 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_4 .blog_contents_4_inner{
@@ -1122,15 +1120,14 @@ body{
     margin-top:28px;
     float:left;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_5 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_5 .blog_contents_5_inner{
@@ -1175,15 +1172,14 @@ body{
     float:left;
     position: relative;
     text-align: left;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_6 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_6 .blog_contents_6_inner{
@@ -2595,7 +2591,7 @@ body{
 
 .footer .footer_wrap .footer_copyright{
     float:left;
-    width:1%;
+    width:14.5%;
     
     /*background-color:blue;*/
 }

@@ -284,6 +284,7 @@ body{
 
 /*fixed menu start*/
 .box3-clone{
+    z-index:9999;
     width:100%;
     height:40px;
     position:fixed;
@@ -703,8 +704,6 @@ body{
     /*background-color:red;*/
 }
 
-
-
 .blog_contents .blog_contents_1 .blog_contents_1_inner:hover{
     background-color:rgba(156,216,61,0.8);
     cursor:pointer;
@@ -712,6 +711,7 @@ body{
 
 
 .blog_contents .blog_contents_1 .blog_contents_1_inner .blog_hover_1{
+    /*div made for position relative*/
     position: relative;
 }
 
@@ -742,15 +742,14 @@ body{
     border-radius:8px;
     float:right;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_2 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_2 .blog_contents_2_inner{
@@ -772,6 +771,7 @@ body{
 
 
 .blog_contents .blog_contents_2 .blog_contents_2_inner .blog_hover_2{
+    /*div made for position relative*/
     position: relative;
 }
 
@@ -795,15 +795,14 @@ body{
     margin-top:12px;
     float:right;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_3 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_3 .blog_contents_3_inner{
@@ -825,6 +824,7 @@ body{
 
 
 .blog_contents .blog_contents_3 .blog_contents_3_inner .blog_hover_3{
+    /*div made for position relative*/
     position: relative;
 }
 
@@ -849,15 +849,14 @@ body{
     margin-top:28px;
     float:left;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_4 img{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-    border-radius:8px;
+    object-fit:fill;
+    width:100%;
 }
 
 .blog_contents .blog_contents_4 .blog_contents_4_inner{
@@ -879,6 +878,7 @@ body{
 
 
 .blog_contents .blog_contents_4 .blog_contents_4_inner .blog_hover_4{
+    /*div made for position relative*/
     position: relative;
 }
 
@@ -907,15 +907,14 @@ body{
     margin-top:28px;
     float:left;
     position: relative;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_5 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_5 .blog_contents_5_inner{
@@ -935,7 +934,7 @@ body{
 }
 
 
-.blog_contents .blog_contents_5 .blog_contents_5_inner .blog_hover_5{
+.blog_contents .blog_contents_5 .blog_contents_5_inner .blog_hover_5{       /*div made for position relative*/
     position: relative;
 }
 
@@ -960,15 +959,14 @@ body{
     float:left;
     position: relative;
     text-align: left;
+    overflow:hidden;
     
     background-color:darkgrey;
 }
 
 .blog_contents .blog_contents_6 img{
-    height: 100%;
     width: 100%;
     object-fit: fill;
-    border-radius:8px;
 }
 
 .blog_contents .blog_contents_6 .blog_contents_6_inner{
@@ -979,8 +977,6 @@ body{
     width: 382px;
     height: 240px;
     border-radius:8px;
-    
-    /*background-color:forestgreen;*/
 }
 
 .blog_contents .blog_contents_6 .blog_contents_6_inner:hover{
@@ -990,6 +986,7 @@ body{
 
 
 .blog_contents .blog_contents_6 .blog_contents_6_inner .blog_hover_6{
+    /*div made for position relative*/
     position: relative;
 }
 
