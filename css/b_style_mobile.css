@@ -970,7 +970,7 @@ body{
 }
 
 .blog_contents .blog_contents_2 .blog_contents_2_inner{
-    display:hidden;
+    display:none;
     
     position: absolute;
     z-index: 1;
