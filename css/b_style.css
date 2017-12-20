@@ -666,8 +666,13 @@ body{
     border-radius:8px;
     float:left;
     position:relative;
-    
+    overflow: hidden;
     background-color:darkgrey;
+}
+
+.blog_contents .blog_contents_1 img{
+    height: 100%;
+    object-fit: fill;
 }
 
 .blog_contents .blog_contents_1:hover{
@@ -719,10 +724,17 @@ body{
     background-color:darkgrey;
 }
 
+.blog_contents .blog_contents_2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
 .blog_contents .blog_contents_2:hover{
     background-color:rgba(156,216,61,0.8);
     cursor:pointer;
 }
+
 
 .blog_contents .blog_contents_2 .blog_contents_2_inner{
     display:none;
@@ -750,6 +762,12 @@ body{
     cursor:pointer;
 }
 
+.blog_contents .blog_contents_3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
 .blog_contents .blog_contents_3 .blog_contents_3_inner{
     display:none;
     
@@ -775,6 +793,20 @@ body{
 .blog_contents .blog_contents_4:hover{
     background-color:rgba(156,216,61,0.8);
     cursor:pointer;
+}
+
+.blog_contents .blog_contents_4 .blog_hover_4{
+    position: absolute;
+    z-index: 1;
+    width: 32.93%;
+    height: 240px;
+    background-color:rgba(156,216,61,0.8);
+}
+
+.blog_contents .blog_contents_4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
 
 .blog_contents .blog_contents_4 .blog_contents_4_inner{
@@ -808,6 +840,12 @@ body{
     cursor:pointer;
 }
 
+.blog_contents .blog_contents_5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
 .blog_contents .blog_contents_5 .blog_contents_5_inner{
     display:none;
     
@@ -832,6 +870,12 @@ body{
 .blog_contents .blog_contents_6:hover{
     background-color:rgba(156,216,61,0.8);
     cursor:pointer;
+}
+
+.blog_contents .blog_contents_6 img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
 
 .blog_contents .blog_contents_6 .blog_contents_6_inner{
