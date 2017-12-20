@@ -865,7 +865,7 @@ background-size: contain;
     padding: 0 15px;
     
     float: left;
-    width: 44%;
+    width: 510px;
 /*    background: blue;*/
 }
 
@@ -891,7 +891,7 @@ background-size: contain;
 }
 
 .box6 .consult_txt_main{
-    width: 64%;
+    width: 330px;
     padding-top: 41px;
     border-top: 1px solid #ffffff;
 }
@@ -923,7 +923,7 @@ background-size: contain;
 
 .box6 .slick-list{
     width: 100%;
-    padding: 40px 0px;
+    padding: 48px 0px;
 }
 
 
