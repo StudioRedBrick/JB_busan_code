@@ -1106,39 +1106,39 @@
             </div>
             
             <div class="ask_form_boxes">
-                <form method="post" name="emailform" action="/emailto">
+                <form method="post" name="emailform" id="mailForm" action="/emailto">
                     
                     <div class="form_box form_box1">
                         <p class="form_box1_inner">
-                            <input type="text" name="name" placeholder="학생이름">
+                            <input type="text" id="studentName" name="name" placeholder="학생이름">
                         </p>
                     </div>
                     
                     <div class="form_box form_box2">
                         <p class="form_box2_inner">
-                            <input type="text" name="title" placeholder="학교 / 학년">
+                            <input type="text" id="studentLevel" name="title" placeholder="학교 / 학년">
                         </p>
                     </div>
                     
                     <div class="form_box form_box3">
                         <p class="form_box3_inner">
-                            <input type="text" name="contact" placeholder="연락처">
+                            <input type="text" id="studentContact" name="contact" placeholder="연락처">
                         </p>
                     </div>
                     
                     <div class="form_box form_box4">
                         <p class="form_box4_inner">
-                            <textarea name="message" placeholder="문의 내용을 적어주세요."></textarea>
+                            <textarea name="message" id="studentContents" placeholder="문의 내용을 적어주세요."></textarea>
                         </p>
                     </div>
                     
                     <div class="form_box form_box5">
                     <p class="form_box5_inner">
-                        <input type="text" name="email" placeholder="이메일">
+                        <input type="text" id="studentEmail" name="email" placeholder="이메일">
                     </p>
                     </div>
                     
-                    <input class="form_button" type="submit" name="submit" value="보내기">
+                    <input class="form_button" type="button" id="submit_btn" name="submit" value="보내기">
                 </form>
             </div><!--ask_form_boxes end-->
         </div><!--box11_wrap end-->
