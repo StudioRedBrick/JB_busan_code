@@ -411,6 +411,12 @@
     font-size:12px;
 }
       /* hover setting */
+    .blog_contents .blog_contents_4 .blog_contents_4_inner .blog_hover_4 span,
+    .blog_contents .blog_contents_5 .blog_contents_5_inner .blog_hover_5 span,
+    .blog_contents .blog_contents_6 .blog_contents_6_inner .blog_hover_6 span{
+        top: 25px;
+    }
+    
     .blog_contents .blog_contents_2 .blog_contents_2_inner,
     .blog_contents .blog_contents_3 .blog_contents_3_inner{
         width: 265px;
