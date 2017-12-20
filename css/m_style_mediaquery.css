@@ -802,7 +802,7 @@
     width:100%;
     overflow:hidden;
         
-    background:url('../img/marin_bg_map_2.jpg') no-repeat;
+    background:url('../img/marin_bg_map_3.jpg') no-repeat;
     background-size:cover;
     background-position: 62% 0%;
 }
@@ -812,12 +812,12 @@
 }
     
     .box10_wrap{
-    padding-top:80px;
+    padding-top:95px;
 }
     
     .box10_wrap .addrs_box{
     width:260px;
-    height:350px;
+    height:330px;
 }
     
     /*제목:해운대 본원*/
@@ -977,12 +977,12 @@
 /*---------------------------------------------------------------*/
     /*footer start*/
     .box12{
-        height:100px;
+        height:110px;
     }
     
     .box12 .footer{
     width:615px;
-    height:100px;
+    height:110px;
     position:relative;
     font-weight:300;
 }
@@ -994,11 +994,20 @@
 }
     
     .box12 .footer .footer_wrap .footer_copyright{
-    width:33.5%;
+    width:25.4%;
 }
 
     .box12 .footer .footer_wrap .footer_contact_wrap{
-    width:60%;
+    width:74%;
+}
+    
+    .box12 .footer .footer_wrap .footer_contact_wrap .footer_contact{
+    float:left;
+    padding-left:1.5%;
+    padding-right:2.2%;
+    border-left:1px solid #ffffff;
+    
+    /*background-color:skyblue;*/
 }
     /*footer end*/
 
@@ -1695,12 +1704,12 @@
 }
     
     .box10_wrap{
-    padding-top:80px;
+    padding-top:90px;
 }
     
     .box10_wrap .addrs_box{
     width:260px;
-    height:350px;
+    height:330px;
 }
     
     /*제목:해운대 본원*/
@@ -1867,17 +1876,17 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:24px;
+    bottom:17px;
     
     /*background-color:orange;*/
 }
     
     .box12 .footer .footer_wrap .footer_copyright{
-    width:33.5%;
+    width:22.5%;
 }
 
     .box12 .footer .footer_wrap .footer_contact_wrap{
-    width:50%;
+    width:70%;
 }
     
     .box12 .footer .footer_wrap .footer_contact_wrap .footer_contact{
@@ -2361,7 +2370,7 @@
 }
     
     .box10_wrap{
-    padding-top:70px;
+    padding-top:75px;
 }
     /*box10_map end*/
     
@@ -2386,9 +2395,16 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:35px;
+    bottom:29px;
     
     /*background-color:orange;*/
+}
+    
+    .box12 .footer .footer_wrap .footer_copyright{
+    float:left;
+    width:17.5%;
+    
+    /*background-color:blue;*/
 }
     /*footer end*/
     

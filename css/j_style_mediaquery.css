@@ -846,7 +846,7 @@
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:80%;
-    padding-top:40px;
+    padding-top:32px;
     padding-bottom:7px;
     font-size:18px;
     line-height:27px;
@@ -941,7 +941,7 @@
 }
     
     .box10{
-    background:url('../img/jeju_bg_map_2.jpg') no-repeat center;
+    background:url('../img/jeju_bg_map_3.jpg') no-repeat center;
     background-size:cover;
 }
     /*box10_map end*/
@@ -1009,12 +1009,12 @@
 /*---------------------------------------------------------------*/
     /*footer start*/
     .box12{
-        height:100px;
+    height:110px;
     }
     
     .box12 .footer{
     width:615px;
-    height:100px;
+    height:110px;
     position:relative;
     font-weight:300;
 }
@@ -1022,15 +1022,15 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:20px;
+    bottom:18px;
 }
     
     .box12 .footer .footer_wrap .footer_copyright{
-    width:33.5%;
+    width:25%;
 }
 
     .box12 .footer .footer_wrap .footer_contact_wrap{
-    width:60%;
+    width:70%;
 }
     /*footer end*/
 
@@ -1817,19 +1817,19 @@
 }
     
     .box10_wrap{
-    padding-top:80px;
+    padding-top:75px;
 }
     
     .box10_wrap .addrs_box{
     width:260px;
-    height:350px;
+    height:365px;
 }
     
     /*제목:제주 프런티어 러닝센터*/
     .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:80%;
-    padding-top:35px;
+    padding-top:32px;
     padding-bottom:7px;
     font-size:18px;
     line-height:27px;
@@ -1986,12 +1986,12 @@
 /*---------------------------------------------------------------*/
     /*footer start*/
     .box12{
-    height:100px;    
+    height:110px;    
 }
     
     .box12 .footer{
     width:740px;
-    height:100px;
+    height:110px;
     position:relative;
     font-weight:300;
         
@@ -2001,17 +2001,17 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:20px;
+    bottom:18px;
     
     /*background-color:orange;*/
 }
     
     .box12 .footer .footer_wrap .footer_copyright{
-    width:33.5%;
+    width:25%;
 }
 
     .box12 .footer .footer_wrap .footer_contact_wrap{
-    width:50%;
+    width:70%;
 }
     
     .box12 .footer .footer_wrap .footer_contact_wrap .footer_contact{
@@ -2568,11 +2568,11 @@
 }
     
     .box10_wrap{
-    padding-top:70px;
+    padding-top:83px;
 }
     
     .box10{
-    background:url('../img/jeju_bg_map_2.jpg') no-repeat center;
+    background:url('../img/jeju_bg_map_3.jpg') no-repeat center;
     background-size:cover;
 }
     /*box10_map end*/
@@ -2588,6 +2588,7 @@
     .box11 .box11_wrap .ask_form_title{
     font-size:38px;
     line-height:38px;
+    padding-top:60px;
 }
     
     /*소제목:자세한...*/
@@ -2603,12 +2604,12 @@
     /*---------------------------------------------------------------*/
     /*footer start*/
     .box12{
-    height:100px;
+    height:110px;
 }
     
     .box12 .footer{
 
-    height:100px;
+    height:110px;
 }
     
     .box12 .footer{
@@ -2618,7 +2619,7 @@
     .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:20px;
+    bottom:17px;
 }
     /*footer end*/
 
