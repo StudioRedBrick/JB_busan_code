@@ -2064,14 +2064,14 @@ body{
 .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:36px;
+    bottom:28px;
     
     /*background-color:orange;*/
 }
 
 .box12 .footer .footer_wrap .footer_copyright{
     float:left;
-    width:25%;
+    width:16%;
     
     /*background-color:blue;*/
 }
@@ -2086,7 +2086,7 @@ body{
 .box12 .footer .footer_wrap .footer_contact_wrap .footer_contact{
     float:left;
     padding-left:1.12%;
-    padding-right:1.89%;
+    padding-right:2%;
     border-left:1px solid #ffffff;
     
     /*background-color:skyblue;*/

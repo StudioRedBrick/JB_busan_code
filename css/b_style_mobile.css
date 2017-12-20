@@ -2123,7 +2123,7 @@ body{
 .box10_wrap .addrs_box .addrs_box_title{
     margin:auto;
     width:64%;
-    padding-top:35px;
+    padding-top:31px;
     font-size:33px;
     font-weight:bold;
     text-align:center;
@@ -2434,7 +2434,7 @@ body{
 
 .footer .footer_wrap .footer_copyright{
     float:left;
-    width:25%;
+    width:1%;
     
     /*background-color:blue;*/
 }
@@ -2449,7 +2449,7 @@ body{
 .footer .footer_wrap .footer_contact_wrap .footer_contact{
     float:left;
     padding-left:1.12%;
-    padding-right:1.89%;
+    padding-right:2%;
     border-left:1px solid #ffffff;
     
     /*background-color:skyblue;*/

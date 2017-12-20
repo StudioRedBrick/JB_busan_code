@@ -1130,26 +1130,37 @@
     .footer{
     width:615px;
     height:143px;
+    font-size:10px;
+    line-height:16px;
     position:relative;
-    font-weight:300;
-    max-width:100%;
-    overflow-x:hidden;
+    font-weight:400;
+        
+    /*background-color:deepskyblue;*/
 }
     
     .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:15px;
+    bottom:13px;
+    
+    /*background-color:orange;*/
 }
     
     .footer .footer_wrap .footer_copyright{
-    width:33.5%;
+    width:24%;
 }
 
     .footer .footer_wrap .footer_contact_wrap{
-    width:60%;
+    width:70%;
 }
-    /*box11_ask & footer end*/
+    
+    .footer .footer_wrap .footer_contact_wrap .footer_contact{
+    padding-left:1.5%;
+    padding-right:3%;
+        
+    /*background:blue;*/
+}
+    /*footer end*/
 
     
 }/*max-width:850px end*/
@@ -2192,6 +2203,8 @@
     .footer{
     width:740px;
     height:137px;
+    font-size:10px;
+    line-height:16px;
     position:relative;
     font-weight:400;
         
@@ -2201,17 +2214,17 @@
     .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:17px;
+    bottom:15px;
     
     /*background-color:orange;*/
 }
     
     .footer .footer_wrap .footer_copyright{
-    width:33.5%;
+    width:24%;
 }
 
     .footer .footer_wrap .footer_contact_wrap{
-    width:50%;
+    width:70%;
 }
     
     .footer .footer_wrap .footer_contact_wrap .footer_contact{
@@ -2757,10 +2770,17 @@
     width:940px;
 }
     
+    .footer .footer_wrap .footer_copyright{
+    float:left;
+    width:20%;
+    
+    /*background-color:blue;*/
+}
+    
     .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:25px;
+    bottom:18px;
     
     /*background-color:orange;*/
 }
