@@ -1728,14 +1728,14 @@ background-size: contain;
 .box10_wrap{
     width:1160px;
     margin:auto;
-    padding-top:76px;
+    padding-top:79px;
     
     /*background-color:brown;*/
 }
 
 .box10_wrap .addrs_box{
     width:303px;
-    height:376px;
+    height:356px;
     border-radius:8px;
     
     background-color:rgba(255,158,18,1);
@@ -2088,14 +2088,14 @@ background-size: contain;
 .box12 .footer .footer_wrap{
     width:100%;
     position:absolute;
-    bottom:36px;
+    bottom:29px;
     
     /*background-color:orange;*/
 }
 
 .box12 .footer .footer_wrap .footer_copyright{
     float:left;
-    width:25%;
+    width:14.5%;
     
     /*background-color:blue;*/
 }
