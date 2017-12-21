@@ -443,182 +443,52 @@ $(function(){
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad1_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad1_contents_1").mouseout(function(){
         $('.ad1_contents_1').css({
-            'background-color':'rgba(255,255,255,0)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_4').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
     });
-});
-
-
-$(function(){
     
     $(".ad1_contents_2").mouseover(function(){
         $('.ad1_contents_2').css({
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad1_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        }); 
     });
     
     $(".ad1_contents_2").mouseout(function(){
         $('.ad1_contents_2').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad1_contents_1').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
-        
-        $('.ad1_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        }); 
     });
-});
-
-$(function(){
     
     $(".ad1_contents_3").mouseover(function(){
         $('.ad1_contents_3').css({
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad1_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad1_contents_3").mouseout(function(){
         $('.ad1_contents_3').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad1_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_4').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
     });
-});
-
-$(function(){
     
     $(".ad1_contents_4").mouseover(function(){
         $('.ad1_contents_4').css({
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad1_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad1_contents_4").mouseout(function(){
         $('.ad1_contents_4').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad1_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad1_contents_3').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
@@ -632,181 +502,52 @@ $(function(){
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad2_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad2_contents_1").mouseout(function(){
         $('.ad2_contents_1').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad2_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_4').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
     });
-});
-
-$(function(){
     
     $(".ad2_contents_2").mouseover(function(){
         $('.ad2_contents_2').css({
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad2_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad2_contents_2").mouseout(function(){
         $('.ad2_contents_2').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad2_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_4').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
     });
-});
-
-$(function(){
     
     $(".ad2_contents_3").mouseover(function(){
         $('.ad2_contents_3').css({
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad2_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_4').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad2_contents_3").mouseout(function(){
         $('.ad2_contents_3').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad2_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_4').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
     });
-});
-
-$(function(){
     
     $(".ad2_contents_4").mouseover(function(){
         $('.ad2_contents_4').css({
             'background-color':'rgba(156,216,61,0.8)',
             'border':'1px solid rgba(156,216,61,0.8)'
         });
-        
-        $('.ad2_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_3').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
     });
     
     $(".ad2_contents_4").mouseout(function(){
         $('.ad2_contents_4').css({
-            'background-color':'rgba(156,216,61,0.8)',
-            'border':'1px solid rgba(156,216,61,0.8)'
-        });
-        
-        $('.ad2_contents_1').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_2').css({
-            'background-color':'rgba(255,255,255,0.1)',
-            'border':'1px solid rgba(255,255,255,1)'
-        });
-        
-        $('.ad2_contents_3').css({
             'background-color':'rgba(255,255,255,0.1)',
             'border':'1px solid rgba(255,255,255,1)'
         });
