@@ -1,4 +1,3 @@
-
 $(document).ready(()=>{
 
     //blog
@@ -9,49 +8,88 @@ $(document).ready(()=>{
         success : (data) => {
 
 
+
             data.forEach( (v,i)=> { // i is start with 0
+
                 switch(i+1) {
                     case 1 :
-                        $(".blog_contents_1_inner > span").text(v["pubDate"]);
-                        $(".blog_contents_1_inner > p").text(v["title"]);
-                        $('.blog_contents_1').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
+                        $(".blog_hover_1 > span").text(v["pubDate"]);
+                        $(".blog_hover_1 > p").text(v["title"]);
+                        //$('.blog_contents_1').css("background-image","url(./img/"+v['thumbnail']+")");
                         $('.blog_contents_1').css("background-position","center");
                         $('.blog_contents_1').css("background-repeat","no-repeat");
+                        $('.blog_hover_wrap_1 > a').attr("href",v['link']);
                         break;
                     case 2 :
-                        $(".blog_contents_2_inner > span").text(v["pubDate"]);
-                        $(".blog_contents_2_inner > p").text(v["title"]);
-                        $('.blog_contents_2').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
+                        $(".blog_hover_2 > span").text(v["pubDate"]);
+                        $(".blog_hover_2 > p").text(v["title"]);
+                        //$('.blog_contents_2').css("background-image","url(./img/"+v['thumbnail']+")");
                         $('.blog_contents_2').css("background-position","center");
                         $('.blog_contents_2').css("background-repeat","no-repeat");
+                        $('.blog_contents_2 > a').attr("href",v['link']);
                         break;
                     case 3 :
-                        $(".blog_contents_3_inner > span").text(v["pubDate"]);
-                        $(".blog_contents_3_inner > p").text(v["title"]);
-                        $('.blog_contents_3').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
+                        $(".blog_hover_3 > span").text(v["pubDate"]);
+                        $(".blog_hover_3 > p").text(v["title"]);
+                        //$('.blog_contents_3').css("background-image","url(./img/"+v['thumbnail']+")");
                         $('.blog_contents_3').css("background-position","center");
                         $('.blog_contents_3').css("background-repeat","no-repeat");
+                        $('.blog_contents_3 > a').attr("href",v['link']);
                         break;
                     case 4 :
-                        $(".blog_contents_4_inner > .see_more_1").text(v["pubDate"]);
-                        $(".blog_contents_4_inner > p").text(v["title"]);
+                        $(".blog_hover_4 > .see_more_1").text('2017/12/12');
+                        $(".blog_hover_4 > p").text('For What do we teach?');
+                        $('.blog_contents_4 > img').css("src","img/columbia1.jpg");
+                        // $('.blog_contents_4').css("background-position","center");
+                        // $('.blog_contents_4').css("background-repeat","no-repeat");
+                        $('.blog_contents_4 > a').attr("href",'https://blog.naver.com/jbsat/221161483851');
+
+                        /*
+                        lagecy
+                        console.log("blog_hover_4",v['pubDate']);
+                        $(".blog_hover_4 > .see_more_1").text(v["pubDate"]);
+                        $(".blog_hover_4 > p").text(v["title"]);
                         $('.blog_contents_4').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
                         $('.blog_contents_4').css("background-position","center");
                         $('.blog_contents_4').css("background-repeat","no-repeat");
+                        $('.blog_contents_4 > a').attr("href",v['link']);*/
                         break;
                     case 5 :
-                        $(".blog_contents_5_inner > .see_more_1").text(v["pubDate"]);
-                        $(".blog_contents_5_inner > p").text(v["title"]);
+                        $(".blog_hover_5 > .see_more_1").text('2016/11/30');
+                        $(".blog_hover_5 > p").text('2016 Winter AP 수업');
+                        // $('.blog_contents_5').css("background-image","url(/img/apjbedu.jpg)");
+                        // $('.blog_contents_5').css("background-position","center");
+                        // $('.blog_contents_5').css("background-repeat","no-repeat");
+                        $('.blog_contents_5 > a').attr("href",'https://blog.naver.com/jbsat/220874238729');
+
+                        /*
+                        lagecy
+                        console.log("blog_hover_5",v['pubDate']);
+                        $(".blog_hover_5 > .see_more_1").text(v["pubDate"]);
+                        $(".blog_hover_5 > p").text(v["title"]);
                         $('.blog_contents_5').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
                         $('.blog_contents_5').css("background-position","center");
                         $('.blog_contents_5').css("background-repeat","no-repeat");
+                        $('.blog_contents_5 > a').attr("href",v['link']);
+                        */
                         break;
                     case 6 :
-                        $(".blog_contents_6_inner > .see_more_1").text(v["pubDate"]);
-                        $(".blog_contents_6_inner > p").text(v["title"]);
-                        $('.blog_contents_6').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
+
+                        $(".blog_hover_6 > .see_more_1").text('2017/4/25');
+                        $(".blog_hover_6 > p").text('부산 SAT, JB를 만나면 참 쉬워요');
+                        $('.blog_contents_6').css("background-image","url(/img/newsatprep.jpg)");
                         $('.blog_contents_6').css("background-position","center");
                         $('.blog_contents_6').css("background-repeat","no-repeat");
+                        $('.blog_contents_6 > a').attr("href",'https://blog.naver.com/jbsat/220991756792');
+
+                        //lagecy
+                        // console.log("blog_hover_6",v['pubDate']);
+                        // $(".blog_hover_6 > .see_more_1").text(v["pubDate"]);
+                        // $(".blog_hover_6 > p").text(v["title"]);
+                        // $('.blog_contents_6').css("background-image","url(./blogThumbnail/"+v['thumbnail']+")");
+                        // $('.blog_contents_6').css("background-position","center");
+                        // $('.blog_contents_6').css("background-repeat","no-repeat");
+                        // $('.blog_contents_6 > a').attr("href",v['link']);
                         break;
 
                 }
