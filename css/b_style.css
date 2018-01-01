@@ -780,9 +780,10 @@ body{
 .blog_contents .blog_contents_2 .blog_contents_2_inner .blog_hover_2 span,
 .blog_contents .blog_contents_2 .blog_contents_2_inner .blog_hover_2 p{
     position: absolute;
-    width:269px;
+    width:210px;
     top:40px;
     left:27px;
+    /*background:red;*/
 }
 
 .blog_contents .blog_contents_2 .blog_contents_2_inner .blog_hover_2 .see_more_1_1{
@@ -833,9 +834,10 @@ body{
 .blog_contents .blog_contents_3 .blog_contents_3_inner .blog_hover_3 span,
 .blog_contents .blog_contents_3 .blog_contents_3_inner .blog_hover_3 p{
     position: absolute;
-    width:269px;
+    width:210px;
     top:40px;
     left:27px;
+    /*background:blue;*/
 }
 
 .blog_contents .blog_contents_3 .blog_contents_3_inner .blog_hover_3 .see_more_1_1{
