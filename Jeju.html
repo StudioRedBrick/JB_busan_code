@@ -5,8 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X_UA-compatible" content="IE=Edge"/>
-    <meta name="viewport"user-scalable=no, content="width=1500, initial-scale=0">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="naver-site-verification" content="621ab08f2e775ee83fc434c22a7159c635978deb"/>
     
     <title>JB제주러닝센터</title>
@@ -16,11 +14,9 @@
     <link rel="stylesheet" type="text/css" href="css/vendor/slick-theme.css?hjwqj">
     
     <!-- own css -->
-    <link rel="stylesheet" type="text/css" href="./css/j_style_mobile.css">
+    <link rel="stylesheet" type="text/css" href="./css/j_style.css?hjwqj">
     <link rel="stylesheet" type="text/css" href="./css/j_style_bg.css?hjwqj">
-    
-    <!-- font css -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/j_style_mediaquery.css">
     
     <script type="text/javascript" src="./js/vendor/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
@@ -28,10 +24,23 @@
     <!-- slickslider js -->
     <script type="text/javascript" src="js/vendor/slick.min.js"></script>
     <script type="text/javascript" src="js/slickslider.js"></script>
-    
+
     <!-- own js-->
     <script type="text/javascript" src="./js/j_main.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
+    
+    <!-- mobile -->
+    <script type="text/javascript">
+        var mobileKeyWords = new Array('iPhone','SAMSUNG','BlackBerry','Android','Windows CE','Windows CE;','LG','MOT','SonyEricsson','Symbian','Opera Mobi','Opera Mini','IEmobile');
+        for(var word in mobileKeyWords){
+            if(navigator.userAgent.match(mobileKeyWords[word])!=null){
+                location.href="m_Jeju.html";
+                break;
+            }
+        }
+    </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
     
     
@@ -39,85 +48,23 @@
 
     <div class="box1">
         <div class="header_busan">
-            <p><a href="./b_index.html">JB 해운대 본원</a></p>
+            <p><a href="./Haeundae.html">JB 해운대 본원</a></p>
         </div>
         
         <div class="header_marin">
-            <p><a href="./m_index.html">JB 마린시티 러닝센터</a></p>
+            <p><a href="./Marine.html">JB 마린시티 러닝센터</a></p>
         </div>
         
         <div class="header_jeju">
-            <p><a href="./j_index.html">JB 제주 러닝센터</a></p>
+            <p><a href="./Jeju.html">JB 제주 러닝센터</a></p>
         </div>
     </div><!--box1 END-->
     
 <!--///////////////////////////////////////////////////////////-->
 
     <div class="box2">
-        <a href="./j_index.html" class="busan_bg_logo"></a>
+        <a href="./Jeju.html" class="busan_bg_logo"></a>
     </div> <!--box2 END-->
-    
-    <div class="box2-clone">
-        <a href="#" class="busan_bg_logo"></a>
-        
-        <div class="mobile_hamburger_right">
-            <div id="academy_sidenav" class="academy_select_area">
-                <h1>지점선택</h1>
-                <a href="javascript:void()" class="closebtn_aca">&times;</a>
-                <div class="academy_wrap">
-                    <div class="aca_busan">
-                        <a>
-                            <p id="aca_name">JB 해운대 본원</p>
-                            <div class="shortcut">
-                                <p>바로가기</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="aca_marin">
-                        <a>
-                            <p id="aca_name">JB 마린시티 러닝센터</p>
-                            <div class="shortcut">
-                                <p>바로가기</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="aca_jeju">  
-                        <a>
-                            <p id="aca_name">JB 제주 러닝센터</p>
-                            <div class="shortcut">
-                                <p>바로가기</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="aca_small_wrap">
-                        <div class="aca_small aca_kakao">
-                            <a target="_blank" href="https://pf.kakao.com/_ckDWM" class="aca_small_hover">
-                                <div class="aca_small_icon"></div>
-                                <p class="aca_small_name">카카오톡</p>
-                            </a>
-                        </div>
-                        <div class="aca_small aca_call">
-                            <a href="tel:064-792-3080" class="aca_small_hover">
-                                <div class="aca_small_icon">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <p class="aca_small_name">전화하기</p>
-                            </a>
-                        </div>
-                        <div class="aca_small aca_ask">
-                            <a class="aca_small_hover">
-                                <div class="aca_small_icon"></div>
-                                <p class="aca_small_name">문의하기</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="javascript:void()" class="openbtn_aca">
-            <img src="./img/all_arrow_icon_navy.png" alt="arrow icon" width="40px" height="40px">
-            </a>
-        </div>
-    </div> <!--box2_clone END-->
 
 <!--///////////////////////////////////////////////////////////-->
     
@@ -170,7 +117,7 @@
             </div>
             
             <div class="jb_logo_white">
-                <a><img src="./img/all_jb_logo_white_2.png" alt="jb logo white"></a>
+                <a href="./Jeju.html"><img src="./img/all_jb_logo_white_2.png" alt="jb logo white"></a>
             </div>
         </div>
     </div><!--box3 END-->
@@ -235,7 +182,7 @@
                     <p class="floating">Essay/Report Writing 수업</p>
                     <div class="ad1_span">
                         <span>
-                            글쓰기를 많이하는 국제학교 학생들을 위해 JB 어학원의 Essay, Report Writing 수업은 글쓰기의 핵심 스킬인 발췌와 요약을 배우고 목적에 맞게 글을 작성할 수 있도록 능력을 키워줍니다.
+                            글쓰기를 많이 하는 국제학교 학생들을 위해 JB 어학원의 Essay, Report Writing 수업은 글쓰기의 핵심 스킬인 발췌와 요약을 배우고 목적에 맞게 글을 작성할 수 있도록 능력을 키워줍니다.
                         </span>
                     </div>
                 </div>
@@ -243,7 +190,7 @@
             
             <div class=" ad1_contents_box ad1_contents_3">
                 <div class="ad1_contents_inner">
-                    <p class="floating">SAT Subject Test <br> AP Springboard (Pre-AP) <br> 학교 수업과 병행</p>
+                    <p class="floating">SAT Subject <br> AP Springboard (Pre-AP) <br> 학교 수업과 병행</p>
                      <div class="ad1_span">
                          <span>
                             학교 수업 진도에 맞춰 SAT Subject와 Pre-AP 교과목들을 준비시킵니다. 대표 과목인 Math level2, Chemistry, Physics 등에서 수많은 만점자를 배출하였습니다. 학교 내신 대비는 물론, SAT Subject, Pre-AP 성적도 확보하세요. 
@@ -268,7 +215,7 @@
                      <p class="floating">AP 시험 문제 <br> 유형 분석</p>
                     <div class="ad1_span">
                         <span>
-                           개념정리는 물론, 시험문제 유형을 철저히 학습시킵니다. JB 어학원 AP 수강생중 85%이상이 만점을 받습니다.
+                           개념정리는 물론, 시험 문제 유형을 철저히 학습시킵니다. JB 어학원에서 AP 수업을 수강한 학생의 85% 이상이 만점을 받습니다.
                          </span>
                      </div>
                  </div>
@@ -915,15 +862,15 @@
                     <div class="addrs_box_contact_left">
                         <ul>
                             <li>Tel.</li>
-                            <li>Mobile.</li>
-                            <li>E-mail.</li>
+                            <li>Hp.</li>
+                            <li>Mail.</li>
                             <li>Kakao.</li>
                         </ul>
                     </div>
                     
                     <div class="addrs_box_contact_right">
                         <ul>
-                            <li>064) 792-3080</li>
+                            <li>064)792-3080</li>
                             <li>010-2778-3669</li>
                             <li>jbsat@naver.com</li>
                             <li>JB어학원</li>
