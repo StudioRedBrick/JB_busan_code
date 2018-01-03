@@ -416,19 +416,19 @@ $(function(){
     
     $linkB.click(function(){
         setTimeout(function(){
-            window.location.href = './b_index.html';
+            window.location.href = './index.html';
         },40);
     });
     
     $linkM.click(function(){
         setTimeout(function(){
-            window.location.href = './m_index.html';
+            window.location.href = './Marine.html';
         },40);
     });
     
     $linkJ.click(function(){
         setTimeout(function(){
-            window.location.href = './j_index.html';
+            window.location.href = './Jeju.html';
         },40);
     });
     
