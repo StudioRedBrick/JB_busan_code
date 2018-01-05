@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>loader</title>
+    
+<style>
+    /*reset*/
+    *{margin:0; padding:0;}
+    body{font-size:14px;}
+    a{text-decoration:none; color:#ffffff;}
+    ul, li{list-style:none;}
+    p, span, h1, h2, h3{hyphens:none; word-break:keep-all;}
+    /*reset end*/
+
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #ff9e12;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 1.5s linear infinite; /* Safari */
+      animation: spin 1.5s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+</style>    
+</head>
+    
+<body>
+
+<div class="loader"></div>
+
+</body>
+</html>

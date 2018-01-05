@@ -2225,18 +2225,49 @@ body{
 .box11 .box11_wrap{
     width:1160px;
     margin:auto;
+    position:relative;
     
     /*background-color:red;*/
 }
 
 /*제목:문의하기*/
-.box11 .box11_wrap .ask_form_title{
+.box11 .box11_wrap .ask_form_title p{
     font-size:40px;
     font-weight:bold;
-    padding-top:45px;
-    
+    float:left;
     /*background-color:blue;*/
 }
+
+.box11 .box11_wrap .ask_form_title{
+    padding-top:45px;
+}
+
+/*loader*/
+    .box11 .box11_wrap .ask_form_title .loader {
+      display:none;  
+        
+      border: 6px solid #dddddd;
+      border-radius: 50%;
+      border-top: 6px solid #3288af;
+      width: 16px;
+      height: 16px;
+      -webkit-animation: spin 1.5s linear infinite; /* Safari */
+      animation: spin 1.5s linear infinite;
+      float:left;
+      margin-left:7px;
+      margin-top:17px;    
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 
 /*소제목:자세한...*/
 .box11 .box11_wrap .ask_form_subtitle{
@@ -2347,6 +2378,12 @@ body{
 }
 
 .box11 .box11_wrap .ask_form_boxes .form_box:after{ /*clearfix*/
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.box11 .box11_wrap .ask_form_title:after{ /*clearfix*/
     content:"";
     display:block;
     clear:both;
