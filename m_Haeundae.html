@@ -44,15 +44,21 @@
     <script type="text/javascript" src="./js/b_blog.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
     
-     <!-- popup -->
+    <!-- popup -->
     <script>
         function openWindow(){
+            //alert(window.innerWidth);
             
             cookiedata = document.cookie;
+            var height = 790;
+            var width = 900;
+            var top = (window.innerHeight/2) - (height/2);
+            var left = (window.innerWidth/2) - (width/2);
             
             if(cookiedata.indexOf("ncookie=done")<0){
                 //alert('open');
-                window.open('popup.html','a', 'height=auto, width=1200');
+                window.open('popup.html','_blank', 'location=yes, height=790, width=900, top='+top+', left='+left+', scrollbars=yes, status=yes');
+                window.moveTo(top,left);
             } else {
                 //alert('close');
             }

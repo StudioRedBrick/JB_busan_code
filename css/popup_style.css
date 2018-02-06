@@ -25,7 +25,7 @@ body{
 
 /*---------------------------------------------------------------*/
 #wrap{
-    width:70%;
+    width:90%;
     margin:30px auto 0px auto;
 }
 
@@ -34,12 +34,12 @@ body{
 }
 
 #button_1{
-    width:20%;
+    width:28%;
     height:55px;
     background:#ffffff;
     padding: 19px 0 15px 0;
     float:left;
-    margin-right:15px;
+    margin-right:10px;
     cursor:pointer;
 }
 
@@ -62,7 +62,7 @@ body{
 }
 
 #button_2{
-    width:20%;
+    width:28%;
     height:55px;
     background:#ffffff;
     opacity:0.8;
@@ -109,7 +109,7 @@ body{
 }
 
 #day_close_btn{
-    width:30%;
+    width:40%;
     height:27px;
     background:#ffffff;
     border-radius:2px;
@@ -129,7 +129,7 @@ body{
 }
 
 #close_btn{
-    width:10%;
+    width:13%;
     height:27px;
     background:#ffffff;
     border-radius:2px;
