@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X_UA-compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="naver-site-verification" content="621ab08f2e775ee83fc434c22a7159c635978deb"/>
     
     <meta name="robots" content="index,follow">
@@ -50,7 +51,20 @@
         }
     </script>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- popup -->
+    <script>
+        function openWindow(){
+            
+            cookiedata = document.cookie;
+            
+            if(cookiedata.indexOf("ncookie=done")<0){
+                alert('open');
+                window.open('popup.html','a', 'height=auto, width=1200');
+            } else {
+                alert('close');
+            }
+        }
+    </script>
 </head>
     
     

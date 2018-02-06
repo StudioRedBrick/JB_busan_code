@@ -43,6 +43,21 @@
     <script type="text/javascript" src="./js/m_main.js"></script>
     <script type="text/javascript" src="./js/m_blog.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
+    
+     <!-- popup -->
+    <script>
+        function openWindow(){
+            
+            cookiedata = document.cookie;
+            
+            if(cookiedata.indexOf("ncookie=done")<0){
+                alert('open');
+                window.open('popup.html','a', 'height=auto, width=1200');
+            } else {
+                alert('close');
+            }
+        }
+    </script>
 </head>
     
     
