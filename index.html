@@ -60,14 +60,14 @@
             console.log( "document loaded" );
         
             cookiedata = document.cookie;
-            var height = 920;
+            var height = 950;
             var width = 1100;
             var top = (window.innerHeight/2) - (height/2);
             var left = (window.innerWidth/2) - (width/2);
             
             if(cookiedata.indexOf("ncookie=done")<0){
                 //alert('open');
-                window.open('popup.html','_blank', 'location=yes, height=940, width=1100, top='+top+', left='+left+', scrollbars=yes, status=yes');
+                window.open('popup.html','_blank', 'location=yes, height=950, width=1100, top='+top+', left='+left+', scrollbars=yes, status=yes');
                 window.moveTo(top,left);
             } else {
                 //alert('close');
