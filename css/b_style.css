@@ -506,8 +506,9 @@ body{
 }
 
 .box4 .video_container .button1 a p{
-    margin-top:10px;
-    
+    /*margin-top:10px;*/
+	line-height:53px;
+    font-size:22px;
     /*background-color:yellow;*/
 }
 
@@ -543,7 +544,7 @@ body{
 }
 
 .box4 .video_container .button2 a .button2_contents{
-    width:115px;
+    width:120px;
     height:25px;
     margin:auto;
     margin-top:14.5px;
@@ -555,7 +556,7 @@ body{
     margin-right:3px;
     padding-top:2px;
     float:right;
-    
+    vertical-align: top;
     /*background-color:red;*/
 }
 
@@ -665,7 +666,7 @@ body{
 /*블로그 컨텐츠 1번*/
 .blog_contents .blog_contents_1{
     width:56%;
-    height:640px;
+    height:639px;
     border-radius:8px;
     float:left;
     position:relative;
@@ -1772,7 +1773,7 @@ body{
 
 .box9{
     width:100%;
-    height:883px;
+    height:533px;
     position:relative;
 }
 
@@ -2426,10 +2427,11 @@ body{
 
 .footer .footer_wrap .footer_contact_wrap{
     float:left;
-    width:70%;
+    width:100%;
     
     /*background-color:cornflowerblue;*/
 }
+
 
 .footer .footer_wrap .footer_contact_wrap .footer_contact{
     float:left;

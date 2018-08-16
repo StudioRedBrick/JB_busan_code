@@ -43,28 +43,6 @@
     <script type="text/javascript" src="./js/m_main.js"></script>
     <script type="text/javascript" src="./js/m_blog.js"></script>
     <script type="text/javascript" src="./js/common.js"></script>
-    
-    <!--popup-->
-    <script>
-        $( document ).ready(function() {
-        
-            console.log( "document loaded" );
-        
-            cookiedata = document.cookie;
-            var height = 950;
-            var width = 1100;
-            var top = (window.innerHeight/2) - (height/2);
-            var left = (window.innerWidth/2) - (width/2);
-            
-            if(cookiedata.indexOf("ncookie=done")<0){
-                //alert('open');
-                window.open('popup_marin.html','_blank', 'location=yes, height=950, width=1100, top='+top+', left='+left+', scrollbars=yes, status=yes');
-                window.moveTo(top,left);
-            } else {
-                //alert('close');
-            }
-        });
-    </script>
 </head>
     
     
@@ -72,15 +50,15 @@
 
     <div class="box1">
         <div class="header_busan">
-            <p><a href="./index.html">JB 해운대 본원</a></p>
+            <p><a href="./m_Haeundae.html">JB 해운대 본원</a></p>
         </div>
         
         <div class="header_marin">
-            <p><a href="./Marine.html">JB 마린시티 러닝센터</a></p>
+            <p><a href="./m_Marine.html">JB 마린시티 러닝센터</a></p>
         </div>
         
         <div class="header_jeju">
-            <p><a href="./Jeju.html">JB 제주 러닝센터</a></p>
+            <p><a href="./m_Jeju.html">JB 제주 러닝센터</a></p>
         </div>
     </div><!--box1 END-->
     
@@ -89,68 +67,6 @@
     <div class="box2">
         <a href="./Marine.html" class="busan_bg_logo"></a>
     </div> <!--box2 END-->
-    
-    <div class="box2-clone">
-        <a href="./Marine.html" class="busan_bg_logo"></a>
-        
-        <div class="mobile_hamburger_right">
-            <div id="academy_sidenav" class="academy_select_area">
-                <h1>지점선택</h1>
-                <a href="javascript:void()" class="closebtn_aca">&times;</a>
-                <div class="academy_wrap">
-                    <div class="aca_busan">
-                        <a>
-                            <p id="aca_name">JB 해운대 본원</p>
-                            <div class="shortcut">
-                                <p>바로가기</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="aca_marin">
-                        <a>
-                            <p id="aca_name">JB 마린시티 러닝센터</p>
-                            <div class="shortcut">
-                                <p>바로가기</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="aca_jeju">  
-                        <a>
-                            <p id="aca_name">JB 제주 러닝센터</p>
-                            <div class="shortcut">
-                                <p>바로가기</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="aca_small_wrap">
-                        <div class="aca_small aca_kakao">
-                            <a target="_blank" href="https://pf.kakao.com/_ckDWM" class="aca_small_hover">
-                                <div class="aca_small_icon"></div>
-                                <p class="aca_small_name">카카오톡</p>
-                            </a>
-                        </div>
-                        <div class="aca_small aca_call">
-                            <a href="tel:051-731-2456" class="aca_small_hover">
-                                <div class="aca_small_icon">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <p class="aca_small_name">전화하기</p>
-                            </a>
-                        </div>
-                        <div class="aca_small aca_ask">
-                            <a class="aca_small_hover">
-                                <div class="aca_small_icon"></div>
-                                <p class="aca_small_name">문의하기</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="javascript:void()" class="openbtn_aca">
-            <img src="./img/all_arrow_icon_grey.png" alt="arrow icon" width="40px" height="40px">
-            </a>
-        </div>
-    </div> <!--box2_clone END-->
 
 <!--///////////////////////////////////////////////////////////-->
     
@@ -255,7 +171,7 @@
                         </div>
                     </div>
                     <div class="consult_txt_main">
-                        <span>JB 마린시티 러닝센터에서는 제주국제학교 진학을 희망하는 학생들을 위한 종합 컨설팅을 제공합니다. 컨설팅 수강생 95% 이상 합격이라는 놀라운 성과를 보이고 있는 JB 컨설팅을 만나세요. 제주국제학교와 공동 주최하는 입학설명회도 열립니다.</span>
+                        <span>JB 마린시티 러닝센터에서는 제주국제학교 진학을 희망하는 학생들을 위한 Total Solution을 제공합니다. 컨설팅 수강생 95% 이상 합격이라는 놀라운 성과를 보이고 있는 JB 컨설팅을 만나세요. 제주국제학교와 공동 주최하는 입학설명회도 열립니다.</span>
                     </div>
                 </div> <!-- txt_container END -->
                 
@@ -609,7 +525,7 @@
                                 <div class="slick-slide prep3_box">
                                     <div class="prep3_contents_inner">
                                         <div class="prep3_txt">
-                                            <span class="prep3_txt_title">Essay 수업</span>
+                                            <span class="prep3_txt_title">Essay</span>
                                             <span class="prep3_txt_subtitle"><br>Academic Essay 훈련</span>
                                         </div>
                                         <div class="prep3_span">
@@ -869,7 +785,7 @@
                         <p>IB/IGCSE 수업 성과!</p>
                         <div class="ad2_span">
                             <span>
-                            JB 어학원은 우리나라에서 IB와 IGCSE 프로그램에 가장 정통한 교육기관입니다. 영국, 캐나다 호주, 뉴질랜드, 싱가포르, 인도, 태국, 두바이 지역에서 공부하고 있는 많은 유학생들이 JB에서 IB 수업을 듣고 우수한 성적으로 세계 명문대학교에 진학하였습니다. 국내에서 IB 커리큘럼을 채택하고있는 NLCS, BHA, BIFS 학생들도 JB를 거쳐서 IB Diploma와 IB Certificate에서 고득점을 받고 있습니다. 
+                            JB 어학원은 IB와 IGCSE 프로그램 수업을 수년간 연구하고 준비해 왔습니다. 영국, 캐나다 호주, 뉴질랜드, 싱가포르, 인도, 태국, 두바이 지역에서 공부하고 있는 많은 유학생들이 JB에서 IB 수업을 듣고 우수한 성적으로 세계 명문대학교에 진학하였습니다. 국내에서 IB 커리큘럼을 채택하고있는 NLCS, BHA, BIFS 학생들도 JB를 거쳐서 IB Diploma와 IB Certificate에서 고득점을 받고 있습니다. 
                             </span>
                         </div>
                     </div>
@@ -910,119 +826,8 @@
                 </div>
                 
                 <div class="prof_contents_wrap">
-                        
-                        
+                    
                         <div class="profs prof_1">
-                            <div class="prof_left">
-                                <div class="prof_box">
-                                    
-                                    <div class="position_relative">
-                                        <img src="./img/all_prof_6.png" alt="professor1" width="77px" height="76px">
-                                    </div>
-                                    <p>Sophia</p>
-                                </div>
-                            </div><!--prof_1_left_part-->
-                            
-                            <div class="prof_right">
-                                <ul>
-                                    <li>- Heidelberg University 졸업</li>
-                                    <li>- English Literature 전공</li>
-                                    <li>- Stuttgart Int. School 최우등 졸업</li>
-                                    <li>- Int. School of Metropolitan 영어 교사</li>
-                                    <li>- SAT, AP, TOEFL 강의 경력 7년</li>
-                                </ul>
-                            </div><!--prof_1_right_part-->
-                        </div> <!--professor 1-->
-                        
-                        <div class="profs prof_2">
-                            <div class="prof_left">
-                                <div class="prof_box">
-                                    
-                                    <div class="position_relative">
-                                        <img src="./img/all_prof_profile_pic.png" alt="professor2" width="77px" height="76px">
-                                    </div>
-                                    <p>Edward</p>
-                                </div>
-                            </div><!--prof_2_left_part-->
-                            
-                            <div class="prof_right">
-                                <ul>
-                                    <li>- U.C. Berkeley 졸업</li>
-                                    <li>- Economics 전공</li>
-                                    <li>- 메릴린치 컨설팅 국제 파트 근무</li>
-                                    <li>- AP Economics 등 AP 5과목 만점</li>
-                                    <li>- SAT, AP, TOEFL 강의 경력 7년</li>
-                                </ul>
-                            </div><!--prof_2_right_part-->
-                        </div> <!--professor 2-->
-                        
-                        <div class="profs prof_3">
-                            <div class="prof_left">
-                                <div class="prof_box">
-                                    
-                                    <div class="position_relative">
-                                        <img src="./img/all_prof_profile_pic.png" alt="professor8" width="77px" height="76px">
-                                    </div>
-                                    <p>Sarah</p>
-                                </div>
-                            </div><!--prof_3_left_part-->
-                            
-                            <div class="prof_right">
-                                <ul>
-                                    <li class="prof_list_hidden">-</li>
-                                    <li>- King's College London 대학원 석사</li>
-                                    <li>- Education Policy &amp; Society 전공</li>
-                                    <li>- 동명대학교, 부경대학교 강사</li>
-                                    <li>- SAT, TOEFL, SSAT 강의 경력 5년</li>
-                                </ul>
-                            </div><!--prof_3_right_part-->
-                        </div> <!--professor 3-->
-                    
-                        <div class="profs prof_4">
-                            <div class="prof_left">
-                                <div class="prof_box">
-                                    
-                                    <div class="position_relative">
-                                        <img src="./img/all_prof_profile_pic.png" alt="professor4" width="77px" height="76px">
-                                    </div>
-                                    <p>Jinny</p>
-                                </div>
-                            </div><!--prof_4_left_part-->
-                            
-                            <div class="prof_right">
-                                <ul>
-                                    <li>- 홍콩대학교</li>
-                                    <li>- Financial Economics 전공</li>
-                                    <li>- 홍콩, 심천 국제 학교 우등 졸업</li>
-                                    <li>- SAT 2300(/2400점)</li>
-                                    <li>- AP Calculus 등 AP 4과목 만점</li>
-                                </ul>
-                            </div><!--prof_4_right_part-->
-                        </div> <!--professor 4-->
-                    
-                        <div class="profs prof_5">
-                            <div class="prof_left">
-                                <div class="prof_box">
-                                    
-                                    <div class="position_relative">
-                                        <img src="./img/all_prof_profile_pic.png" alt="professor5" width="77px" height="76px">
-                                    </div>
-                                    <p>David Cho</p>
-                                </div>
-                            </div><!--prof_5_left_part-->
-                            
-                            <div class="prof_right">
-                                <ul>
-                                    <li>- Bucknell University 졸업</li>
-                                    <li>- Civil Engineering 전공</li>
-                                    <li>- New Port Junior Boarding School</li>
-                                    <li>- Paul VI Catholic High school 졸업</li>
-                                    <li>- AP Calculus, AP Physics 만점</li>
-                                </ul>
-                            </div><!--prof_5_right_part-->
-                        </div> <!--professor 5-->
-                    
-                        <div class="profs prof_6">
                             <div class="prof_left">
                                 <div class="prof_box">
                                     
@@ -1043,6 +848,29 @@
                                 </ul>
                             </div><!--prof_6_right_part-->
                         </div> <!--professor 6-->
+						
+						<div class="profs prof_2">
+                            <div class="prof_left">
+                                <div class="prof_box">
+                                    
+                                    <div class="position_relative">
+                                        <img src="./img/all_prof_profile_pic.png" alt="professor6" width="77px" height="76px">
+                                    </div>
+                                    <p>Young Park</p>
+                                </div>
+                            </div><!--prof_6_left_part-->
+                            
+                            <div class="prof_right">
+                                <ul>
+                                    <li>- University college Dublin 졸업</li>
+                                    <li>- Finance 전공</li>
+                                    <li>- University of Cambridge</li>
+                                    <li>- Business English Certificate</li>
+                                    <li>- TOEFL, 초·중 English 수업 경력 5년 </li>
+									<li>- 서면 파고다 외국인 강사 총괄 매니저 </li>
+                                </ul>
+                            </div><!--prof_6_right_part-->
+                        </div> <!--professor 6-->
                     
                 </div><!--prof_contents_wrap end-->
             </div> <!--prof_wrap end-->
@@ -1056,7 +884,7 @@
             <div class="addrs_box">
                 
                 <div class="addrs_box_title">
-                    <h3>마린시티 러닝센터</h3>
+                    <h3 style="letter-spacing:-1.5px;">마린시티 러닝센터</h3>
                 </div>
                 
                 <div class="addrs_mobile">
@@ -1092,7 +920,7 @@
                     
                     <div class="addrs_box_contact_right">
                         <ul>
-                            <li>051)731-2456</li>
+                            <li>051) 731-2456</li>
                             <li>010-3397-8450</li>
                             <li>jbsat@naver.com</li>
                             <li>JB어학원마린</li>
@@ -1183,15 +1011,15 @@
     <div class="box12">
         <div class="footer">
             <div class="footer_wrap">
-                <div class="footer_copyright">
-                    <p>
-                    제이비에스에이티어학원 <br>
-                    사업자번호 617-91-99385 <br>
-                    &copy;JBedu All rights reserved 0002655
-                    </p>
-                </div>
-            
+                            
                 <div class="footer_contact_wrap">
+					<div class="footer_copyright">
+						<p>
+						제이비에스에이티어학원 <br>
+						사업자번호 617-91-99385 <br>
+						&copy;JBedu All rights reserved 0002655
+						</p>
+					</div>
                     <div class="footer_contact">
                         <p>
                         JB 해운대 본원 <br>
@@ -1218,6 +1046,16 @@
                         교육청신고번호: 제798호
                         </p>
                     </div> <!--contact_jeju-->
+					
+					<div class="footer_contact">
+                        <p>
+                        교습비 고지 <br>
+                        교습과정: 학교교과(보습) <br>
+                        교습반: 초중고 영어·수학·과학 / 제주국제학교 초중고 영어·수학·과학 <br>
+                        교습비: 초등 123원/분, 중등 142원/분, 고등 208원/분
+                        </p>
+                    </div> <!--contact_jeju-->
+					
                 </div> <!--footer_contact_wrap-->
             </div>
         </div> <!--footer end-->

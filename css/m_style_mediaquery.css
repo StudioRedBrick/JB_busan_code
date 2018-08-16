@@ -1861,12 +1861,12 @@
 /*---------------------------------------------------------------*/
     /*footer start*/
     .box12{
-    height:107px;    
+    height:207px;    
 }
     
     .box12 .footer{
     width:740px;
-    height:107px;
+    height:207px;
     position:relative;
     font-weight:400;
         
@@ -1886,8 +1886,9 @@
 }
 
     .box12 .footer .footer_wrap .footer_contact_wrap{
-    width:70%;
+    width:100%;
 }
+.footer .footer_wrap .footer_contact_wrap div{width:14%;}
     
     .box12 .footer .footer_wrap .footer_contact_wrap .footer_contact{
     padding-left:1.5%;
@@ -2389,7 +2390,7 @@
     /*---------------------------------------------------------------*/
     /*footer start*/
     .box12 .footer{
-    width:940px;
+    width:1045px;
 }
     
     .box12 .footer .footer_wrap{

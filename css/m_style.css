@@ -1328,7 +1328,7 @@ body{
 
 .box9{
     width:100%;
-    height:510px;
+    height:360px;
     position:relative;
 }
 
@@ -1899,7 +1899,7 @@ body{
 
 .box12 .footer .footer_wrap .footer_contact_wrap{
     float:left;
-    width:70%;
+    width:100%;
     
     /*background-color:cornflowerblue;*/
 }
@@ -1912,6 +1912,7 @@ body{
     
     /*background-color:skyblue;*/
 }
+
 
 /*-----------------*/
 

@@ -110,7 +110,7 @@ body{
 
 /*logo start*/
 .box2{
-    display: none;
+    /*display: none;*/
     width:100%;
     height:123px;
     position:relative;
@@ -1282,7 +1282,7 @@ body{
 }
 
 .box6 .consult_txt_main{
-    width: 340px;
+    /*width: 340px;*/
 
     margin-top: 55px;
 }
@@ -1977,7 +1977,7 @@ body{
 
 .box9{
     width:100%;
-    height:883px;
+    height:533px;
     position:relative;
 }
 
@@ -2633,7 +2633,7 @@ body{
 
 .footer .footer_wrap .footer_contact_wrap{
     float:left;
-    width:70%;
+    width:100%;
     
     /*background-color:cornflowerblue;*/
 }
