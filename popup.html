@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Popup Menu</title>
+
+<link rel="stylesheet" href="./css/popup_style.css">
+    
+<script>
+    function popupStyle1(){
+
+    document.getElementById("title_2").style.color="#606060";
+    document.getElementById("button_2").style.opacity="1";
+    document.getElementById("click_2").style.backgroundColor="#3288af";
+        
+    document.getElementById("title_1").style.color="#a7a7a7";
+    document.getElementById("button_1").style.opacity="0.8";
+    document.getElementById("click_1").style.backgroundColor="#a7a7a7";
+        
+    document.getElementById("timetable_2").style.display="block";
+    
+        }
+    
+    function popupStyle2(){
+
+    document.getElementById("title_1").style.color="#606060";
+    document.getElementById("button_1").style.opacity="1";
+    document.getElementById("click_1").style.backgroundColor="#3288af";
+        
+    document.getElementById("title_2").style.color="#a7a7a7";
+    document.getElementById("button_2").style.opacity="0.8";
+    document.getElementById("click_2").style.backgroundColor="#a7a7a7";
+    
+    document.getElementById("timetable_2").style.display="none";
+        }
+    
+    function closeWin(){
+        window.close();
+    }
+
+    function setCookie(name, value, expirehours){
+        var todayDate = new Date();
+        todayDate.setHours(todayDate.getHours() + expirehours);
+        document.cookie = name + "=" + escape(value) + "; path/; expires=" + todayDate.toGMTString() + ";"
+    }
+    
+    function onedaycloseWin(){
+        setCookie("ncookie", "done", 24);
+        window.close();
+    }
+</script>
+    
+</head>
+    
+    
+<body>
+    <div id="wrap">
+        <div class="header_wrap">
+            
+            <div onclick="popupStyle2();" id="button_1">
+                <h3 id="title_1">2월~5월 상설반</h3>
+                <p id="click_1">시간표 보기 Click</p>
+            </div>   
+
+            <div onclick="popupStyle1();" id="button_2">
+                <h3 id="title_2">Summer Session</h3>
+                <p id="click_2">시간표 보기 Click</p>
+            </div> 
+
+            <div class="inner_wrap">
+                <div onclick="closeWin()" id="close_btn">
+                    <p><b>X</b></p>
+                </div>
+
+                <div onclick="onedaycloseWin()" id="day_close_btn">
+                    <p>하루만 닫기</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="img_wrap">
+            <div class="timetable_img" id="timetable_1">
+                <img src="./img/JB_timetable_3.jpg" alt="timetable1">
+            </div>
+
+            <div class="timetable_img" id="timetable_2">
+                <img src="./img/JB_timetable_4.jpg" alt="timetable2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
