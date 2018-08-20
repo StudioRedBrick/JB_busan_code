@@ -14,7 +14,7 @@ body{
     color:#ffffff;
     letter-spacing:0.03em;
     background-color:rgba(130,130,130,1);
-    max-width:100%;
+    width:100%;
     overflow-x:hidden;
     height:auto;
     
@@ -115,6 +115,7 @@ body{
 
 /*logo start*/
 .box2{
+    /*display: none;*/
     width:100%;
     height:123px;
     position:relative;
@@ -122,7 +123,7 @@ body{
 
 .box2 .busan_bg_logo{
     background:red;
-    width:381px;
+    width:248px;
     height:63px;
     margin-top:29px;
     
@@ -130,7 +131,7 @@ body{
     /*고정형 레이아웃*/
     position:absolute;
     left:50%;
-    margin-left:-190px;
+    margin-left:-124px;
     
     /*logo img*/
     background:url(../img/marin_logo.png) no-repeat center;
@@ -138,7 +139,7 @@ body{
 }
 
 .box2-clone{
-    display:none;
+    display:block;
     
     width:100%;
     height:123px;
@@ -163,17 +164,6 @@ body{
     background-size:cover;
 }
 
-.box2-clone .mobile_hamburger_left{
-    width:40px;
-    height:40px;
-    position:absolute;
-    top:16px;
-    left:15px;
-    text-align: center; 
-    
-    /*background-color:blue;*/
-}
-
 .box2-clone .mobile_hamburger_right{
     width:40px;
     height:40px;
@@ -185,6 +175,259 @@ body{
     /*background-color:red;*/
 }
 
+/*----------------------------------------*/
+
+/* right hamburg menu start */
+
+/*right hamburg icon 위치*/
+.box2-clone .mobile_hamburger_right{
+    padding:0;
+    margin-top:0px;
+    width:80px;
+    height:550px;
+    background-color:rgba(100,100,100,1);
+    position:fixed;
+    right:0px;
+    top:990px;
+    z-index:9999;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box2-clone .mobile_hamburger_right .openbtn_aca{
+    display:block;
+    width:80px;
+    height:550px;
+    margin:0 auto;
+    position:relative;
+    /*background-color:blue;*/
+}
+
+.box2-clone .mobile_hamburger_right .openbtn_aca img{
+    position:absolute;
+    /*고정형 레이아웃*/
+    left:50%;
+    margin-left:-20px;
+    top:50%;
+    margin-top:-20px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 100%; 
+    background-color: rgba(17, 17, 17, 0.95);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area h1{
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    top: 4%;
+    left: 35.4%;
+    font-size: 80px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area a:hover{
+    color: #f1f1f1;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area a img{
+    width: 20px;
+    height: 20px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .academy_wrap{
+    height: 60%;
+    margin-top: 270px;
+
+/*        background-color: red;*/
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    margin-top: 5.5%;
+
+    display: table;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan a:hover,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin a:hover,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju a:hover{
+    background-color: rgba(255, 158, 18, 0.8);   
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_busan.png') no-repeat;
+    background-position: 0 90%;
+    background-size: cover;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_marin.png') no-repeat center;
+    background-size: cover;
+
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/all_bg_academy_jeju.png') no-repeat center;
+    background-size: cover;
+}
+
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju p{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: 500;
+    color: #ffffff;
+
+    transition: 0.1s;
+}
+
+/* 바로가기 */
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut{
+    width: 300px;
+    background-color: #ff9e12;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_busan .shortcut p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_marin .shortcut p,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_jeju .shortcut p{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+/* small setting */
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap{
+width: 90%;
+height: 30%;
+margin: auto;
+margin-top: 8.5%;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_kakao,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_call,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_ask{
+float: left;
+width: 33.1333%;
+height: 80%;
+
+display: table;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_kakao,
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_call{
+border-right: 3px solid #ffffff;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap:after{
+content:"";
+display:block;
+clear:both;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small a{
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small .aca_small_name{
+padding: 8px;
+text-decoration: none;
+font-size: 60px;
+font-weight: 500;
+color: #ffffff;
+opacity: 0.8;
+
+transition: 0.1s;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_small .aca_small_icon{
+width: 150px;
+height: 150px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+opacity: 0.8;
+
+transition: 0.1s;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_kakao .aca_small_icon{
+background: url('../img/all_mobile_menu_icon_kakao.png') no-repeat center;
+background-size: contain;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_call .aca_small_icon i{
+    font-size: 150px;
+    color: #ffffff;
+}
+
+.box2-clone .mobile_hamburger_right .academy_select_area .aca_small_wrap .aca_ask .aca_small_icon{
+background: url('../img/all_mobile_menu_icon_mail.png') no-repeat center;
+background-size: contain;
+}
+
+.aca_onclick_txt{
+    color: #ff9e12;
+}
+
+
+
+/* btn setting */
+.box2-clone .mobile_hamburger_right .academy_select_area .closebtn_aca{
+    position: absolute;
+    top: 3.4%;
+    left: 5%;
+    font-size: 100px;
+    padding: 0;
+}
+
+.box2-clone .mobile_hamburger_right .openbtn_aca{
+    font-size: 30px;
+    color: #969696;
+}
+
+/* hamburg right menu end */
 
 /*logo end*/
 
@@ -623,7 +866,7 @@ body{
     padding: 0 15px;
     
     float: left;
-    width: 44%;
+    width: 510px;
 /*    background: blue;*/
 }
 
@@ -649,7 +892,7 @@ body{
 }
 
 .box6 .consult_txt_main{
-    width: 64%;
+   /* width: 330px;*/
     padding-top: 41px;
     border-top: 1px solid #ffffff;
 }
@@ -836,7 +1079,7 @@ body{
 /*컨텐츠 서체크기 통일화 2*/
 .box7 .ad1_contents_wrap .ad1_contents_box .ad1_contents_inner span{
     font-size:14px;
-    font-weight:400;
+    font-weight:500;
     line-height:27px;
     
     /*background-color:red;*/
@@ -1170,11 +1413,6 @@ body{
     
     background-color:rgba(255, 255, 255, 0.1);
 }
-.box13 .ad2_contents_wrap>div:hover{
-    
-    background-color:rgba(156, 216, 61, 0.8);
-	border:1px solid rgba(156, 216, 61, 0.8);
-}
 
 /*컨텐츠 박스 패딩값 통일화*/
 .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner{
@@ -1208,7 +1446,7 @@ body{
 /*컨텐츠 서체크기 통일화 2*/
 .box13 .ad2_contents_wrap .ad2_contents_box .ad2_contents_inner span{
     font-size:14px;
-    font-weight:400;
+    font-weight:500;
     line-height:29px;
     width:100%;
     
@@ -1414,7 +1652,7 @@ body{
     letter-spacing:0;
     font-size:12px;
     line-height:20px;
-    font-weight:400;
+    font-weight:500;
 }
 
 .box9 .box9_wrap .prof_wrap .prof_contents_wrap .profs .prof_right ul li.prof_list_hidden{
@@ -1562,7 +1800,6 @@ body{
 /*제목:연락처*/
 .box10_wrap .addrs_box .addrs_box_contact .addrs_box_contact_title{
     font-size:20px;
-    font-weight:500;
     padding-bottom:5px;
     padding-top:20px;
     position:relative;
@@ -1616,7 +1853,6 @@ body{
 /*제목:운영시간*/
 .box10_wrap .addrs_box .addrs_box_time .addrs_box_time_title{
     font-size:20px;
-    font-weight:500;
     padding-bottom:5px;
     padding-top:15px;
     position:relative;
@@ -1705,7 +1941,6 @@ body{
 .box11 .box11_wrap .ask_form_title p{
     font-size:40px;
     font-weight:bold;
-    float:left;
     
     /*background-color:blue;*/
 }
@@ -1741,13 +1976,12 @@ body{
       100% { transform: rotate(360deg); }
     }
 
-
 /*소제목:자세한...*/
 .box11 .box11_wrap .ask_form_subtitle{
     font-size:16px;
     padding-top:1px;
     padding-bottom:15px;
-    font-weight:400;
+    font-weight:500;
 
     /*background-color:purple;*/
 }
@@ -1816,6 +2050,7 @@ body{
     width:94%;
     height:17px;
     font-size:16px;
+    font-weight:400;
     color:#969696;
     float:left;
     border:none;
@@ -1862,6 +2097,7 @@ body{
     display:block;
     clear:both;
 }
+
 
 /*ask end*/
 /*---------------------------------------------------------------*/
@@ -1917,7 +2153,6 @@ body{
     
     /*background-color:skyblue;*/
 }
-
 
 /*-----------------*/
 
